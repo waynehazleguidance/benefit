@@ -1,0 +1,28 @@
+{
+    "name": "guidance/tests_skeleton",
+
+    "type": "project",
+
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+
+    "require": {
+        "php":                 ">=7.1",
+        "guidance/tests_base": "dev-master",
+        "phpseclib/phpseclib": "^2.0",
+        "glicer/sync-sftp": "dev-master"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Guidance\\Tests\\Project\\": "src/"
+        }
+    },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/guidance/tests_base"
+        }
+    ]
+}
