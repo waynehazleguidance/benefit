@@ -1,0 +1,10 @@
+master:
+  build: .
+  environment:
+    JAVA_OPTS: "-Djava.awt.headless=true"
+  ports:
+    - "50000:50000"
+    - "8081:8080"
+  container_name: Jenkins-php7.2
+  volumes:
+    - c:/Jenkins/jenkins_home:/var/jenkins_home

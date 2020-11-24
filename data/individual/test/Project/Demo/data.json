@@ -1,0 +1,99 @@
+{
+  "city_chic": {
+    "cookie": {
+      "name": "ltkmodal-suppression-3034dd1d-7f60-4306-bdbe-b17725e83177",
+      "value": "Sat%20Jul%2013%202019%2017%3A51%3A01%20GMT%2B0000%20(Coordinated%20Universal%20Time)"
+    },
+    "customer": {
+      "login":    "maxim.starostin@guidance.com",
+      "password": "8EUgzPHH"
+    },
+    "PDP": {
+      "id":    46344,
+      "title": "Knit Sleeve Bolero"
+    },
+    "checkout": {
+      "paypal_email": "bt_buyer_us@paypal.com"
+    }
+  },
+
+  "yield": {
+    "customer": {
+      "full_name": "Maksim Starostin",
+      "login":     "maxim.starostin@guidance.com",
+      "password":  "GgT7Ur7k@24ymbuu"
+    }
+  },
+
+  "wally_wine": {
+    "customer": {
+      "full_name": "Maksim Starostin",
+      "login":     "maxim.starostin@guidance.com",
+      "password":  "nLv$7fdM1m"
+    },
+    "PDP": {
+      "link":  "/martini-rossi-sweet-vermouth-375ml.html",
+      "title": "Martini & Rossi Sweet Vermouth"
+    }
+  },
+
+  "heart_math": {
+    "customer": {
+      "full_name": "Maksim Starostin",
+      "login":     "maxim.starostin@guidance.com",
+      "password":  "kOw27$q4%3"
+    },
+    "PDP": {
+      "link":  "/emwave2",
+      "title": "emWave2"
+    }
+  },
+
+  "popcultcha": {
+    "customer": {
+      "full_name": "Maksim Starostin",
+      "login":     "maxim.starostin@guidance.com",
+      "password":  "e4)HHX%zbT"
+    },
+    "PLP": {
+      "link":  "/catalog/category/view/s/dc-comics/id/289",
+      "title": "DC Comics"
+    },
+    "PDP": {
+      "link":  "/dweezil-dragon-test-1.html",
+      "title": "Dweezil Dragon"
+    }
+  },
+
+  "insect_lore": {
+    "site_access_password": "frohst",
+    "customer": {
+      "login":    "maxim.starostin@guidance.com",
+      "password": "HpFwxY$K9K"
+    },
+    "PLP": {
+      "link":  "/collections/butterflies-butterfly-kits-with-live-caterpillars",
+      "title": "Butterfly Kits With Live Caterpillars"
+    },
+    "PDP": {
+      "link":  "/collections/butterflies-butterfly-kits-with-live-caterpillars/products/the-very-hungry-caterpillar-butterfly-growing-kit-with-live-caterpillars",
+      "title": "The Very Hungry Caterpillar Butterfly Growing Kit With Live Caterpillars"
+    }
+  },
+
+  "lett": {
+    "site_access_password": "vslett",
+    "customer": {
+      "login":    "maxim.starostin@guidance.com",
+      "password": "B2cSmU#nT8"
+    },
+    "PLP": {
+      "link":  "/collections/tops",
+      "title": "tops"
+    },
+    "PDP": {
+      "link":  "/products/marseille-top",
+      "title": "Marseille Top"
+    }
+  }
+}

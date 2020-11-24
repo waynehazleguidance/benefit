@@ -1,0 +1,37 @@
+{
+    "name": "memio/memio",
+    "license": "MIT",
+    "type": "library",
+    "description": "A highly opinionated PHP code generator library",
+    "keywords": ["generator", "PHP", "code"],
+    "homepage": "http://memio.github.io/memio",
+    "authors": [
+        {
+            "name": "Loïc Faugeron",
+            "email": "faugeron.loic@gmail.com",
+            "homepage": "http://gnugat.github.io",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Memio\\Memio\\": "src/Memio/Memio",
+            "Memio\\Memio\\Config\\": "config"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Memio\\Memio\\Examples\\": "examples" }
+    },
+    "require": {
+        "memio/linter": "^2.0@alpha",
+        "memio/model": "^2.0@alpha",
+        "memio/pretty-printer": "^2.0@alpha",
+        "memio/twig-template-engine": "^2.0@alpha",
+        "memio/validator": "^2.0@alpha",
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^1.6",
+        "phpunit/phpunit": "^5.4"
+    }
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603740222611" stop="1603740250029" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603740222622" stop="1603740250026" status="broken">
+      <name>T3MicroSpain</name>
+      <failure>
+        <message>element not interactable
+  (Session info: chrome=86.0.4240.111)</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603740224875" stop="1603740227154" status="passed">
+          <name>am on url "https://www•t3micro•es/"</name>
+        </step>
+        <step start="1603740227155" stop="1603740229159" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603740229159" stop="1603740229536" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603740229537" stop="1603740236539" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603740236540" stop="1603740236617" status="passed">
+          <name>click {"css":"#btn-cookie-allow &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603740236617" stop="1603740243622" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603740243622" stop="1603740243676" status="passed">
+          <name>click {"css":"html body•cms-home•cms-index-index•page-layout-1column•yotpo-yotpo-is-enabled•_has-modal div•modals-wrapper aside•modal-popup•newsletter-modal•modal-slide•_show div•modal-inner-wrap div#mo•••}</name>
+        </step>
+        <step start="1603740243676" stop="1603740248681" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603740248681" stop="1603740248736" status="passed">
+          <name>click {"css":"•icon-search"}</name>
+        </step>
+        <step start="1603740248737" stop="1603740248768" status="failed">
+          <name>fill field {"id":"search"},"Dryer"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="23aa9754da9e0ba25940e9300533bb27fa446427-attachment.png" type="image/png"/>
+        <attachment title="html" source="fb68a6a5f2477291c512b4deeec843c8db86b913-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="T3MicroSpain"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

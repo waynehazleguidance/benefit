@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1604604104518" stop="1604604155052" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1604604104534" stop="1604604155046" status="failed">
+      <name>MURAD</name>
+      <failure>
+        <message>Failed asserting that  on page /product/vita-c-eyes-dark-circle-corrector/
+--&gt; US | EN
+Take 20% Off Moisturizers.
+DETAILS
+AS SEEN ON TV
+Shop
+Our Story
+Your Skin
+Search
+Cart
+Hi, Wayne Hazle
+Afterpay Your Way to Great Skin! Click, Ship, Pay…Later.
+Home Shop All Vita-C Eyes Dark Circle Corrector
+Previous
+Next
+123
+(140)
+Vita-C Eyes Dark Circle Corrector
+SKU:
+15269
+Gold-stabilize
+[Content too long to display. See complete response in '/Users/whazle/Desktop/BenefitTests/config/codecept/../../vars/output/' directory]
+--&gt; contains "bag".</message>
+        <stack-trace>#0 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(55): PHPUnit\Framework\Constraint\Constraint-&gt;fail('US | EN\nTake 20...', '')
+#1 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/Assert.php(2331): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate('US | EN\nTake 20...', '')
+#2 /Users/whazle/Desktop/BenefitTests/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php(1369): PHPUnit\Framework\Assert::assertThat('US | EN\nTake 20...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#3 /Users/whazle/Desktop/BenefitTests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(2996): Codeception\Module-&gt;assertThat('US | EN\nTake 20...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#4 /Users/whazle/Desktop/BenefitTests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(929): Codeception\Module\WebDriver-&gt;assertPageContains('bag')
+#5 [internal function]: Codeception\Module\WebDriver-&gt;see('bag')
+#6 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#7 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#8 /Users/whazle/Desktop/BenefitTests/src/_generated/ActorActions.php(633): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Assertion))
+#9 /Users/whazle/Desktop/BenefitTests/src/Test/Project/DemoCest.php(112): Guidance\Tests\Project\Actor-&gt;see('bag')
+#10 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;MURAD(Object(Guidance\Tests\Project\Actor))
+#11 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#12 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'MURAD', Array)
+#13 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('MURAD', Array)
+#14 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#15 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#16 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#17 /Users/whazle/Desktop/BenefitTests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#18 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#19 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#20 /Users/whazle/Desktop/BenefitTests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#21 /Users/whazle/Desktop/BenefitTests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#22 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1604604106747" stop="1604604111582" status="passed">
+          <name>am on url "https://www•murad•com/"</name>
+        </step>
+        <step start="1604604111582" stop="1604604112129" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1604604112129" stop="1604604112603" status="passed">
+          <name>wait for text "Unbox",30</name>
+        </step>
+        <step start="1604604112604" stop="1604604113001" status="passed">
+          <name>see "Unbox"</name>
+        </step>
+        <step start="1604604113001" stop="1604604113116" status="passed">
+          <name>click {"css":"•sign-in-btn"}</name>
+        </step>
+        <step start="1604604113116" stop="1604604114213" status="passed">
+          <name>wait for text "Email",30</name>
+        </step>
+        <step start="1604604114214" stop="1604604115525" status="passed">
+          <name>wait for text "Sign",30</name>
+        </step>
+        <step start="1604604115526" stop="1604604115930" status="passed">
+          <name>fill field {"id":"login_email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1604604115930" stop="1604604116075" status="passed">
+          <name>fill field {"id":"login_pass"},"@Testing123"</name>
+        </step>
+        <step start="1604604116075" stop="1604604116205" status="passed">
+          <name>click {"css":"#sign-in-submit"}</name>
+        </step>
+        <step start="1604604116205" stop="1604604120719" status="passed">
+          <name>wait for text "Wayne",30</name>
+        </step>
+        <step start="1604604120719" stop="1604604122822" status="passed">
+          <name>am on page "/"</name>
+        </step>
+        <step start="1604604122822" stop="1604604124864" status="passed">
+          <name>click {"css":"div•navigation:nth-child(2) &gt; div:nth-child(1) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604604124864" stop="1604604127685" status="passed">
+          <name>wait for text "History",30</name>
+        </step>
+        <step start="1604604127685" stop="1604604128047" status="passed">
+          <name>see "History"</name>
+        </step>
+        <step start="1604604128048" stop="1604604130203" status="passed">
+          <name>click {"css":"div•header-item:nth-child(3) &gt; div:nth-child(1) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604604130203" stop="1604604131102" status="passed">
+          <name>wait for text "skincare",30</name>
+        </step>
+        <step start="1604604131102" stop="1604604131908" status="passed">
+          <name>see "skincare"</name>
+        </step>
+        <step start="1604604131908" stop="1604604134055" status="passed">
+          <name>am on page "/"</name>
+        </step>
+        <step start="1604604134055" stop="1604604135543" status="passed">
+          <name>click {"css":"•search &gt; div:nth-child(1) &gt; img:nth-child(1)"}</name>
+        </step>
+        <step start="1604604135543" stop="1604604138548" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1604604138548" stop="1604604138650" status="passed">
+          <name>fill field {"id":"search"},"Eye"</name>
+        </step>
+        <step start="1604604138650" stop="1604604140651" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1604604140651" stop="1604604143259" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1604604143259" stop="1604604144991" status="passed">
+          <name>wait for text "Eye",30</name>
+        </step>
+        <step start="1604604144992" stop="1604604145723" status="passed">
+          <name>see "eye"</name>
+        </step>
+        <step start="1604604145723" stop="1604604147904" status="passed">
+          <name>am on url "https://www•murad•com/product/vita-c-eyes-dark-circle-corrector/"</name>
+        </step>
+        <step start="1604604147904" stop="1604604151898" status="passed">
+          <name>wait for text "Circle",30</name>
+        </step>
+        <step start="1604604151898" stop="1604604152578" status="passed">
+          <name>see "Circle"</name>
+        </step>
+        <step start="1604604152578" stop="1604604153133" status="failed">
+          <name>see "bag"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="f703b8df8790bd71af884d13552d7fb36e509b4b-attachment.png" type="image/png"/>
+        <attachment title="html" source="d1c0ccf99fbeafe3cd19a2775d7f463fc53d52c3-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="MURAD"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

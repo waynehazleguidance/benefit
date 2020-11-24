@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603824103823" stop="1603824159061" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603824103834" stop="1603824159057" status="broken">
+      <name>T3MicroGermany</name>
+      <failure>
+        <message>element not interactable
+  (Session info: chrome=86.0.4240.111)</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603824105667" stop="1603824107716" status="passed">
+          <name>am on url "https://www•t3micro•de/"</name>
+        </step>
+        <step start="1603824107717" stop="1603824109721" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603824109721" stop="1603824109994" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603824109994" stop="1603824116998" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603824116998" stop="1603824117302" status="passed">
+          <name>click {"css":"#btn-cookie-allow &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603824117302" stop="1603824124307" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603824124307" stop="1603824124370" status="passed">
+          <name>click {"css":"html body•cms-home•cms-index-index•page-layout-1column•yotpo-yotpo-is-enabled•_has-modal div•modals-wrapper aside•modal-popup•newsletter-modal•modal-slide•_show div•modal-inner-wrap div#mo•••}</name>
+        </step>
+        <step start="1603824124370" stop="1603824129373" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603824129373" stop="1603824134310" status="passed">
+          <name>am on page "customer/account/login"</name>
+        </step>
+        <step start="1603824134310" stop="1603824139311" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603824139311" stop="1603824139516" status="passed">
+          <name>fill field {"id":"email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1603824139516" stop="1603824142519" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603824142519" stop="1603824142624" status="passed">
+          <name>fill field {"id":"pass"},"@Testing123"</name>
+        </step>
+        <step start="1603824142624" stop="1603824144626" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603824144626" stop="1603824144728" status="passed">
+          <name>click {"id":"send2"}</name>
+        </step>
+        <step start="1603824144728" stop="1603824152729" status="passed">
+          <name>wait 8</name>
+        </step>
+        <step start="1603824152729" stop="1603824153513" status="passed">
+          <name>am on page "de/haartrockner"</name>
+        </step>
+        <step start="1603824153514" stop="1603824153688" status="passed">
+          <name>see "haartrockner"</name>
+        </step>
+        <step start="1603824153689" stop="1603824157689" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603824157689" stop="1603824157752" status="passed">
+          <name>click {"css":"•icon-search"}</name>
+        </step>
+        <step start="1603824157752" stop="1603824157786" status="failed">
+          <name>fill field {"id":"search"},"Dryer"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="d98523b925483d365e78400e7a9424ecbc51073d-attachment.png" type="image/png"/>
+        <attachment title="html" source="1bd41f744a5276044832128201a02bbdff60652c-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="T3MicroGermany"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

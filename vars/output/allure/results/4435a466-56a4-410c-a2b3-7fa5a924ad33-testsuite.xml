@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603995217202" stop="1603995261214" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603995217205" stop="1603995261209" status="failed">
+      <name>BenefitHongKongEnglish</name>
+      <failure>
+        <message>Failed asserting that  on page /ReserveCounter.aspx
+--&gt; Show Nav
+ENG / 中文
+請接受必要的欄位
+立即改眉換面
+選擇地點
+九龍奧海城專門店
+九龍灣德福廣場專門店
+中環 Sephora ifc mall 專櫃
+中環擺花街Brow A Go Go
+元朗形點專門店
+屯門 V City 專門店
+尖沙咀海港城 Facesss 專櫃
+沙田一田百貨專櫃
+�
+[Content too long to display. See complete response in '/Users/whazle/Desktop/BenefitTests/config/codecept/../../vars/output/' directory]
+--&gt; contains "safety".</message>
+        <stack-trace>#0 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(55): PHPUnit\Framework\Constraint\Constraint-&gt;fail('Show Nav\nENG / ...', '')
+#1 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/Assert.php(2331): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate('Show Nav\nENG / ...', '')
+#2 /Users/whazle/Desktop/BenefitTests/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php(1369): PHPUnit\Framework\Assert::assertThat('Show Nav\nENG / ...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#3 /Users/whazle/Desktop/BenefitTests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(2996): Codeception\Module-&gt;assertThat('Show Nav\nENG / ...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#4 /Users/whazle/Desktop/BenefitTests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(929): Codeception\Module\WebDriver-&gt;assertPageContains('safety')
+#5 [internal function]: Codeception\Module\WebDriver-&gt;see('safety')
+#6 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#7 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#8 /Users/whazle/Desktop/BenefitTests/src/_generated/ActorActions.php(633): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Assertion))
+#9 /Users/whazle/Desktop/BenefitTests/src/Test/Project/DemoCest.php(525): Guidance\Tests\Project\Actor-&gt;see('safety')
+#10 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;BenefitHongKongEnglish(Object(Guidance\Tests\Project\Actor))
+#11 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#12 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'BenefitHongKong...', Array)
+#13 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('BenefitHongKong...', Array)
+#14 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#15 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#16 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#17 /Users/whazle/Desktop/BenefitTests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#18 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#19 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#20 /Users/whazle/Desktop/BenefitTests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#21 /Users/whazle/Desktop/BenefitTests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#22 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603995218546" stop="1603995220093" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/"</name>
+        </step>
+        <step start="1603995220094" stop="1603995220269" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603995220270" stop="1603995222272" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603995222272" stop="1603995222502" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603995222502" stop="1603995224505" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603995224505" stop="1603995227401" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/find-a-store"</name>
+        </step>
+        <step start="1603995227401" stop="1603995227698" status="passed">
+          <name>see "store"</name>
+        </step>
+        <step start="1603995227698" stop="1603995231701" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603995231701" stop="1603995232890" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/bestsellers"</name>
+        </step>
+        <step start="1603995232890" stop="1603995232958" status="passed">
+          <name>see "bestsellers"</name>
+        </step>
+        <step start="1603995232958" stop="1603995236962" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603995236962" stop="1603995237970" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/brows"</name>
+        </step>
+        <step start="1603995237970" stop="1603995238109" status="passed">
+          <name>see "brow"</name>
+        </step>
+        <step start="1603995238110" stop="1603995242113" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603995242113" stop="1603995242654" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/services"</name>
+        </step>
+        <step start="1603995242654" stop="1603995242779" status="passed">
+          <name>see "service"</name>
+        </step>
+        <step start="1603995242779" stop="1603995246782" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603995246782" stop="1603995247792" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/offers-more"</name>
+        </step>
+        <step start="1603995247792" stop="1603995247880" status="passed">
+          <name>see "services"</name>
+        </step>
+        <step start="1603995247880" stop="1603995251882" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603995251882" stop="1603995256180" status="passed">
+          <name>am on url "https://hk•benefitbrows•com/ReserveCounter•aspx"</name>
+        </step>
+        <step start="1603995256180" stop="1603995260183" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603995260183" stop="1603995260241" status="passed">
+          <name>click {"css":"•mfp-close"}</name>
+        </step>
+        <step start="1603995260241" stop="1603995260325" status="failed">
+          <name>see "safety"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="2656f18d9f91b9cb79080d85603cbab47fe13547-attachment.png" type="image/png"/>
+        <attachment title="html" source="0b4f8b558cca6764ad182ba3f0be7039afeb03a8-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="BenefitHongKongEnglish"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,5 @@
+    public function it_has_too_many_argument_yeah(
+        int $argument1,
+        int $argument2
+    ) {
+    }

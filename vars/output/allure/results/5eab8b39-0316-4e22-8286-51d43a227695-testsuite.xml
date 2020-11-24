@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603467835610" stop="1603467877516" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603467835621" stop="1603467877509" status="passed">
+      <name>PopCultcha</name>
+      <steps>
+        <step start="1603467840939" stop="1603467848309" status="passed">
+          <name>am on url "https://www•popcultcha•com•au/"</name>
+        </step>
+        <step start="1603467848310" stop="1603467849655" status="passed">
+          <name>see "shipping"</name>
+        </step>
+        <step start="1603467849656" stop="1603467854659" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603467854659" stop="1603467854779" status="passed">
+          <name>click {"css":"body &gt; div•cc-window•cc-floating•cc-type-default•cc-theme-edgeless•cc-bottom•cc-left•cc-color-override-2042708126 &gt; div &gt; a"}</name>
+        </step>
+        <step start="1603467854780" stop="1603467857780" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603467857780" stop="1603467860012" status="passed">
+          <name>am on page "/statues-and-replicas/statues-and-replicas/shop-all•html"</name>
+        </step>
+        <step start="1603467860012" stop="1603467861170" status="passed">
+          <name>see "shipping"</name>
+        </step>
+        <step start="1603467861170" stop="1603467865174" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603467865175" stop="1603467868868" status="passed">
+          <name>am on page "/black-widow-2020-marvel-s-black-widow-prelude-trade-paperback-book•html"</name>
+        </step>
+        <step start="1603467868868" stop="1603467869354" status="passed">
+          <name>see "black"</name>
+        </step>
+        <step start="1603467869354" stop="1603467869585" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603467869586" stop="1603467869732" status="passed">
+          <name>click {"css":"#product-addtocart-button-clone &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603467869732" stop="1603467872177" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603467872177" stop="1603467877178" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603467877179" stop="1603467877427" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="PopCultcha"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

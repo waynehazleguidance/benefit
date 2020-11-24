@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1605839991424" stop="1605840034573" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1605839991433" stop="1605840034548" status="broken">
+      <name>BenefitUSA</name>
+      <failure>
+        <message>Waited for 30 secs but text 'Cookies' still not found</message>
+        <stack-trace>#0 /Users/whazle/Desktop/BenefitTests2/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/BenefitTests2/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/BenefitTests2/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/BenefitTests2/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/BenefitTests2/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/BenefitTests2/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1605839996542" stop="1605840000377" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-us/"</name>
+        </step>
+        <step start="1605840000378" stop="1605840000829" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1605840000830" stop="1605840002111" status="passed">
+          <name>wait for text "brows",30</name>
+        </step>
+        <step start="1605840002112" stop="1605840002642" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1605840002643" stop="1605840032829" status="failed">
+          <name>wait for text "Cookies",30</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="2008d5d125ea0ae9db5404a8180ad471eba17a4f-attachment.png" type="image/png"/>
+        <attachment title="html" source="90df2c85ea4946be0fee0546299da5e4738b5963-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="BenefitUSA"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

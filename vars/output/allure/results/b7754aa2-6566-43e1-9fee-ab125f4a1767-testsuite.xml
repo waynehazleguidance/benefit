@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603403290924" stop="1603403311230" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603403290933" stop="1603403311228" status="broken">
+      <name>PopCultcha</name>
+      <failure>
+        <message>element not interactable
+  (Session info: chrome=86.0.4240.111)</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603403292755" stop="1603403301102" status="passed">
+          <name>am on url "https://www•popcultcha•com•au/"</name>
+        </step>
+        <step start="1603403301103" stop="1603403301965" status="passed">
+          <name>see "shipping"</name>
+        </step>
+        <step start="1603403301965" stop="1603403306969" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603403306969" stop="1603403310037" status="passed">
+          <name>am on page "/customer/account/"</name>
+        </step>
+        <step start="1603403310037" stop="1603403310100" status="failed">
+          <name>fill field {"id":"email"},"wayne•hazle@guidance•com"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="562a0cc3d733cf5a1f68c52c43f46fccb37c2e0e-attachment.png" type="image/png"/>
+        <attachment title="html" source="8ce14891236db3a021b4269f9e581a3f87afb551-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="PopCultcha"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

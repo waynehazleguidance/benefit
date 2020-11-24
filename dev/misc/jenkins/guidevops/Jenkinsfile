@@ -1,0 +1,31 @@
+pipeline {
+	agent any
+    options {
+        disableConcurrentBuilds()
+    }
+	environment {
+		github_token = credentials('guidance-automotan')
+	}
+	stages {
+        stage('Docker Build') {
+            steps {
+                script {
+                    sh "ls -la ${workspace}"
+                    docker.withRegistry('https://dockerhub.guidevops.com:5043', 'credentials-for-dockerhub.guidevops.com') {
+                        sh "/usr/bin/docker build -t dockerhub.guidevops.com:5043/tests_skeleton:${tag} ."
+                    }
+                }
+            }
+        }
+        stage('Docker Push') {
+            steps {
+                script {
+                    sh "ls -la ${workspace}"
+                    docker.withRegistry('https://dockerhub.guidevops.com:5043', 'credentials-for-dockerhub.guidevops.com') {
+                        sh "/usr/bin/docker push dockerhub.guidevops.com:5043/tests_skeleton:${tag}"
+                    }
+                }
+            }
+        }
+	}
+}

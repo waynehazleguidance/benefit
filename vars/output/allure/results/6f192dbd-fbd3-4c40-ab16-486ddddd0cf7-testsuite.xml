@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603907686424" stop="1603907718611" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603907686432" stop="1603907718609" status="failed">
+      <name>PopCultcha</name>
+      <failure>
+        <message>Checkbox or Radio by Label or CSS or XPath element with '#Anovos' was not found.</message>
+        <stack-trace>#0 [internal function]: Codeception\Module\WebDriver-&gt;checkOption('#Anovos')
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#3 /Users/whazle/Desktop/hearst-m2-tests/src/_generated/ActorActions.php(2626): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Action))
+#4 /Users/whazle/Desktop/hearst-m2-tests/src/Test/Project/DemoCest.php(78): Guidance\Tests\Project\Actor-&gt;checkOption('#Anovos')
+#5 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;PopCultcha(Object(Guidance\Tests\Project\Actor))
+#6 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#7 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'PopCultcha', Array)
+#8 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('PopCultcha', Array)
+#9 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#10 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#11 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#12 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#14 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#15 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#16 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#17 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603907688288" stop="1603907694574" status="passed">
+          <name>am on url "https://www•popcultcha•com•au/"</name>
+        </step>
+        <step start="1603907694574" stop="1603907696579" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603907696579" stop="1603907696973" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603907696973" stop="1603907699978" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603907699978" stop="1603907700894" status="passed">
+          <name>see "shipping"</name>
+        </step>
+        <step start="1603907700894" stop="1603907705899" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603907705899" stop="1603907705992" status="passed">
+          <name>click {"css":"body &gt; div•cc-window•cc-floating•cc-type-default•cc-theme-edgeless•cc-bottom•cc-left•cc-color-override-2042708126 &gt; div &gt; a"}</name>
+        </step>
+        <step start="1603907705992" stop="1603907708992" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603907708993" stop="1603907711440" status="passed">
+          <name>am on page "/statues-and-replicas/statues-and-replicas/shop-all•html"</name>
+        </step>
+        <step start="1603907711440" stop="1603907712449" status="passed">
+          <name>see "shipping"</name>
+        </step>
+        <step start="1603907712449" stop="1603907716450" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603907716450" stop="1603907717167" status="failed">
+          <name>check option "#Anovos"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="c57def4dd49ed62dcca359beaf3bfbf4e3d4f7ef-attachment.png" type="image/png"/>
+        <attachment title="html" source="9f5bfa7a45b9c839713628194a4b9e07f8b8a254-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="PopCultcha"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

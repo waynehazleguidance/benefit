@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603263294143" stop="1603263329085" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603263294146" stop="1603263329083" status="passed">
+      <name>ShopWomansDay</name>
+      <steps>
+        <step start="1603263295797" stop="1603263298242" status="passed">
+          <name>am on url "https://shop•womansday•com"</name>
+        </step>
+        <step start="1603263298242" stop="1603263298362" status="passed">
+          <name>see "Woman"</name>
+        </step>
+        <step start="1603263298362" stop="1603263303365" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603263303365" stop="1603263303507" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603263303507" stop="1603263303615" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603263303615" stop="1603263305323" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603263305323" stop="1603263305486" status="passed">
+          <name>see "Your search"</name>
+        </step>
+        <step start="1603263305486" stop="1603263305642" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603263305642" stop="1603263305730" status="passed">
+          <name>fill field {"id":"search"},"Magazine"</name>
+        </step>
+        <step start="1603263305730" stop="1603263308302" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603263308302" stop="1603263313304" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603263313304" stop="1603263313845" status="passed">
+          <name>am on page "/editors-picks•html"</name>
+        </step>
+        <step start="1603263313845" stop="1603263315850" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603263315850" stop="1603263317492" status="passed">
+          <name>select option {"css":"#authenticationPopup + •toolbar #sorter"},"name"</name>
+        </step>
+        <step start="1603263317492" stop="1603263322497" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603263322497" stop="1603263324028" status="passed">
+          <name>select option {"css":"#authenticationPopup + •toolbar #sorter"},"price"</name>
+        </step>
+        <step start="1603263324028" stop="1603263329029" status="passed">
+          <name>wait 5</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopWomansDay"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

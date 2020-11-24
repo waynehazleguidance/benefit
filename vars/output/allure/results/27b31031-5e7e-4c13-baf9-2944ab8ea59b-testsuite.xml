@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603390555611" stop="1603390571712" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603390555621" stop="1603390571709" status="broken">
+      <name>BenefitUSA</name>
+      <failure>
+        <message>Strict locator locator is malformed: css =&gt; '#onetrust-accept-btn-handler</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603390558278" stop="1603390561010" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-us/"</name>
+        </step>
+        <step start="1603390561011" stop="1603390561695" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603390561695" stop="1603390566696" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603390566696" stop="1603390567050" status="passed">
+          <name>see "Cookies"</name>
+        </step>
+        <step start="1603390567050" stop="1603390570235" status="failed">
+          <name>click {"css":"'#onetrust-accept-btn-handler"}</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="5c3086b619d6d1b3f3cac0800f7adf97dc2550c0-attachment.png" type="image/png"/>
+        <attachment title="html" source="8dc08791208a579a98377fb8b492d01a16b03bdb-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="BenefitUSA"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

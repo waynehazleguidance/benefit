@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1604608624799" stop="1604608685331" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1604608624834" stop="1604608685314" status="passed">
+      <name>MURAD</name>
+      <steps>
+        <step start="1604608629851" stop="1604608635302" status="passed">
+          <name>am on url "https://www•murad•com/"</name>
+        </step>
+        <step start="1604608635303" stop="1604608635921" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1604608635922" stop="1604608637041" status="passed">
+          <name>wait for text "Unbox",30</name>
+        </step>
+        <step start="1604608637042" stop="1604608637778" status="passed">
+          <name>see "Unbox"</name>
+        </step>
+        <step start="1604608637778" stop="1604608638333" status="passed">
+          <name>click {"css":"•sign-in-btn"}</name>
+        </step>
+        <step start="1604608638333" stop="1604608640047" status="passed">
+          <name>wait for text "Email",30</name>
+        </step>
+        <step start="1604608640047" stop="1604608640846" status="passed">
+          <name>wait for text "Sign",30</name>
+        </step>
+        <step start="1604608640846" stop="1604608641367" status="passed">
+          <name>fill field {"id":"login_email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1604608641368" stop="1604608641507" status="passed">
+          <name>fill field {"id":"login_pass"},"@Testing123"</name>
+        </step>
+        <step start="1604608641507" stop="1604608641618" status="passed">
+          <name>click {"css":"#sign-in-submit"}</name>
+        </step>
+        <step start="1604608641618" stop="1604608646961" status="passed">
+          <name>wait for text "Wayne",30</name>
+        </step>
+        <step start="1604608646961" stop="1604608648869" status="passed">
+          <name>am on page "/"</name>
+        </step>
+        <step start="1604608648869" stop="1604608651235" status="passed">
+          <name>click {"css":"div•navigation:nth-child(2) &gt; div:nth-child(1) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604608651235" stop="1604608653969" status="passed">
+          <name>wait for text "History",30</name>
+        </step>
+        <step start="1604608653969" stop="1604608654915" status="passed">
+          <name>see "History"</name>
+        </step>
+        <step start="1604608654915" stop="1604608657456" status="passed">
+          <name>click {"css":"div•header-item:nth-child(3) &gt; div:nth-child(1) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604608657456" stop="1604608658640" status="passed">
+          <name>wait for text "skincare",30</name>
+        </step>
+        <step start="1604608658640" stop="1604608659912" status="passed">
+          <name>see "skincare"</name>
+        </step>
+        <step start="1604608659912" stop="1604608661189" status="passed">
+          <name>am on page "/"</name>
+        </step>
+        <step start="1604608661190" stop="1604608662676" status="passed">
+          <name>click {"css":"•search &gt; div:nth-child(1) &gt; img:nth-child(1)"}</name>
+        </step>
+        <step start="1604608662676" stop="1604608665678" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1604608665678" stop="1604608665764" status="passed">
+          <name>fill field {"id":"search"},"Eye"</name>
+        </step>
+        <step start="1604608665764" stop="1604608667764" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1604608667764" stop="1604608670249" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1604608670249" stop="1604608671314" status="passed">
+          <name>wait for text "Eye",30</name>
+        </step>
+        <step start="1604608671314" stop="1604608671840" status="passed">
+          <name>see "eye"</name>
+        </step>
+        <step start="1604608671840" stop="1604608674886" status="passed">
+          <name>am on url "https://www•murad•com/product/vita-c-eyes-dark-circle-corrector/"</name>
+        </step>
+        <step start="1604608674886" stop="1604608677134" status="passed">
+          <name>wait for text "Circle",30</name>
+        </step>
+        <step start="1604608677134" stop="1604608678008" status="passed">
+          <name>see "Circle"</name>
+        </step>
+        <step start="1604608678008" stop="1604608678480" status="passed">
+          <name>click {"css":"input•form-action-addToCart:nth-child(5)"}</name>
+        </step>
+        <step start="1604608678480" stop="1604608679998" status="passed">
+          <name>wait for text "check",30</name>
+        </step>
+        <step start="1604608679998" stop="1604608680714" status="passed">
+          <name>see "check"</name>
+        </step>
+        <step start="1604608680714" stop="1604608683545" status="passed">
+          <name>click {"css":"•button--action"}</name>
+        </step>
+        <step start="1604608683545" stop="1604608685224" status="passed">
+          <name>wait for text "Cart",30</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="MURAD"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

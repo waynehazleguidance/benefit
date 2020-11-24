@@ -1,0 +1,6 @@
+path: '%url%'
+title: '%title%'
+uimap:
+
+      some_key:
+        selector: '#some_id'

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1604079698876" stop="1604079746362" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1604079698887" stop="1604079746356" status="broken">
+      <name>BenefitMalaysiaEnglish</name>
+      <failure>
+        <message>Waited for 30 secs but text 'bestsellers' still not found</message>
+        <stack-trace>#0 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/BenefitTests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/BenefitTests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/BenefitTests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1604079702183" stop="1604079705480" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-my/"</name>
+        </step>
+        <step start="1604079705480" stop="1604079705624" status="passed">
+          <name>wait for text "brows",30</name>
+        </step>
+        <step start="1604079705625" stop="1604079705711" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1604079705711" stop="1604079706043" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1604079706043" stop="1604079709297" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-my/find-a-store"</name>
+        </step>
+        <step start="1604079709298" stop="1604079709355" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1604079709355" stop="1604079709400" status="passed">
+          <name>see "store"</name>
+        </step>
+        <step start="1604079709400" stop="1604079710542" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-my/bestsellers"</name>
+        </step>
+        <step start="1604079710542" stop="1604079710661" status="passed">
+          <name>wait for text "bestsellers",30</name>
+        </step>
+        <step start="1604079710661" stop="1604079710722" status="passed">
+          <name>see "bestsellers"</name>
+        </step>
+        <step start="1604079710722" stop="1604079712142" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-my/brows"</name>
+        </step>
+        <step start="1604079712142" stop="1604079742343" status="failed">
+          <name>wait for text "bestsellers",30</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="405e711d66bdf666275a9a6c12e6cc8724fed5c9-attachment.png" type="image/png"/>
+        <attachment title="html" source="d297ae2a2b2186756bd422cf7ec5d33c9078229a-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="BenefitMalaysiaEnglish"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603388428829" stop="1603388462197" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603388428839" stop="1603388462194" status="passed">
+      <name>BenefitUSA</name>
+      <steps>
+        <step start="1603388431363" stop="1603388434473" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-us/"</name>
+        </step>
+        <step start="1603388434474" stop="1603388435048" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603388435049" stop="1603388440049" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603388440049" stop="1603388440344" status="passed">
+          <name>see "Cookies"</name>
+        </step>
+        <step start="1603388440344" stop="1603388440531" status="passed">
+          <name>click {"css":"#onetrust-accept-btn-handler"}</name>
+        </step>
+        <step start="1603388440532" stop="1603388441816" status="passed">
+          <name>am on page "/brow-makeup"</name>
+        </step>
+        <step start="1603388441817" stop="1603388442130" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603388442130" stop="1603388446134" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603388446134" stop="1603388446221" status="passed">
+          <name>click {"css":"#ac-0 &gt; button:nth-child(1)"}</name>
+        </step>
+        <step start="1603388446221" stop="1603388447226" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1603388447226" stop="1603388447313" status="passed">
+          <name>click {"css":"#filter-20"}</name>
+        </step>
+        <step start="1603388447313" stop="1603388451314" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603388451315" stop="1603388452759" status="passed">
+          <name>am on page "/product/24-hour-brow-setter-clear-brow-gel?product=24HOUBM66-FULL&amp;sku=BM66"</name>
+        </step>
+        <step start="1603388452760" stop="1603388453042" status="passed">
+          <name>see "Brow"</name>
+        </step>
+        <step start="1603388453042" stop="1603388453235" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603388453235" stop="1603388453361" status="passed">
+          <name>click {"css":"form•product-info__section &gt; button:nth-child(2)"}</name>
+        </step>
+        <step start="1603388453361" stop="1603388456365" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603388456365" stop="1603388457019" status="passed">
+          <name>am on page "/checkout#/"</name>
+        </step>
+        <step start="1603388457019" stop="1603388462023" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603388462023" stop="1603388462140" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="BenefitUSA"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

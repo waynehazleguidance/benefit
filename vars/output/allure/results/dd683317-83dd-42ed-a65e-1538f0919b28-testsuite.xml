@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1604468452849" stop="1604468487459" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1604468452868" stop="1604468487456" status="failed">
+      <name>BenefitFR</name>
+      <failure>
+        <message>Failed asserting that  on page /fr-fr/product/24-hour-brow-setter-clear-brow-gel?product=24HOUBM66-FULL&amp;sku=BM66
+--&gt; Les livraisons à domicile continuent normalement avec La Poste &amp; UPS 😊
+Passer et aller au contenu principal
+France
+Trouver une boutique
+Connecté
+PRODUITS
+NOËL
+SOURCILS
+DÉCOUVREZ NOS SERVICES
+OFFRES EXCLUSIVES
+OUTLET
+EN RUPTURE DE STOCK
+24-Hour Brow Setter
+Gel fixateur sourcils transparent
+1 a
+[Content too long to display. See complete response in '/Users/whazle/Desktop/BenefitTests/config/codecept/../../vars/output/' directory]
+--&gt; contains "ajouter".</message>
+        <stack-trace>#0 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(55): PHPUnit\Framework\Constraint\Constraint-&gt;fail('Les livraisons ...', '')
+#1 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/Assert.php(2331): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate('Les livraisons ...', '')
+#2 /Users/whazle/Desktop/BenefitTests/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php(1369): PHPUnit\Framework\Assert::assertThat('Les livraisons ...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#3 /Users/whazle/Desktop/BenefitTests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(2996): Codeception\Module-&gt;assertThat('Les livraisons ...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#4 /Users/whazle/Desktop/BenefitTests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(929): Codeception\Module\WebDriver-&gt;assertPageContains('ajouter')
+#5 [internal function]: Codeception\Module\WebDriver-&gt;see('ajouter')
+#6 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#7 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#8 /Users/whazle/Desktop/BenefitTests/src/_generated/ActorActions.php(633): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Assertion))
+#9 /Users/whazle/Desktop/BenefitTests/src/Test/Project/DemoCest.php(192): Guidance\Tests\Project\Actor-&gt;see('ajouter')
+#10 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;BenefitFR(Object(Guidance\Tests\Project\Actor))
+#11 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#12 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'BenefitFR', Array)
+#13 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('BenefitFR', Array)
+#14 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#15 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#16 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#17 /Users/whazle/Desktop/BenefitTests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#18 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#19 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#20 /Users/whazle/Desktop/BenefitTests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#21 /Users/whazle/Desktop/BenefitTests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#22 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1604468455338" stop="1604468457897" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/fr-fr/"</name>
+        </step>
+        <step start="1604468457898" stop="1604468459343" status="passed">
+          <name>click {"css":"#onetrust-accept-btn-handler"}</name>
+        </step>
+        <step start="1604468459343" stop="1604468463344" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1604468463344" stop="1604468463608" status="passed">
+          <name>move mouse over {"css":"•account-popup__link &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1604468463608" stop="1604468467609" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1604468467609" stop="1604468467861" status="passed">
+          <name>fill field {"id":"login_form_email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1604468467861" stop="1604468467985" status="passed">
+          <name>fill field {"id":"login_form_password"},"@Testing123"</name>
+        </step>
+        <step start="1604468467985" stop="1604468468043" status="passed">
+          <name>click {"css":"button•btn:nth-child(4)"}</name>
+        </step>
+        <step start="1604468468044" stop="1604468472044" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1604468472044" stop="1604468472653" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/fr-fr/account"</name>
+        </step>
+        <step start="1604468472653" stop="1604468472806" status="passed">
+          <name>wait for text "profil",30</name>
+        </step>
+        <step start="1604468472807" stop="1604468472938" status="passed">
+          <name>see "profil"</name>
+        </step>
+        <step start="1604468472939" stop="1604468473759" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/fr-fr/"</name>
+        </step>
+        <step start="1604468473759" stop="1604468473843" status="passed">
+          <name>fill field {"css":"#search-input"},"Eye"</name>
+        </step>
+        <step start="1604468473843" stop="1604468475848" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1604468475848" stop="1604468476525" status="passed">
+          <name>press key {"css":"#search-input"},""</name>
+        </step>
+        <step start="1604468476525" stop="1604468477165" status="passed">
+          <name>wait for text "Eye",30</name>
+        </step>
+        <step start="1604468477166" stop="1604468477348" status="passed">
+          <name>see "Eye"</name>
+        </step>
+        <step start="1604468477348" stop="1604468477780" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/fr-fr/brow-makeup"</name>
+        </step>
+        <step start="1604468477780" stop="1604468478371" status="passed">
+          <name>wait for text "Brow",30</name>
+        </step>
+        <step start="1604468478371" stop="1604468478559" status="passed">
+          <name>see "Brow"</name>
+        </step>
+        <step start="1604468478559" stop="1604468478610" status="passed">
+          <name>click {"css":"#ac-0 &gt; button:nth-child(1)"}</name>
+        </step>
+        <step start="1604468478610" stop="1604468479615" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1604468479615" stop="1604468479721" status="passed">
+          <name>click {"css":"#filter-20"}</name>
+        </step>
+        <step start="1604468479721" stop="1604468482725" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1604468482725" stop="1604468484498" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/fr-fr/product/24-hour-brow-setter-clear-brow-gel?product=24HOUBM66-FULL&amp;sku=BM66"</name>
+        </step>
+        <step start="1604468484498" stop="1604468484720" status="passed">
+          <name>wait for text "Brow",30</name>
+        </step>
+        <step start="1604468484721" stop="1604468484925" status="passed">
+          <name>see "Brow"</name>
+        </step>
+        <step start="1604468484925" stop="1604468485139" status="failed">
+          <name>see "ajouter"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="9d555e70a3b5fcae0bae13d3ac03576380ae33c3-attachment.png" type="image/png"/>
+        <attachment title="html" source="5e42539b66e4568fd256b7e0e01e659e675c4870-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="BenefitFR"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

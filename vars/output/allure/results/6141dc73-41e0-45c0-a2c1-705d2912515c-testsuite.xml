@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603729496931" stop="1603729631326" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603729496947" stop="1603729587581" status="passed">
+      <name>T3Micro</name>
+      <steps>
+        <step start="1603729508700" stop="1603729511863" status="passed">
+          <name>am on url "https://www•t3micro•com/"</name>
+        </step>
+        <step start="1603729511864" stop="1603729513865" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603729513866" stop="1603729515407" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603729515407" stop="1603729522409" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603729522409" stop="1603729527413" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603729527413" stop="1603729529958" status="passed">
+          <name>am on page "customer/account/login"</name>
+        </step>
+        <step start="1603729529958" stop="1603729534963" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603729534963" stop="1603729535357" status="passed">
+          <name>fill field {"id":"email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1603729535357" stop="1603729538360" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603729538360" stop="1603729538600" status="passed">
+          <name>fill field {"id":"pass"},"@Samantha1349"</name>
+        </step>
+        <step start="1603729538600" stop="1603729540601" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603729540601" stop="1603729540834" status="passed">
+          <name>click {"id":"send2"}</name>
+        </step>
+        <step start="1603729540834" stop="1603729548836" status="passed">
+          <name>wait 8</name>
+        </step>
+        <step start="1603729548836" stop="1603729550133" status="passed">
+          <name>am on page "/category/hair-dryers"</name>
+        </step>
+        <step start="1603729550134" stop="1603729552188" status="passed">
+          <name>see "hair"</name>
+        </step>
+        <step start="1603729552188" stop="1603729556189" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603729556189" stop="1603729556350" status="passed">
+          <name>click {"css":"•search-icon-wrapper &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603729556350" stop="1603729556665" status="passed">
+          <name>fill field {"id":"search"},"Dryer"</name>
+        </step>
+        <step start="1603729556665" stop="1603729558665" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603729558666" stop="1603729561749" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603729561749" stop="1603729562645" status="passed">
+          <name>see "dryer"</name>
+        </step>
+        <step start="1603729562646" stop="1603729567344" status="passed">
+          <name>am on page "/product/lucea-id-straightening-and-styling-iron"</name>
+        </step>
+        <step start="1603729567344" stop="1603729570306" status="passed">
+          <name>see "T3"</name>
+        </step>
+        <step start="1603729570306" stop="1603729570923" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603729570923" stop="1603729571131" status="passed">
+          <name>click {"css":"#product-addtocart-button"}</name>
+        </step>
+        <step start="1603729571131" stop="1603729574001" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1603729574001" stop="1603729579004" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603729579004" stop="1603729581934" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603729581934" stop="1603729586938" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603729586938" stop="1603729587360" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="T3Micro"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603729587587" stop="1603729631323" status="failed">
+      <name>T3MicroGerman</name>
+      <failure>
+        <message>Failed asserting that  on page /de/category/hair-dryers
+--&gt; Kostenloser Versand ab 50 € JETZT SHOPPEN
+Österreich
+Mein Warenkorb
+Cura Haartrockner Shop
+Über T3
+Tutorials Blog
+Shop
+ÜBer T3
+Blog
+Tutorials
+Anmelden
+Konto erstellen
+Österreich
+There was no 404 CMS page configured or found.
+Für News, Updates und Angebote anmelden
+Sign Up for Our Newsletter:
+
+[Content too long to display. See complete response in '/Users/whazle/Desktop/hearst-m2-tests/config/codecept/../../vars/output/' directory]
+--&gt; contains "hair".</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(55): PHPUnit\Framework\Constraint\Constraint-&gt;fail('Kostenloser Ver...', '')
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/Assert.php(2331): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate('Kostenloser Ver...', '')
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php(1369): PHPUnit\Framework\Assert::assertThat('Kostenloser Ver...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(2996): Codeception\Module-&gt;assertThat('Kostenloser Ver...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(929): Codeception\Module\WebDriver-&gt;assertPageContains('hair')
+#5 [internal function]: Codeception\Module\WebDriver-&gt;see('hair')
+#6 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#7 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#8 /Users/whazle/Desktop/hearst-m2-tests/src/_generated/ActorActions.php(633): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Assertion))
+#9 /Users/whazle/Desktop/hearst-m2-tests/src/Test/Project/DemoCest.php(353): Guidance\Tests\Project\Actor-&gt;see('hair')
+#10 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;T3MicroGerman(Object(Guidance\Tests\Project\Actor))
+#11 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#12 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'T3MicroGerman', Array)
+#13 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('T3MicroGerman', Array)
+#14 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#15 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#16 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#17 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#18 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#19 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#20 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#21 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#22 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603729589837" stop="1603729591774" status="passed">
+          <name>am on url "https://www•t3micro•at/de/"</name>
+        </step>
+        <step start="1603729591774" stop="1603729593778" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603729593778" stop="1603729594136" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603729594136" stop="1603729601137" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603729601137" stop="1603729606138" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603729606138" stop="1603729608272" status="passed">
+          <name>am on page "customer/account/login"</name>
+        </step>
+        <step start="1603729608272" stop="1603729613274" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603729613274" stop="1603729613506" status="passed">
+          <name>fill field {"id":"email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1603729613506" stop="1603729616510" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603729616510" stop="1603729616649" status="passed">
+          <name>fill field {"id":"pass"},"@Samantha1349"</name>
+        </step>
+        <step start="1603729616649" stop="1603729618651" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603729618651" stop="1603729618731" status="passed">
+          <name>click {"id":"send2"}</name>
+        </step>
+        <step start="1603729618731" stop="1603729626736" status="passed">
+          <name>wait 8</name>
+        </step>
+        <step start="1603729626736" stop="1603729629345" status="passed">
+          <name>am on page "/category/hair-dryers"</name>
+        </step>
+        <step start="1603729629345" stop="1603729629550" status="failed">
+          <name>see "hair"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="93d4780c6a59a82ec6b72e4ce0631dac1a54ad81-attachment.png" type="image/png"/>
+        <attachment title="html" source="49af6abe263a0a976e509314b9a86f7e89f58531-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="T3MicroGerman"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603263417698" stop="1603263464832" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603263417701" stop="1603263464826" status="passed">
+      <name>ShopWomansDay</name>
+      <steps>
+        <step start="1603263419236" stop="1603263420957" status="passed">
+          <name>am on url "https://shop•womansday•com"</name>
+        </step>
+        <step start="1603263420957" stop="1603263421082" status="passed">
+          <name>see "Woman"</name>
+        </step>
+        <step start="1603263421083" stop="1603263426083" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603263426083" stop="1603263426211" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603263426211" stop="1603263426317" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603263426317" stop="1603263427763" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603263427763" stop="1603263427943" status="passed">
+          <name>see "Your search"</name>
+        </step>
+        <step start="1603263427943" stop="1603263428070" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603263428070" stop="1603263428152" status="passed">
+          <name>fill field {"id":"search"},"Magazine"</name>
+        </step>
+        <step start="1603263428153" stop="1603263430557" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603263430557" stop="1603263435562" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603263435562" stop="1603263436082" status="passed">
+          <name>am on page "/editors-picks•html"</name>
+        </step>
+        <step start="1603263436082" stop="1603263438083" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603263438083" stop="1603263438743" status="passed">
+          <name>select option {"css":"#authenticationPopup + •toolbar #sorter"},"name"</name>
+        </step>
+        <step start="1603263438743" stop="1603263443747" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603263443747" stop="1603263444366" status="passed">
+          <name>select option {"css":"#authenticationPopup + •toolbar #sorter"},"price"</name>
+        </step>
+        <step start="1603263444367" stop="1603263449370" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603263449370" stop="1603263449795" status="passed">
+          <name>am on page "/womans-day-favorite-chicken-recipes•html"</name>
+        </step>
+        <step start="1603263449795" stop="1603263450069" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603263450069" stop="1603263450322" status="passed">
+          <name>click {"css":"#product-addtocart-button &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603263450322" stop="1603263452234" status="passed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+        <step start="1603263452235" stop="1603263457239" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603263457239" stop="1603263457295" status="passed">
+          <name>click {"css":"a•action:nth-child(5)"}</name>
+        </step>
+        <step start="1603263457295" stop="1603263457470" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1603263457470" stop="1603263462473" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603263462473" stop="1603263464561" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603263464561" stop="1603263464767" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopWomansDay"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

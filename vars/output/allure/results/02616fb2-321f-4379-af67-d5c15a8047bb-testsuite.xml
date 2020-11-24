@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603240522870" stop="1603240523906" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603240522889" stop="1603240523725" status="broken">
+      <name>ShopCosmopolitan</name>
+      <failure>
+        <message>Unable to create new service: ChromeDriverService
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'WayneHazleMacBook', ip: '2600:1700:d570:fa80:113c:4ff7:7de6:293a', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_151'
+Driver info: driver.version: unknown</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php(370): Facebook\WebDriver\Exception\WebDriverException::throwException('session not cre...', 'Unable to creat...', Array)
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php(136): Facebook\WebDriver\Remote\HttpCommandExecutor-&gt;execute(Object(Facebook\WebDriver\Remote\WebDriverCommand))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(1473): Facebook\WebDriver\Remote\RemoteWebDriver::create('http://127.0.0....', Object(Facebook\WebDriver\Remote\DesiredCapabilities), 0, 0, NULL, NULL)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(424): Codeception\Module\WebDriver-&gt;_initializeSession()
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Subscriber/Module.php(56): Codeception\Module\WebDriver-&gt;_before(Object(Codeception\Test\Cest))
+#5 /Users/whazle/Desktop/hearst-m2-tests/vendor/symfony/event-dispatcher/EventDispatcher.php(264): Codeception\Subscriber\Module-&gt;before(Object(Codeception\Event\TestEvent), 'test.before', Object(Symfony\Component\EventDispatcher\EventDispatcher))
+#6 /Users/whazle/Desktop/hearst-m2-tests/vendor/symfony/event-dispatcher/EventDispatcher.php(239): Symfony\Component\EventDispatcher\EventDispatcher-&gt;doDispatch(Array, 'test.before', Object(Codeception\Event\TestEvent))
+#7 /Users/whazle/Desktop/hearst-m2-tests/vendor/symfony/event-dispatcher/EventDispatcher.php(73): Symfony\Component\EventDispatcher\EventDispatcher-&gt;callListeners(Array, 'test.before', Object(Codeception\Event\TestEvent))
+#8 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/DispatcherWrapper.php(25): Symfony\Component\EventDispatcher\EventDispatcher-&gt;dispatch(Object(Codeception\Event\TestEvent), Object(Codeception\Event\TestEvent))
+#9 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Listener.php(134): Codeception\PHPUnit\Listener-&gt;dispatch(Object(Symfony\Component\EventDispatcher\EventDispatcher), 'test.before', Object(Codeception\Event\TestEvent))
+#10 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Listener.php(103): Codeception\PHPUnit\Listener-&gt;fire('test.before', Object(Codeception\Event\TestEvent))
+#11 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestResult.php(437): Codeception\PHPUnit\Listener-&gt;startTest(Object(Codeception\Test\Cest))
+#12 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(80): PHPUnit\Framework\TestResult-&gt;startTest(Object(Codeception\Test\Cest))
+#13 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#14 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#15 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#16 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#17 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#18 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#19 {main}</stack-trace>
+      </failure>
+      <attachments>
+        <attachment title="png" source="bb3c6986c114691e92c02f12e2ee0121489d87ce-attachment.png" type="image/png"/>
+        <attachment title="html" source="e79d10f272f5bfcdb5d07172eed1f0307fc49c9a-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="ShopCosmopolitan"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603240523726" stop="1603240523903" status="broken">
+      <name>ShopPrevention</name>
+      <failure>
+        <message>Unable to create new service: ChromeDriverService
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'WayneHazleMacBook', ip: '2600:1700:d570:fa80:113c:4ff7:7de6:293a', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_151'
+Driver info: driver.version: unknown</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php(370): Facebook\WebDriver\Exception\WebDriverException::throwException('session not cre...', 'Unable to creat...', Array)
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php(136): Facebook\WebDriver\Remote\HttpCommandExecutor-&gt;execute(Object(Facebook\WebDriver\Remote\WebDriverCommand))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(1473): Facebook\WebDriver\Remote\RemoteWebDriver::create('http://127.0.0....', Object(Facebook\WebDriver\Remote\DesiredCapabilities), 0, 0, NULL, NULL)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(424): Codeception\Module\WebDriver-&gt;_initializeSession()
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Subscriber/Module.php(56): Codeception\Module\WebDriver-&gt;_before(Object(Codeception\Test\Cest))
+#5 /Users/whazle/Desktop/hearst-m2-tests/vendor/symfony/event-dispatcher/EventDispatcher.php(264): Codeception\Subscriber\Module-&gt;before(Object(Codeception\Event\TestEvent), 'test.before', Object(Symfony\Component\EventDispatcher\EventDispatcher))
+#6 /Users/whazle/Desktop/hearst-m2-tests/vendor/symfony/event-dispatcher/EventDispatcher.php(239): Symfony\Component\EventDispatcher\EventDispatcher-&gt;doDispatch(Array, 'test.before', Object(Codeception\Event\TestEvent))
+#7 /Users/whazle/Desktop/hearst-m2-tests/vendor/symfony/event-dispatcher/EventDispatcher.php(73): Symfony\Component\EventDispatcher\EventDispatcher-&gt;callListeners(Array, 'test.before', Object(Codeception\Event\TestEvent))
+#8 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/DispatcherWrapper.php(25): Symfony\Component\EventDispatcher\EventDispatcher-&gt;dispatch(Object(Codeception\Event\TestEvent), Object(Codeception\Event\TestEvent))
+#9 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Listener.php(134): Codeception\PHPUnit\Listener-&gt;dispatch(Object(Symfony\Component\EventDispatcher\EventDispatcher), 'test.before', Object(Codeception\Event\TestEvent))
+#10 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Listener.php(103): Codeception\PHPUnit\Listener-&gt;fire('test.before', Object(Codeception\Event\TestEvent))
+#11 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestResult.php(437): Codeception\PHPUnit\Listener-&gt;startTest(Object(Codeception\Test\Cest))
+#12 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(80): PHPUnit\Framework\TestResult-&gt;startTest(Object(Codeception\Test\Cest))
+#13 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#14 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#15 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#16 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#17 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#18 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#19 {main}</stack-trace>
+      </failure>
+      <attachments>
+        <attachment title="png" source="43ed43e3046b18bf73b26a0fe668cc5927a11033-attachment.png" type="image/png"/>
+        <attachment title="html" source="5225d0a563e7a13175232891246491fd79469967-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="ShopPrevention"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1604603675657" stop="1604603711930" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1604603675668" stop="1604603711925" status="broken">
+      <name>MURAD</name>
+      <failure>
+        <message>invalid element state
+  (Session info: chrome=86.0.4240.183)</message>
+        <stack-trace>#0 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/BenefitTests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/BenefitTests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/BenefitTests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1604603678619" stop="1604603682769" status="passed">
+          <name>am on url "https://www•murad•com/"</name>
+        </step>
+        <step start="1604603682769" stop="1604603683609" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1604603683610" stop="1604603684980" status="passed">
+          <name>wait for text "Unbox",30</name>
+        </step>
+        <step start="1604603684980" stop="1604603685441" status="passed">
+          <name>see "Unbox"</name>
+        </step>
+        <step start="1604603685441" stop="1604603685757" status="passed">
+          <name>click {"css":"•sign-in-btn"}</name>
+        </step>
+        <step start="1604603685757" stop="1604603687733" status="passed">
+          <name>wait for text "Email",30</name>
+        </step>
+        <step start="1604603687733" stop="1604603688523" status="passed">
+          <name>wait for text "Sign",30</name>
+        </step>
+        <step start="1604603688524" stop="1604603689151" status="passed">
+          <name>fill field {"id":"login_email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1604603689151" stop="1604603689799" status="passed">
+          <name>fill field {"id":"login_pass"},"@Testing123"</name>
+        </step>
+        <step start="1604603689799" stop="1604603690094" status="passed">
+          <name>click {"css":"#sign-in-submit"}</name>
+        </step>
+        <step start="1604603690094" stop="1604603695098" status="passed">
+          <name>wait for text "Wayne",30</name>
+        </step>
+        <step start="1604603695098" stop="1604603696515" status="passed">
+          <name>am on page "/"</name>
+        </step>
+        <step start="1604603696515" stop="1604603698502" status="passed">
+          <name>click {"css":"div•navigation:nth-child(2) &gt; div:nth-child(1) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604603698502" stop="1604603702307" status="passed">
+          <name>wait for text "History",30</name>
+        </step>
+        <step start="1604603702307" stop="1604603702646" status="passed">
+          <name>see "History"</name>
+        </step>
+        <step start="1604603702646" stop="1604603704963" status="passed">
+          <name>click {"css":"div•header-item:nth-child(3) &gt; div:nth-child(1) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604603704963" stop="1604603706077" status="passed">
+          <name>wait for text "skincare",30</name>
+        </step>
+        <step start="1604603706077" stop="1604603706942" status="passed">
+          <name>see "skincare"</name>
+        </step>
+        <step start="1604603706942" stop="1604603708348" status="passed">
+          <name>am on page "/"</name>
+        </step>
+        <step start="1604603708348" stop="1604603710032" status="passed">
+          <name>click {"css":"•search &gt; div:nth-child(1) &gt; img:nth-child(1)"}</name>
+        </step>
+        <step start="1604603710032" stop="1604603710078" status="failed">
+          <name>fill field {"css":"•search-form &gt; form:nth-child(2)"},"Eye"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="008c7d0b73ac0fb97d6c66c0581df58e9180e179-attachment.png" type="image/png"/>
+        <attachment title="html" source="b2e0177573f8233f091522c1264dd7602876ac6d-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="MURAD"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

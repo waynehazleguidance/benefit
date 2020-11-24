@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603252369239" stop="1603252398855" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603252369248" stop="1603252398852" status="passed">
+      <name>ShopCosmopolitan</name>
+      <steps>
+        <step start="1603252371341" stop="1603252373235" status="passed">
+          <name>am on url "https://shop•cosmopolitan•com/"</name>
+        </step>
+        <step start="1603252373236" stop="1603252373245" status="passed">
+          <name>wait for page load </name>
+        </step>
+        <step start="1603252373245" stop="1603252373463" status="passed">
+          <name>see "Cosmopolitan"</name>
+        </step>
+        <step start="1603252373464" stop="1603252373664" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603252373664" stop="1603252373684" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603252373684" stop="1603252373897" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603252373897" stop="1603252385899" status="passed">
+          <name>wait 12</name>
+        </step>
+        <step start="1603252385899" stop="1603252387238" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603252387238" stop="1603252387416" status="passed">
+          <name>see "Your search returned no results•"</name>
+        </step>
+        <step start="1603252387416" stop="1603252387601" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603252387602" stop="1603252387622" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603252387622" stop="1603252387735" status="passed">
+          <name>fill field {"id":"search"},"Magazine"</name>
+        </step>
+        <step start="1603252387735" stop="1603252390221" status="passed">
+          <name>wait for element visible {"id":"searchsuite-autocomplete"},20</name>
+        </step>
+        <step start="1603252390222" stop="1603252390256" status="passed">
+          <name>see element {"css":"#searchsuite-autocomplete •product"}</name>
+        </step>
+        <step start="1603252390256" stop="1603252390273" status="passed">
+          <name>execute js "return document•querySelectorAll('#product li')•length;"</name>
+        </step>
+        <step start="1603252390273" stop="1603252390281" status="passed">
+          <name>assert greater or equals 3,30</name>
+        </step>
+        <step start="1603252390281" stop="1603252392559" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603252392559" stop="1603252392599" status="passed">
+          <name>execute js "return document•querySelectorAll('ol•product-items li')•length;"</name>
+        </step>
+        <step start="1603252392600" stop="1603252392600" status="passed">
+          <name>assert greater or equals 3,30</name>
+        </step>
+        <step start="1603252392600" stop="1603252393584" status="passed">
+          <name>am on page "/"</name>
+        </step>
+        <step start="1603252393584" stop="1603252393697" status="passed">
+          <name>click {"css":"•product-info-main #product-addtocart-button"}</name>
+        </step>
+        <step start="1603252393697" stop="1603252396104" status="passed">
+          <name>wait for element {"css":"•modal-popup•_show"}</name>
+        </step>
+        <step start="1603252396104" stop="1603252396642" status="passed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+        <step start="1603252396642" stop="1603252396741" status="passed">
+          <name>click {"css":"•cart-overview [data-role="closeBtn"]"}</name>
+        </step>
+        <step start="1603252396741" stop="1603252396815" status="passed">
+          <name>wait for element not visible {"css":"•modal-popup•_show"}</name>
+        </step>
+        <step start="1603252396815" stop="1603252397085" status="passed">
+          <name>wait for text "You added Cosmopolitan Magazine to your shopping cart•"</name>
+        </step>
+        <step start="1603252397085" stop="1603252398797" status="passed">
+          <name>am on page "/checkout/cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopCosmopolitan"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1602870277584" stop="1602870301762" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1602870277672" stop="1602870301733" status="broken">
+      <name>ShopCosmopolitan</name>
+      <failure>
+        <message>unknown error: call function result missing 'value'
+  (Session info: chrome=86.0.4240.80)
+  (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.15.6 x86_64)</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1602870283414" stop="1602870295055" status="passed">
+          <name>am on url "https://shop•cosmopolitan•com/"</name>
+        </step>
+        <step start="1602870295056" stop="1602870295192" status="passed">
+          <name>see "Cosmopolitan"</name>
+        </step>
+        <step start="1602870295194" stop="1602870300194" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1602870300194" stop="1602870300410" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1602870300410" stop="1602870300428" status="failed">
+          <name>execute js "document•getElementById('search')•value='XXX';"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="ed2fbce0f7003f6c55b2b9a9f46772ee88521c3c-attachment.png" type="image/png"/>
+        <attachment title="html" source="a02e075862e057d5fe7c33a37d4a827cf31b68ec-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="ShopCosmopolitan"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

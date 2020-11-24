@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603992315816" stop="1603992332519" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603992315824" stop="1603992332517" status="failed">
+      <name>BenefitAustraliaEnglish</name>
+      <failure>
+        <message>Failed asserting that  on page /en-au/
+--&gt; Save some time, book online! FIND A STORE!
+Skip to main content
+Australia
+Find a store
+BESTSELLERS
+BROWS
+SERVICES
+OFFERS &amp; MORE
+BOOK A SERVICE
+A deal at any price!
+This holiday season, we're bringing you sets stuffed with our favorite products. Magical deals are waiting for you!
+FIND A STORE
+BROW TR
+[Content too long to display. See complete response in '/Users/whazle/Desktop/BenefitTests/config/codecept/../../vars/output/' directory]
+--&gt; contains "Cookies".</message>
+        <stack-trace>#0 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(55): PHPUnit\Framework\Constraint\Constraint-&gt;fail('Save some time,...', '')
+#1 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/Assert.php(2331): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate('Save some time,...', '')
+#2 /Users/whazle/Desktop/BenefitTests/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php(1369): PHPUnit\Framework\Assert::assertThat('Save some time,...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#3 /Users/whazle/Desktop/BenefitTests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(2996): Codeception\Module-&gt;assertThat('Save some time,...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#4 /Users/whazle/Desktop/BenefitTests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(929): Codeception\Module\WebDriver-&gt;assertPageContains('Cookies')
+#5 [internal function]: Codeception\Module\WebDriver-&gt;see('Cookies')
+#6 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#7 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#8 /Users/whazle/Desktop/BenefitTests/src/_generated/ActorActions.php(633): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Assertion))
+#9 /Users/whazle/Desktop/BenefitTests/src/Test/Project/DemoCest.php(304): Guidance\Tests\Project\Actor-&gt;see('Cookies')
+#10 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;BenefitAustraliaEnglish(Object(Guidance\Tests\Project\Actor))
+#11 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#12 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'BenefitAustrali...', Array)
+#13 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('BenefitAustrali...', Array)
+#14 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#15 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#16 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#17 /Users/whazle/Desktop/BenefitTests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#18 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#19 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#20 /Users/whazle/Desktop/BenefitTests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#21 /Users/whazle/Desktop/BenefitTests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#22 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603992318200" stop="1603992326423" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-au/"</name>
+        </step>
+        <step start="1603992326423" stop="1603992326571" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603992326572" stop="1603992328574" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603992328574" stop="1603992328912" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603992328912" stop="1603992330914" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603992330914" stop="1603992330997" status="failed">
+          <name>see "Cookies"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="c42df0aa1ac07128095e7228a331dc5b374ecd72-attachment.png" type="image/png"/>
+        <attachment title="html" source="b8b20fcd53f52d6a6008383ac581c5f77976f1bd-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="BenefitAustraliaEnglish"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

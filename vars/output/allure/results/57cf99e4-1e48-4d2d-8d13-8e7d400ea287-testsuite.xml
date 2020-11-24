@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603241870046" stop="1603241875158" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603241870050" stop="1603241875155" status="failed">
+      <name>ShopCosmopolitan</name>
+      <failure>
+        <message>Failed asserting that  on page /catalog/product/view/id/895
+--&gt; My Cart
+Sign in / Sign up
+Explore Our Other Shops
+Free Shipping on orders over $50   *exclusions apply
+Search
+Close
+Search
+Subscribe
+Vote 2020
+Apparel
+Accessories
+Home Stuff
+Bc You’re Obsessed with Astro
+Cosmopolitan Magazine
+Let’s make things official. Subscribe to Cosmopolitan rn for less than
+[Content too long to display. See complete response in '/Users/whazle/Desktop/hearst-m2-tests/config/codecept/../../vars/output/' directory]
+--&gt; contains "No Result".</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(55): PHPUnit\Framework\Constraint\Constraint-&gt;fail('My Cart\nSign in...', '')
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/Assert.php(2331): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate('My Cart\nSign in...', '')
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php(1369): PHPUnit\Framework\Assert::assertThat('My Cart\nSign in...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(2996): Codeception\Module-&gt;assertThat('My Cart\nSign in...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(929): Codeception\Module\WebDriver-&gt;assertPageContains('No Result')
+#5 [internal function]: Codeception\Module\WebDriver-&gt;see('No Result')
+#6 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#7 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#8 /Users/whazle/Desktop/hearst-m2-tests/src/_generated/ActorActions.php(633): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Assertion))
+#9 /Users/whazle/Desktop/hearst-m2-tests/src/Test/Project/DemoCest.php(58): Guidance\Tests\Project\Actor-&gt;see('No Result')
+#10 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;ShopCosmopolitan(Object(Guidance\Tests\Project\Actor))
+#11 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#12 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'ShopCosmopolita...', Array)
+#13 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('ShopCosmopolita...', Array)
+#14 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#15 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#16 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#17 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#18 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#19 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#20 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#21 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#22 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603241871622" stop="1603241873458" status="passed">
+          <name>am on url "https://shop•cosmopolitan•com/"</name>
+        </step>
+        <step start="1603241873459" stop="1603241873476" status="passed">
+          <name>wait for page load </name>
+        </step>
+        <step start="1603241873476" stop="1603241873603" status="passed">
+          <name>see "Cosmopolitan"</name>
+        </step>
+        <step start="1603241873603" stop="1603241873692" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603241873692" stop="1603241873704" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603241873704" stop="1603241873824" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603241873824" stop="1603241873962" status="failed">
+          <name>see "No Result"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="0d16ecdfce00abddc1a5f7b292709ddc41015dcf-attachment.png" type="image/png"/>
+        <attachment title="html" source="cd1b9aea1476a3f75c964360074f72d02bc791b8-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="ShopCosmopolitan"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

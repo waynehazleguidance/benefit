@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603499971199" stop="1603500024177" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603499971208" stop="1603500024172" status="passed">
+      <name>T3Micro</name>
+      <steps>
+        <step start="1603499973150" stop="1603499977081" status="passed">
+          <name>am on url "https://www•t3micro•com/"</name>
+        </step>
+        <step start="1603499977082" stop="1603499979086" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603499979086" stop="1603499979688" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603499979688" stop="1603499986689" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603499986689" stop="1603499991693" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603499991693" stop="1603499994208" status="passed">
+          <name>am on page "customer/account/login"</name>
+        </step>
+        <step start="1603499994208" stop="1603499999208" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603499999208" stop="1603500000389" status="passed">
+          <name>am on page "/category/hair-dryers"</name>
+        </step>
+        <step start="1603500000390" stop="1603500002774" status="passed">
+          <name>see "hair"</name>
+        </step>
+        <step start="1603500002774" stop="1603500006779" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603500006779" stop="1603500009268" status="passed">
+          <name>am on page "/product/lucea-id-straightening-and-styling-iron"</name>
+        </step>
+        <step start="1603500009268" stop="1603500010815" status="passed">
+          <name>see "T3"</name>
+        </step>
+        <step start="1603500010815" stop="1603500013242" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603500013242" stop="1603500013402" status="passed">
+          <name>click {"css":"#product-addtocart-button"}</name>
+        </step>
+        <step start="1603500013402" stop="1603500015771" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1603500015771" stop="1603500018586" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603500018586" stop="1603500023590" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603500023590" stop="1603500024107" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="T3Micro"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

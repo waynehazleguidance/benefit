@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603241796728" stop="1603241831444" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603241796737" stop="1603241831442" status="broken">
+      <name>ShopCosmopolitan</name>
+      <failure>
+        <message></message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603241798535" stop="1603241800539" status="passed">
+          <name>am on url "https://shop•cosmopolitan•com/"</name>
+        </step>
+        <step start="1603241800540" stop="1603241800547" status="passed">
+          <name>wait for page load </name>
+        </step>
+        <step start="1603241800548" stop="1603241800858" status="passed">
+          <name>see "Cosmopolitan"</name>
+        </step>
+        <step start="1603241800859" stop="1603241801033" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603241801033" stop="1603241801082" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603241801082" stop="1603241801228" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603241801228" stop="1603241810233" status="passed">
+          <name>wait 9</name>
+        </step>
+        <step start="1603241810233" stop="1603241830415" status="failed">
+          <name>wait for element visible {"id":"searchsuite-autocomplete"},20</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="e3ad5913775e5380cf03fc7e5a544ebaba8db6bb-attachment.png" type="image/png"/>
+        <attachment title="html" source="2b7dab4c438ddb61af56f42edcfc63bab6c1007a-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="ShopCosmopolitan"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

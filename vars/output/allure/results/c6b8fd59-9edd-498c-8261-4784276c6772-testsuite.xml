@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603915456647" stop="1603915495681" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603915456656" stop="1603915495677" status="broken">
+      <name>PopCultcha</name>
+      <failure>
+        <message>element not interactable
+  (Session info: chrome=86.0.4240.111)</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603915458773" stop="1603915465824" status="passed">
+          <name>am on url "https://www•popcultcha•com•au/"</name>
+        </step>
+        <step start="1603915465825" stop="1603915467826" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603915467826" stop="1603915475259" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603915475259" stop="1603915478260" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603915478266" stop="1603915479294" status="passed">
+          <name>see "shipping"</name>
+        </step>
+        <step start="1603915479294" stop="1603915484294" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603915484294" stop="1603915484389" status="passed">
+          <name>click {"css":"•cc-btn"}</name>
+        </step>
+        <step start="1603915484389" stop="1603915489389" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603915489389" stop="1603915492539" status="failed">
+          <name>click {"css":"body &gt; div•cc-window•cc-floating•cc-type-default•cc-theme-edgeless•cc-bottom•cc-left•cc-color-override-2042708126 &gt; div &gt; a"}</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="56c59713c5dc6c3a8cd9570debb0c8bdc21ee68b-attachment.png" type="image/png"/>
+        <attachment title="html" source="3d258cc4a358feb3c8fce7e28d8bfe1e3c44dbe8-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="PopCultcha"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

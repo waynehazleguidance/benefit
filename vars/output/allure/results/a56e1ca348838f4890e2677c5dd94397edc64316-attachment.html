@@ -1,0 +1,1114 @@
+<html lang="fr-FR"><head style=""><style>
+.ComparisonSlider {
+	position: relative;
+	overflow: hidden;
+}
+.ComparisonSlider.-auto,
+.ComparisonSlider.-dragging {
+	cursor: col-resize;
+}
+.ComparisonSlider__Before,
+.ComparisonSlider__After {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+.ComparisonSlider__Handle {
+	cursor: col-resize;
+	position: absolute;
+	box-sizing: border-box;
+	top: 50%;
+	width: 44px;
+	height: 44px;
+	border: 3px solid #fff;
+	border-radius: 100px;
+	box-shadow: 0px 0px 12px rgba( 51, 51, 51, 0.5 );
+	background: url("data:image/svg+xml,%3Csvg%20fill=%22%23fff%22%20preserveAspectRatio=%22none%22%20viewBox=%220%200%2046%2046%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22m39.808%2023-10%208v-16z%22/%3E%3Cpath%20d=%22m6.192%2023%2010-8v16z%22/%3E%3C/svg%3E" ) 50% 50% / 100% 100%;
+}
+@supports (filter: drop-shadow( 0 0 0 #000 )) {
+	.ComparisonSlider__Handle {
+		box-shadow: none;
+		filter: drop-shadow( 0 0 12px rgba( 51, 51, 51, 0.5 ) );
+	}
+}
+.ComparisonSlider__Handle::before,
+.ComparisonSlider__Handle::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	display: block;
+	width: 3px;
+	height: 1024px;
+	margin-left: -1.5px;
+	background-color: #fff;
+}
+.ComparisonSlider__Handle::before {
+	bottom: 50%;
+	margin-bottom: 22px;
+	box-shadow: 0 3px 0 #fff, 0px 0px 12px rgba( 51, 51, 51, 0.5 );
+}
+.ComparisonSlider__Handle::after {
+	top: 50%;
+	margin-top: 22px;
+	box-shadow: 0 -3px 0 #fff, 0px 0px 12px rgba( 51, 51, 51, 0.5 );
+}
+@supports (filter: drop-shadow( 0 0 0 #000 )) {
+	.ComparisonSlider__Handle::before,
+	.ComparisonSlider__Handle::after {
+		box-shadow: none;
+	}
+}
+</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+
+<title>Benefit Cosmetics | Site officiel</title>
+<meta property="og:title" content="Benefit Cosmetics | Site officiel">
+<meta name="twitter:title" content="Benefit Cosmetics | Site officiel">
+
+
+    <meta name="description" content="Chez Benefit l’humour est le meilleur des cosmétiques ! Découvrez les best-sellers et nouveautés Benefit Cosmetics pour un effet beauté instantané et un look au top ! Transformez vos sourcils avec une simple épilation sourcils et notre collection de produits magiques. Découvrez vite notre site, vos produits favoris et nos offres spéciales !">
+    <meta property="og:description" content="Chez Benefit l’humour est le meilleur des cosmétiques ! Découvrez les best-sellers et nouveautés Benefit Cosmetics pour un effet beauté instantané et un look au top ! Transformez vos sourcils avec une simple épilation sourcils et notre collection de produits magiques. Découvrez vite notre site, vos produits favoris et nos offres spéciales !">
+    <meta name="twitter:description" content="Chez Benefit l’humour est le meilleur des cosmétiques ! Découvrez les best-sellers et nouveautés Benefit Cosmetics pour un effet beauté instantané et un look au top ! Transformez vos sourcils avec une simple épilation sourcils et notre collection de produits magiques. Découvrez vite notre site, vos produits favoris et nos offres spéciales !">
+
+
+<link href="/fr-fr" rel="canonical">
+
+    <link href="/en" rel="alternate" hreflang="en">
+    <link href="/en-gb" rel="alternate" hreflang="en-gb">
+    <link href="/en-us" rel="alternate" hreflang="en-us">
+    <link href="/fr-fr" rel="alternate" hreflang="fr-fr">
+    <link href="/ar-sa" rel="alternate" hreflang="ar-sa">
+    <link href="/en-sa" rel="alternate" hreflang="en-sa">
+    <link href="/de-de" rel="alternate" hreflang="de-de">
+    <link href="/en-au" rel="alternate" hreflang="en-au">
+    <link href="/en-ca" rel="alternate" hreflang="en-ca">
+    <link href="/en-ph" rel="alternate" hreflang="en-ph">
+    <link href="/en-hk" rel="alternate" hreflang="en-hk">
+    <link href="/en-ie" rel="alternate" hreflang="en-ie">
+    <link href="/en-in" rel="alternate" hreflang="en-in">
+    <link href="/en-my" rel="alternate" hreflang="en-my">
+    <link href="/en-nz" rel="alternate" hreflang="en-nz">
+    <link href="/en-sg" rel="alternate" hreflang="en-sg">
+    <link href="/en-za" rel="alternate" hreflang="en-za">
+    <link href="/fr-ca" rel="alternate" hreflang="fr-ca">
+    <link href="/zh-hk" rel="alternate" hreflang="zh-hk">
+    <link href="/en-ae" rel="alternate" hreflang="en-ae">
+    <link href="/en-bh" rel="alternate" hreflang="en-bh">
+    <link href="/en-kw" rel="alternate" hreflang="en-kw">
+    <link href="/en-lb" rel="alternate" hreflang="en-lb">
+    <link href="/en-qa" rel="alternate" hreflang="en-qa">
+    <link href="/ar-ae" rel="alternate" hreflang="ar-ae">
+    <link href="/ar-bh" rel="alternate" hreflang="ar-bh">
+    <link href="/ar-kw" rel="alternate" hreflang="ar-kw">
+    <link href="/ar-lb" rel="alternate" hreflang="ar-lb">
+    <link href="/ar-qa" rel="alternate" hreflang="ar-qa">
+    <link href="/cs-cz" rel="alternate" hreflang="cs-cz">
+    <link href="/da-dk" rel="alternate" hreflang="da-dk">
+    <link href="/de-ch" rel="alternate" hreflang="de-ch">
+    <link href="/fr-ch" rel="alternate" hreflang="fr-ch">
+    <link href="/it-ch" rel="alternate" hreflang="it-ch">
+    <link href="/el-gr" rel="alternate" hreflang="el-gr">
+    <link href="/es-cl" rel="alternate" hreflang="es-cl">
+    <link href="/es-co" rel="alternate" hreflang="es-co">
+    <link href="/es-es" rel="alternate" hreflang="es-es">
+    <link href="/es-mx" rel="alternate" hreflang="es-mx">
+    <link href="/fr-be" rel="alternate" hreflang="fr-be">
+    <link href="/nl-be" rel="alternate" hreflang="nl-be">
+    <link href="/id-id" rel="alternate" hreflang="id-id">
+    <link href="/it-it" rel="alternate" hreflang="it-it">
+    <link href="/ko-kr" rel="alternate" hreflang="ko-kr">
+    <link href="/nl-nl" rel="alternate" hreflang="nl-nl">
+    <link href="/pl-pl" rel="alternate" hreflang="pl-pl">
+    <link href="/pt-br" rel="alternate" hreflang="pt-br">
+    <link href="/pt-pt" rel="alternate" hreflang="pt-pt">
+    <link href="/ro-ro" rel="alternate" hreflang="ro-ro">
+    <link href="/ru-ru" rel="alternate" hreflang="ru-ru">
+    <link href="/sv-se" rel="alternate" hreflang="sv-se">
+    <link href="/th-th" rel="alternate" hreflang="th-th">
+    <link href="/tr-tr" rel="alternate" hreflang="tr-tr">
+    <link href="/zh-tw" rel="alternate" hreflang="zh-tw">
+
+    
+
+    <link rel="preconnect" href="https://www.youtube.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://ui.powerreviews.com">
+
+    <link rel="preload" as="style" type="text/css" href="/Static/dist/bc_powerreviews.css">
+    <link rel="preload" as="font" type="font/woff" href="/static/fonts/benefit-cosmetics.woff" crossorigin="">
+    <link rel="preload" as="font" type="font/woff" href="/static/fonts/Gotham-Bold.woff" crossorigin="">
+    <link rel="preload" as="font" type="font/woff" href="/static/fonts/Gotham-Medium.woff" crossorigin="">
+    <link rel="preload" as="font" type="font/woff" href="/static/fonts/Gotham-Book.woff" crossorigin="">
+    <link rel="preload" as="font" type="font/woff" href="/static/fonts/SaharaBodoni.woff" crossorigin="">
+
+    <link rel="stylesheet" href="/static/dist/styles-core.css?v=1.1.8.22292">
+    <link rel="stylesheet" href="/static/dist/styles-core-desktop.css?v=1.1.8.22292" media="(min-width: 992px)">
+
+    <link rel="stylesheet" href="/static/dist/fr-FR.css?v=1.1.8.22292">
+    
+        <link rel="stylesheet" href="/static/dist/styles-cms.css?v=1.1.8.22292">
+    <link rel="stylesheet" href="/static/dist/styles-cms-desktop.css?v=1.1.8.22292" media="(min-width: 992px)">
+
+
+
+    
+    
+
+
+<!-- OneTrust Cookies Consent Notice start for {{domainName}} -->
+<style type="text/css">.p-w-r {display: none;}</style><link href="//ui.powerreviews.com/tag-builds/10099/4.0/styles.css" type="text/css" rel="stylesheet"><script type="text/javascript" src="//ui.powerreviews.com/tag-builds/10099/4.0/ui.engine.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="//bat.bing.com/bat.js"></script><script src="https://connect.facebook.net/signals/config/1616769348571893?v=2.9.27&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/plugins/identity.js?v=2.9.27" async=""></script><script type="text/javascript" async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vfl_ur4d6/www-widgetapi.js" async=""></script><script src="https://cdn.cookielaw.org/consent/15f7c9c6-c518-4146-8cac-890e8bbf9895.js" type="text/javascript" charset="UTF-8"></script><link type="text/css" href="https://cdn.cookielaw.org/skins/6.6.0/default_flat_bottom_two_button_white/v2/css/optanon.css" rel="stylesheet"><style>#optanon ul#optanon-menu li { background-color: #FCFCFC !important }#optanon ul#optanon-menu li.menu-item-selected { background-color: #FFFFFF !important }#optanon #optanon-popup-wrapper .optanon-white-button-middle { background-color: #FA3468 !important }.optanon-alert-box-wrapper .optanon-alert-box-button-middle { background-color: #FA3468 !important; border-color: #FA3468 !important; }#optanon #optanon-popup-wrapper .optanon-white-button-middle button { color: #ffffff !important }.optanon-alert-box-wrapper .optanon-alert-box-button-middle button { color: #ffffff !important }#optanon #optanon-popup-bottom { background-color: #FDF3EA !important }#optanon.modern #optanon-popup-top, #optanon.modern #optanon-popup-body-left-shading { background-color: #FDF3EA !important }.optanon-alert-box-wrapper { background-color:#FDF3EA !important }.optanon-alert-box-wrapper .optanon-alert-box-bg p { color:#444444 !important }</style><script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for {{domainName}} -->
+
+<script src="https://www.youtube.com/iframe_api" async=""></script>
+
+<script charset="utf-8" src="/static/dist/js/0.46ad856b8c8f9818e7cd.js"></script><script charset="utf-8" src="/static/dist/js/1.c20ff7455079ca8a2778.js"></script><script charset="utf-8" src="/static/dist/js/74.580b1eddfc3b2577ee80.js"></script><script charset="utf-8" src="/static/dist/js/73.f258e7d79726b2a0401d.js"></script><script charset="utf-8" src="/static/dist/js/65.57974065174c64b07dbe.js"></script><script charset="utf-8" src="/static/dist/js/100.71198bb6d43da1b8dbd9.js"></script><script charset="utf-8" src="/static/dist/js/21.c9adb7b6351bd431b6fc.js"></script><script charset="utf-8" src="/static/dist/js/112.c462588e9c7ead4c251f.js"></script><script charset="utf-8" src="/static/dist/js/7.0df434e8b5f329788b7c.js"></script><script charset="utf-8" src="/static/dist/js/2.fae8953fbeb4ee4cec8c.js"></script><script charset="utf-8" src="/static/dist/js/3.0d1bec4d7fab4347ad12.js"></script><script charset="utf-8" src="/static/dist/js/85.d78ab0855972045d1a30.js"></script><style></style><script charset="utf-8" src="/static/dist/js/39.5591b58e3e1390fceb5e.js"></script><script async="" id="BTO-PC-SDK" src="//plugins-media.perfectcorp.com/c13793/sdk.js?apiKey=AkzK1Hya29vpv4o8kkki9w=="></script><script charset="utf-8" src="/static/dist/js/18.a0adb05a0395015fb0b3.js"></script><link rel="prefetch" as="script" href="/static/dist/js/120.470673aa702936405ab6.js"><script charset="utf-8" src="/static/dist/js/132.01f9a2e7478b2a65103d.js"></script><script charset="utf-8" src="/static/dist/js/64.47b081028280e5840e0f.js"></script><script charset="utf-8" src="/static/dist/js/102.acbc1cbe94086452a704.js"></script><script charset="utf-8" src="/static/dist/js/120.470673aa702936405ab6.js"></script><script charset="utf-8" src="/static/dist/js/99.8a07004ae84b8d2c23db.js"></script><script async="true" src="https://www.googletagmanager.com/gtm.js?id=GTM-KD6SZFK"></script><script charset="utf-8" src="/static/dist/js/77.e9ee94bd51baa5bd8b68.js"></script><script charset="utf-8" src="/static/dist/js/105.357c5a23d466975cd451.js"></script><script charset="utf-8" src="/static/dist/js/98.090b1fb18b8f17aca8b1.js"></script><script charset="utf-8" src="/static/dist/js/9.3d816fa994941adca790.js"></script><style></style><style id="smooth-scrollbar-style">
+[data-scrollbar] {
+  display: block;
+  position: relative;
+}
+
+.scroll-content {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.scrollbar-track {
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  background: rgba(222, 222, 222, .75);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: opacity 0.5s 0.5s ease-out;
+          transition: opacity 0.5s 0.5s ease-out;
+}
+.scrollbar-track.show,
+.scrollbar-track:hover {
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.scrollbar-track-x {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+}
+.scrollbar-track-y {
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 100%;
+}
+.scrollbar-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background: rgba(0, 0, 0, .5);
+  border-radius: 4px;
+}
+</style><style></style><script charset="utf-8" src="/static/dist/js/71.35cfe70256e6c9d0cdf3.js"></script><script charset="utf-8" src="/static/dist/js/136.0d0886cec8ed62f65a9a.js"></script><style></style><style></style><style></style><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/AW-925901079/?random=1603472891007&amp;cv=9&amp;fst=1603472891007&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635470&amp;u_h=1050&amp;u_w=1680&amp;u_ah=985&amp;u_aw=1680&amp;u_cd=30&amp;u_his=2&amp;u_tz=-420&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wgae1&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.benefitcosmetics.com%2Ffr-fr%2F&amp;tiba=Benefit%20Cosmetics%20%7C%20Site%20officiel&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script></head>
+<body class="js-stickybit-parent"><div class="optanon-alert-box-wrapper  " role="alertdialog" aria-labelledby="alert-box-title" aria-describedby="alert-box-message" style="bottom: 0px;"><div class="optanon-alert-box-bottom-top"><div class="optanon-alert-box-corner-close"><button class="optanon-alert-box-close banner-close-button" aria-label="Fermer" title="Fermer" onclick="Optanon.TriggerGoogleAnalyticsEvent('OneTrust Cookie Consent', 'Banner Close Button');" tabindex="4"></button></div></div><div class="optanon-alert-box-bg"><div class="optanon-alert-box-logo"> </div><div class="optanon-alert-box-body"><p class="optanon-alert-box-title legacy-banner-title sr-only" id="alert-box-title" role="heading" aria-level="2">Cookie Notice</p><p class="banner-content" id="alert-box-message">En poursuivant votre navigation sur notre site ou en cliquant sur la croix vous acceptez le dépôt de cookies de Benefit Cosmetics SAS et de tiers destinés à réaliser des statistiques de navigation et de fréquentation, et à vous proposer des offres adaptées à vos centres d’intérêts. Pour en savoir plus et gérer vos cookies, cliquez ici.     <a href="https://www.benefitcosmetics.com/fr-fr/privacy-policy" class="banner-policy-link" tabindex="1" aria-label="cliquez ici">cliquez ici</a></p></div><div class="optanon-clearfix"></div><div class="optanon-alert-box-button-container"><div class="optanon-alert-box-button optanon-button-close"><div class="optanon-alert-box-button-middle"><button class="optanon-alert-box-close" aria-label="Fermer">Fermer</button></div></div><div class="optanon-alert-box-button optanon-button-allow"><div class="optanon-alert-box-button-middle accept-cookie-container"><button class="optanon-allow-all accept-cookies-button" title="Accepter les cookies" aria-label="Accepter les cookies" onclick="Optanon.TriggerGoogleAnalyticsEvent('OneTrust Cookie Consent', 'Banner Accept Cookies');" tabindex="3">Accepter les cookies</button></div></div><div class="optanon-alert-box-button optanon-button-more"><div class="optanon-alert-box-button-middle"><button class="optanon-toggle-display cookie-settings-button" title="Paramétrer les cookies" aria-label="Paramétrer les cookies" onclick="Optanon.TriggerGoogleAnalyticsEvent('OneTrust Cookie Consent', 'Banner Open Preferences');" tabindex="2">Paramétrer les cookies</button></div></div></div><div class="optanon-clearfix optanon-alert-box-bottom-padding"></div></div></div><div id="optanon" class="modern"><div id="optanon-popup-bg"></div><div id="optanon-popup-wrapper" role="dialog" aria-modal="true" tabindex="-1" lang="fr-FR"><div id="optanon-popup-top"></div><div id="optanon-popup-body"><div id="optanon-popup-body-left"><div id="optanon-popup-body-left-shading"></div><div id="optanon-branding-top-logo" style="background-image: url('https://cdn.cookielaw.org/logos/99/99:benefitcosmetics.com/BenefitLogo.png') !important;"></div><ul id="optanon-menu" aria-label="Navigation Menu" role="tablist"><li class="menu-item-on menu-item-about" title="Votre vie privée en ligne"><p class="preference-menu-item"><button role="tab" aria-selected="true" aria-controls="Votre-vie-privée-en-ligne" id="Votre-vie">Votre vie privée en ligne</button></p></li><li class="menu-item-necessary menu-item-on" title="Cookies Essentiels"><p class="preference-menu-item"><button role="tab" aria-selected="false" aria-controls="Cookies-Essentiels" id="Cookies-Essentiels">Cookies Essentiels</button></p></li><li class="menu-item-on menu-item-performance" title="Cookies Analytiques et de Personnalisation"><p class="preference-menu-item"><button role="tab" aria-selected="false" aria-controls="Cookies-Analytiques-et-de-Personnalisation" id="Cookies-Analytiques">Cookies Analytiques et de Personnalisation</button></p></li><li class="menu-item-on menu-item-advertising" title="Cookies Publicitaires"><p class="preference-menu-item"><button role="tab" aria-selected="false" aria-controls="Cookies-Publicitaires" id="Cookies-Publicitaires">Cookies Publicitaires</button></p></li><li class="menu-item-moreinfo menu-item-off" title="Plus d’informations"><p class="preference-menu-item"><a target="_blank" aria-label="Plus d’informations" href="https://www.benefitcosmetics.com/fr-fr/privacy-policy" onclick="Optanon.TriggerGoogleAnalyticsEvent('OneTrust Cookie Consent', 'Preferences Cookie Policy');">Plus d’informations</a></p></li></ul></div><div><div id="optanon-popup-body-right"><p role="heading" aria-level="2" class="legacy-preference-banner-title h2" aria-label="Gestion des cookies">Gestion des cookies</p><div class="vendor-header-container"><p class="header-3" role="heading" aria-level="3"></p><div id="optanon-popup-more-info-bar"><div class="optanon-status"><div class="optanon-status-editable"><form><span class="fieldset"><p><input type="checkbox" value="check" id="chkMain" checked="checked" class="legacy-group-status optanon-status-checkbox"><label for="chkMain">Actif</label></p></span></form></div><div class="optanon-status-always-active optanon-status-on"><p>Toujours actif</p></div></div></div></div><div class="optanon-main-info-text" role="tabpanel"></div></div><div class="optanon-bottom-spacer"></div></div></div><div id="optanon-popup-bottom"> <a href="https://onetrust.com/poweredbyonetrust" target="_blank" rel="noopener"><div id="optanon-popup-bottom-logo" alt="OneTrust Website" style="background: url(https://cdn.cookielaw.org/skins/6.6.0/default_flat_bottom_two_button_white/v2/images/cookie-collective-top-bottom.png);width:155px;height:35px;" title="powered by OneTrust"></div></a><div class="optanon-button-wrapper optanon-save-settings-button optanon-close optanon-close-consent"><div class="optanon-white-button-left"></div><div class="optanon-white-button-middle"><button title="Enregistrer les paramètres" aria-label="Enregistrer les paramètres" onclick="Optanon.TriggerGoogleAnalyticsEvent('OneTrust Cookie Consent', 'Preferences Save Settings');">Enregistrer les paramètres</button></div><div class="optanon-white-button-right"></div></div><div class="optanon-button-wrapper optanon-allow-all-button optanon-allow-all" style="display: none;"><div class="optanon-white-button-left"></div><div class="optanon-white-button-middle"><button title="Tout autoriser" aria-label="Tout autoriser" onclick="Optanon.TriggerGoogleAnalyticsEvent('OneTrust Cookie Consent', 'Preferences Allow All');">Tout autoriser</button></div><div class="optanon-white-button-right"></div></div></div></div></div>
+
+
+
+
+
+<!-- Header -->
+
+
+
+<!-- TippyTopBannerCollectionBlock Start -->
+<div class="tippy-top mobile-margin">
+    <div class="container container--no-padding">
+            <div class="tippy-top__content">
+                <a href="#" class="tippy-top__control tippy-top__control--prev" aria-label="Previous">
+                    <i class="icon-arrow-previous-big"></i>
+                </a>
+                <div class="tns-outer" id="tippy_top_slider-ow"><button type="button" data-action="stop"><span class="tns-visually-hidden">stop animation</span>stop</button><div class="tns-liveregion tns-visually-hidden">slide <span class="current">2</span>  of 3</div><div id="tippy_top_slider-mw" class="tns-ovh"><div class="tns-inner" id="tippy_top_slider-iw"><div id="tippy_top_slider" class="tippy-top__slider tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal inited" style="transition-duration: 0s; transform: translate3d(-20%, 0px, 0px);"><div class="tippy-top__banner mobile-margin tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+        <p>Un miroir OFFERT pour toute commande. Code : <strong>BELLE</strong>&nbsp;<a href="/fr-fr/all-makeup" target="_blank" rel="noopener" tabindex="-1">EN PROFITER</a></p>
+    </div>
+                    
+    <!-- TippyTopBannerBlock Start -->
+    <div class="tippy-top__banner mobile-margin tns-item tns-slide-active" id="tippy_top_slider-item0">
+        <p>Livraison offerte dès 49€ d'achat&nbsp;<span>🚚</span>&nbsp;<a href="/fr-fr/all-makeup" tabindex="0">ACHETER</a></p>
+    </div>
+    <!-- TippyTopBannerBlock End -->
+
+    <!-- TippyTopBannerBlock Start -->
+    <div class="tippy-top__banner mobile-margin tns-item" id="tippy_top_slider-item1" aria-hidden="true" tabindex="-1">
+        <p>Offre de Bienvenue : -10% OFFERT <a href="/fr-fr/account/register" target="_blank" rel="noopener" tabindex="-1">JE M'INSCRIS</a></p>
+    </div>
+    <!-- TippyTopBannerBlock End -->
+
+    <!-- TippyTopBannerBlock Start -->
+    <div class="tippy-top__banner mobile-margin tns-item" id="tippy_top_slider-item2" aria-hidden="true" tabindex="-1">
+        <p>Un miroir OFFERT pour toute commande. Code : <strong>BELLE</strong>&nbsp;<a href="/fr-fr/all-makeup" target="_blank" rel="noopener" tabindex="-1">EN PROFITER</a></p>
+    </div>
+    <!-- TippyTopBannerBlock End -->
+
+                <div class="tippy-top__banner mobile-margin tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+        <p>Livraison offerte dès 49€ d'achat&nbsp;<span>🚚</span>&nbsp;<a href="/fr-fr/all-makeup" tabindex="-1">ACHETER</a></p>
+    </div></div></div></div></div>
+                <a href="#" class="tippy-top__control tippy-top__control--next" aria-label="Next">
+                    <i class="icon-arrow-next-big"></i>
+                </a>
+            </div>
+    </div>
+</div>
+
+
+<header id="header" class="header" style="position: sticky; top: 0px;"><a href="#main-content" class="header__skip-link">
+        Passer et aller au contenu principal
+    </a> <div class="header__content container container--narrow"><div role="search" class="search-form"><i class="icon icon-search"></i> <input id="search-input" autocomplete="off" type="text" aria-label="Rechercher" placeholder="Rechercher" class="search-form__input" style="border: 0px; outline: 0px;"> <i class="icon-close icon-search-close"></i> <ul class="search-form__suggestions" style="height: calc(100vh - 70px); display: none;"><li class="heading">
+            PRODUITS
+        </li>  <li class="all"><a href="/fr-fr/search?query=">VOIR TOUT</a></li></ul></div> <h1 class="logo"><img src="/globalassets/global-template/header/benefitbrand.svg" alt="Benefit Cosmetics, home, logo" aria-label="Logo" class="logo__image"></h1> <div class="toolbar"><a href="/fr-fr/locations" aria-label="Location" id="language_header_link" class="link link--gray toolbar__item toolbar__item--store"><i class="icon icon-location"></i> <span>France</span></a> <a href="/fr-fr/find-a-store" alt="Trouver une boutique" aria-label="Trouver une boutique" class="link link--gray toolbar__item toolbar__item--find-a-store">
+                Trouver une boutique
+            </a> <div class="account-popup__wrapper toolbar__item toolbar__item--sign-in"><button href="#" aria-label="Se connecter" aria-expanded="false" class="account-popup__link account-popup__link--active"><span>
+            Se connecter
+        </span> <i class="icon icon-arrow-down"></i></button> <div class="overlay"></div> <div class="account-popup"><div class="account-popup__content"><div class="close mobile-only"><i class="icon icon-close"></i></div> <div class="account-popup__title center pink">
+                    Bonjour, beauté&nbsp;! Connectez-vous.
+                </div> <!----> <form novalidate="novalidate" class="login-form vf-form-pristine vf-form-invalid vf-form-untouched"><div class="input__box vf-field-pristine vf-field-invalid vf-field-untouched vf-field-invalid-required"><input id="login_form_email" required="required" name="email" type="email" maxlength="240" aria-required="true" placeholder="Adresse e-mail*" aria-label="Adresse e-mail" vue-form-validator="" class="input vf-pristine vf-invalid vf-untouched vf-invalid-required"> <div></div></div> <div class="input__box vf-field-pristine vf-field-invalid vf-field-untouched vf-field-invalid-required"><input id="login_form_password" required="required" name="password" type="password" aria-required="true" placeholder="Mot de passe*" aria-label="Mot de passe" vue-form-validator="" class="input vf-pristine vf-invalid vf-untouched vf-invalid-required"> <div></div></div> <div class="right"><a href="#" class="link link--no-text-decoration">
+                            Mot de passe oublié&nbsp;?
+                        </a></div> <button type="submit" class="btn btn--fullwidth">
+                        Se connecter
+                    </button></form> <div class="text center pink">
+                    Notre site s'est refait une beauté. Pour continuer à suivre vos commandes, recevoir nos offres et nos mots doux, créez ou recréez votre joli compte. Vous ne le regretterez pas ! Vous n'avez pas de compte&nbsp;? <a href="/fr-fr/account/register/?returnUrl=%2Ffr-fr%2F" class="link">
+                        S'inscrire !
+                    </a></div> <!----> <!----></div></div></div></div> <div class="search-mobile mobile-only"><i class="icon icon-search"></i></div> <div class="cart"><button aria-label="Open cart" class="cart__trigger"><i class="icon icon-shopping-bag"></i> <!----></button> <div id="cart_overlay" class="menu__content slide-menu" style="left: auto; right: 0px; display: block;"><div class="cart__content" style="position: relative; display: none;"><div class="cart__header right"><button aria-label="Close cart" class="cart__close focus-visible"><i class="icon-close pink"></i></button> <div class="totals-row"><span>Mon panier (0)</span> <span>0,00 €</span> <div class="totals-row__subtext">
+        
+    </div></div></div> <!----> <div class="cart__main" data-scrollbar="true" tabindex="-1" style="overflow: hidden; outline: none;"><div class="scroll-content"><div class="cart__inner"><div class="cart__scrollable-wrapper"><div class="cart__scrollable-content"><div class="cart__section cart__section--items"><div class="headline headline--secondary center">
+                                    Aucun article dans le panier
+                                </div></div> <div class="cart__section"><div class="promo-list__wrapper"><div class="center headline headline--secondary">
+        Choisissez 2&nbsp;échantillons gratuits&nbsp;!
+    </div> <div class="product-list promo-list"><div class="tns-outer" id="free_samples-ow"><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">1 to 3</span>  of 3</div><div id="free_samples-mw" class="tns-ovh"><div class="tns-inner" id="free_samples-iw" style="margin: 0px;"><div id="free_samples" class="product-list__container promo-list__container left-padded  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" style="transition-duration: 0s; transform: translate3d(0px, 0px, 0px);"><div class="card card--small tns-item tns-slide-active" id="free_samples-item0"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/samples/free-samples/precisely-my-brow-pencil-sample-shade-3-5-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/samples/free-samples/precisely-my-brow-pencil-sample-shade-3-5-swatch.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/samples/free-samples/precisely-my-brow-pencil-sample-shade-3-5-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Precisely, My Brow Eyebrow Pencil Sample Shade 3.5 Swatch" aria-label="Precisely, My Brow Eyebrow Pencil Sample Shade 3.5 Swatch" loading="lazy"></picture></div></div> <div class="text text--indent-s center card__title">
+        échantillon precisely, my brow teinte 3.5
+    </div> <div class="center card__button"><button aria-label="Ajouter" class="btn btn--secondary btn--fullwidth">
+            Ajouter
+        </button></div></div><div class="card card--small tns-item tns-slide-active" id="free_samples-item1"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/samples/free-samples/precisely-my-brow-pencil-sample-shade-4-5-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/samples/free-samples/precisely-my-brow-pencil-sample-shade-4-5-swatch.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/samples/free-samples/precisely-my-brow-pencil-sample-shade-4-5-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Precisely, My Brow Eyebrow Pencil Sample Shade 4.5 Swatch" aria-label="Precisely, My Brow Eyebrow Pencil Sample Shade 4.5 Swatch" loading="lazy"></picture></div></div> <div class="text text--indent-s center card__title">
+        precisely, my brow crayon sourcils échantillon teinte 4.5
+    </div> <div class="center card__button"><button aria-label="Ajouter" class="btn btn--secondary btn--fullwidth">
+            Ajouter
+        </button></div></div><div class="card card--small tns-item tns-slide-active" id="free_samples-item2"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/samples/free-samples/boi-ing-cakeless-concealer-sample-shade-deep-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/samples/free-samples/boi-ing-cakeless-concealer-sample-shade-deep-swatch.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/samples/free-samples/boi-ing-cakeless-concealer-sample-shade-deep-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Boi-ing Cakeless Concealer Sample Deep Swatch" aria-label="Boi-ing Cakeless Concealer Sample Deep Swatch" loading="lazy"></picture></div></div> <div class="text text--indent-s center card__title">
+        Cakeless anti-cernes liquide teinte foncée
+    </div> <div class="center card__button"><button aria-label="Ajouter" class="btn btn--secondary btn--fullwidth">
+            Ajouter
+        </button></div></div></div></div></div><div class="tns-nav" aria-label="Carousel Pagination" style="display: none;"><button type="button" data-nav="0" aria-controls="free_samples" style="display:none" aria-label="Carousel Page 1 (Current Slide)" class="tns-nav-active"></button><button type="button" data-nav="1" tabindex="-1" aria-controls="free_samples" style="display:none" aria-label="Carousel Page 2"></button><button type="button" data-nav="2" tabindex="-1" aria-controls="free_samples" style="display:none" aria-label="Carousel Page 3"></button></div></div></div></div></div> <div class="cart__section cart__section--padded"><div class="promo-list__wrapper"><div class="center headline headline--secondary">
+        Un mini pour la route ?
+    </div> <div class="product-list promo-list"><div class="tns-outer" id="whats_new-ow"><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">1 to 4</span>  of 7</div><div id="whats_new-mw" class="tns-ovh"><div class="tns-inner" id="whats_new-iw"><div id="whats_new" class="product-list__container promo-list__container  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" style="transition-duration: 0s; transform: translate3d(0px, 0px, 0px);"><div class="card card--small tns-item tns-slide-active" id="whats_new-item0"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/eyes/mascara/badgal-bang-volumizing-mascara/badgal-bang-mini-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/eyes/mascara/badgal-bang-volumizing-mascara/badgal-bang-mini-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/eyes/mascara/badgal-bang-volumizing-mascara/badgal-bang-mini-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="BADgal BANG! Volumizing Mascara Component Mini" aria-label="BADgal BANG! Volumizing Mascara Component Mini" loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        BADgal BANG! Mascara Volumateur Mini
+    </div> <div class="text text--indent-s center card__subtext">
+        Mascara volumateur pour un volume RENVERSANT
+    </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>14,00 €</span> <!----></div> <div class="center card__button"><a href="/fr-fr/product/badgal-bang-volumizing-mascara?product=BADGALEM44" aria-label="ACHETEZ-MOI" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    ACHETEZ-MOI
+</a></div></div><div class="card card--small tns-item tns-slide-active" id="whats_new-item1"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/eyes/mascara/theyre-real-lengthening-mascara/carousel-images/mini/theyre-real-lengthening-mascara-mini-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/eyes/mascara/theyre-real-lengthening-mascara/carousel-images/mini/theyre-real-lengthening-mascara-mini-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/eyes/mascara/theyre-real-lengthening-mascara/carousel-images/mini/theyre-real-lengthening-mascara-mini-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Theyre Real Lengthening Mascara Mini Component" aria-label="Theyre Real Lengthening Mascara Mini Component" loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        They're Real! Mascara Allongeant
+    </div> <div class="text text--indent-s center card__subtext">
+        Le mini-mascara allongeant
+    </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>14,00 €</span> <!----></div> <div class="center card__button"><a href="/fr-fr/product/theyre-real-lengthening-mascara?product=THEYMIB222" aria-label="ACHETEZ-MOI" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    ACHETEZ-MOI
+</a></div></div><div class="card card--small tns-item tns-slide-active" id="whats_new-item2"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/brows/brow-gel/24-hour-brow-setter/24-hour-brow-setter-mini-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-gel/24-hour-brow-setter/24-hour-brow-setter-mini-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/brows/brow-gel/24-hour-brow-setter/24-hour-brow-setter-mini-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="24-Hour Brow Setter Clear Brow Gel Mini Component" aria-label="24-Hour Brow Setter Clear Brow Gel Mini Component" loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        24-Hour Brow Setter Clear Brow Gel Travel Size Mini
+    </div> <div class="text text--indent-s center card__subtext">
+        Un gel invisible pour mettre en forme et fixer vos sourcils
+    </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>15,50 €</span> <!----></div> <div class="center card__button"><a href="/fr-fr/product/24-hour-brow-setter-clear-brow-gel?product=SETMINBM73" aria-label="ACHETEZ-MOI" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    ACHETEZ-MOI
+</a></div></div><div class="card card--small tns-item tns-slide-active" id="whats_new-item3"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-mini-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-mini-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-mini-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Precisely My Brow Eyebrow Pencil Travel Size Mini component image." aria-label="Precisely My Brow Eyebrow Pencil Travel Size Mini component image." loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        Precisely, My Brow Pencil Mini
+    </div> <div class="text text--indent-s center card__subtext">
+        Existe en 12 teintes
+    </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>15,50 €</span> <!----></div> <div class="center card__button"><a href="/fr-fr/product/precisely-my-brow-eyebrow-pencil?product=PRECM" aria-label="ACHETEZ-MOI" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    ACHETEZ-MOI
+</a></div></div><div class="card card--small tns-item" id="whats_new-item4" aria-hidden="true" tabindex="-1"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-mini-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-mini-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-mini-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="gimme-brow-plus-mini-component.png" aria-label="gimme-brow-plus-mini-component.png" loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        Gimme Brow+ Volumizing Eyebrow Gel Travel Size Mini
+    </div> <div class="text text--indent-s center card__subtext">
+        Existe en 10 teintes
+    </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>15,50 €</span> <!----></div> <div class="center card__button"><a href="/fr-fr/product/gimme-brow-volumizing-eyebrow-gel?product=GIMMEM" aria-label="ACHETEZ-MOI" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    ACHETEZ-MOI
+</a></div></div><div class="card card--small tns-item" id="whats_new-item5" aria-hidden="true" tabindex="-1"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/cheeks/bronzer/hoola-matte-bronzer/hoola-bronzer-mini-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/cheeks/bronzer/hoola-matte-bronzer/hoola-bronzer-mini-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/cheeks/bronzer/hoola-matte-bronzer/hoola-bronzer-mini-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Hoola Matte Bronzer Mini Component" aria-label="Hoola Matte Bronzer Mini Component" loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        Hoola Bronzer Mini
+    </div> <div class="text text--indent-s center card__subtext">
+        Poudre bronzante en format mini
+    </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>18,50 €</span> <!----></div> <div class="center card__button"><a href="/fr-fr/product/hoola-matte-bronzer?product=HOOLAFM32" aria-label="ACHETEZ-MOI" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    ACHETEZ-MOI
+</a></div></div><div class="card card--small tns-item" id="whats_new-item6" aria-hidden="true" tabindex="-1"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/eyes/mascara/roller-lash-curling-mascara/roller-lash-mini-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/eyes/mascara/roller-lash-curling-mascara/roller-lash-mini-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/eyes/mascara/roller-lash-curling-mascara/roller-lash-mini-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Roller Lash mascara mini component." aria-label="Roller Lash mascara mini component." loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        Roller Lash Mascara Recourbant Mini
+    </div> <div class="text text--indent-s center card__subtext">
+        des bigoudis pour vos cils !
+    </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>14,00 €</span> <!----></div> <div class="center card__button"><a href="/fr-fr/product/roller-lash-curling-mascara?product=ROLLEEM02" aria-label="ACHETEZ-MOI" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    ACHETEZ-MOI
+</a></div></div></div></div></div><div class="tns-nav" aria-label="Carousel Pagination"><button type="button" data-nav="0" aria-controls="whats_new" style="" aria-label="Carousel Page 1 (Current Slide)" class="tns-nav-active"></button><button type="button" data-nav="1" tabindex="-1" aria-controls="whats_new" style="" aria-label="Carousel Page 2"></button><button type="button" data-nav="2" tabindex="-1" aria-controls="whats_new" style="" aria-label="Carousel Page 3"></button><button type="button" data-nav="3" tabindex="-1" aria-controls="whats_new" style="display:none" aria-label="Carousel Page 4"></button><button type="button" data-nav="4" tabindex="-1" aria-controls="whats_new" style="display:none" aria-label="Carousel Page 5"></button><button type="button" data-nav="5" tabindex="-1" aria-controls="whats_new" style="display:none" aria-label="Carousel Page 6"></button><button type="button" data-nav="6" tabindex="-1" aria-controls="whats_new" style="display:none" aria-label="Carousel Page 7"></button></div></div></div></div></div></div></div></div></div><div class="scrollbar-track scrollbar-track-x show" style="display: none;"><div class="scrollbar-thumb scrollbar-thumb-x"></div></div><div class="scrollbar-track scrollbar-track-y show" style="display: none;"><div class="scrollbar-thumb scrollbar-thumb-y"></div></div></div> <div class="cart__footer"><div class="totals-row"><span>Total estimé</span> <span>0,00 €</span> <div class="totals-row__subtext">
+        Hors frais de livraison
+    </div></div> <div class="cart__buttons-set"><button disabled="disabled" aria-label="Commander en tant qu'invité" class="btn">
+                        Commander en tant qu'invité
+                    </button> <button aria-label="Se connecter" class="btn btn--lined">
+                        Se connecter
+                    </button></div> <div class="text pink cart__promo-text">
+                    2 cadeaux OFFERTS dès 49€. Code : CADEAUX20
+                </div></div><div class="spinner-overlay"><span class="spinner icon-spinner animate-spin spinner--full"></span><span class="spinner-text">Updating cart</span></div></div></div> <div class="overlay"></div></div></div> <div class="menu__wrapper"><nav aria-label="Main Menu"><div class="menu"><div id="menu_trigger" class="menu__trigger"><i class="icon-menu"></i></div> <nav><div id="menu_content" class="menu__content slide-menu"><ul>
+<ul class="desktop-menu__content">
+                    <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left">
+                    
+
+<a href="/fr-fr/all-makeup" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Produits">
+    Produits
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Produits" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab">
+                    <ul class="desktop-menu__list">
+                                    <li class="desktop-menu__subitem">
+            <a href="/fr-fr/all-makeup" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Tout le maquillage" tabindex="0" aria-label="Tout le maquillage">Tout le maquillage</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/fr-fr/new-arrivals" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Nouveautés" tabindex="0" aria-label="Nouveautés">Nouveautés</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/fr-fr/bestsellers-makeup" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Best-sellers" tabindex="0" aria-label="Best-sellers">Best-sellers</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/fr-fr/minis" class="desktop-menu__link desktop-menu__link--level1" target="_blank" title="Minis" tabindex="0" aria-label="Minis">Minis</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="https://www.benefitcosmetics.com/fr-fr/value-sets--kits" class="desktop-menu__link desktop-menu__link--level1" target="_blank" title="Noël" tabindex="0" aria-label="Noël">Noël</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <span class="desktop-menu__link desktop-menu__link--level1" tabindex="0" aria-label="Outlet">Outlet</span>
+            </li>
+
+                    </ul>
+                </div>
+
+                <div class="desktop-menu__section desktop-menu__section--right">
+                                <div class="desktop-menu__column">
+                            <a href="/fr-fr/brow-makeup" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Sourcils" tabindex="0" aria-label="Sourcils">Sourcils</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/brow-makeup/brow-gel" class="desktop-menu__sublink" target="_self" title="Gel sourcils" tabindex="0" aria-label="Gel sourcils">Gel sourcils</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/brow-makeup/brow-pencil" class="desktop-menu__sublink" target="_self" title="Crayons sourcils" tabindex="0" aria-label="Crayons sourcils">Crayons sourcils</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/brow-makeup/brow-tools--kits" class="desktop-menu__sublink" target="_self" title="Kits sourcils &amp; accessoires" tabindex="0" aria-label="Kits sourcils &amp; accessoires">Kits sourcils &amp; accessoires</a>
+</li>
+                </ul>
+            <a href="/fr-fr/eyes" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Yeux" tabindex="0" aria-label="Yeux">Yeux</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/eyes/mascara" class="desktop-menu__sublink" target="_self" title="Mascara" tabindex="0" aria-label="Mascara">Mascara</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/eyes/eyeliner" class="desktop-menu__sublink" target="_self" title="Eyeliner" tabindex="0" aria-label="Eyeliner">Eyeliner</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/eyes/eyeshadow" class="desktop-menu__sublink" target="_self" title="Ombres à paupières" tabindex="0" aria-label="Ombres à paupières">Ombres à paupières</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/eyes/false-eyelashes" class="desktop-menu__sublink" target="_self" title="Faux cils" tabindex="0" aria-label="Faux cils">Faux cils</a>
+</li>
+                </ul>
+
+            </div>
+            <div class="desktop-menu__column">
+                            <a href="/fr-fr/face" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Teint" tabindex="0" aria-label="Teint">Teint</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/face-primer" class="desktop-menu__sublink" target="_self" title="Primer" tabindex="0" aria-label="Primer">Primer</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/concealer" class="desktop-menu__sublink" target="_self" title="Anti-cernes" tabindex="0" aria-label="Anti-cernes">Anti-cernes</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/bronzer" class="desktop-menu__sublink" target="_self" title="Bronzer" tabindex="0" aria-label="Bronzer">Bronzer</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/blush" class="desktop-menu__sublink" target="_self" title="Blush" tabindex="0" aria-label="Blush">Blush</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/highlighter" class="desktop-menu__sublink" target="_self" title="Highlighter" tabindex="0" aria-label="Highlighter">Highlighter</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/foundation" class="desktop-menu__sublink" target="_self" title="Fond de teint" tabindex="0" aria-label="Fond de teint">Fond de teint</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/cheek-stain" class="desktop-menu__sublink" target="_self" title="Blush liquide joues" tabindex="0" aria-label="Blush liquide joues">Blush liquide joues</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/skin-care" class="desktop-menu__sublink" target="_self" title="Soins du visage" tabindex="0" aria-label="Soins du visage">Soins du visage</a>
+</li>
+                </ul>
+
+            </div>
+            <div class="desktop-menu__column">
+                            <a href="/fr-fr/lips" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Lèvres" tabindex="0" aria-label="Lèvres">Lèvres</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/lips/lip-stain" class="desktop-menu__sublink" target="_self" title="Rouge à lèvres liquide" tabindex="0" aria-label="Rouge à lèvres liquide">Rouge à lèvres liquide</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/lips/lipstick" class="desktop-menu__sublink" target="_self" title="Rouge à lèvres" tabindex="0" aria-label="Rouge à lèvres">Rouge à lèvres</a>
+</li>
+                </ul>
+            <a href="/fr-fr/accessories" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Accessoires" tabindex="0" aria-label="Accessoires">Accessoires</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/accessories/tools--brushes" class="desktop-menu__sublink" target="_self" title="Pinceaux et accessoires" tabindex="0" aria-label="Pinceaux et accessoires">Pinceaux et accessoires</a>
+</li>
+                </ul>
+
+            </div>
+            <div class="desktop-menu__column">
+                            <a href="/fr-fr/value-sets--kits" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Kits &amp; palettes" tabindex="0" aria-label="Kits &amp; palettes">Kits &amp; palettes</a>
+                <ul class="desktop-menu__sublist">
+                </ul>
+            <span class="desktop-menu__link desktop-menu__link--level1" tabindex="0" aria-label="Outlet">Outlet</span>
+                <ul class="desktop-menu__sublist">
+                </ul>
+
+            </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left">
+                    
+
+
+<a href="/fr-fr/value-sets--kits" class="desktop-menu__link desktop-menu__link--level0 " aria-label="Noël">
+    Noël
+</a>
+
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left">
+                    
+
+
+<a href="/fr-fr/brows" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Sourcils">
+    Sourcils
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Sourcils" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab no-border">
+                    <ul class="desktop-menu__list desktop-menu__list--level1">
+                                    <li class="desktop-menu__subitem">
+            <a href="/fr-fr/brows" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Tout sur les sourcils" tabindex="0" aria-label="Tout sur les sourcils">Tout sur les sourcils</a>
+                    <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/brow-makeup" class="desktop-menu__sublink" target="_self" title="Produits pour les sourcils" tabindex="0" aria-label="Produits pour les sourcils">Produits pour les sourcils</a>
+</li>
+                    </ul>
+            </li>
+
+                    </ul>
+                </div>
+                <div class="desktop-menu__section desktop-menu__section--right desktop-menu__image-wrapper">
+                            <a href="/fr-fr/brows" title="Homepage_Nav_Banners_BTO.jpgFR.jpg">
+                                <img src="/globalassets/global-template/header/mega-menu-nav-banners/homepage_nav_banners_bto.jpgfr.jpg?width=500" alt="Homepage_Nav_Banners_BTO.jpgFR.jpg" class="desktop-menu__image">
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left">
+                    
+
+
+<a href="/fr-fr/services" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Découvrez nos Services">
+    Découvrez nos Services
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Découvrez nos Services" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab no-border">
+                    <ul class="desktop-menu__list desktop-menu__list--level1">
+                                    <li class="desktop-menu__subitem">
+            <a href="/fr-fr/services" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Services" tabindex="0" aria-label="Services">Services</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/fr-fr/find-a-store" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Trouver une boutique" tabindex="0" aria-label="Trouver une boutique">Trouver une boutique</a>
+            </li>
+
+                    </ul>
+                </div>
+                <div class="desktop-menu__section desktop-menu__section--right desktop-menu__image-wrapper">
+                            <a href="/fr-fr/services" title="Homepage_Nav_Banners_BTO.jpgFR.jpg">
+                                <img src="/globalassets/global-template/header/mega-menu-nav-banners/homepage_nav_banners_bto.jpgfr.jpg?width=500" alt="Homepage_Nav_Banners_BTO.jpgFR.jpg" class="desktop-menu__image">
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left">
+                    
+
+
+<a href="/fr-fr/offers-more" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Offres Exclusives">
+    Offres Exclusives
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Offres Exclusives" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab no-border">
+                    <ul class="desktop-menu__list desktop-menu__list--level1">
+                                    <li class="desktop-menu__subitem">
+            <a href="/fr-fr/offers-more" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Offres" tabindex="0" aria-label="Offres">Offres</a>
+                    <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/value-sets--kits" class="desktop-menu__sublink" target="_self" title="Kits &amp; Palettes" tabindex="0" aria-label="Kits &amp; Palettes">Kits &amp; Palettes</a>
+</li>
+                            <li class="desktop-menu__subitem">            <span class="desktop-menu__sublink" tabindex="0" aria-label="Outlet">Outlet</span>
+</li>
+                    </ul>
+            </li>
+
+                    </ul>
+                </div>
+                <div class="desktop-menu__section desktop-menu__section--right desktop-menu__image-wrapper">
+                            <a href="/fr-fr/bestsellers-makeup" title="Nav_Banner_v3_02.jpg">
+                                <img src="/globalassets/global-template/header/mega-menu-nav-banners/nav_banner_v3_02.jpg?width=500" alt="Nav_Banner_v3_02.jpg" class="desktop-menu__image">
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+
+                    <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--right">
+                    
+
+<a href="/fr-fr/sale" class="desktop-menu__link desktop-menu__link--level0 " aria-label="Outlet">
+    Outlet
+</a>
+
+
+                </li>
+
+</ul>
+</ul></div></nav> <div class="overlay"></div></div> <div class="desktop-menu">
+<ul class="desktop-menu__content">
+                    <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left" data-index="0">
+                    
+
+<a href="/fr-fr/all-makeup" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Produits">
+    Produits
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Produits" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab">
+                    <ul class="desktop-menu__list">
+                                    <li class="desktop-menu__subitem">
+            <a href="/fr-fr/all-makeup" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Tout le maquillage" tabindex="0" aria-label="Tout le maquillage">Tout le maquillage</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/fr-fr/new-arrivals" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Nouveautés" tabindex="0" aria-label="Nouveautés">Nouveautés</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/fr-fr/bestsellers-makeup" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Best-sellers" tabindex="0" aria-label="Best-sellers">Best-sellers</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/fr-fr/minis" class="desktop-menu__link desktop-menu__link--level1" target="_blank" title="Minis" tabindex="0" aria-label="Minis">Minis</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="https://www.benefitcosmetics.com/fr-fr/value-sets--kits" class="desktop-menu__link desktop-menu__link--level1" target="_blank" title="Noël" tabindex="0" aria-label="Noël">Noël</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <span class="desktop-menu__link desktop-menu__link--level1" tabindex="0" aria-label="Outlet">Outlet</span>
+            </li>
+
+                    </ul>
+                </div>
+
+                <div class="desktop-menu__section desktop-menu__section--right">
+                                <div class="desktop-menu__column">
+                            <a href="/fr-fr/brow-makeup" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Sourcils" tabindex="0" aria-label="Sourcils">Sourcils</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/brow-makeup/brow-gel" class="desktop-menu__sublink" target="_self" title="Gel sourcils" tabindex="0" aria-label="Gel sourcils">Gel sourcils</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/brow-makeup/brow-pencil" class="desktop-menu__sublink" target="_self" title="Crayons sourcils" tabindex="0" aria-label="Crayons sourcils">Crayons sourcils</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/brow-makeup/brow-tools--kits" class="desktop-menu__sublink" target="_self" title="Kits sourcils &amp; accessoires" tabindex="0" aria-label="Kits sourcils &amp; accessoires">Kits sourcils &amp; accessoires</a>
+</li>
+                </ul>
+            <a href="/fr-fr/eyes" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Yeux" tabindex="0" aria-label="Yeux">Yeux</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/eyes/mascara" class="desktop-menu__sublink" target="_self" title="Mascara" tabindex="0" aria-label="Mascara">Mascara</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/eyes/eyeliner" class="desktop-menu__sublink" target="_self" title="Eyeliner" tabindex="0" aria-label="Eyeliner">Eyeliner</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/eyes/eyeshadow" class="desktop-menu__sublink" target="_self" title="Ombres à paupières" tabindex="0" aria-label="Ombres à paupières">Ombres à paupières</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/eyes/false-eyelashes" class="desktop-menu__sublink" target="_self" title="Faux cils" tabindex="0" aria-label="Faux cils">Faux cils</a>
+</li>
+                </ul>
+
+            </div>
+            <div class="desktop-menu__column">
+                            <a href="/fr-fr/face" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Teint" tabindex="0" aria-label="Teint">Teint</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/face-primer" class="desktop-menu__sublink" target="_self" title="Primer" tabindex="0" aria-label="Primer">Primer</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/concealer" class="desktop-menu__sublink" target="_self" title="Anti-cernes" tabindex="0" aria-label="Anti-cernes">Anti-cernes</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/bronzer" class="desktop-menu__sublink" target="_self" title="Bronzer" tabindex="0" aria-label="Bronzer">Bronzer</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/blush" class="desktop-menu__sublink" target="_self" title="Blush" tabindex="0" aria-label="Blush">Blush</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/highlighter" class="desktop-menu__sublink" target="_self" title="Highlighter" tabindex="0" aria-label="Highlighter">Highlighter</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/foundation" class="desktop-menu__sublink" target="_self" title="Fond de teint" tabindex="0" aria-label="Fond de teint">Fond de teint</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/cheek-stain" class="desktop-menu__sublink" target="_self" title="Blush liquide joues" tabindex="0" aria-label="Blush liquide joues">Blush liquide joues</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/face/skin-care" class="desktop-menu__sublink" target="_self" title="Soins du visage" tabindex="0" aria-label="Soins du visage">Soins du visage</a>
+</li>
+                </ul>
+
+            </div>
+            <div class="desktop-menu__column">
+                            <a href="/fr-fr/lips" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Lèvres" tabindex="0" aria-label="Lèvres">Lèvres</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/lips/lip-stain" class="desktop-menu__sublink" target="_self" title="Rouge à lèvres liquide" tabindex="0" aria-label="Rouge à lèvres liquide">Rouge à lèvres liquide</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/lips/lipstick" class="desktop-menu__sublink" target="_self" title="Rouge à lèvres" tabindex="0" aria-label="Rouge à lèvres">Rouge à lèvres</a>
+</li>
+                </ul>
+            <a href="/fr-fr/accessories" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Accessoires" tabindex="0" aria-label="Accessoires">Accessoires</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/accessories/tools--brushes" class="desktop-menu__sublink" target="_self" title="Pinceaux et accessoires" tabindex="0" aria-label="Pinceaux et accessoires">Pinceaux et accessoires</a>
+</li>
+                </ul>
+
+            </div>
+            <div class="desktop-menu__column">
+                            <a href="/fr-fr/value-sets--kits" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Kits &amp; palettes" tabindex="0" aria-label="Kits &amp; palettes">Kits &amp; palettes</a>
+                <ul class="desktop-menu__sublist">
+                </ul>
+            <span class="desktop-menu__link desktop-menu__link--level1" tabindex="0" aria-label="Outlet">Outlet</span>
+                <ul class="desktop-menu__sublist">
+                </ul>
+
+            </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left" data-index="1">
+                    
+
+
+<a href="/fr-fr/value-sets--kits" class="desktop-menu__link desktop-menu__link--level0 " aria-label="Noël">
+    Noël
+</a>
+
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left" data-index="2">
+                    
+
+
+<a href="/fr-fr/brows" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Sourcils">
+    Sourcils
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Sourcils" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab no-border">
+                    <ul class="desktop-menu__list desktop-menu__list--level1">
+                                    <li class="desktop-menu__subitem">
+            <a href="/fr-fr/brows" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Tout sur les sourcils" tabindex="0" aria-label="Tout sur les sourcils">Tout sur les sourcils</a>
+                    <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/brow-makeup" class="desktop-menu__sublink" target="_self" title="Produits pour les sourcils" tabindex="0" aria-label="Produits pour les sourcils">Produits pour les sourcils</a>
+</li>
+                    </ul>
+            </li>
+
+                    </ul>
+                </div>
+                <div class="desktop-menu__section desktop-menu__section--right desktop-menu__image-wrapper">
+                            <a href="/fr-fr/brows" title="Homepage_Nav_Banners_BTO.jpgFR.jpg">
+                                <img src="/globalassets/global-template/header/mega-menu-nav-banners/homepage_nav_banners_bto.jpgfr.jpg?width=500" alt="Homepage_Nav_Banners_BTO.jpgFR.jpg" class="desktop-menu__image">
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left" data-index="3">
+                    
+
+
+<a href="/fr-fr/services" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Découvrez nos Services">
+    Découvrez nos Services
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Découvrez nos Services" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab no-border">
+                    <ul class="desktop-menu__list desktop-menu__list--level1">
+                                    <li class="desktop-menu__subitem">
+            <a href="/fr-fr/services" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Services" tabindex="0" aria-label="Services">Services</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/fr-fr/find-a-store" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Trouver une boutique" tabindex="0" aria-label="Trouver une boutique">Trouver une boutique</a>
+            </li>
+
+                    </ul>
+                </div>
+                <div class="desktop-menu__section desktop-menu__section--right desktop-menu__image-wrapper">
+                            <a href="/fr-fr/services" title="Homepage_Nav_Banners_BTO.jpgFR.jpg">
+                                <img src="/globalassets/global-template/header/mega-menu-nav-banners/homepage_nav_banners_bto.jpgfr.jpg?width=500" alt="Homepage_Nav_Banners_BTO.jpgFR.jpg" class="desktop-menu__image">
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left" data-index="4">
+                    
+
+
+<a href="/fr-fr/offers-more" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Offres Exclusives">
+    Offres Exclusives
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Offres Exclusives" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab no-border">
+                    <ul class="desktop-menu__list desktop-menu__list--level1">
+                                    <li class="desktop-menu__subitem">
+            <a href="/fr-fr/offers-more" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Offres" tabindex="0" aria-label="Offres">Offres</a>
+                    <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/fr-fr/value-sets--kits" class="desktop-menu__sublink" target="_self" title="Kits &amp; Palettes" tabindex="0" aria-label="Kits &amp; Palettes">Kits &amp; Palettes</a>
+</li>
+                            <li class="desktop-menu__subitem">            <span class="desktop-menu__sublink" tabindex="0" aria-label="Outlet">Outlet</span>
+</li>
+                    </ul>
+            </li>
+
+                    </ul>
+                </div>
+                <div class="desktop-menu__section desktop-menu__section--right desktop-menu__image-wrapper">
+                            <a href="/fr-fr/bestsellers-makeup" title="Nav_Banner_v3_02.jpg">
+                                <img src="/globalassets/global-template/header/mega-menu-nav-banners/nav_banner_v3_02.jpg?width=500" alt="Nav_Banner_v3_02.jpg" class="desktop-menu__image">
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+
+                    <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--right" data-index="5">
+                    
+
+<a href="/fr-fr/sale" class="desktop-menu__link desktop-menu__link--level0 " aria-label="Outlet">
+    Outlet
+</a>
+
+
+                </li>
+
+</ul>
+</div></nav></div></header>
+<!-- Header -->
+    <main id="main-content">
+        
+
+
+
+<!-- Start page -->
+<div id="app"><div imagecrop="center" class="primaryhero-block__item primaryhero-block__item--left"><div class="primaryhero-block__item-container"><div class="primaryhero-block__wrap"><div class="primaryhero-block__media"><div class="media-block mobile-margin"><div class="media-block__img-wrap"><img alt="MBS_Primary_Hero_FRv4.png" data-src="{&quot;mobile&quot;: &quot;&quot;, &quot;desktop&quot;: &quot;/contentassets/651a4b74d8004aa8afe7251554c6b14c/mbs_primary_hero_frv4.png&quot;}" class="media-block__img" src="/contentassets/651a4b74d8004aa8afe7251554c6b14c/mbs_primary_hero_frv4.png?width=1440&amp;height=640&amp;mode=crop&amp;center=0.5,0.5"></div></div></div> <div class="primaryhero-block__details  primaryhero-block__details--h-left primaryhero-block__details--v-center"><div class="primaryhero-block__details__text "><h3 class="sub-headline">Avant-première</h3> <h1 class="headline">Magnificent Brow Show</h1> <div class="editor-content editor-content--medium primaryhero-block__text"><span>Craquez pour le coffret sourcils de Noël avec 5 best-sellers sourcils en grand format !</span></div></div> <div class="primaryhero-block__cta"><a href="/fr-fr/product/magnificent-brow-show?sku=TT902" target="_self" title="Découvrir" tabindex="0" aria-label="Découvrir" class="btn">Découvrir</a></div></div></div></div></div> <div id="product_list" class="mobile-margin center product-list__wrap block-bot-margin" data-resized="[&quot;.card__title&quot;,&quot;.card__shade&quot;]"><h2 class="center half-background-headline uppercase section-header">
+        ON LES ADORE TOUTES
+    </h2> <div class="product-list"><div class="tns-outer" id="tns2-ow"><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">1 to 4</span>  of 12</div><div id="tns2-mw" class="tns-ovh"><div class="tns-inner" id="tns2-iw"><div class="product-list__container  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="tns2" style="transition-duration: 0s; transform: translate3d(0px, 0px, 0px);"><div class="card tns-item tns-slide-active" id="tns2-item0"><a href="/fr-fr/product/magnificent-brow-show"><div class="card__preview"><div class="card__badge">
+                Exclu Web
+            </div> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/holiday/holiday-2020/magnificent-brow-show/magnificent-brow-show-component1.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/holiday/holiday-2020/magnificent-brow-show/magnificent-brow-show-component1.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/holiday/holiday-2020/magnificent-brow-show/magnificent-brow-show-component1.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/holiday/holiday-2020/magnificent-brow-show/magnificent-brow-show-component1.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/holiday/holiday-2020/magnificent-brow-show/magnificent-brow-show-component1.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="Magnificent Brow Show Component" aria-label="Magnificent Brow Show Component" loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_657e7be5-03a1-4728-bf44-e352ff5ef61cBROWSHOW " class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title" style="height: 48px;">
+                Magnificent Brow Show
+            </h2> <div class="text text--indent-s center card__shade" style="height: 48px;">
+                Existe en 4 teintes
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>64,50 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/magnificent-brow-show" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item tns-slide-active" id="tns2-item1"><a href="/fr-fr/product/shake-your-beauty"><div class="card__preview"><div class="card__badge">
+                Exclu Web
+            </div> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/holiday/holiday-2020/shake-your-beauty/holiday-shake-your-beauty-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/holiday/holiday-2020/shake-your-beauty/holiday-shake-your-beauty-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/holiday/holiday-2020/shake-your-beauty/holiday-shake-your-beauty-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/holiday/holiday-2020/shake-your-beauty/holiday-shake-your-beauty-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/holiday/holiday-2020/shake-your-beauty/holiday-shake-your-beauty-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="Benefit Cosmetics holiday Shake Your Beauty set product component." aria-label="Benefit Cosmetics holiday Shake Your Beauty set product component." loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_a38b7714-1eec-4eda-8805-0bdb487f719eSHAKETT921" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title">
+                Calendrier de l’avent Shake Your Beauty
+            </h2> <div class="text text--indent-s center card__shade">
+                Calendrier de l'avent de 12 best-sellers
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>69,00 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/shake-your-beauty" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item tns-slide-active" id="tns2-item2"><a href="/fr-fr/product/badgal-bang-volumizing-mascara?product=BADGALEM43-FULL"><div class="card__preview"><div class="card__badge">
+                Mascara N°1*
+            </div> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/eyes/mascara/badgal-bang-volumizing-mascara/badgal-bang-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/eyes/mascara/badgal-bang-volumizing-mascara/badgal-bang-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/eyes/mascara/badgal-bang-volumizing-mascara/badgal-bang-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/eyes/mascara/badgal-bang-volumizing-mascara/badgal-bang-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/eyes/mascara/badgal-bang-volumizing-mascara/badgal-bang-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="BADgal BANG! Volumizing Mascara Component" aria-label="BADgal BANG! Volumizing Mascara Component" loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_c8df7068-8a3e-4009-bcbe-26e23d8f1f84BADGALEM43" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title">
+                BADgal BANG! Mascara Volumateur
+            </h2> <div class="text text--indent-s center card__shade" style="height: 48px;">
+                Existe en 2 teintes
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>27,50 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/badgal-bang-volumizing-mascara?product=BADGALEM43-FULL" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item tns-slide-active" id="tns2-item3"><a href="/fr-fr/product/brow-microfilling-pen"><div class="card__preview"><div class="card__badge">
+                Nouveau
+            </div> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/brows/brow-tools--kits/brow-microfilling-pen/brow-microfilling-pen-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-tools--kits/brow-microfilling-pen/brow-microfilling-pen-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/brows/brow-tools--kits/brow-microfilling-pen/brow-microfilling-pen-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-tools--kits/brow-microfilling-pen/brow-microfilling-pen-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/brows/brow-tools--kits/brow-microfilling-pen/brow-microfilling-pen-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="Brow Microfilling Pen styled product component." aria-label="Brow Microfilling Pen styled product component." loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_ee701907-339d-42d2-8c79-a4ac1ed0c708MICROBL" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title" style="height: 48px;">
+                Brow Microfilling Pen
+            </h2> <div class="text text--indent-s center card__shade" style="height: 48px;">
+                Existe en 4 teintes
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>27,50 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/brow-microfilling-pen" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item" id="tns2-item4" aria-hidden="true" tabindex="-1"><a href="/fr-fr/product/roller-lash-curling-mascara?product=ROLLEEM01-FULL"><div class="card__preview"><!----> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/eyes/mascara/roller-lash-curling-mascara/roller-lash-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/eyes/mascara/roller-lash-curling-mascara/roller-lash-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/eyes/mascara/roller-lash-curling-mascara/roller-lash-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/eyes/mascara/roller-lash-curling-mascara/roller-lash-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/eyes/mascara/roller-lash-curling-mascara/roller-lash-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="Roller Lash mascara full size component." aria-label="Roller Lash mascara full size component." loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_1cb3312e-649d-4f7e-8501-c0cff917dc01ROLLEEM01" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title">
+                Roller Lash Mascara Recourbant
+            </h2> <div class="text text--indent-s center card__shade">
+                Mascara Recourbant best-seller
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>27,50 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/roller-lash-curling-mascara?product=ROLLEEM01-FULL" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item" id="tns2-item5" aria-hidden="true" tabindex="-1"><a href="/fr-fr/product/theyre-real-lengthening-mascara?product=TARMASCARA-FULL"><div class="card__preview"><!----> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/eyes/mascara/theyre-real-lengthening-mascara/carousel-images/full-size/theyre-real-lengthening-mascara-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/eyes/mascara/theyre-real-lengthening-mascara/carousel-images/full-size/theyre-real-lengthening-mascara-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/eyes/mascara/theyre-real-lengthening-mascara/carousel-images/full-size/theyre-real-lengthening-mascara-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/eyes/mascara/theyre-real-lengthening-mascara/carousel-images/full-size/theyre-real-lengthening-mascara-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/eyes/mascara/theyre-real-lengthening-mascara/carousel-images/full-size/theyre-real-lengthening-mascara-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="Theyre Real Lengthening Mascara Component" aria-label="Theyre Real Lengthening Mascara Component" loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_9e1320a8-3d32-4548-a1a3-e4d2864528a7TARMASCARA" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title">
+                They're Real! Mascara Allongeant
+            </h2> <div class="text text--indent-s center card__shade" style="height: 48px;">
+                Existe en 3 teintes
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>27,50 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/theyre-real-lengthening-mascara?product=TARMASCARA-FULL" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item" id="tns2-item6" aria-hidden="true" tabindex="-1"><a href="/fr-fr/product/precisely-my-brow-eyebrow-pencil?product=PRECI-FULL"><div class="card__preview"><!----> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="Precisely My Brow Eyebrow Pencil component image." aria-label="Precisely My Brow Eyebrow Pencil component image." loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_66f3484c-1e7d-4414-a638-59c8e4747549PRECI" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title" style="height: 48px;">
+                Precisely, My Brow Pencil
+            </h2> <div class="text text--indent-s center card__shade" style="height: 48px;">
+                Existe en 12 teintes
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>27,50 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/precisely-my-brow-eyebrow-pencil?product=PRECI-FULL" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item" id="tns2-item7" aria-hidden="true" tabindex="-1"><a href="/fr-fr/product/hoola-matte-bronzer?product=HOOLAIB74-FULL"><div class="card__preview"><!----> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/cheeks/bronzer/hoola-matte-bronzer/hoola-bronzer-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/cheeks/bronzer/hoola-matte-bronzer/hoola-bronzer-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/cheeks/bronzer/hoola-matte-bronzer/hoola-bronzer-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/cheeks/bronzer/hoola-matte-bronzer/hoola-bronzer-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/cheeks/bronzer/hoola-matte-bronzer/hoola-bronzer-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="Hoola Matte Bronzer Component" aria-label="Hoola Matte Bronzer Component" loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_f8c89761-2162-4859-996b-3e962b2441e4HOOLAIB74" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title" style="height: 48px;">
+                Hoola Bronzer
+            </h2> <div class="text text--indent-s center card__shade" style="height: 48px;">
+                Existe en 4 teintes
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>35,00 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/hoola-matte-bronzer?product=HOOLAIB74-FULL" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item" id="tns2-item8" aria-hidden="true" tabindex="-1"><a href="/fr-fr/product/the-porefessional-hydrate-primer?product=POREHFM99-FULL"><div class="card__preview"><!----> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/face/primer/the-porefessional-hydrate-primer/carousel-images/the-porefessional-hydrate-primer-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/face/primer/the-porefessional-hydrate-primer/carousel-images/the-porefessional-hydrate-primer-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/face/primer/the-porefessional-hydrate-primer/carousel-images/the-porefessional-hydrate-primer-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/face/primer/the-porefessional-hydrate-primer/carousel-images/the-porefessional-hydrate-primer-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/face/primer/the-porefessional-hydrate-primer/carousel-images/the-porefessional-hydrate-primer-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="The Porefessional Hydrate Primer Component" aria-label="The Porefessional Hydrate Primer Component" loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_0d9fc9d4-4c66-4d2f-8397-e87482d15683POREHFM99" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title">
+                The POREfessional: Hydrate Primer
+            </h2> <div class="text text--indent-s center card__shade" style="height: 48px;">
+                Primer hydratant
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>35,00 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/the-porefessional-hydrate-primer?product=POREHFM99-FULL" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item" id="tns2-item9" aria-hidden="true" tabindex="-1"><a href="/fr-fr/product/gimme-brow-volumizing-eyebrow-gel?product=GIMMEBROW-FULL"><div class="card__preview"><!----> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="gimme-brow-plus-component.png" aria-label="gimme-brow-plus-component.png" loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_ceabf133-e186-4b96-98e7-061824b5e571GIMMEBROW" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title" style="height: 48px;">
+                Gimme Brow+
+            </h2> <div class="text text--indent-s center card__shade" style="height: 48px;">
+                Existe en 10 teintes
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>27,50 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/gimme-brow-volumizing-eyebrow-gel?product=GIMMEBROW-FULL" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item" id="tns2-item10" aria-hidden="true" tabindex="-1"><a href="/fr-fr/product/the-porefessional-face-primer?product=THEPOIB184-FULL"><div class="card__preview"><!----> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/face/primer/the-porefessional-face-primer/the-porefessional-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/face/primer/the-porefessional-face-primer/the-porefessional-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/face/primer/the-porefessional-face-primer/the-porefessional-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/face/primer/the-porefessional-face-primer/the-porefessional-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/face/primer/the-porefessional-face-primer/the-porefessional-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="The POREfessional face primer full size component." aria-label="The POREfessional face primer full size component." loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_97dbc629-5229-4f44-9333-a8928b8c38d0THEPOIB184" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title" style="height: 48px;">
+                The POREfessional Primer
+            </h2> <div class="text text--indent-s center card__shade">
+                Le baume des pros pour une peau zéro défaut&nbsp;!
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>35,00 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/the-porefessional-face-primer?product=THEPOIB184-FULL" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item" id="tns2-item11" aria-hidden="true" tabindex="-1"><a href="/fr-fr/product/goof-proof-eyebrow-pencil?product=GOOFP-FULL"><div class="card__preview"><!----> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/brows/brow-pencil/goof-proof-eyebrow-pencil/goof-proof-pencil-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-pencil/goof-proof-eyebrow-pencil/goof-proof-pencil-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/brows/brow-pencil/goof-proof-eyebrow-pencil/goof-proof-pencil-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-pencil/goof-proof-eyebrow-pencil/goof-proof-pencil-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/brows/brow-pencil/goof-proof-eyebrow-pencil/goof-proof-pencil-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="Goof Proof Eyebrow Pencil Component" aria-label="Goof Proof Eyebrow Pencil Component" loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_52d36880-f18b-4129-b940-40691e555bc1GOOFP" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title" style="height: 48px;">
+                Goof Proof
+            </h2> <div class="text text--indent-s center card__shade" style="height: 48px;">
+                Existe en 12 teintes
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>27,50 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/goof-proof-eyebrow-pencil?product=GOOFP-FULL" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div></div></div></div></div> <div class="product-list__nav" aria-label="Carousel Navigation" tabindex="0"><button aria-label="Left" class="product-list__arrow product-list__arrow--left" aria-controls="tns2" tabindex="-1" data-controls="prev" disabled=""></button> <button aria-label="Right" class="product-list__arrow product-list__arrow--right" aria-controls="tns2" tabindex="-1" data-controls="next"></button></div></div></div> <div class="block-top-margin "><div data-id="ed7d9441-5fef-43d8-ba39-3379954d6cc2" class="fifty-fifty-block mobile-margin fifty-fifty-block__white fifty-fifty-block__image-to-right"><div class="fifty-fifty-block__media"><div class="media-block mobile-margin"><div class="media-block__img-wrap"><img alt="Benefit Cosmetics Promo Sets products" data-src="{&quot;mobile&quot;: &quot;&quot;, &quot;desktop&quot;: &quot;/globalassets/homepage/fifty-fifty/promo-sets-fifty-fifty.jpg&quot;}" class="media-block__img" src="/globalassets/homepage/fifty-fifty/promo-sets-fifty-fifty.jpg?width=720&amp;height=500&amp;mode=crop&amp;center=0.5,0.5"></div></div></div> <div class="fifty-fifty-block__details v-center left "><h3 class="headline-g headline-g--h4 uppercase">Les kits du moment</h3> <h2 class="headline headline--secondary fifty-fifty-block__title">Découvrez les kits en édition limitée !</h2> <div style="pointer-events: auto;"><a href="/fr-fr/value-sets--kits" target="_self" title="Acheter" tabindex="0" aria-label="Acheter" class="btn">Acheter</a></div></div></div></div> <div class=" "><div data-id="f717f7c5-d87f-4292-a934-e7ca55a084aa" class="fifty-fifty-block mobile-margin fifty-fifty-block__white fifty-fifty-block__image-to-left"><div class="fifty-fifty-block__media"><div class="media-block mobile-margin"><div class="media-block__img-wrap"><img alt="Benefit Cosmetics Brows Models with Products" data-src="{&quot;mobile&quot;: &quot;&quot;, &quot;desktop&quot;: &quot;/globalassets/homepage/fifty-fifty/brows-fifty-fifty.jpg&quot;}" class="media-block__img" loading="lazy" src="/globalassets/homepage/fifty-fifty/brows-fifty-fifty.jpg?width=720&amp;height=500&amp;mode=crop&amp;center=0.5,0.5"></div></div></div> <div class="fifty-fifty-block__details v-center left "><h3 class="headline-g headline-g--h4 uppercase">Collection sourcils</h3> <h2 class="headline headline--secondary fifty-fifty-block__title">La marque N°1 des sourcils !</h2> <div class="editor-content fifty-fifty-block__text">
+                    Découvrez les best-sellers sourcils pour des sourcils parfaits&nbsp;!
+                </div> <div style="pointer-events: auto;"><a href="/fr-fr/brow-makeup" target="_self" title="Découvrir" tabindex="0" aria-label="Découvrir" class="btn">Découvrir</a></div></div></div></div> <div id="product_list" class="mobile-margin center product-list__wrap" data-resized="[&quot;.card__title&quot;,&quot;.card__shade&quot;]"><h2 class="center half-background-headline uppercase section-header">
+        La collection sourcils Benefit
+    </h2> <div class="product-list"><div class="tns-outer" id="tns1-ow"><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">1 to 4</span>  of 5</div><div id="tns1-mw" class="tns-ovh"><div class="tns-inner" id="tns1-iw"><div class="product-list__container  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="tns1" style="transition-duration: 0s; transform: translate3d(0px, 0px, 0px);"><div class="card tns-item tns-slide-active" id="tns1-item0"><a href="/fr-fr/product/precisely-my-brow-eyebrow-pencil?product=PRECI-FULL"><div class="card__preview"><!----> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="Precisely My Brow Eyebrow Pencil component image." aria-label="Precisely My Brow Eyebrow Pencil component image." loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_08c76739-c857-4c31-a879-4d96ef1eec9fPRECI" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title">
+                Precisely, My Brow Pencil
+            </h2> <div class="text text--indent-s center card__shade" style="height: 48px;">
+                Existe en 12 teintes
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>27,50 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/precisely-my-brow-eyebrow-pencil?product=PRECI-FULL" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item tns-slide-active" id="tns1-item1"><a href="/fr-fr/product/gimme-brow-volumizing-eyebrow-gel?product=GIMMEBROW-FULL"><div class="card__preview"><!----> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="gimme-brow-plus-component.png" aria-label="gimme-brow-plus-component.png" loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_640a9b8e-fb09-4362-b5c6-2525238c0d42GIMMEBROW" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title">
+                Gimme Brow+
+            </h2> <div class="text text--indent-s center card__shade" style="height: 48px;">
+                Existe en 10 teintes
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>27,50 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/gimme-brow-volumizing-eyebrow-gel?product=GIMMEBROW-FULL" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item tns-slide-active" id="tns1-item2"><a href="/fr-fr/product/goof-proof-eyebrow-pencil?product=GOOFP-FULL"><div class="card__preview"><!----> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/brows/brow-pencil/goof-proof-eyebrow-pencil/goof-proof-pencil-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-pencil/goof-proof-eyebrow-pencil/goof-proof-pencil-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/brows/brow-pencil/goof-proof-eyebrow-pencil/goof-proof-pencil-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-pencil/goof-proof-eyebrow-pencil/goof-proof-pencil-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/brows/brow-pencil/goof-proof-eyebrow-pencil/goof-proof-pencil-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="Goof Proof Eyebrow Pencil Component" aria-label="Goof Proof Eyebrow Pencil Component" loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_3075755d-8ee9-484b-b6b0-bd01b9264a85GOOFP" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title">
+                Goof Proof
+            </h2> <div class="text text--indent-s center card__shade" style="height: 48px;">
+                Existe en 12 teintes
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>27,50 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/goof-proof-eyebrow-pencil?product=GOOFP-FULL" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item tns-slide-active" id="tns1-item3"><a href="/fr-fr/product/24-hour-brow-setter-clear-brow-gel?product=24HOUBM66-FULL"><div class="card__preview"><!----> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/brows/brow-gel/24-hour-brow-setter/24-hour-brow-setter-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-gel/24-hour-brow-setter/24-hour-brow-setter-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/brows/brow-gel/24-hour-brow-setter/24-hour-brow-setter-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-gel/24-hour-brow-setter/24-hour-brow-setter-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/brows/brow-gel/24-hour-brow-setter/24-hour-brow-setter-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="24-Hour Brow Setter Clear Brow Gel Component" aria-label="24-Hour Brow Setter Clear Brow Gel Component" loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_d810f367-c174-44f1-98ab-abddbf69e19424HOUBM66" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title">
+                24-Hour Brow Setter
+            </h2> <div class="text text--indent-s center card__shade">
+                Gel fixateur  sourcils transparent
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>27,50 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/24-hour-brow-setter-clear-brow-gel?product=24HOUBM66-FULL" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div><div class="card tns-item" id="tns1-item4" aria-hidden="true" tabindex="-1"><a href="/fr-fr/product/ka-brow-eyebrow-cream-gel-color?product=KABRO-FULL"><div class="card__preview"><!----> <div class="image-retina"><picture><source media="(max-width: 991px)" srcset="/globalassets/pdps/brows/brow-gel/ka-brow-eyebrow-cream-gel-color/kabrow-cream-gel-component.png?width=330&amp;height=396&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-gel/ka-brow-eyebrow-cream-gel-color/kabrow-cream-gel-component.png?width=660&amp;height=792&amp;mode=crop&amp;center=0.5,0.5 2x"> <source srcset="/globalassets/pdps/brows/brow-gel/ka-brow-eyebrow-cream-gel-color/kabrow-cream-gel-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-gel/ka-brow-eyebrow-cream-gel-color/kabrow-cream-gel-component.png?width=600&amp;height=700&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/brows/brow-gel/ka-brow-eyebrow-cream-gel-color/kabrow-cream-gel-component.png?width=300&amp;height=350&amp;mode=crop&amp;center=0.5,0.5" alt="Ka-BROW! Eyebrow Cream-Gel Color Product Component" aria-label="Ka-BROW! Eyebrow Cream-Gel Color Product Component" loading="lazy"></picture></div></div> <div class="card__content"><div class="rating"><div id="pr_ratings_073d6f3c-5ab3-49b8-b1ec-fa95322d5062KABRO" class="pr_ratings"></div></div> <h2 class="text text--indent-s text--bold center card__title">
+                Ka-BROW!
+            </h2> <div class="text text--indent-s center card__shade" style="height: 48px;">
+                Existe en 8 teintes
+            </div> <div class="price text text--bold text--pink center"><span><span class="sr-only">crossed out price </span>27,50 €</span> <!----></div> <div class="center card__cta"><a href="/fr-fr/product/ka-brow-eyebrow-cream-gel-color?product=KABRO-FULL" aria-label="ACHETEZ-MOI" class="btn btn--lined">
+    ACHETEZ-MOI
+</a></div></div></a></div></div></div></div></div> <div class="product-list__nav" aria-label="Carousel Navigation" tabindex="0"><button aria-label="Left" class="product-list__arrow product-list__arrow--left" aria-controls="tns1" tabindex="-1" data-controls="prev" disabled=""></button> <button aria-label="Right" class="product-list__arrow product-list__arrow--right" aria-controls="tns1" tabindex="-1" data-controls="next"></button></div></div></div> <div class="block-top-margin block-bot-margin"><div class="touts-block__title-wrap center"><h2 class="half-background-headline uppercase section-header">Exclusivités Benebeautés</h2></div> <div data-id="81de0b6e-5862-42ff-89ad-a66e0c23ffc5" class="touts-block mobile-margin"><div dir="ltr" class="touts-block__container-wrap"><div class="tns-outer" id="tns3-ow"><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">1</span>  of 5</div><div class="tns-inner" id="tns3-iw"><div class="touts-block__container tns-slider tns-gallery tns-subpixel tns-calc tns-horizontal" id="tns3"><div class="touts-block__item mobile-margin tns-item tns-fadeIn tns-slide-active" id="tns3-item0" style="left: 0%;"><div class="touts-block__item-container"><div class="touts-block__wrap"><div class="touts-block__media"><div><div class="block mediaassetblock col-lg-12 col-md-12 col-sm-12 col-xs-12  "><div class="media-block mobile-margin"><div class="media-block__img-wrap"><img alt="Benefit Cosmetics group of products." data-src="{&quot;mobile&quot;: &quot;&quot;, &quot;desktop&quot;: &quot;/globalassets/landing-pages/offers--more/touts/savings-touts.jpg&quot;}" class="media-block__img" loading="lazy" src="/globalassets/landing-pages/offers--more/touts/savings-touts.jpg?width=460&amp;mode=crop&amp;center=0.5,0.5"></div></div></div></div></div> <div class="touts-block__details"><h2 class="headline headline--secondary gray touts-block__headline">Livraison offerte dès 49€</h2> <div style="pointer-events: auto;"><a href="/fr-fr/all-makeup" target="_self" title="En profiter" tabindex="0" aria-label="En profiter" class="link link--dotted uppercase pink">En profiter</a></div></div></div></div></div> <div class="touts-block__item mobile-margin tns-item tns-normal" id="tns3-item1" aria-hidden="true" tabindex="-1"><div class="touts-block__item-container"><div class="touts-block__wrap"><div class="touts-block__media"><div><div class="block mediaassetblock col-lg-12 col-md-12 col-sm-12 col-xs-12  "><div class="media-block mobile-margin"><div class="media-block__img-wrap"><img alt="2 cadeaux" data-src="{&quot;mobile&quot;: &quot;&quot;, &quot;desktop&quot;: &quot;/globalassets/homepage/touts/cadeaux20.png&quot;}" class="media-block__img" loading="lazy" src="/globalassets/homepage/touts/cadeaux20.png?width=460&amp;mode=crop&amp;center=0.5,0.5"></div></div></div></div></div> <div class="touts-block__details"><h2 class="headline headline--secondary gray touts-block__headline">2 cadeaux offerts</h2> <div class="gray editor-content editor-content--medium touts-block__text"><p>Dès 49€ d'achat, recevez un mascara They're Real! et un POREfessional Hydrate Primer en&nbsp;taille&nbsp;d'essai<span>&nbsp;</span><strong>OFFERTS*&nbsp;!&nbsp;</strong></p> <p><span class="text-black">Code :&nbsp;</span><span><strong>CADEAUX20</strong></span></p></div> <div style="pointer-events: auto;"><a href="/fr-fr/bestsellers-makeup" target="_top" title="En profiter" tabindex="0" aria-label="En profiter" class="btn">En profiter</a></div></div></div></div></div> <div class="touts-block__item mobile-margin tns-item tns-normal" id="tns3-item2" aria-hidden="true" tabindex="-1"><div class="touts-block__item-container"><div class="touts-block__wrap"><div class="touts-block__media"><div><div class="block mediaassetblock col-lg-12 col-md-12 col-sm-12 col-xs-12  "><div class="media-block mobile-margin"><div class="media-block__img-wrap"><img alt="Benefit Cosmetics newsletter." data-src="{&quot;mobile&quot;: &quot;&quot;, &quot;desktop&quot;: &quot;/globalassets/landing-pages/offers--more/touts/newsletter-touts.jpg&quot;}" class="media-block__img" loading="lazy" src="/globalassets/landing-pages/offers--more/touts/newsletter-touts.jpg?width=460&amp;mode=crop&amp;center=0.5,0.5"></div></div></div></div></div> <div class="touts-block__details"><h2 class="headline headline--secondary gray touts-block__headline">Recevez la newsletter et profitez de -10% OFFERTS !</h2> <div style="pointer-events: auto;"><a href="/fr-fr/account/register?returnUrl=/fr-fr" target="_blank" title="JE M'INSCRIS" tabindex="0" aria-label="JE M'INSCRIS" class="link link--dotted uppercase pink">JE M'INSCRIS</a></div></div></div></div></div> <div class="touts-block__item mobile-margin tns-item tns-normal" id="tns3-item3" aria-hidden="true" tabindex="-1"><div class="touts-block__item-container"><div class="touts-block__wrap"><div class="touts-block__media"><div><div class="block mediaassetblock col-lg-12 col-md-12 col-sm-12 col-xs-12  "><div class="media-block mobile-margin"><div class="media-block__img-wrap"><img alt="Benefit Cosmetics new products and goodies." data-src="{&quot;mobile&quot;: &quot;&quot;, &quot;desktop&quot;: &quot;/globalassets/landing-pages/offers--more/touts/new-goodies-touts.jpg&quot;}" class="media-block__img" loading="lazy" src="/globalassets/landing-pages/offers--more/touts/new-goodies-touts.jpg?width=460&amp;mode=crop&amp;center=0.5,0.5"></div></div></div></div></div> <div class="touts-block__details"><h2 class="headline headline--secondary gray touts-block__headline">Découvrez vite les dernières nouveautés !</h2> <div style="pointer-events: auto;"><a href="/fr-fr/all-makeup" target="_self" title="Acheter maintenant" tabindex="0" aria-label="Acheter maintenant" class="link link--dotted uppercase pink">Acheter maintenant</a></div></div></div></div></div> <div class="touts-block__item mobile-margin tns-item tns-normal" id="tns3-item4" aria-hidden="true" tabindex="-1"><div class="touts-block__item-container"><div class="touts-block__wrap"><div class="touts-block__media"><div><div class="block mediaassetblock col-lg-12 col-md-12 col-sm-12 col-xs-12  "><div class="media-block mobile-margin"><div class="media-block__img-wrap"><img alt="Benefit Cosmetics brow services." data-src="{&quot;mobile&quot;: &quot;&quot;, &quot;desktop&quot;: &quot;/globalassets/landing-pages/offers--more/touts/services-touts.jpg&quot;}" class="media-block__img" loading="lazy" src="/globalassets/landing-pages/offers--more/touts/services-touts.jpg?width=460&amp;mode=crop&amp;center=0.5,0.5"></div></div></div></div></div> <div class="touts-block__details"><h2 class="headline headline--secondary gray touts-block__headline">Réservez en ligne&nbsp;!</h2> <div class="gray editor-content editor-content--medium touts-block__text">
+                        Réservez dès maintenant votre prochaine épilation sourcils !
+                    </div> <div style="pointer-events: auto;"><a href="https://www.benefitboutiques.com/" target="_blank" title="Prendre rendez-vous" tabindex="0" aria-label="Prendre rendez-vous" class="link link--dotted uppercase pink">Prendre rendez-vous</a></div></div></div></div></div><div class="touts-block__item mobile-margin tns-item tns-normal tns-slide-cloned" aria-hidden="true" tabindex="-1"><div class="touts-block__item-container"><div class="touts-block__wrap"><div class="touts-block__media"><div><div class="block mediaassetblock col-lg-12 col-md-12 col-sm-12 col-xs-12  "><div class="media-block mobile-margin"><div class="media-block__img-wrap"><img alt="Benefit Cosmetics group of products." data-src="{&quot;mobile&quot;: &quot;&quot;, &quot;desktop&quot;: &quot;/globalassets/landing-pages/offers--more/touts/savings-touts.jpg&quot;}" class="media-block__img" loading="lazy" src="/globalassets/landing-pages/offers--more/touts/savings-touts.jpg?width=460&amp;mode=crop&amp;center=0.5,0.5"></div></div></div></div></div> <div class="touts-block__details"><h2 class="headline headline--secondary gray touts-block__headline">Livraison offerte dès 49€</h2> <div style="pointer-events: auto;"><a href="/fr-fr/all-makeup" target="_self" title="En profiter" tabindex="0" aria-label="En profiter" class="link link--dotted uppercase pink">En profiter</a></div></div></div></div></div></div></div><div class="tns-nav" aria-label="Carousel Pagination"><button type="button" data-nav="0" aria-controls="tns3" style="" aria-label="Carousel Page 1 (Current Slide)" class="tns-nav-active"></button><button type="button" data-nav="1" tabindex="-1" aria-controls="tns3" style="" aria-label="Carousel Page 2"></button><button type="button" data-nav="2" tabindex="-1" aria-controls="tns3" style="" aria-label="Carousel Page 3"></button><button type="button" data-nav="3" tabindex="-1" aria-controls="tns3" style="" aria-label="Carousel Page 4"></button><button type="button" data-nav="4" tabindex="-1" aria-controls="tns3" style="" aria-label="Carousel Page 5"></button></div></div></div></div></div> <div data-id="f8040d7c-d4e9-4500-8c8a-0c9c3beef63f" imagecrop="center" class="secondaryhero-block__item  block-bot-margin secondaryhero-block__item--left"><div class="secondaryhero-block__item-container"><div class="secondaryhero-block__wrap"><div class="secondaryhero-block__media"><div class="media-block mobile-margin"><div class="media-block__img-wrap"><img alt="Benefit Cosmetics Brow Try On experience" data-src="{&quot;mobile&quot;: &quot;/globalassets/homepage/secondary-hero/brow-try-on/bto-secondary-mobile.gif&quot;, &quot;desktop&quot;: &quot;/globalassets/homepage/secondary-hero/brow-try-on/bto-secondary-right.gif&quot;}" class="media-block__img" loading="lazy" src="/globalassets/homepage/secondary-hero/brow-try-on/bto-secondary-right.gif?width=1440&amp;height=500&amp;mode=crop&amp;center=0.5%2C0.5"></div></div></div> <div class="secondaryhero-block__details  secondaryhero-block__details--h-left secondaryhero-block__details--v-center"><div class="secondaryhero-block__details__text "><h3 class="sub-headline">Sourcils Live</h3> <h1 class="headline">Trouvez la forme de sourcils parfaite&nbsp;!</h1></div> <div class="bto-block"><div class="bto-block__wrap"><div class="bto-block__btn-wrap"><!----> <div><button aria-label="Open Brow Try On" class="link link--dotted uppercase pink">
+                Essayez maintenant !
+            </button></div></div> <div class=""><div class="bto__overlay-container"><div class="bto__wrapper"><button aria-label="Close Brow Try On" class="bto__close-btn"><i class="icon icon-close"></i></button> <div class="bto-spinner-container bto-spinner-container--hidden"><div class="loader-circles"></div></div> <div class="bto"><!----></div></div></div></div></div></div></div></div></div></div> <div class="richtext-block editor-content mobile-margin  "><p style="text-align: center;"><span style="font-size: 11px;">*Test instrumental sur 22 femmes.<br><br></span></p></div></div>
+<!-- Start page -->
+
+    </main>
+
+
+
+<!-- Footer -->
+<footer id="footer" class="footer"><div id="footer_top" class="footer__top"><div id="footer_logo" class="footer__logo center"><picture><source srcset="/Static/images/main-page/footer-logo-m.png, /Static/images/main-page/footer-logo-m@2x.png 2x" media="(max-width: 991px)"> <source srcset="/Static/images/main-page/footer-logo.png, /Static/images/main-page/footer-logo@2x.png 2x" media="(min-width: 992px)"> <img src="/globalassets/global-template/footer/benefitfooter.png" alt="Laughter is the best cosmetic" loading="lazy"></picture></div> <div><nav id="bottom-nav" aria-label="" class="bottom-nav"><div class="bottom-nav__element"><div class="bottom-nav__title-wrap"><h3><span class="bottom-nav__title">Accessibilité</span></h3> <i class="icon icon-arrow-next bottom-nav__arrow"></i></div> <ul class="bottom-nav__list"><li class="bottom-nav__item"><button id="change_contrast" class="bottom-nav__link bottom-nav__btn">Changer le contraste</button></li> <li class="bottom-nav__item"><button id="change_animations" class="bottom-nav__link bottom-nav__btn">Désactiver les animations</button></li></ul></div> <div class="bottom-nav__element"><div class="bottom-nav__title-wrap"><h3><span class="bottom-nav__title">Produits</span></h3> <i class="icon icon-arrow-next bottom-nav__arrow"></i></div> <ul class="bottom-nav__list"><li class="bottom-nav__item"><a href="/fr-fr/bestsellers-makeup" target="_self" title="Best-sellers" aria-label="Best-sellers" class="bottom-nav__link">Best-sellers</a></li> <li class="bottom-nav__item"><a href="/fr-fr/brow-makeup" target="_self" title="Sourcils" aria-label="Sourcils" class="bottom-nav__link">Sourcils</a></li> <li class="bottom-nav__item"><a href="/fr-fr/eyes" target="_self" title="Yeux" aria-label="Yeux" class="bottom-nav__link">Yeux</a></li> <li class="bottom-nav__item"><a href="/fr-fr/face" target="_self" title="Teint" aria-label="Teint" class="bottom-nav__link">Teint</a></li> <li class="bottom-nav__item"><a href="/fr-fr/value-sets--kits" target="_self" title="Kits &amp; palettes" aria-label="Kits &amp; palettes" class="bottom-nav__link">Kits &amp; palettes</a></li></ul></div> <div class="bottom-nav__element"><div class="bottom-nav__title-wrap"><h3><span class="bottom-nav__title">Aide</span></h3> <i class="icon icon-arrow-next bottom-nav__arrow"></i></div> <ul class="bottom-nav__list"><li class="bottom-nav__item"><a href="/fr-fr/frequently-asked-questions" target="_self" title="FAQ" aria-label="FAQ" class="bottom-nav__link">FAQ</a></li> <li class="bottom-nav__item"><a href="/fr-fr/ordering" target="_self" title="Commandes" aria-label="Commandes" class="bottom-nav__link">Commandes</a></li> <li class="bottom-nav__item"><a href="/fr-fr/shipping" target="_self" title="Frais de port" aria-label="Frais de port" class="bottom-nav__link">Frais de port</a></li> <li class="bottom-nav__item"><a href="/fr-fr/returns" target="_self" title="Retours" aria-label="Retours" class="bottom-nav__link">Retours</a></li> <li class="bottom-nav__item"><a href="/fr-fr/contact-us" target="_self" title="Contactez-nous" aria-label="Contactez-nous" class="bottom-nav__link">Contactez-nous</a></li></ul></div> <div class="bottom-nav__element"><div class="bottom-nav__title-wrap"><h3><span class="bottom-nav__title">À propos</span></h3> <i class="icon icon-arrow-next bottom-nav__arrow"></i></div> <ul class="bottom-nav__list"><li class="bottom-nav__item"><a href="/fr-fr/about-us" target="_self" title="À propos de Benefit" aria-label="À propos de Benefit" class="bottom-nav__link">À propos de Benefit</a></li> <li class="bottom-nav__item"><a href="/fr-fr/careers" target="_self" title="Carrières" aria-label="Carrières" class="bottom-nav__link">Carrières</a></li></ul></div></nav></div> <div id="footer-right" class="footer__right"><!----> <!----> <!----> <div><div id="social-icons" class="social-icons"><div class="text text--white text--uppercase text--bold social-icons__text">GARDONS CONTACT</div> <ul class="social-icons__list"><li><a href="https://www.facebook.com/BenefitCosmeticsFrance" title="Facebook" target="_blank" aria-label="Facebook"><i class="icon icon-facebook"></i></a></li> <li><a href="https://www.instagram.com/benefitfrance/" title="Instagram" target="_blank" aria-label="Instagram"><i class="icon icon-instagram"></i></a></li> <li><a href="https://www.youtube.com/user/gabbibenefit" title="YouTube" target="_blank" aria-label="YouTube"><i class="icon icon-youtube"></i></a></li></ul></div></div> <div><div><form novalidate="novalidate" class="vf-form-pristine vf-form-valid vf-form-untouched"><div class="vf-field-pristine vf-field-valid vf-field-untouched"><div id="sign-up" class="sign-up"><input id="signup-email" type="email" maxlength="240" name="signup-email" placeholder="Votre e-mail" aria-label="Votre e-mail" vue-form-validator="" class="text-box text-box--color-pink vf-pristine vf-valid vf-untouched"> <button aria-label="S'INSCRIRE" class="btn btn--white center btn--sign-up">
+                S'INSCRIRE
+            </button></div> <div class="sign-up__error-block"></div> <!----></div></form> <div id="footer-text" class="footer__text">Benefit Cosmetics est le responsable du traitement de vos données. Les informations fournies sont utilisées pour envoyer des communications sur les offres, les actualités et les événements de Benefit Cosmetics. Si vous souhaitez recevoir des actualités beauté, vos données seront partagées avec Benefit Cosmetics. Pour en savoir plus sur le traitement de vos données personnelles et pour connaître vos droits, veuillez consulter notre Politique de confidentialité.</div></div></div> <!----> <!----> <!----></div></div> <div class="footer__bot"><div class="footer__bot-wrap"><div class="text text--size-s text--white center">
+                ©2020, Benefit Cosmetics LLC
+            </div> <nav aria-label=""><div class="bottom-menu footer__bottom-menu"><ul class="bottom-menu__list"><li><a target="_self" href="/fr-fr/privacy-policy" title="Privacy Policy" aria-label="Politique de confidentialité">Politique de confidentialité</a></li> <li><a target="_self" href="/fr-fr/terms-conditions" title="Terms &amp; Conditions" aria-label="Conditions générales">Conditions générales</a></li> <li><a target="_self" href="/fr-fr/community-guidelines" title="Community Guidelines" aria-label="Règles de la communauté">Règles de la communauté</a></li></ul></div></nav></div></div></footer>
+<!-- Footer -->
+
+
+
+    <script type="application/json" id="config-cart">
+        {
+  "FreeSamples": {
+    "Title": "Choisissez 2 échantillons gratuits !",
+    "Items": [
+      "8777161e-3ac0-481d-ab65-c253a4381a28",
+      "46376d8f-bd68-4afe-80e7-d4f3a86616a2",
+      "cc54eb28-ef54-478f-b5bc-0eaf225c377f"
+    ]
+  },
+  "WhatsNew": {
+    "SectionHeader": "Un mini pour la route ?",
+    "Items": [
+      "1caaea54-c526-49cc-b7d0-62d9387bb0f6",
+      "e43810ef-b005-4633-81ff-87c5204f6d98",
+      "11226739-8f4c-4010-9f11-2a1c7b347bc8",
+      "82ba0bf9-b748-4358-a1d0-e48a604a4201",
+      "9a6e4cd4-86a5-4349-827a-68fc1719b751",
+      "7f4b16d5-f6b4-4664-97dd-40ea0cce0e05",
+      "edf8a3a3-f1fe-447a-9854-f9c21e61a1f0"
+    ],
+    "BlockTopMargin": false,
+    "BlockBottomMargin": false
+  },
+  "CheckoutPageUrl": "/fr-fr/checkout",
+  "ShowOverlay": true
+}
+    </script>
+
+
+    
+        <script>GLOBAL_PAGE = 'home';</script>
+
+
+        <script defer="" src="https://ui.powerreviews.com/stable/4.0/ui.js"></script>
+
+
+    <script>
+        APP_CONFIG = []
+        GLOBAL_LOCALE = 'fr-FR'
+        LANGUAGE_COUNTRY = 'France'
+        IS_RTL = false
+        LOCALIZATION_DATA = JSON.parse('{\r\n  \"SystemResource.FindStorePageTitle\": \"Trouver une boutique\",\r\n  \"Free\": \"Offert\",\r\n  \"SystemResource.FormLastNameLabel\": \"Nom\",\r\n  \"SystemResource.MyAccountForgotPasswordMessage\": \"Mot de passe oublié ?\",\r\n  \"SystemResource.OrderConfirmationHelpSectionMessage\": \"Appelez-nous au 0-805-106-149 ou envoyez-nous un \u003ca class=\\\"link\\\" href=\\\"/fr-fr/contact-us\\\"\u003ee-mail\u003c/a\u003e. Nous sommes là pour vous !\u003cbr/\u003eConsultez notre \u003ca class=\\\"link\\\" href=\\\"/fr-fr/frequently-asked-questions\\\"\u003eaide/FAQ\u003c/a\u003e\",\r\n  \"SystemResource.ContactUsMessageLabel\": \"Message\",\r\n  \"SystemResource.CartGiftOptionLabelText\": \"Options d\u0027emballage cadeau\",\r\n  \"SystemResource.MyAccountRecentOrdersTotalText\": \"Montant\",\r\n  \"SystemResource.ExceptionMessageShippingOptionsRestricted\": \"Désolée, beauté ! En raison de restrictions de livraison, certains produits peuvent être livrés uniquement par voie terrestre. Veuillez choisir la livraison standard.\",\r\n  \"Use\": \"Utilisation\",\r\n  \"SystemResource.FindStoreGetDirectionsText\": \"Comment venir\",\r\n  \"Type\": \"Type\",\r\n  \"SystemResource.MyAccountSignUpButtonText\": \"S\u0027inscrire !\",\r\n  \"SystemResource.ContactUsTitleLabel\": \"Alors beauté, en quoi pouvons-nous vous aider ?\",\r\n  \"SystemResource.CartTaxTotalLabelText\": \"Taxes\",\r\n  \"SystemResource.FormLastNameErrorLabel\": \"Le nom est obligatoire\",\r\n  \"SystemResource.FooterAccessibilityLabelText\": \"Accessibilité\",\r\n  \"SystemResource.ProductBTOTryItOnButtonText\": \"ESSAYEZ !\",\r\n  \"SystemResource.FooterSocialMediaSectionText\": \"GARDONS CONTACT\",\r\n  \"SystemResource.HeaderSignInLinkText\": \"Se connecter\",\r\n  \"SystemResource.FormCountryLabel\": \"Pays/région\",\r\n  \"Category\": \"Catégorie\",\r\n  \"Coverage\": \"Couvrance\",\r\n  \"SystemResource.CartPromotionButtonAddedText\": \"Ajouté\",\r\n  \"SystemResource.ProductIngredientsDisclaimerText\": \"LES LISTES D\u0027INGRÉDIENTS DES PRODUITS SONT MISES À JOUR PÉRIODIQUEMENT. AVANT D\u0027UTILISER UN PRODUIT BENEFIT, VEUILLEZ LIRE LA LISTE D\u0027INGRÉDIENTS SUR L’EMBALLAGE DE VOTRE PRODUIT POUR VOUS ASSURER QU\u0027ILS CONVIENNENT À VOTRE USAGE PERSONNEL.\",\r\n  \"SystemResource.FormCountyLabel\": \"Pays\",\r\n  \"SystemResource.CartShipTotalLabelText\": \"Frais de port\",\r\n  \"SystemResource.MyAccountRecentOrdersStatusText\": \"Statut\",\r\n  \"SystemResource.CheckoutButtonText\": \"Commander\",\r\n  \"SystemResource.BtoAddToBagNotAdded\": \"Non ajouté\",\r\n  \"SystemResource.SearchSortByBestsellersText\": \"Best-sellers\",\r\n  \"Radiant\": \"Fini nacré\",\r\n  \"SystemResource.FooterChangeContrastLabelText\": \"Changer le contraste\",\r\n  \"SystemResource.MyAccountRecentOrdersDateText\": \"Date\",\r\n  \"SystemResource.ComesInShadesBeforeNLabel\": \"Existe en\",\r\n  \"SystemResource.ContactUsSubjectOptionIngredientLabel\": \"Questions sur les produits/ingrédients\",\r\n  \"SystemResource.ContactUsSubjectOptionOnlineOrdersLabel\": \"Commandes en ligne\",\r\n  \"SystemResource.ExceptionMessageCartOnlyHasFreeItems\": \"Désolée, beauté ! Vous devez ajouter un article à votre panier.\",\r\n  \"SystemResource.FindStoreTabListLabel\": \"LISTE\",\r\n  \"SystemResource.EmailSignupButtonText\": \"S\u0027INSCRIRE\",\r\n  \"SystemResource.MyAccountRecentOrdersShipDateText\": \"Date de livraison\",\r\n  \"SystemResource.FindStoreTabMapLabel\": \"CARTE\",\r\n  \"Lengthening\": \"Allongeant\",\r\n  \"Order\": \"Commande\",\r\n  \"SystemResource.ContactUsMessageVerifyErrorLabel\": \"Message est obligatoire\",\r\n  \"SystemResource.MyAccountSignInButtonText\": \"Se connecter\",\r\n  \"SystemResource.SearchFilterClearAllButtonText\": \"Réinitialiser\",\r\n  \"SystemResource.ProductIngredientsSectionLabelText\": \"INGRÉDIENTS\",\r\n  \"SystemResource.CartHasNoItemsMessage\": \"Le panier est vide\",\r\n  \"SystemResource.SearchSuggestionsButtonText\": \"VOIR TOUT\",\r\n  \"Volumizing\": \"Volumateur\",\r\n  \"SystemResource.ContactUsOrderNumberErrorLabel\": \"N° de commande non valide\",\r\n  \"Merchandise\": \"Accessoires\",\r\n  \"SystemResource.FormStateErrorLabel\": \"La région est obligatoire\",\r\n  \"SystemResource.FindStoreDayOfWeekSun\": \"Dim\",\r\n  \"SystemResource.FormCountyErrorLabel\": \"Le département est obligatoire\",\r\n  \"SystemResource.FormAddressLine1ErrorLabel\": \"Adresse est obligatoire\",\r\n  \"SystemResource.ProductStatusOutOfStockLabelText\": \"EN RUPTURE DE STOCK\",\r\n  \"SystemResource.ExceptionMessageCartEmpty\": \"Aucun article dans le panier\",\r\n  \"SystemResource.OrderConfirmationHelpSectionTitleText\": \"Besoin d\u0027aide ?\",\r\n  \"SystemResource.FilterBtnApply\": \"Appliquer\",\r\n  \"SystemResource.ExceptionMessageNoInventoryAddToCart\": \"Désolée, beauté ! Le stock est actuellement épuisé.\",\r\n  \"SystemResource.CheckoutContinueToBillingButtonText\": \"Paiement\",\r\n  \"SystemResource.ExceptionMessagePromotionCodeNotFound\": \"Désolée, ma belle ! Ce code promotionnel n\u0027existe pas. Veuillez vérifier et saisir à nouveau le code.\",\r\n  \"SystemResource.CheckoutBillingAddressSectionTitle\": \"Adresse de facturation\",\r\n  \"SystemResource.ComesInShadesAfterNLabel\": \"teintes\",\r\n  \"SystemResource.CartShippingMethodTitle\": \"Mode de livraison\",\r\n  \"SystemResource.FormPhoneNumberLabel\": \"Téléphone\",\r\n  \"SystemResource.FooterDisableAnimationsLabelText\": \"Désactiver les animations\",\r\n  \"SystemResource.SearchResultsForText\": \"Rechercher les résultats pour\",\r\n  \"SystemResource.MyAccountSignedInHeaderLabelText\": \"Connecté\",\r\n  \"SystemResource.CartPromotionFormText\": \"Saisir un code promo\",\r\n  \"SystemResource.FormPostalCodeErrorLabel\": \"Le code postal est obligatoire\",\r\n  \"SystemResource.MyAccountForgotPasswordEmailSentMessage\": \"Vérifiez votre boîte de messagerie\",\r\n  \"SystemResource.ContactUsOrderNumberLabel\": \"N° de commande\",\r\n  \"SystemResource.FormFirstNameErrorLabel\": \"Le prénom est obligatoire\",\r\n  \"SystemResource.ExceptionLoginFailed\": \"Désolée, beauté ! Une erreur est survenue. Veuillez réessayer plus tard.\",\r\n  \"SystemResource.CheckoutContinueToShippingButtonText\": \"Continuer vers la livraison\",\r\n  \"SystemResource.RequiredFieldsAsteriskNote\": \"* Champ obligatoire\",\r\n  \"SystemResource.ContactUsSubjectLabel\": \"Objet\",\r\n  \"SystemResource.MyAccountReturnLinkText\": \"Revenir à mon compte\",\r\n  \"SystemResource.MyAccountCancelShipmentMessage\": \"Êtes-vous sûr(e) de vouloir annuler cette commande ?\",\r\n  \"SystemResource.MyAccountForgotPasswordLinkText\": \"Mot de passe oublié ?\",\r\n  \"SystemResource.SuccessMessagePromotionCodeValid\": \"L\u0027offre est appliquée beauté.\",\r\n  \"SystemResource.SearchSuggestionsProductLabelText\": \"PRODUITS\",\r\n  \"SystemResource.MyAccountCreateButtonText\": \"Créer un compte\",\r\n  \"SystemResource.SearchSortByHighestPriceText\": \"Prix décroissant\",\r\n  \"SystemResource.HeaderSkipToMainContentLinkText\": \"Passer et aller au contenu principal\",\r\n  \"SystemResource.MyAccountSignUpMessage\": \"Notre site s\u0027est refait une beauté. Pour continuer à suivre vos commandes, recevoir nos offres et nos mots doux, créez ou recréez votre joli compte. Vous ne le regretterez pas ! Vous n\u0027avez pas de compte ?\",\r\n  \"Size\": \"Taille\",\r\n  \"Items\": \"Articles\",\r\n  \"SystemResource.SearchSortByLowestPriceText\": \"Prix croissant\",\r\n  \"SystemResource.FindStoreDayOfWeekThu\": \"Jeu\",\r\n  \"SystemResource.OrderConfirmationCreateAccountSectionTitle\": \"Créer un compte\",\r\n  \"Mini\": \"Mini\",\r\n  \"SystemResource.CartPromotionButtonAddText\": \"Ajouter\",\r\n  \"SystemResource.MyAccountDoNotCancelShipmentButtonText\": \"Non, ne pas annuler la commande\",\r\n  \"SystemResource.ExceptionEmailsDontMatch\": \"Pas si vite… assurez-vous que les adresses e-mail correspondent !\",\r\n  \"SystemResource.CartRemoveItemButtonText\": \"Supprimer\",\r\n  \"SystemResource.FindStoreServicesText\": \"Services\",\r\n  \"SystemResource.FormFirstNameLabel\": \"Prénom\",\r\n  \"Filters\": \"Filtres\",\r\n  \"SystemResource.FooterEnableAnimationsLabelText\": \"Activer les animations\",\r\n  \"SystemResource.FormGiftMessageMaxLengthLabel\": \"characters left\",\r\n  \"SystemResource.RequiredFieldsNote\": \"* Les champs marqués d\u0027un astérisque sont obligatoires.\",\r\n  \"SystemResource.FormEmailAddressLabel\": \"Adresse e-mail\",\r\n  \"SystemResource.OrderConfirmationShippingMethodLabelText\": \"Mode de livraison\",\r\n  \"SystemResource.MyAccountSignOutButtonText\": \"Se déconnecter\",\r\n  \"SystemResource.ExceptionMessageGeneralException\": \"Désolée, ma belle ! Une erreur est survenue.\",\r\n  \"SystemResource.DataPrivacyMessage\": \"Benefit Cosmetics est le responsable du traitement de vos données. Les informations que vous fournissez ci-dessus sont utilisées pour : ouvrir votre compte client ; renseigner, modifier ou ajouter votre adresse de compte client pour la livraison et/ou la facturation ; et selon votre choix, pour envoyer des communications à propos des offres, actualités et événements Benefit Cosmetics. Vos données seront partagées avec Benefit Cosmetics si vous avez exprimé le souhait de recevoir des actualités beauté. Pour en savoir plus sur le traitement de vos données personnelles et pour connaître vos droits, veuillez consulter notre \u003ca class=\\\"link\\\" style=\\\"font-size: 1.1rem; \\\"href=\\\"/fr-fr/privacy-policy\\\"\u003epolitique de confidentialité\u003c/a\u003e.\",\r\n  \"Wax\": \"Cire\",\r\n  \"SystemResource.CartSummaryItemQuantityLabel\": \"Mon panier\",\r\n  \"SystemResource.FindStoreCalloutHeading\": \"BONJOUR, MA BELLE !\u003cbr /\u003eQUE CHERCHEZ-VOUS ?\",\r\n  \"SystemResource.FindStoreHoursDisclaimerText\": \"* Les horaires des boutiques et des prestations peuvent varier.\",\r\n  \"SystemResource.NoSearchResults\": \"Nous avons trouvé 0 résultat. Veuillez faire une autre recherche.\",\r\n  \"SystemResource.CheckoutPaymentDetailPageTitle\": \"Informations de paiement\",\r\n  \"SystemResource.ProductStatusDiscontinuedLabelText\": \"DÉFINITIVEMENT ÉPUISÉ\",\r\n  \"SystemResource.FormConfirmPasswordLabel\": \"Confirmer le mot de passe\",\r\n  \"SystemResource.ExceptionMessagePromotionCodeExpired\": \"Désolée, beauté ! Ce code promotionnel a expiré.\",\r\n  \"SystemResource.MyAccountPasswordRulesMessage\": \"Les mots de passe doivent contenir au minimum 8 caractères, dont au moins une majuscule, une minuscule, un chiffre et un caractère spécial.\",\r\n  \"SystemResource.FindStoreBookServiceText\": \"Réserver une prestation\",\r\n  \"SystemResource.FindStoreCallStoreText\": \"Appeler la boutique\",\r\n  \"SystemResource.MyAccountCancelShipmentCancelButtonText\": \"Annuler la commande\",\r\n  \"SystemResource.FormAddressLine2Label\": \"Adresse (suite)\",\r\n  \"SystemResource.ExceptionPasswordsDontMatch\": \"Pas si vite… assurez-vous que les mots de passe correspondent !\",\r\n  \"Page\": \"Page\",\r\n  \"SystemResource.SearchFormText\": \"Rechercher\",\r\n  \"SystemResource.CartPromotionText\": \"2 CADEAUX OFFERTS dès 49€ avec le code CADEAUX20\",\r\n  \"SystemResource.OrderConfirmationBillingAddressLabelText\": \"Adresse de facturation\",\r\n  \"SystemResource.MyAccountRecentOrdersOrderText\": \"Numéro de commande\",\r\n  \"SystemResource.CartTotalSubText\": \"Hors frais de livraison\",\r\n  \"SystemResource.ContactUsSubjectOptionMyAcountLabel\": \"Mon compte\",\r\n  \"SystemResource.ExceptionMessagePromotionCodeInvalid\": \"Désolée beauté, ce code promotionnel ne peut être appliqué à votre commande. Veuillez vérifier les conditions d’application et saisir à nouveau le code.\",\r\n  \"Set\": \"Coffret\",\r\n  \"SystemResource.FormCityErrorLabel\": \"La ville est obligatoire\",\r\n  \"SystemResource.FindStoreDayOfWeekMon\": \"Lun\",\r\n  \"SystemResource.FreeSampleAddToCartButtonLabel\": \"Ajouter\",\r\n  \"SystemResource.TotalLabelText\": \"Total\",\r\n  \"SystemResource.ContactUsOrderNumberFormText\": \"Votre N° de commande\",\r\n  \"SystemResource.FormAddressLine1Label\": \"Adresse\",\r\n  \"SystemResource.FormPasswordLabel\": \"Mot de passe\",\r\n  \"SystemResource.FindStoreSearchErrorText\": \"Oups ! Nous n\u0027avons pas pu trouver de boutique près de vous. Essayez un autre lieu.\",\r\n  \"SystemResource.ContactUsSubjectOptionRetailStoreLabel\": \"Magasin\",\r\n  \"Liquid\": \"Liquide\",\r\n  \"SystemResource.ExceptionMessageCartInventoryAdjusted\": \"Désolée, beauté ! Nous avons modifié votre panier en raison de l\u0027indisponibilité d\u0027un ou plusieurs articles.\",\r\n  \"SystemResource.ContactUsMessageFormText\": \"Message\",\r\n  \"SystemResource.CartShippingAddressTitle\": \"Adresse de livraison\",\r\n  \"SystemResource.MyAccountPasswordSectionTitleText\": \"Mot de passe\",\r\n  \"SystemResource.ExceptionPasswordValidationFailed\": \"Désolée, beauté ! Essayez un mot de passe plus fort.\",\r\n  \"SystemResource.CartSubTotalLabelText\": \"Sous-total\",\r\n  \"SystemResource.SearchSortByLabelText\": \"TRIER PAR\",\r\n  \"SystemResource.ProductHowToSectionLabelText\": \"INSTRUCTIONS\",\r\n  \"SystemResource.ExceptionRegistrationFailed\": \"Désolée beauté ! Nous avons un petit problème. Réessayez de créer votre compte un peu plus tard.\",\r\n  \"SystemResource.FormVerifyEmailAddressLabel\": \"Vérifier l\u0027adresse e-mail\",\r\n  \"SystemResource.ContactUsSubjectVerifyErrorLabel\": \"L\u0027objet est obligatoire\",\r\n  \"Price\": \"Prix\",\r\n  \"Search\": \"Rechercher\",\r\n  \"Hydrating\": \"Fini hydraté\",\r\n  \"SystemResource.ExceptionMessageNoInventoryRemovedFromCart\": \"Désolée, beauté ! Un ou plusieurs article(s) de votre panier n\u0027est / ne sont plus en stock.\",\r\n  \"Pencil\": \"Crayon\",\r\n  \"SystemResource.CheckoutPaymentMethodSectionNote\": \"Cartes de crédit ou de débit uniquement, Beauté !\",\r\n  \"Edit\": \"Modifier\",\r\n  \"SystemResource.ProductColorSectionLabelText\": \"Choisir une teinte :\",\r\n  \"SystemResource.MyAccountSendEmailButtonText\": \"Envoyer\",\r\n  \"Kit\": \"Kit\",\r\n  \"SystemResource.MyAccountCancelShipmentButtonText\": \"Oui, annuler la commande\",\r\n  \"SystemResource.MessageHelpText\": \"\u003ca class=\\\"link\\\" href=\\\"/fr-fr/contact-us\\\"\u003eBesoin d\u0027aide ?\u003c/a\u003e\",\r\n  \"SystemResource.MyAccountSignInTitle\": \"Bonjour, beauté ! Connectez-vous.\",\r\n  \"Gel\": \"Gel\",\r\n  \"SystemResource.ProductThumbnailButtonText\": \"ACHETEZ-MOI\",\r\n  \"SystemResource.CartPromotionButtonRemoveText\": \"Supprimer\",\r\n  \"SystemResource.ProductStatusNewItemLabelText\": \"BIENTÔT DISPONIBLE !\",\r\n  \"SystemResource.MyAccountForgotPasswordEmailSentTitle\": \"Vous avez oublié votre mot de passe  ?\",\r\n  \"Finish\": \"Fini\",\r\n  \"Curling\": \"Recourbant\",\r\n  \"SystemResource.FindStoreServiceFilterText\": \"TROUVER UNE PRESTATION\",\r\n  \"SystemResource.ExceptionPasswordResetFailed\": \"Désolée beauté ! Réessayez de changer votre mot de passe un peu plus tard.\",\r\n  \"SystemResource.OrderConfirmationContinueShoppingButtonText\": \"Continuer mes achats\",\r\n  \"SystemResource.SignInButtonText\": \"Se connecter\",\r\n  \"SystemResource.OrderConfirmationShippingAddressLabelText\": \"Adresse postale\",\r\n  \"SystemResource.FindStoreDayOfWeekTue\": \"Mar\",\r\n  \"Sheer\": \"Couvrance légère\",\r\n  \"SystemResource.OrderConfirmationPaymentIntoLabelText\": \"Informations de paiement\",\r\n  \"SystemResource.PasswordResetFormSaveBtn\": \"Réinitialiser le mot de passe\",\r\n  \"Buildable\": \"Baume\",\r\n  \"SystemResource.MyAccountPendingShipmentText\": \"Expédition en attente\",\r\n  \"SystemResource.CartItemsLabelText\": \"Mon panier\",\r\n  \"Value Size\": \"Format Maxi\",\r\n  \"SystemResource.CheckoutGuestButtonText\": \"Commander en tant qu\u0027invité\",\r\n  \"SystemResource.EmailSignupFormText\": \"Votre e-mail\",\r\n  \"SystemResource.CheckoutContactSectionTitle\": \"Coordonnées\",\r\n  \"SystemResource.ExceptionMessageFormValidation\": \"Désolée, beauté ! Une erreur est survenue. Veuillez vérifier vos saisies.\",\r\n  \"SystemResource.FormPhoneNumberErrorLabel\": \"Le téléphone est obligatoire\",\r\n  \"SystemResource.ContactUsSubjectOptionGeneralFeedbackLabel\": \"Commentaire général\",\r\n  \"SystemResource.AddToCartButtonText\": \"AJOUTER AU PANIER\",\r\n  \"Medium\": \"Couvrance Moyenne\",\r\n  \"SystemResource.MyAccountSignedInTitle\": \"Bonjour, beauté !\",\r\n  \"SystemResource.CheckoutBillingSameAsShippingText\": \"Mon adresse de facturation est différente de mon adresse de livraison\",\r\n  \"Qty\": \"Qté\",\r\n  \"Full Size\": \"Standard\",\r\n  \"SystemResource.BtoAddToBagAdded\": \"Ajouté !\",\r\n  \"SystemResource.FormCityLabel\": \"Ville\",\r\n  \"SystemResource.ProductDescriptionSectionLabelText\": \"POURQUOI ON L\u0027ADORE\",\r\n  \"SystemResource.HashTagDisclaimerText\": \"En utilisant les hashtags associés à Benefit, vous acceptez que Benefit utilise votre publication et votre contenu comme une contribution régie par ses conditions générales et ses règles de la communauté.\",\r\n  \"SystemResource.MyAccountNewPasswordMessage\": \"Nouveau mot de passe\",\r\n  \"Shade\": \"Teinte\",\r\n  \"SystemResource.CheckoutPlaceOrderButtonText\": \"Passer commande\",\r\n  \"SystemResource.FormStateLabel\": \"État\",\r\n  \"SystemResource.MyAccountReturnToLoginLinkText\": \"Se reconnecter\",\r\n  \"SystemResource.SearchSuggestionsLabelText\": \"MEILLEURES SUGGESTIONS\",\r\n  \"SystemResource.EmailSignupThanksText\": \"Merci beauté !\",\r\n  \"SystemResource.FormPostalCodeLabel\": \"Code postal\",\r\n  \"Full\": \"Couvrance Totale\",\r\n  \"Submit\": \"Envoyer \",\r\n  \"SystemResource.FormCountryErrorLabel\": \"Le pays/région est obligatoire\",\r\n  \"SystemResource.CheckoutEmailOptInText\": \"Oui ! Je souhaite recevoir des e-mails \u0026 SMS concernant les promotions, nouveaux produits, événement spéciaux et offres exclusives.\",\r\n  \"SystemResource.CheckoutPaymentTitle\": \"Paiement\",\r\n  \"Pen\": \"Feutre\",\r\n  \"SystemResource.CartGiftWrapTotalLabelText\": \"Emballage cadeau\",\r\n  \"SystemResource.MyAccountEmailOptinMessage\": \"Oui ! Je veux recevoir des e-mails \u0026 SMS à propos des promotions, des nouveaux produits, des événements et des offres exclusives.\",\r\n  \"SystemResource.FindStoreDayOfWeekWed\": \"Mer\",\r\n  \"SystemResource.FormGiftMessageLabel\": \"Message cadeau\",\r\n  \"SystemResource.EmailOptInText\": \"Inscription par e-mail\",\r\n  \"of\": \"sur\",\r\n  \"SystemResource.ContactUsSubjectOptionWebsiteFeedbackLabel\": \"Commentaire sur le site Web\",\r\n  \"SystemResource.FormPostalCodeFormatLabel\": \"Le code postal est non valide\",\r\n  \"Ingredients\": \"Ingrédients\",\r\n  \"SystemResource.MyAccountRecentOrdersTrackingText\": \"Numéro de tracking \",\r\n  \"SystemResource.FindStoreDayOfWeekFri\": \"Ven\",\r\n  \"SystemResource.FormEmailAddressInvalidLabel\": \"Adresse e-mail non valide\",\r\n  \"SystemResource.FindStoreDayOfWeekSat\": \"Sam\",\r\n  \"Bestseller\": \"Best-seller\",\r\n  \"SystemResource.FindStoreStoreHoursText\": \"Horaires de la boutique\",\r\n  \"SystemResource.FormEmailAddressVerifyErrorLabel\": \"L\u0027adresse e-mail est obligatoire\",\r\n  \"SystemResource.ContactUsSubjectSubmitSuccessLabel\": \"Votre message a été envoyé à Benefit.\",\r\n  \"SystemResource.PasswordResetFormSuccessBtn\": \"OK\",\r\n  \"SystemResource.SearchSortByRelevanceText\": \"Pertinence\",\r\n  \"SystemResource.FindStoreCalloutSubtext\": \"Vous cherchez l’un de nos Brow Bars? Prenez rendez-vous en ligne : \\n\u003cul\u003e\\n\u003cli\u003e-  Dans l’un de nos Brow Bars chez Sephora partout en France: \u003ca target=\\\"_blank\\\" class=\\\"link\\\" href=\\\"https://www.sephora.fr/prendre-un-rendez-vous\\\"\u003ehttps://www.sephora.fr/prendre-un-rendez-vous\u003c/a\u003e\u003c/li\u003e\\n\u003cli\u003e-  A la Boutique Benefit Paris: \u003ca target=\\\"_blank\\\" class=\\\"link\\\" href=\\\"https://paris.benefitboutiques.com/\\\"\u003eparis.benefitboutiques.com\u003c/a\u003e.\u003c/li\u003e\\n\u003c/ul\u003e\\nNous avons hâte de voir vos sourcils ! \",\r\n  \"SystemResource.ProductSelectShadeLabelText\": \"Choisir une teinte \",\r\n  \"Powder\": \"Poudre\",\r\n  \"SystemResource.MyAccountResetPasswordLinkText\": \"Réinitialiser le mot de passe\",\r\n  \"SystemResource.CartTotalLabelText\": \"Total estimé\",\r\n  \"SystemResource.PasswordResetFormSuccessText\": \"Mot de passe réinitialisé\",\r\n  \"SystemResource.ExceptionMessagePromotionCodeAlreadyAdded\": \"Désolée, beauté ! Ce code promotionnel a déjà été appliqué à votre commande.\",\r\n  \"SystemResource.FindStoreSearchPlaceholderText\": \"Saisissez votre lieu\",\r\n  \"SystemResource.CartTaxMessageText\": \"(TTC)\",\r\n  \"SystemResource.CheckoutPaymentMethodSectionTitle\": \"Mode de paiement\",\r\n  \"SystemResource.FreeSampleRemoveFromCartButtonLabel\": \"Ajouté\",\r\n  \"SystemResource.HeaderStoreLocatorLinkText\": \"Trouver une boutique\",\r\n  \"SystemResource.ContactUsSubjectFormText\": \"Veuillez choisir un thème*\",\r\n  \"SystemResource.OrderConfirmationCreateAccountMessageText\": \"Enregistrer mes données pour passer commande plus rapidement la prochaine fois.\",\r\n  \"SystemResource.ExceptionMessageFreeSampleQuantity\": \"Oups, vous ne pouvez ajouter que 2 échantillons.\",\r\n  \"SystemResource.MyAccountRecentOrdersSectionTitleText\": \"Commandes récentes\",\r\n  \"SystemResource.FilterBtnClear\": \"Annuler\",\r\n  \"Matte\": \"Fini mat\",\r\n  \"SystemResource.MyAccountVewAccountButtonText\": \"Voir mon compte\",\r\n  \"SystemResource.MyAccountShipmentCancelledMessage\": \"Votre commande a été annulée.\"\r\n}')
+        SITE_CURRENCY = 'EUR'
+        SITE_COUNTRY = 'FR'
+        SITE_IS_ECOMM = true
+        USER_EMAIL = ''
+        USER_EMAIL_HASHED = ''
+        POWER_REVIEWS_CONFIG = {
+            merchantId: '853290',
+            merchantGroupId: '47621',
+            locale: 'fr_FR',
+            enableProductInfo: 'True'
+        }
+        GTM_CONTAINER_ID = 'GTM-KD6SZFK'
+    </script>
+    <script src="/Static/dist/app.js?v=1.1.8.22292"></script>
+
+    <script type="text/javascript" src="https://dl.episerver.net/13.2.9/epi-util/find.js"></script>
+<script type="text/javascript">
+if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}
+</script>
+
+        <input type="hidden" name="__RequestVerificationToken" value="9qlSZi4gASHlhUXoNcRN5W2KYzqdA4ujAcgmKMfMtxJyvzVAqYPtCp30yLiatnR0yV5ZNdAvXHTcOioSCa7RbHU0gR7PLMmPt-Rhh0rqN_81:5KvQcJngQ0LBZUtQtAp6ggDyNZpJQlI-BM5Udo4xkqBBqBxH04LeS9MAlsRnmbd_xcgJCh2AYUAUrF46lKYCiV5LiJQsCO-7K2KgBMj9pCw1">
+
+
+
+<script type="text/javascript" id="">var UNiDAYS=function(window,undefined){var CryptoJS=CryptoJS||function(a,j){var c={},b=c.lib={},f=function(){},l=b.Base={extend:function(a){f.prototype=this;var d=new f;a&&d.mixIn(a);d.hasOwnProperty("init")||(d.init=function(){d.$super.init.apply(this,arguments)});d.init.prototype=d;d.$super=this;return d},create:function(){var a=this.extend();a.init.apply(a,arguments);return a},init:function(){},mixIn:function(a){for(var d in a)a.hasOwnProperty(d)&&(this[d]=a[d]);a.hasOwnProperty("toString")&&(this.toString=
+a.toString)},clone:function(){return this.init.prototype.extend(this)}},u=b.WordArray=l.extend({init:function(a,d){a=this.words=a||[];this.sigBytes=d!=j?d:4*a.length},toString:function(a){return(a||m).stringify(this)},concat:function(a){var d=this.words,M=a.words,e=this.sigBytes;a=a.sigBytes;this.clamp();if(e%4)for(var b=0;b<a;b++)d[e+b>>>2]|=(M[b>>>2]>>>24-8*(b%4)&255)<<24-8*((e+b)%4);else if(65535<M.length)for(b=0;b<a;b+=4)d[e+b>>>2]=M[b>>>2];else d.push.apply(d,M);this.sigBytes+=a;return this},
+clamp:function(){var D=this.words,d=this.sigBytes;D[d>>>2]&=4294967295<<32-8*(d%4);D.length=a.ceil(d/4)},clone:function(){var a=l.clone.call(this);a.words=this.words.slice(0);return a},random:function(D){for(var d=[],b=0;b<D;b+=4)d.push(4294967296*a.random()|0);return new u.init(d,D)}}),k=c.enc={},m=k.Hex={stringify:function(a){var d=a.words;a=a.sigBytes;for(var b=[],e=0;e<a;e++){var c=d[e>>>2]>>>24-8*(e%4)&255;b.push((c>>>4).toString(16));b.push((c&15).toString(16))}return b.join("")},parse:function(a){for(var d=
+a.length,b=[],e=0;e<d;e+=2)b[e>>>3]|=parseInt(a.substr(e,2),16)<<24-4*(e%8);return new u.init(b,d/2)}},y=k.Latin1={stringify:function(a){var b=a.words;a=a.sigBytes;for(var c=[],e=0;e<a;e++)c.push(String.fromCharCode(b[e>>>2]>>>24-8*(e%4)&255));return c.join("")},parse:function(a){for(var b=a.length,c=[],e=0;e<b;e++)c[e>>>2]|=(a.charCodeAt(e)&255)<<24-8*(e%4);return new u.init(c,b)}},z=k.Utf8={stringify:function(a){try{return decodeURIComponent(escape(y.stringify(a)))}catch(b){throw Error("Malformed UTF-8 data");
+}},parse:function(a){return y.parse(unescape(encodeURIComponent(a)))}},x=b.BufferedBlockAlgorithm=l.extend({reset:function(){this._data=new u.init;this._nDataBytes=0},_append:function(a){"string"==typeof a&&(a=z.parse(a));this._data.concat(a);this._nDataBytes+=a.sigBytes},_process:function(b){var d=this._data,c=d.words,e=d.sigBytes,l=this.blockSize,k=e/(4*l),k=b?a.ceil(k):a.max((k|0)-this._minBufferSize,0);b=k*l;e=a.min(4*b,e);if(b){for(var x=0;x<b;x+=l)this._doProcessBlock(c,x);x=c.splice(0,b);d.sigBytes-=
+e}return new u.init(x,e)},clone:function(){var a=l.clone.call(this);a._data=this._data.clone();return a},_minBufferSize:0});b.Hasher=x.extend({cfg:l.extend(),init:function(a){this.cfg=this.cfg.extend(a);this.reset()},reset:function(){x.reset.call(this);this._doReset()},update:function(a){this._append(a);this._process();return this},finalize:function(a){a&&this._append(a);return this._doFinalize()},blockSize:16,_createHelper:function(a){return function(b,c){return(new a.init(c)).finalize(b)}},_createHmacHelper:function(a){return function(b,
+c){return(new ja.HMAC.init(a,c)).finalize(b)}}});var ja=c.algo={};return c}(Math);(function(a){var j=CryptoJS,c=j.lib,b=c.Base,f=c.WordArray,j=j.x64={};j.Word=b.extend({init:function(a,b){this.high=a;this.low=b}});j.WordArray=b.extend({init:function(b,c){b=this.words=b||[];this.sigBytes=c!=a?c:8*b.length},toX32:function(){for(var a=this.words,b=a.length,c=[],m=0;m<b;m++){var y=a[m];c.push(y.high);c.push(y.low)}return f.create(c,this.sigBytes)},clone:function(){for(var a=b.clone.call(this),c=a.words=
+this.words.slice(0),k=c.length,f=0;f<k;f++)c[f]=c[f].clone();return a}})})();(function(){function a(){return f.create.apply(f,arguments)}for(var j=CryptoJS,c=j.lib.Hasher,b=j.x64,f=b.Word,l=b.WordArray,b=j.algo,u=[a(1116352408,3609767458),a(1899447441,602891725),a(3049323471,3964484399),a(3921009573,2173295548),a(961987163,4081628472),a(1508970993,3053834265),a(2453635748,2937671579),a(2870763221,3664609560),a(3624381080,2734883394),a(310598401,1164996542),a(607225278,1323610764),a(1426881987,3590304994),
+a(1925078388,4068182383),a(2162078206,991336113),a(2614888103,633803317),a(3248222580,3479774868),a(3835390401,2666613458),a(4022224774,944711139),a(264347078,2341262773),a(604807628,2007800933),a(770255983,1495990901),a(1249150122,1856431235),a(1555081692,3175218132),a(1996064986,2198950837),a(2554220882,3999719339),a(2821834349,766784016),a(2952996808,2566594879),a(3210313671,3203337956),a(3336571891,1034457026),a(3584528711,2466948901),a(113926993,3758326383),a(338241895,168717936),a(666307205,
+1188179964),a(773529912,1546045734),a(1294757372,1522805485),a(1396182291,2643833823),a(1695183700,2343527390),a(1986661051,1014477480),a(2177026350,1206759142),a(2456956037,344077627),a(2730485921,1290863460),a(2820302411,3158454273),a(3259730800,3505952657),a(3345764771,106217008),a(3516065817,3606008344),a(3600352804,1432725776),a(4094571909,1467031594),a(275423344,851169720),a(430227734,3100823752),a(506948616,1363258195),a(659060556,3750685593),a(883997877,3785050280),a(958139571,3318307427),
+a(1322822218,3812723403),a(1537002063,2003034995),a(1747873779,3602036899),a(1955562222,1575990012),a(2024104815,1125592928),a(2227730452,2716904306),a(2361852424,442776044),a(2428436474,593698344),a(2756734187,3733110249),a(3204031479,2999351573),a(3329325298,3815920427),a(3391569614,3928383900),a(3515267271,566280711),a(3940187606,3454069534),a(4118630271,4000239992),a(116418474,1914138554),a(174292421,2731055270),a(289380356,3203993006),a(460393269,320620315),a(685471733,587496836),a(852142971,
+1086792851),a(1017036298,365543100),a(1126000580,2618297676),a(1288033470,3409855158),a(1501505948,4234509866),a(1607167915,987167468),a(1816402316,1246189591)],k=[],m=0;80>m;m++)k[m]=a();b=b.SHA512=c.extend({_doReset:function(){this._hash=new l.init([new f.init(1779033703,4089235720),new f.init(3144134277,2227873595),new f.init(1013904242,4271175723),new f.init(2773480762,1595750129),new f.init(1359893119,2917565137),new f.init(2600822924,725511199),new f.init(528734635,4215389547),new f.init(1541459225,
+327033209)])},_doProcessBlock:function(a,b){for(var c=this._hash.words,f=c[0],j=c[1],d=c[2],l=c[3],e=c[4],m=c[5],N=c[6],c=c[7],aa=f.high,O=f.low,ba=j.high,P=j.low,ca=d.high,Q=d.low,da=l.high,R=l.low,ea=e.high,S=e.low,fa=m.high,T=m.low,ga=N.high,U=N.low,ha=c.high,V=c.low,r=aa,n=O,G=ba,E=P,H=ca,F=Q,Y=da,I=R,s=ea,p=S,W=fa,J=T,X=ga,K=U,Z=ha,L=V,t=0;80>t;t++){var A=k[t];if(16>t)var q=A.high=a[b+2*t]|0,g=A.low=a[b+2*t+1]|0;else{var q=k[t-15],g=q.high,v=q.low,q=(g>>>1|v<<31)^(g>>>8|v<<24)^g>>>7,v=(v>>>1|
+g<<31)^(v>>>8|g<<24)^(v>>>7|g<<25),C=k[t-2],g=C.high,h=C.low,C=(g>>>19|h<<13)^(g<<3|h>>>29)^g>>>6,h=(h>>>19|g<<13)^(h<<3|g>>>29)^(h>>>6|g<<26),g=k[t-7],$=g.high,B=k[t-16],w=B.high,B=B.low,g=v+g.low,q=q+$+(g>>>0<v>>>0?1:0),g=g+h,q=q+C+(g>>>0<h>>>0?1:0),g=g+B,q=q+w+(g>>>0<B>>>0?1:0);A.high=q;A.low=g}var $=s&W^~s&X,B=p&J^~p&K,A=r&G^r&H^G&H,ka=n&E^n&F^E&F,v=(r>>>28|n<<4)^(r<<30|n>>>2)^(r<<25|n>>>7),C=(n>>>28|r<<4)^(n<<30|r>>>2)^(n<<25|r>>>7),h=u[t],la=h.high,ia=h.low,h=L+((p>>>14|s<<18)^(p>>>18|s<<14)^
+(p<<23|s>>>9)),w=Z+((s>>>14|p<<18)^(s>>>18|p<<14)^(s<<23|p>>>9))+(h>>>0<L>>>0?1:0),h=h+B,w=w+$+(h>>>0<B>>>0?1:0),h=h+ia,w=w+la+(h>>>0<ia>>>0?1:0),h=h+g,w=w+q+(h>>>0<g>>>0?1:0),g=C+ka,A=v+A+(g>>>0<C>>>0?1:0),Z=X,L=K,X=W,K=J,W=s,J=p,p=I+h|0,s=Y+w+(p>>>0<I>>>0?1:0)|0,Y=H,I=F,H=G,F=E,G=r,E=n,n=h+g|0,r=w+A+(n>>>0<h>>>0?1:0)|0}O=f.low=O+n;f.high=aa+r+(O>>>0<n>>>0?1:0);P=j.low=P+E;j.high=ba+G+(P>>>0<E>>>0?1:0);Q=d.low=Q+F;d.high=ca+H+(Q>>>0<F>>>0?1:0);R=l.low=R+I;l.high=da+Y+(R>>>0<I>>>0?1:0);S=e.low=S+
+p;e.high=ea+s+(S>>>0<p>>>0?1:0);T=m.low=T+J;m.high=fa+W+(T>>>0<J>>>0?1:0);U=N.low=U+K;N.high=ga+X+(U>>>0<K>>>0?1:0);V=c.low=V+L;c.high=ha+Z+(V>>>0<L>>>0?1:0)},_doFinalize:function(){var a=this._data,b=a.words,c=8*this._nDataBytes,f=8*a.sigBytes;b[f>>>5]|=128<<24-f%32;b[(f+128>>>10<<5)+30]=Math.floor(c/4294967296);b[(f+128>>>10<<5)+31]=c;a.sigBytes=4*b.length;this._process();return this._hash.toX32()},clone:function(){var a=c.clone.call(this);a._hash=this._hash.clone();return a},blockSize:32});j.SHA512=
+c._createHelper(b);j.HmacSHA512=c._createHmacHelper(b)})();(function(){var a=CryptoJS,j=a.enc.Utf8;a.algo.HMAC=a.lib.Base.extend({init:function(a,b){a=this._hasher=new a.init;"string"==typeof b&&(b=j.parse(b));var f=a.blockSize,l=4*f;b.sigBytes>l&&(b=a.finalize(b));b.clamp();for(var u=this._oKey=b.clone(),k=this._iKey=b.clone(),m=u.words,y=k.words,z=0;z<f;z++)m[z]^=1549556828,y[z]^=909522486;u.sigBytes=k.sigBytes=l;this.reset()},reset:function(){var a=this._hasher;a.reset();a.update(this._iKey)},
+update:function(a){this._hasher.update(a);return this},finalize:function(a){var b=this._hasher;a=b.finalize(a);b.reset();return b.finalize(this._oKey.clone().concat(a))}})})();(function(){var h=CryptoJS,j=h.lib.WordArray;h.enc.Base64={stringify:function(b){var e=b.words,f=b.sigBytes,c=this._map;b.clamp();b=[];for(var a=0;a<f;a+=3)for(var d=(e[a>>>2]>>>24-8*(a%4)&255)<<16|(e[a+1>>>2]>>>24-8*((a+1)%4)&255)<<8|e[a+2>>>2]>>>24-8*((a+2)%4)&255,g=0;4>g&&a+.75*g<f;g++)b.push(c.charAt(d>>>6*(3-g)&63));if(e=
+c.charAt(64))for(;b.length%4;)b.push(e);return b.join("")},parse:function(b){var e=b.length,f=this._map,c=f.charAt(64);c&&(c=b.indexOf(c),-1!=c&&(e=c));for(var c=[],a=0,d=0;d<e;d++)if(d%4){var g=f.indexOf(b.charAt(d-1))<<2*(d%4),h=f.indexOf(b.charAt(d))>>>6-2*(d%4);c[a>>>2]|=(g|h)<<24-8*(a%4);a++}return j.create(c,a)},_map:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/\x3d"}})();var trackingUrl="https://tracking.myunidays.com/perks/redemption/v1.1.js";function signUrl(url,param,
+key){var secret=CryptoJS.enc.Base64.parse(key);var hash=CryptoJS.HmacSHA512(url,secret);var sig=CryptoJS.enc.Base64.stringify(hash);return url+"\x26"+param+"\x3d"+encode(sig)}function generateQuery(customerId,transactionId,memberId,currency,orderTotal,itemsUNiDAYSDiscount,code,itemsTax,shippingGross,shippingDiscount,itemsGross,itemsOtherDiscount,UNiDAYSDiscountPercentage,newCustomer){return"?CustomerId\x3d"+(customerId!=null?encode(customerId):"")+"\x26TransactionId\x3d"+(transactionId!=null?encode(transactionId):
+"")+"\x26MemberId\x3d"+(memberId!=null?encode(memberId):"")+"\x26Currency\x3d"+(currency!=null?encode(currency):"")+"\x26OrderTotal\x3d"+(orderTotal!=null?(Math.round(orderTotal*100)/100).toFixed(2):"")+"\x26ItemsUNiDAYSDiscount\x3d"+(itemsUNiDAYSDiscount!=null?(Math.round(itemsUNiDAYSDiscount*100)/100).toFixed(2):"")+"\x26Code\x3d"+(code!=null?encode(code):"")+"\x26ItemsTax\x3d"+(itemsTax!=null?(Math.round(itemsTax*100)/100).toFixed(2):"")+"\x26ShippingGross\x3d"+(shippingGross!=null?(Math.round(shippingGross*
+100)/100).toFixed(2):"")+"\x26ShippingDiscount\x3d"+(shippingDiscount!=null?(Math.round(shippingDiscount*100)/100).toFixed(2):"")+"\x26ItemsGross\x3d"+(itemsGross!=null?(Math.round(itemsGross*100)/100).toFixed(2):"")+"\x26ItemsOtherDiscount\x3d"+(itemsOtherDiscount!=null?(Math.round(itemsOtherDiscount*100)/100).toFixed(2):"")+"\x26UNiDAYSDiscountPercentage\x3d"+(UNiDAYSDiscountPercentage!=null?(Math.round(UNiDAYSDiscountPercentage*100)/100).toFixed(2):"")+"\x26NewCustomer\x3d"+(newCustomer!=null?
+(Math.round(newCustomer*100)/100).toFixed(0):"")}function encode(string){return encodeURIComponent(string).replace(/(%[A-Z0-9]{2})/ig,function(s){return s.toLowerCase()})}return function(customerId,key){this.trackingUrl=function(transactionId,currency,orderTotal,itemsUNiDAYSDiscount,code,itemsTax,shippingGross,shippingDiscount,itemsGross,itemsOtherDiscount,UNiDAYSDiscountPercentage,newCustomer){var query=generateQuery(customerId,transactionId,null,currency,orderTotal,itemsUNiDAYSDiscount,code,itemsTax,
+shippingGross,shippingDiscount,itemsGross,itemsOtherDiscount,UNiDAYSDiscountPercentage,newCustomer);var signed=signUrl(query,"Signature",key);return trackingUrl+signed}}}(window);
+(function(window){var customerId="oZtxPD3Rs0e0BQGz3n8hLKt6wmOPiLxIsGt2wvqyFeE\x3d";var signingKey="53Tg6olGFWJkZf2iZ5roFBSERBiE5yuzLK8/5HSSqdDNjqF7Iha7xT274+gNbhWhSVHzrAsGTiI5z4zcgu+Bwx7eokdBRFa19lm0zymfuTgzBT9wgj1GbSb9LWSz0nrnD/ALdVasFPaqW5vMuF33a7G2ABKr2sSUD1Vcjj+sOgs\x3d";var TransactionId=google_tag_manager["GTM-KD6SZFK"].macro(2);var Currency="EUR";var arrSku=[];var shippingDiscount=0;var ItemsOtherDiscount=0;var arrQuantity=[];var arrProdNames=[];var hashid=google_tag_manager["GTM-KD6SZFK"].macro(3);var NewCustomer="1";if(google_tag_manager["GTM-KD6SZFK"].macro(4)==
+"logged out")NewCustomer="0";var promoCode=google_tag_manager["GTM-KD6SZFK"].macro(5);var totalShipping=google_tag_manager["GTM-KD6SZFK"].macro(6).purchase.actionField.shipping;var totalTax=google_tag_manager["GTM-KD6SZFK"].macro(7).purchase.actionField.tax;var discountAmount=0;var ItemGross=0;var OrderTotal=google_tag_manager["GTM-KD6SZFK"].macro(8)+totalShipping;var UNiDAYSDiscountPercentage=0;google_tag_manager["GTM-KD6SZFK"].macro(9).purchase.products.forEach(function(product,i){var prodQuantity=product.quantity||0;var unitTax=0;if(unitTax==null)unitTax=0;if(unitTax=="")unitTax=0;unitTax=Number(prodQuantity)*
+Number(unitTax);unitTax=Math.round(unitTax*100)/100;var shipping=0;var unitPrice=product.price||0;var totalPrice=Math.floor(Number(prodQuantity)*Number(unitPrice));discountAmount=0;UNiDAYSDiscountPercentage=0;ItemGross=product.price});var unidays=new UNiDAYS(customerId,signingKey);var trackingUrl=unidays.trackingUrl(TransactionId,Currency,OrderTotal,discountAmount,promoCode,totalTax,totalShipping,shippingDiscount,ItemGross,ItemsOtherDiscount,UNiDAYSDiscountPercentage,NewCustomer);(function(e,u){var t=
+e.getElementsByTagName("script")[0],n=e.createElement("script");n.async=true;n.src=u;t.parentNode.insertBefore(n,t)})(document,trackingUrl)})(window);</script><script type="text/javascript" id="" src="//radar.cedexis.com/1/23125/radar.js"></script><div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon166483544626"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon498563824077" width="0" height="0" alt="" src="https://bat.bing.com/action/0?ti=4046757&amp;Ver=2&amp;mid=9226856b-21e9-4962-93f1-fd14a30922d8&amp;sid=542e3e00155211ebbb83b531a6b771ae&amp;vid=542e9b00155211eb956a93a147aec4b7&amp;vids=1&amp;pi=1200101525&amp;lg=en-US&amp;sw=1680&amp;sh=1050&amp;sc=30&amp;tl=Benefit%20Cosmetics%20%7C%20Site%20officiel&amp;p=https%3A%2F%2Fwww.benefitcosmetics.com%2Ffr-fr%2F&amp;r=&amp;lt=963&amp;evt=pageLoad&amp;msclkid=N&amp;sv=1&amp;rn=906732"></div></body></html>

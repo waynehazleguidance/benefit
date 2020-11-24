@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603305059703" stop="1603305120519" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603305059715" stop="1603305085926" status="passed">
+      <name>BenefitUSA</name>
+      <steps>
+        <step start="1603305062272" stop="1603305065976" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-us/"</name>
+        </step>
+        <step start="1603305065977" stop="1603305066393" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603305066394" stop="1603305071398" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603305071398" stop="1603305072902" status="passed">
+          <name>am on page "/brow-makeup"</name>
+        </step>
+        <step start="1603305072902" stop="1603305073145" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603305073145" stop="1603305077149" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603305077149" stop="1603305079239" status="passed">
+          <name>am on page "/product/24-hour-brow-setter-clear-brow-gel?product=24HOUBM66-FULL&amp;sku=BM66"</name>
+        </step>
+        <step start="1603305079239" stop="1603305079586" status="passed">
+          <name>see "Brow"</name>
+        </step>
+        <step start="1603305079586" stop="1603305079995" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603305079995" stop="1603305080145" status="passed">
+          <name>click {"css":"form•product-info__section &gt; button:nth-child(2)"}</name>
+        </step>
+        <step start="1603305080145" stop="1603305080714" status="passed">
+          <name>am on page "/checkout#/"</name>
+        </step>
+        <step start="1603305080714" stop="1603305085718" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603305085718" stop="1603305085842" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="BenefitUSA"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603305085929" stop="1603305120513" status="passed">
+      <name>T3Micro</name>
+      <steps>
+        <step start="1603305087489" stop="1603305090900" status="passed">
+          <name>am on url "https://www•t3micro•com/"</name>
+        </step>
+        <step start="1603305090900" stop="1603305095903" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603305095903" stop="1603305097142" status="passed">
+          <name>am on page "/category/hair-dryers"</name>
+        </step>
+        <step start="1603305097142" stop="1603305099303" status="passed">
+          <name>see "hair"</name>
+        </step>
+        <step start="1603305099303" stop="1603305103305" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603305103305" stop="1603305105971" status="passed">
+          <name>am on page "/product/lucea-id-straightening-and-styling-iron"</name>
+        </step>
+        <step start="1603305105972" stop="1603305108855" status="passed">
+          <name>see "T3"</name>
+        </step>
+        <step start="1603305108855" stop="1603305109497" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603305109497" stop="1603305109684" status="passed">
+          <name>click {"css":"#product-addtocart-button"}</name>
+        </step>
+        <step start="1603305109684" stop="1603305112058" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1603305112059" stop="1603305114817" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603305114817" stop="1603305119818" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603305119818" stop="1603305120375" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="T3Micro"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

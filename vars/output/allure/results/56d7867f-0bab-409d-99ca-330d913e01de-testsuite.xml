@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603223504401" stop="1603223523439" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603223504412" stop="1603223514014" status="broken">
+      <name>ShopCosmopolitan</name>
+      <failure>
+        <message>unknown error: call function result missing 'value'
+  (Session info: chrome=86.0.4240.80)
+  (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.15.6 x86_64)</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603223508804" stop="1603223511370" status="passed">
+          <name>am on url "https://shop•cosmopolitan•com/"</name>
+        </step>
+        <step start="1603223511370" stop="1603223511410" status="passed">
+          <name>wait for page load </name>
+        </step>
+        <step start="1603223511411" stop="1603223511665" status="passed">
+          <name>see "Cosmopolitan"</name>
+        </step>
+        <step start="1603223511665" stop="1603223511902" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603223511903" stop="1603223511950" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603223511950" stop="1603223512002" status="failed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="bb3c6986c114691e92c02f12e2ee0121489d87ce-attachment.png" type="image/png"/>
+        <attachment title="html" source="e79d10f272f5bfcdb5d07172eed1f0307fc49c9a-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="ShopCosmopolitan"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603223514018" stop="1603223523433" status="broken">
+      <name>ShopPrevention</name>
+      <failure>
+        <message>unknown error: call function result missing 'value'
+  (Session info: chrome=86.0.4240.80)
+  (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.15.6 x86_64)</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603223516685" stop="1603223519801" status="passed">
+          <name>am on url "https://shop•prevention•com/"</name>
+        </step>
+        <step start="1603223519801" stop="1603223519814" status="passed">
+          <name>wait for page load </name>
+        </step>
+        <step start="1603223519814" stop="1603223519971" status="passed">
+          <name>see "Editor"</name>
+        </step>
+        <step start="1603223519971" stop="1603223520196" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603223520197" stop="1603223520211" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603223520212" stop="1603223520256" status="failed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="43ed43e3046b18bf73b26a0fe668cc5927a11033-attachment.png" type="image/png"/>
+        <attachment title="html" source="5225d0a563e7a13175232891246491fd79469967-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="ShopPrevention"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

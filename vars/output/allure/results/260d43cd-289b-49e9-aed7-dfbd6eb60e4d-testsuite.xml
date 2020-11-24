@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603304903710" stop="1603304995386" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603304903719" stop="1603304961431" status="failed">
+      <name>BenefitUSA</name>
+      <failure>
+        <message>CSS or XPath element with css 'a.action:nth-child(5)' was not found.</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(1036): Codeception\Module\WebDriver-&gt;matchFirstOrFail(Object(Facebook\WebDriver\Remote\RemoteWebDriver), Array)
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(995): Codeception\Module\WebDriver-&gt;_findClickable(Object(Facebook\WebDriver\Remote\RemoteWebDriver), Array)
+#2 /Users/whazle/Desktop/hearst-m2-tests/src/Actor/Helper/Common.php(55): Codeception\Module\WebDriver-&gt;click(Array, NULL)
+#3 [internal function]: Guidance\Tests\Project\Actor\Helper\Common-&gt;click(Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#5 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#6 /Users/whazle/Desktop/hearst-m2-tests/src/_generated/ActorActions.php(1112): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Action))
+#7 /Users/whazle/Desktop/hearst-m2-tests/src/Test/Project/DemoCest.php(72): Guidance\Tests\Project\Actor-&gt;click(Array)
+#8 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;BenefitUSA(Object(Guidance\Tests\Project\Actor))
+#9 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#10 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'BenefitUSA', Array)
+#11 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('BenefitUSA', Array)
+#12 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#13 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#14 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#15 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#16 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#17 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#18 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#19 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#20 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603304905565" stop="1603304909226" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-us/"</name>
+        </step>
+        <step start="1603304909227" stop="1603304909663" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603304909663" stop="1603304914664" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603304914664" stop="1603304916112" status="passed">
+          <name>am on page "/brow-makeup"</name>
+        </step>
+        <step start="1603304916112" stop="1603304916367" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603304916367" stop="1603304920371" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603304920371" stop="1603304922112" status="passed">
+          <name>am on page "/product/24-hour-brow-setter-clear-brow-gel?product=24HOUBM66-FULL&amp;sku=BM66"</name>
+        </step>
+        <step start="1603304922113" stop="1603304922407" status="passed">
+          <name>see "Brow"</name>
+        </step>
+        <step start="1603304922407" stop="1603304922612" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603304922613" stop="1603304922954" status="passed">
+          <name>click {"css":"form•product-info__section &gt; button:nth-child(2)"}</name>
+        </step>
+        <step start="1603304922954" stop="1603304927959" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603304927959" stop="1603304959343" status="failed">
+          <name>click {"css":"a•action:nth-child(5)"}</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="1d89d60f93173d8ab082636504972f5ddf606a6d-attachment.png" type="image/png"/>
+        <attachment title="html" source="b2c92b9c558abe6883b818fcf7a556f3d0d6022f-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="BenefitUSA"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603304961434" stop="1603304995383" status="passed">
+      <name>T3Micro</name>
+      <steps>
+        <step start="1603304963642" stop="1603304967026" status="passed">
+          <name>am on url "https://www•t3micro•com/"</name>
+        </step>
+        <step start="1603304967026" stop="1603304972027" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603304972028" stop="1603304973327" status="passed">
+          <name>am on page "/category/hair-dryers"</name>
+        </step>
+        <step start="1603304973327" stop="1603304974966" status="passed">
+          <name>see "hair"</name>
+        </step>
+        <step start="1603304974966" stop="1603304978967" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603304978967" stop="1603304981303" status="passed">
+          <name>am on page "/product/lucea-id-straightening-and-styling-iron"</name>
+        </step>
+        <step start="1603304981303" stop="1603304982662" status="passed">
+          <name>see "T3"</name>
+        </step>
+        <step start="1603304982662" stop="1603304985012" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603304985012" stop="1603304985205" status="passed">
+          <name>click {"css":"#product-addtocart-button"}</name>
+        </step>
+        <step start="1603304985205" stop="1603304987406" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1603304987406" stop="1603304990033" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603304990034" stop="1603304995037" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603304995037" stop="1603304995325" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="T3Micro"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

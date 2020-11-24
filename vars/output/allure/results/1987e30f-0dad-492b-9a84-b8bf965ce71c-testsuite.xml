@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603393502618" stop="1603393544781" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603393502622" stop="1603393544778" status="failed">
+      <name>BenefitUSA</name>
+      <failure>
+        <message>CSS or XPath element with id 'search' was not found.</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(2938): Codeception\Module\WebDriver-&gt;matchFirstOrFail(Object(Facebook\WebDriver\Remote\RemoteWebDriver), Array)
+#1 [internal function]: Codeception\Module\WebDriver-&gt;pressKey(Array, '\xEE\x80\x87')
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#4 /Users/whazle/Desktop/hearst-m2-tests/src/_generated/ActorActions.php(5402): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Action))
+#5 /Users/whazle/Desktop/hearst-m2-tests/src/Test/Project/DemoCest.php(120): Guidance\Tests\Project\Actor-&gt;pressKey(Array, '\xEE\x80\x87')
+#6 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;BenefitUSA(Object(Guidance\Tests\Project\Actor))
+#7 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#8 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'BenefitUSA', Array)
+#9 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('BenefitUSA', Array)
+#10 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#11 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#12 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#13 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#14 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#15 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#16 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#17 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#18 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603393504188" stop="1603393507782" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-us/"</name>
+        </step>
+        <step start="1603393507783" stop="1603393508140" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603393508140" stop="1603393513145" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603393513145" stop="1603393513435" status="passed">
+          <name>see "Cookies"</name>
+        </step>
+        <step start="1603393513435" stop="1603393513580" status="passed">
+          <name>click {"css":"#onetrust-accept-btn-handler"}</name>
+        </step>
+        <step start="1603393513581" stop="1603393517581" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603393517581" stop="1603393517804" status="passed">
+          <name>move mouse over {"css":"•icon-arrow-down:nth-child(2)"}</name>
+        </step>
+        <step start="1603393517804" stop="1603393521808" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603393521809" stop="1603393522044" status="passed">
+          <name>fill field {"id":"login_form_email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1603393522044" stop="1603393523045" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1603393523045" stop="1603393523170" status="passed">
+          <name>fill field {"id":"login_form_password"},"@Testing123"</name>
+        </step>
+        <step start="1603393523170" stop="1603393524174" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1603393524174" stop="1603393524243" status="passed">
+          <name>click {"css":"button•btn:nth-child(4)"}</name>
+        </step>
+        <step start="1603393524243" stop="1603393528247" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603393528247" stop="1603393528855" status="passed">
+          <name>am on page "/account"</name>
+        </step>
+        <step start="1603393528855" stop="1603393528980" status="passed">
+          <name>see "profile"</name>
+        </step>
+        <step start="1603393528980" stop="1603393532981" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603393532981" stop="1603393534306" status="passed">
+          <name>am on page "/"</name>
+        </step>
+        <step start="1603393534307" stop="1603393534416" status="passed">
+          <name>fill field {"id":"search-input"},"Eye"</name>
+        </step>
+        <step start="1603393534416" stop="1603393536419" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603393536419" stop="1603393543456" status="failed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="4f2f8509276937d6738ad4e0b961cd2844dc588b-attachment.png" type="image/png"/>
+        <attachment title="html" source="a59f5a4510251ca4520f8082e9196787c7e84f55-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="BenefitUSA"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

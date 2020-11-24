@@ -1,0 +1,12 @@
+version: "3"
+services:
+  app:
+    build:
+      context: .
+      args:
+        - WITH_XDEBUG=true
+    image: space_image
+    environment:
+      PHP_IDE_CONFIG: "serverName=space_app"
+    container_name: test_container
+    tty: true

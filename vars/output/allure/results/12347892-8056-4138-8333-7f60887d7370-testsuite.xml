@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1604082550485" stop="1604082587715" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1604082550491" stop="1604082587709" status="passed">
+      <name>BenefitHongKongEnglish</name>
+      <steps>
+        <step start="1604082552117" stop="1604082554762" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/"</name>
+        </step>
+        <step start="1604082554762" stop="1604082554877" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1604082554877" stop="1604082556880" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1604082556880" stop="1604082557123" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1604082557123" stop="1604082559123" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1604082559123" stop="1604082561083" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/find-a-store"</name>
+        </step>
+        <step start="1604082561083" stop="1604082561136" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1604082561137" stop="1604082561179" status="passed">
+          <name>see "store"</name>
+        </step>
+        <step start="1604082561179" stop="1604082561936" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/bestsellers"</name>
+        </step>
+        <step start="1604082561936" stop="1604082562015" status="passed">
+          <name>wait for text "bestsellers",30</name>
+        </step>
+        <step start="1604082562015" stop="1604082562079" status="passed">
+          <name>see "bestsellers"</name>
+        </step>
+        <step start="1604082562080" stop="1604082563928" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/brows"</name>
+        </step>
+        <step start="1604082563928" stop="1604082563992" status="passed">
+          <name>wait for text "brows",30</name>
+        </step>
+        <step start="1604082563992" stop="1604082564043" status="passed">
+          <name>see "brow"</name>
+        </step>
+        <step start="1604082564043" stop="1604082564553" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/services"</name>
+        </step>
+        <step start="1604082564554" stop="1604082564663" status="passed">
+          <name>wait for text "service",30</name>
+        </step>
+        <step start="1604082564663" stop="1604082564737" status="passed">
+          <name>see "service"</name>
+        </step>
+        <step start="1604082564737" stop="1604082565591" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/offers-more"</name>
+        </step>
+        <step start="1604082565591" stop="1604082565671" status="passed">
+          <name>wait for text "services",30</name>
+        </step>
+        <step start="1604082565671" stop="1604082565716" status="passed">
+          <name>see "services"</name>
+        </step>
+        <step start="1604082565716" stop="1604082571995" status="passed">
+          <name>am on url "https://hk•benefitbrows•com/ReserveCounter•aspx"</name>
+        </step>
+        <step start="1604082571996" stop="1604082577000" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1604082577000" stop="1604082577059" status="passed">
+          <name>click {"css":"•mfp-close"}</name>
+        </step>
+        <step start="1604082577059" stop="1604082577141" status="passed">
+          <name>wait for text "KOWLOON",30</name>
+        </step>
+        <step start="1604082577141" stop="1604082577202" status="passed">
+          <name>see "KOWLOON"</name>
+        </step>
+        <step start="1604082577202" stop="1604082578129" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/"</name>
+        </step>
+        <step start="1604082578129" stop="1604082578688" status="passed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(1) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604082578688" stop="1604082578758" status="passed">
+          <name>wait for text "bestsellers",30</name>
+        </step>
+        <step start="1604082578758" stop="1604082578815" status="passed">
+          <name>see "bestsellers"</name>
+        </step>
+        <step start="1604082578815" stop="1604082579505" status="passed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(2) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604082579505" stop="1604082579580" status="passed">
+          <name>wait for text "brow",30</name>
+        </step>
+        <step start="1604082579580" stop="1604082579671" status="passed">
+          <name>see "brow"</name>
+        </step>
+        <step start="1604082579671" stop="1604082580410" status="passed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(3) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604082580410" stop="1604082580504" status="passed">
+          <name>wait for text "service",30</name>
+        </step>
+        <step start="1604082580504" stop="1604082580582" status="passed">
+          <name>see "service"</name>
+        </step>
+        <step start="1604082580582" stop="1604082581481" status="passed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(4) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604082581481" stop="1604082581535" status="passed">
+          <name>wait for text "services",30</name>
+        </step>
+        <step start="1604082581535" stop="1604082581583" status="passed">
+          <name>see "services"</name>
+        </step>
+        <step start="1604082581583" stop="1604082585766" status="passed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(5) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604082585766" stop="1604082585843" status="passed">
+          <name>wait for text "KOWLOON",30</name>
+        </step>
+        <step start="1604082585843" stop="1604082585903" status="passed">
+          <name>see "KOWLOON"</name>
+        </step>
+        <step start="1604082585903" stop="1604082586801" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/"</name>
+        </step>
+        <step start="1604082586802" stop="1604082586869" status="passed">
+          <name>wait for text "brows",30</name>
+        </step>
+        <step start="1604082586869" stop="1604082587537" status="passed">
+          <name>click {"css":"a•link:nth-child(2)"}</name>
+        </step>
+        <step start="1604082587537" stop="1604082587594" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1604082587594" stop="1604082587656" status="passed">
+          <name>see "store"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="BenefitHongKongEnglish"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

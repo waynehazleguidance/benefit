@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1602983571196" stop="1602983593536" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1602983571213" stop="1602983593534" status="passed">
+      <name>ShopCosmopolitan</name>
+      <steps>
+        <step start="1602983575508" stop="1602983577533" status="passed">
+          <name>am on url "https://shop•cosmopolitan•com/"</name>
+        </step>
+        <step start="1602983577534" stop="1602983577762" status="passed">
+          <name>see "Cosmopolitan"</name>
+        </step>
+        <step start="1602983577762" stop="1602983582763" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1602983582763" stop="1602983582978" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1602983582978" stop="1602983583145" status="passed">
+          <name>click {"css":"#product-addtocart-button &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1602983583145" stop="1602983587943" status="passed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+        <step start="1602983587943" stop="1602983592944" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1602983592944" stop="1602983593198" status="passed">
+          <name>click {"css":"a•action:nth-child(5)"}</name>
+        </step>
+        <step start="1602983593198" stop="1602983593478" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopCosmopolitan"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

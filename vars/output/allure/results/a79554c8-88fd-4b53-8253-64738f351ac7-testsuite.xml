@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603391837045" stop="1603391883165" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603391837053" stop="1603391883159" status="failed">
+      <name>BenefitUSA</name>
+      <failure>
+        <message>Failed asserting that  on page /en-us/checkout#/
+--&gt; Free shipping on ALL orders!* Use Code: FALLSHIP SHOP NOW
+Skip to main content
+United States
+Find a store
+GO SHOPPING
+BROWS
+SERVICES
+OFFERS
+VALUE SETS
+SALE
+AT HOME WITH BENEFIT
+HOLIDAY
+Shipping address Shipping method Payment
+My bag (0)
+Shipping address
+*Indicates a required field
+Opt-in to receive 
+[Content too long to display. See complete response in '/Users/whazle/Desktop/hearst-m2-tests/config/codecept/../../vars/output/' directory]
+--&gt; contains "Cart".</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(55): PHPUnit\Framework\Constraint\Constraint-&gt;fail('Free shipping o...', '')
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/Assert.php(2331): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate('Free shipping o...', '')
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php(1369): PHPUnit\Framework\Assert::assertThat('Free shipping o...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(2996): Codeception\Module-&gt;assertThat('Free shipping o...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(929): Codeception\Module\WebDriver-&gt;assertPageContains('Cart')
+#5 [internal function]: Codeception\Module\WebDriver-&gt;see('Cart')
+#6 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#7 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#8 /Users/whazle/Desktop/hearst-m2-tests/src/_generated/ActorActions.php(633): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Assertion))
+#9 /Users/whazle/Desktop/hearst-m2-tests/src/Test/Project/DemoCest.php(141): Guidance\Tests\Project\Actor-&gt;see('Cart')
+#10 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;BenefitUSA(Object(Guidance\Tests\Project\Actor))
+#11 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#12 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'BenefitUSA', Array)
+#13 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('BenefitUSA', Array)
+#14 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#15 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#16 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#17 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#18 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#19 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#20 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#21 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#22 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603391838640" stop="1603391842416" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-us/"</name>
+        </step>
+        <step start="1603391842416" stop="1603391842837" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603391842838" stop="1603391847839" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603391847839" stop="1603391848098" status="passed">
+          <name>see "Cookies"</name>
+        </step>
+        <step start="1603391848098" stop="1603391848228" status="passed">
+          <name>click {"css":"#onetrust-accept-btn-handler"}</name>
+        </step>
+        <step start="1603391848228" stop="1603391852232" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603391852233" stop="1603391852502" status="passed">
+          <name>move mouse over {"css":"•icon-arrow-down:nth-child(2)"}</name>
+        </step>
+        <step start="1603391852502" stop="1603391856507" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603391856507" stop="1603391856764" status="passed">
+          <name>fill field {"id":"login_form_email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1603391856764" stop="1603391857765" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1603391857765" stop="1603391857894" status="passed">
+          <name>fill field {"id":"login_form_password"},"@Sammy1349"</name>
+        </step>
+        <step start="1603391857894" stop="1603391858898" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1603391858898" stop="1603391858971" status="passed">
+          <name>click {"css":"button•btn:nth-child(4)"}</name>
+        </step>
+        <step start="1603391858971" stop="1603391862971" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603391862971" stop="1603391863894" status="passed">
+          <name>am on page "/brow-makeup"</name>
+        </step>
+        <step start="1603391863895" stop="1603391864290" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603391864291" stop="1603391868291" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603391868291" stop="1603391868348" status="passed">
+          <name>click {"css":"#ac-0 &gt; button:nth-child(1)"}</name>
+        </step>
+        <step start="1603391868349" stop="1603391869352" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1603391869352" stop="1603391869442" status="passed">
+          <name>click {"css":"#filter-20"}</name>
+        </step>
+        <step start="1603391869442" stop="1603391874443" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603391874443" stop="1603391875952" status="passed">
+          <name>am on page "/product/24-hour-brow-setter-clear-brow-gel?product=24HOUBM66-FULL&amp;sku=BM66"</name>
+        </step>
+        <step start="1603391875952" stop="1603391876277" status="passed">
+          <name>see "Brow"</name>
+        </step>
+        <step start="1603391876277" stop="1603391876446" status="passed">
+          <name>click {"css":"form•product-info__section &gt; div:nth-child(1) &gt; div:nth-child(1) &gt; button:nth-child(3)"}</name>
+        </step>
+        <step start="1603391876446" stop="1603391876770" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603391876770" stop="1603391876965" status="passed">
+          <name>click {"css":"form•product-info__section &gt; button:nth-child(2)"}</name>
+        </step>
+        <step start="1603391876965" stop="1603391880966" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603391880966" stop="1603391881683" status="passed">
+          <name>click {"css":"•cart__buttons-single &gt; button:nth-child(1)"}</name>
+        </step>
+        <step start="1603391881683" stop="1603391882037" status="failed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="aa599ba9c9064c31083030a9139a79e7070b51a7-attachment.png" type="image/png"/>
+        <attachment title="html" source="1e35fdc391817fef0fa82fb9f75ce74dae0e1173-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="BenefitUSA"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

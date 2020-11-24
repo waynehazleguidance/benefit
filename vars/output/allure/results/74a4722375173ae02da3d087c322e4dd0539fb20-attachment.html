@@ -1,0 +1,1005 @@
+<html lang="en"><head style=""><style>
+.ComparisonSlider {
+	position: relative;
+	overflow: hidden;
+}
+.ComparisonSlider.-auto,
+.ComparisonSlider.-dragging {
+	cursor: col-resize;
+}
+.ComparisonSlider__Before,
+.ComparisonSlider__After {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+.ComparisonSlider__Handle {
+	cursor: col-resize;
+	position: absolute;
+	box-sizing: border-box;
+	top: 50%;
+	width: 44px;
+	height: 44px;
+	border: 3px solid #fff;
+	border-radius: 100px;
+	box-shadow: 0px 0px 12px rgba( 51, 51, 51, 0.5 );
+	background: url("data:image/svg+xml,%3Csvg%20fill=%22%23fff%22%20preserveAspectRatio=%22none%22%20viewBox=%220%200%2046%2046%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22m39.808%2023-10%208v-16z%22/%3E%3Cpath%20d=%22m6.192%2023%2010-8v16z%22/%3E%3C/svg%3E" ) 50% 50% / 100% 100%;
+}
+@supports (filter: drop-shadow( 0 0 0 #000 )) {
+	.ComparisonSlider__Handle {
+		box-shadow: none;
+		filter: drop-shadow( 0 0 12px rgba( 51, 51, 51, 0.5 ) );
+	}
+}
+.ComparisonSlider__Handle::before,
+.ComparisonSlider__Handle::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	display: block;
+	width: 3px;
+	height: 1024px;
+	margin-left: -1.5px;
+	background-color: #fff;
+}
+.ComparisonSlider__Handle::before {
+	bottom: 50%;
+	margin-bottom: 22px;
+	box-shadow: 0 3px 0 #fff, 0px 0px 12px rgba( 51, 51, 51, 0.5 );
+}
+.ComparisonSlider__Handle::after {
+	top: 50%;
+	margin-top: 22px;
+	box-shadow: 0 -3px 0 #fff, 0px 0px 12px rgba( 51, 51, 51, 0.5 );
+}
+@supports (filter: drop-shadow( 0 0 0 #000 )) {
+	.ComparisonSlider__Handle::before,
+	.ComparisonSlider__Handle::after {
+		box-shadow: none;
+	}
+}
+</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+
+<title>404 | Benefit Cosmetics</title>
+<meta property="og:title" content="404 | Benefit Cosmetics">
+<meta name="twitter:title" content="404 | Benefit Cosmetics">
+
+    <meta name="keywords" content="404 page">
+
+    <meta name="description" content="Aw shucks, gorgeous! You've hit a dead end, please try searching again. ">
+    <meta property="og:description" content="Aw shucks, gorgeous! You've hit a dead end, please try searching again. ">
+    <meta name="twitter:description" content="Aw shucks, gorgeous! You've hit a dead end, please try searching again. ">
+
+
+<link href="/en/404" rel="canonical">
+
+    <link href="/en/404" rel="alternate" hreflang="en">
+    <link href="/en-gb/404" rel="alternate" hreflang="en-gb">
+    <link href="/en-us/404" rel="alternate" hreflang="en-us">
+    <link href="/fr-fr/404" rel="alternate" hreflang="fr-fr">
+    <link href="/ar-sa/404" rel="alternate" hreflang="ar-sa">
+    <link href="/en-sa/404" rel="alternate" hreflang="en-sa">
+    <link href="/de-de/404" rel="alternate" hreflang="de-de">
+    <link href="/en-au/404" rel="alternate" hreflang="en-au">
+    <link href="/en-ca/404" rel="alternate" hreflang="en-ca">
+    <link href="/en-ph/404" rel="alternate" hreflang="en-ph">
+    <link href="/en-hk/404" rel="alternate" hreflang="en-hk">
+    <link href="/en-ie/404" rel="alternate" hreflang="en-ie">
+    <link href="/en-in/404" rel="alternate" hreflang="en-in">
+    <link href="/en-my/404" rel="alternate" hreflang="en-my">
+    <link href="/en-nz/404" rel="alternate" hreflang="en-nz">
+    <link href="/en-sg/404" rel="alternate" hreflang="en-sg">
+    <link href="/en-za/404" rel="alternate" hreflang="en-za">
+    <link href="/fr-ca/404" rel="alternate" hreflang="fr-ca">
+    <link href="/zh-hk/404" rel="alternate" hreflang="zh-hk">
+    <link href="/en-ae/404" rel="alternate" hreflang="en-ae">
+    <link href="/en-bh/404" rel="alternate" hreflang="en-bh">
+    <link href="/en-kw/404" rel="alternate" hreflang="en-kw">
+    <link href="/en-lb/404" rel="alternate" hreflang="en-lb">
+    <link href="/en-qa/404" rel="alternate" hreflang="en-qa">
+    <link href="/ar-ae/404" rel="alternate" hreflang="ar-ae">
+    <link href="/ar-bh/404" rel="alternate" hreflang="ar-bh">
+    <link href="/ar-kw/404" rel="alternate" hreflang="ar-kw">
+    <link href="/ar-lb/404" rel="alternate" hreflang="ar-lb">
+    <link href="/ar-qa/404" rel="alternate" hreflang="ar-qa">
+    <link href="/cs-cz/404" rel="alternate" hreflang="cs-cz">
+    <link href="/da-dk/404" rel="alternate" hreflang="da-dk">
+    <link href="/de-ch/404" rel="alternate" hreflang="de-ch">
+    <link href="/fr-ch/404" rel="alternate" hreflang="fr-ch">
+    <link href="/it-ch/404" rel="alternate" hreflang="it-ch">
+    <link href="/el-gr/404" rel="alternate" hreflang="el-gr">
+    <link href="/es-cl/404" rel="alternate" hreflang="es-cl">
+    <link href="/es-co/404" rel="alternate" hreflang="es-co">
+    <link href="/es-es/404" rel="alternate" hreflang="es-es">
+    <link href="/es-mx/404" rel="alternate" hreflang="es-mx">
+    <link href="/fr-be/404" rel="alternate" hreflang="fr-be">
+    <link href="/nl-be/404" rel="alternate" hreflang="nl-be">
+    <link href="/id-id/404" rel="alternate" hreflang="id-id">
+    <link href="/it-it/404" rel="alternate" hreflang="it-it">
+    <link href="/ko-kr/404" rel="alternate" hreflang="ko-kr">
+    <link href="/nl-nl/404" rel="alternate" hreflang="nl-nl">
+    <link href="/pl-pl/404" rel="alternate" hreflang="pl-pl">
+    <link href="/pt-br/404" rel="alternate" hreflang="pt-br">
+    <link href="/pt-pt/404" rel="alternate" hreflang="pt-pt">
+    <link href="/ro-ro/404" rel="alternate" hreflang="ro-ro">
+    <link href="/ru-ru/404" rel="alternate" hreflang="ru-ru">
+    <link href="/sv-se/404" rel="alternate" hreflang="sv-se">
+    <link href="/th-th/404" rel="alternate" hreflang="th-th">
+    <link href="/tr-tr/404" rel="alternate" hreflang="tr-tr">
+    <link href="/zh-tw/404" rel="alternate" hreflang="zh-tw">
+    <link href="/fr/404" rel="alternate" hreflang="fr">
+    <link href="/ar/404" rel="alternate" hreflang="ar">
+
+    
+
+    <link rel="preconnect" href="https://www.youtube.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://ui.powerreviews.com">
+
+    <link rel="preload" as="style" type="text/css" href="/Static/dist/bc_powerreviews.css">
+    <link rel="preload" as="font" type="font/woff" href="/static/fonts/benefit-cosmetics.woff" crossorigin="">
+    <link rel="preload" as="font" type="font/woff" href="/static/fonts/Gotham-Bold.woff" crossorigin="">
+    <link rel="preload" as="font" type="font/woff" href="/static/fonts/Gotham-Medium.woff" crossorigin="">
+    <link rel="preload" as="font" type="font/woff" href="/static/fonts/Gotham-Book.woff" crossorigin="">
+    <link rel="preload" as="font" type="font/woff" href="/static/fonts/SaharaBodoni.woff" crossorigin="">
+
+    <link rel="stylesheet" href="/static/dist/styles-core.css?v=1.1.8.22292">
+    <link rel="stylesheet" href="/static/dist/styles-core-desktop.css?v=1.1.8.22292" media="(min-width: 992px)">
+
+    <link rel="stylesheet" href="/static/dist/en.css?v=1.1.8.22292">
+    
+        <link rel="stylesheet" href="/static/dist/styles-cms.css?v=1.1.8.22292">
+    <link rel="stylesheet" href="/static/dist/styles-cms-desktop.css?v=1.1.8.22292" media="(min-width: 992px)">
+
+
+
+    
+    
+
+
+<style type="text/css">.p-w-r {display: none;}</style><link href="//ui.powerreviews.com/tag-builds/10099/4.0/styles.css" type="text/css" rel="stylesheet"><script type="text/javascript" src="//ui.powerreviews.com/tag-builds/10099/4.0/ui.engine.js"></script><script type="text/javascript" id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vfld6FR1y/www-widgetapi.js" async=""></script><script src="https://www.youtube.com/iframe_api" async=""></script>
+<script charset="utf-8" src="/static/dist/js/0.46ad856b8c8f9818e7cd.js"></script><script charset="utf-8" src="/static/dist/js/1.c20ff7455079ca8a2778.js"></script><script charset="utf-8" src="/static/dist/js/86.26d7261f7beb9475c62d.js"></script><script charset="utf-8" src="/static/dist/js/73.f258e7d79726b2a0401d.js"></script><script charset="utf-8" src="/static/dist/js/65.57974065174c64b07dbe.js"></script><script charset="utf-8" src="/static/dist/js/112.c462588e9c7ead4c251f.js"></script><script charset="utf-8" src="/static/dist/js/7.0df434e8b5f329788b7c.js"></script><script charset="utf-8" src="/static/dist/js/2.fae8953fbeb4ee4cec8c.js"></script><script charset="utf-8" src="/static/dist/js/3.0d1bec4d7fab4347ad12.js"></script><script charset="utf-8" src="/static/dist/js/85.d78ab0855972045d1a30.js"></script><style></style><script charset="utf-8" src="/static/dist/js/39.5591b58e3e1390fceb5e.js"></script><script charset="utf-8" src="/static/dist/js/18.a0adb05a0395015fb0b3.js"></script><link rel="prefetch" as="script" href="/static/dist/js/120.470673aa702936405ab6.js"><script charset="utf-8" src="/static/dist/js/132.01f9a2e7478b2a65103d.js"></script><script charset="utf-8" src="/static/dist/js/64.47b081028280e5840e0f.js"></script><script charset="utf-8" src="/static/dist/js/102.acbc1cbe94086452a704.js"></script><script charset="utf-8" src="/static/dist/js/120.470673aa702936405ab6.js"></script><style id="smooth-scrollbar-style">
+[data-scrollbar] {
+  display: block;
+  position: relative;
+}
+
+.scroll-content {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.scrollbar-track {
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  background: rgba(222, 222, 222, .75);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: opacity 0.5s 0.5s ease-out;
+          transition: opacity 0.5s 0.5s ease-out;
+}
+.scrollbar-track.show,
+.scrollbar-track:hover {
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.scrollbar-track-x {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+}
+.scrollbar-track-y {
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 100%;
+}
+.scrollbar-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background: rgba(0, 0, 0, .5);
+  border-radius: 4px;
+}
+</style><script charset="utf-8" src="/static/dist/js/71.35cfe70256e6c9d0cdf3.js"></script><script charset="utf-8" src="/static/dist/js/77.e9ee94bd51baa5bd8b68.js"></script><style></style><script charset="utf-8" src="/static/dist/js/136.0d0886cec8ed62f65a9a.js"></script><script charset="utf-8" src="/static/dist/js/98.090b1fb18b8f17aca8b1.js"></script><script charset="utf-8" src="/static/dist/js/9.3d816fa994941adca790.js"></script><style></style></head>
+<body class="js-stickybit-parent">
+
+
+
+
+
+<!-- Header -->
+
+
+
+<!-- TippyTopBannerCollectionBlock Start -->
+<div class="tippy-top mobile-margin">
+    <div class="container container--no-padding">
+            <div class="tippy-top__content">
+                <a href="#" class="tippy-top__control tippy-top__control--prev" aria-label="Previous">
+                    <i class="icon-arrow-previous-big"></i>
+                </a>
+                <div class="tns-outer" id="tippy_top_slider-ow"><button type="button" data-action="stop"><span class="tns-visually-hidden">stop animation</span>stop</button><div class="tns-liveregion tns-visually-hidden">slide <span class="current">3</span>  of 2</div><div id="tippy_top_slider-mw" class="tns-ovh"><div class="tns-inner" id="tippy_top_slider-iw"><div id="tippy_top_slider" class="tippy-top__slider tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal inited" style="transition-duration: 0s; transform: translate3d(-33.3333%, 0px, 0px);"><div class="tippy-top__banner mobile-margin tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+        <p>Free shipping w/every purchase!* Use Code: SALESHIP <a href="/en/all-makeup" tabindex="-1">SHOP NOW</a></p>
+    </div><div class="tippy-top__banner mobile-margin tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+        <p>Students get extra 10% off <a href="~/link/221c72cc81cd465a8921c8fdb3839981.aspx" tabindex="-1">FIND OUT MORE</a></p>
+    </div>
+                    
+    <!-- TippyTopBannerBlock Start -->
+    <div class="tippy-top__banner mobile-margin tns-item tns-slide-active" id="tippy_top_slider-item0">
+        <p>Free shipping w/every purchase!* Use Code: SALESHIP <a href="/en/all-makeup" tabindex="0">SHOP NOW</a></p>
+    </div>
+    <!-- TippyTopBannerBlock End -->
+
+    <!-- TippyTopBannerBlock Start -->
+    <div class="tippy-top__banner mobile-margin tns-item" id="tippy_top_slider-item1" aria-hidden="true" tabindex="-1">
+        <p>Students get extra 10% off <a href="~/link/221c72cc81cd465a8921c8fdb3839981.aspx" tabindex="-1">FIND OUT MORE</a></p>
+    </div>
+    <!-- TippyTopBannerBlock End -->
+
+                <div class="tippy-top__banner mobile-margin tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+        <p>Free shipping w/every purchase!* Use Code: SALESHIP <a href="/en/all-makeup" tabindex="-1">SHOP NOW</a></p>
+    </div><div class="tippy-top__banner mobile-margin tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+        <p>Students get extra 10% off <a href="~/link/221c72cc81cd465a8921c8fdb3839981.aspx" tabindex="-1">FIND OUT MORE</a></p>
+    </div></div></div></div></div>
+                <a href="#" class="tippy-top__control tippy-top__control--next" aria-label="Next">
+                    <i class="icon-arrow-next-big"></i>
+                </a>
+            </div>
+    </div>
+</div>
+
+
+<header id="header" class="header" style="position: sticky; top: 0px;"><a href="#main-content" class="header__skip-link">
+        Skip to main content
+    </a> <div class="header__content container container--narrow"><div role="search" class="search-form"><i class="icon icon-search"></i> <input id="search-input" autocomplete="off" type="text" aria-label="Search" placeholder="Search" class="search-form__input" style="border: 0px; outline: 0px;"> <i class="icon-close icon-search-close"></i> <ul class="search-form__suggestions" style="height: calc(100vh - 70px); display: none;"><li class="heading">
+            PRODUCTS
+        </li>  <li class="all"><a href="/en/search?query=">VIEW ALL</a></li></ul></div> <a href="/en" class="logo"><img src="/globalassets/global-template/header/benefitbrand.svg" alt="Benefit Cosmetics, home, logo" class="logo__image"></a> <div class="toolbar"><a href="/en/locations" aria-label="Location" id="language_header_link" class="link link--gray toolbar__item toolbar__item--store"><i class="icon icon-location"></i> <span>English</span></a> <a href="/en/find-a-store" alt="Find a store" aria-label="Find a store" class="link link--gray toolbar__item toolbar__item--find-a-store">
+                Find a store
+            </a> <div class="account-popup__wrapper toolbar__item toolbar__item--sign-in"><button href="#" aria-label="Sign in" aria-expanded="false" class="account-popup__link account-popup__link--active"><span>
+            Sign in
+        </span> <i class="icon icon-arrow-down"></i></button> <div class="overlay"></div> <div class="account-popup"><div class="account-popup__content"><div class="close mobile-only"><i class="icon icon-close"></i></div> <div class="account-popup__title center pink">
+                    Hello, gorgeous! Sign in.
+                </div> <!----> <form novalidate="novalidate" class="login-form vf-form-pristine vf-form-invalid vf-form-untouched"><div class="input__box vf-field-pristine vf-field-invalid vf-field-untouched vf-field-invalid-required"><input id="login_form_email" required="required" name="email" type="email" maxlength="240" aria-required="true" placeholder="Email address*" aria-label="Email address" vue-form-validator="" class="input vf-pristine vf-invalid vf-untouched vf-invalid-required"> <div></div></div> <div class="input__box vf-field-pristine vf-field-invalid vf-field-untouched vf-field-invalid-required"><input id="login_form_password" required="required" name="password" type="password" aria-required="true" placeholder="Password*" aria-label="Password" vue-form-validator="" class="input vf-pristine vf-invalid vf-untouched vf-invalid-required"> <div></div></div> <div class="right"><a href="#" class="link link--no-text-decoration">
+                            Forgot password?
+                        </a></div> <button type="submit" class="btn btn--fullwidth">
+                        Sign in
+                    </button></form> <div class="text center pink">
+                    Don't have an account? <a href="/en/account/register/?returnUrl=%2Fen%2Faccount%2Fregister" class="link">
+                        Sign up
+                    </a></div> <!----> <!----></div></div></div></div> <div class="search-mobile mobile-only"><i class="icon icon-search"></i></div> <div class="cart"><button aria-label="Open cart" class="cart__trigger"><i class="icon icon-shopping-bag"></i> <!----></button> <div id="cart_overlay" class="menu__content slide-menu" style="left: auto; right: 0px; display: block;"><div class="cart__content" style="position: relative; display: none;"><div class="cart__header right"><button aria-label="Close cart" class="cart__close focus-visible"><i class="icon-close pink"></i></button> <div class="totals-row"><span>My bag (0)</span> <span>$0.00</span> <div class="totals-row__subtext">
+        
+    </div></div></div> <!----> <div class="cart__main" data-scrollbar="true" tabindex="-1" style="overflow: hidden; outline: none;"><div class="scroll-content"><div class="cart__inner"><div class="cart__scrollable-wrapper"><div class="cart__scrollable-content"><div class="cart__section cart__section--items"><div class="headline headline--secondary center">
+                                    No items in your cart
+                                </div></div> <div class="cart__section"><div class="promo-list__wrapper"><div class="center headline headline--secondary">
+        Pick 2 free samples!
+    </div> <div class="product-list promo-list"><div class="tns-outer" id="free_samples-ow"><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">1 to 4</span>  of 5</div><div id="free_samples-mw" class="tns-ovh"><div class="tns-inner" id="free_samples-iw"><div id="free_samples" class="product-list__container promo-list__container  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" style="transition-duration: 0s; transform: translate3d(0px, 0px, 0px);"><div class="card card--small tns-item tns-slide-active" id="free_samples-item0"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/samples/free-samples/boi-ing-cakeless-concealer-sample-shade-medium-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/samples/free-samples/boi-ing-cakeless-concealer-sample-shade-medium-swatch.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/samples/free-samples/boi-ing-cakeless-concealer-sample-shade-medium-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Boi-ing Cakeless Concealer Sample Medium Swatch" aria-label="Boi-ing Cakeless Concealer Sample Medium Swatch" loading="lazy"></picture></div></div> <div class="text text--indent-s center card__title">
+        Boi-ing High Coverage Medium Sample
+    </div> <div class="center card__button"><button aria-label="Add" class="btn btn--secondary btn--fullwidth">
+            Add
+        </button></div></div><div class="card card--small tns-item tns-slide-active" id="free_samples-item1"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/samples/free-samples/precisely-my-brow-pencil-sample-shade-3-5-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/samples/free-samples/precisely-my-brow-pencil-sample-shade-3-5-swatch.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/samples/free-samples/precisely-my-brow-pencil-sample-shade-3-5-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Precisely, My Brow Eyebrow Pencil Sample Shade 3.5 Swatch" aria-label="Precisely, My Brow Eyebrow Pencil Sample Shade 3.5 Swatch" loading="lazy"></picture></div></div> <div class="text text--indent-s center card__title">
+        Precisely, My Brow Eyebrow Pencil Shade 3.5 Individual Sample
+    </div> <div class="center card__button"><button aria-label="Add" class="btn btn--secondary btn--fullwidth">
+            Add
+        </button></div></div><div class="card card--small tns-item tns-slide-active" id="free_samples-item2"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/samples/free-samples/precisely-my-brow-pencil-sample-shade-4-5-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/samples/free-samples/precisely-my-brow-pencil-sample-shade-4-5-swatch.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/samples/free-samples/precisely-my-brow-pencil-sample-shade-4-5-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Precisely, My Brow Eyebrow Pencil Sample Shade 4.5 Swatch" aria-label="Precisely, My Brow Eyebrow Pencil Sample Shade 4.5 Swatch" loading="lazy"></picture></div></div> <div class="text text--indent-s center card__title">
+        Precisely, My Brow Eyebrow Pencil Shade 4.5 Individual Sample
+    </div> <div class="center card__button"><button aria-label="Add" class="btn btn--secondary btn--fullwidth">
+            Add
+        </button></div></div><div class="card card--small tns-item tns-slide-active" id="free_samples-item3"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/samples/free-samples/bright-its-potent-individual-sample-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/samples/free-samples/bright-its-potent-individual-sample-swatch.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/samples/free-samples/bright-its-potent-individual-sample-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="It's Potent Individual Sample Swatch" aria-label="It's Potent Individual Sample Swatch" loading="lazy"></picture></div></div> <div class="text text--indent-s center card__title">
+        It's Potent! Dark Circle Eye Cream Individual Sample
+    </div> <div class="center card__button"><button aria-label="Add" class="btn btn--secondary btn--fullwidth">
+            Add
+        </button></div></div><div class="card card--small tns-item" id="free_samples-item4" aria-hidden="true" tabindex="-1"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/samples/free-samples/boi-ing-cakeless-concealer-sample-shade-deep-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/samples/free-samples/boi-ing-cakeless-concealer-sample-shade-deep-swatch.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/samples/free-samples/boi-ing-cakeless-concealer-sample-shade-deep-swatch.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Boi-ing Cakeless Concealer Sample Deep Swatch" aria-label="Boi-ing Cakeless Concealer Sample Deep Swatch" loading="lazy"></picture></div></div> <div class="text text--indent-s center card__title">
+        Boi-ing High Coverage Deep Sample
+    </div> <div class="center card__button"><button aria-label="Add" class="btn btn--secondary btn--fullwidth">
+            Add
+        </button></div></div></div></div></div><div class="tns-nav" aria-label="Carousel Pagination"><button type="button" data-nav="0" aria-controls="free_samples" style="" aria-label="Carousel Page 1 (Current Slide)" class="tns-nav-active"></button><button type="button" data-nav="1" tabindex="-1" aria-controls="free_samples" style="" aria-label="Carousel Page 2"></button><button type="button" data-nav="2" tabindex="-1" aria-controls="free_samples" style="display:none" aria-label="Carousel Page 3"></button><button type="button" data-nav="3" tabindex="-1" aria-controls="free_samples" style="display:none" aria-label="Carousel Page 4"></button><button type="button" data-nav="4" tabindex="-1" aria-controls="free_samples" style="display:none" aria-label="Carousel Page 5"></button></div></div></div></div></div> <div class="cart__section cart__section--padded"><div class="promo-list__wrapper"><div class="center headline headline--secondary">
+        Shop Bestsellers
+    </div> <div class="product-list promo-list"><div class="tns-outer" id="whats_new-ow"><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">1 to 4</span>  of 9</div><div id="whats_new-mw" class="tns-ovh"><div class="tns-inner" id="whats_new-iw"><div id="whats_new" class="product-list__container promo-list__container  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" style="transition-duration: 0s; transform: translate3d(0px, 0px, 0px);"><div class="card card--small tns-item tns-slide-active" id="whats_new-item0"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/brows/brow-gel/gimme-brow-volumizing-eyebrow-gel/gimme-brow-plus-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="gimme-brow-plus-component.png" aria-label="gimme-brow-plus-component.png" loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        Gimme Brow+ Volumizing Eyebrow Gel
+    </div> <!----> <div class="price text text--bold text--pink center"><!----> <!----></div> <div class="center card__button"><a href="/en/product/gimme-brow-volumizing-eyebrow-gel?product=GIMMEBROW-FULL" aria-label="SHOP NOW" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    SHOP NOW
+</a></div></div><div class="card card--small tns-item tns-slide-active" id="whats_new-item1"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/cheeks/cheek--lip-stain/benetint-cheek--lip-stain/benetint-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/cheeks/cheek--lip-stain/benetint-cheek--lip-stain/benetint-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/cheeks/cheek--lip-stain/benetint-cheek--lip-stain/benetint-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Benetint Cheek &amp; Lip Stain Component" aria-label="Benetint Cheek &amp; Lip Stain Component" loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        Benetint Cheek &amp; Lip Stain
+    </div> <!----> <div class="price text text--bold text--pink center"><!----> <!----></div> <div class="center card__button"><a href="/en/product/benetint-cheek-lip-stain" aria-label="SHOP NOW" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    SHOP NOW
+</a></div></div><div class="card card--small tns-item tns-slide-active" id="whats_new-item2"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/brows/brow-pencil/precisely-my-brow-eyebrow-pencil/precisely-my-brow-pencil-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Precisely My Brow Eyebrow Pencil component image." aria-label="Precisely My Brow Eyebrow Pencil component image." loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        Precisely, My Brow Eyebrow Pencil
+    </div> <!----> <div class="price text text--bold text--pink center"><!----> <!----></div> <div class="center card__button"><a href="/en/product/precisely-my-brow-eyebrow-pencil?product=PRECI-FULL" aria-label="SHOP NOW" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    SHOP NOW
+</a></div></div><div class="card card--small tns-item tns-slide-active" id="whats_new-item3"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/eyes/eyeliner/roller-liner-liquid-eyeliner/roller-liner-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/eyes/eyeliner/roller-liner-liquid-eyeliner/roller-liner-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/eyes/eyeliner/roller-liner-liquid-eyeliner/roller-liner-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Roller Liner component image." aria-label="Roller Liner component image." loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        Roller Liner Matte Liquid Eyeliner
+    </div> <!----> <div class="price text text--bold text--pink center"><!----> <!----></div> <div class="center card__button"><a href="/en/product/roller-liner-matte-liquid-eyeliner?product=ROLLLINER-FULL" aria-label="SHOP NOW" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    SHOP NOW
+</a></div></div><div class="card card--small tns-item" id="whats_new-item4" aria-hidden="true" tabindex="-1"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/face/primer/the-porefessional-hydrate-primer/carousel-images/the-porefessional-hydrate-primer-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/face/primer/the-porefessional-hydrate-primer/carousel-images/the-porefessional-hydrate-primer-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/face/primer/the-porefessional-hydrate-primer/carousel-images/the-porefessional-hydrate-primer-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="The Porefessional Hydrate Primer Component" aria-label="The Porefessional Hydrate Primer Component" loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        The POREfessional: Hydrate Primer
+    </div> <!----> <div class="price text text--bold text--pink center"><!----> <!----></div> <div class="center card__button"><a href="/en/product/the-porefessional-hydrate-primer?product=POREHFM99-FULL" aria-label="SHOP NOW" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    SHOP NOW
+</a></div></div><div class="card card--small tns-item" id="whats_new-item5" aria-hidden="true" tabindex="-1"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/cheeks/bronzer/hoola-matte-bronzer/hoola-bronzer-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/cheeks/bronzer/hoola-matte-bronzer/hoola-bronzer-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/cheeks/bronzer/hoola-matte-bronzer/hoola-bronzer-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Hoola Matte Bronzer Component" aria-label="Hoola Matte Bronzer Component" loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        Hoola Matte Bronzer
+    </div> <!----> <div class="price text text--bold text--pink center"><!----> <!----></div> <div class="center card__button"><a href="/en/product/hoola-matte-bronzer?product=HOOLAIB74-FULL" aria-label="SHOP NOW" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    SHOP NOW
+</a></div></div><div class="card card--small tns-item" id="whats_new-item6" aria-hidden="true" tabindex="-1"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/eyes/mascara/theyre-real-lengthening-mascara/carousel-images/full-size/theyre-real-lengthening-mascara-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/eyes/mascara/theyre-real-lengthening-mascara/carousel-images/full-size/theyre-real-lengthening-mascara-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/eyes/mascara/theyre-real-lengthening-mascara/carousel-images/full-size/theyre-real-lengthening-mascara-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Theyre Real Lengthening Mascara Component" aria-label="Theyre Real Lengthening Mascara Component" loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        They're Real! Lengthening Mascara
+    </div> <!----> <div class="price text text--bold text--pink center"><!----> <!----></div> <div class="center card__button"><a href="/en/product/theyre-real-lengthening-mascara?product=TARMASCARA-FULL" aria-label="SHOP NOW" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    SHOP NOW
+</a></div></div><div class="card card--small tns-item" id="whats_new-item7" aria-hidden="true" tabindex="-1"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/face/concealer/boi-ing-cakeless-concealer/boiing-cakeless-concealer-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/face/concealer/boi-ing-cakeless-concealer/boiing-cakeless-concealer-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/face/concealer/boi-ing-cakeless-concealer/boiing-cakeless-concealer-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="boiing-cakeless-concealer-component.png" aria-label="boiing-cakeless-concealer-component.png" loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        Boi-ing Cakeless Concealer
+    </div> <!----> <div class="price text text--bold text--pink center"><!----> <!----></div> <div class="center card__button"><a href="/en/product/boi-ing-cakeless-concealer" aria-label="SHOP NOW" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    SHOP NOW
+</a></div></div><div class="card card--small tns-item" id="whats_new-item8" aria-hidden="true" tabindex="-1"><!----> <div class="card__preview"><div class="image-retina"><picture> <source srcset="/globalassets/pdps/face/foundation/hello-happy-flawless-brightening-foundation/hello-happy-flawless-brightening-foundation-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5, /globalassets/pdps/face/foundation/hello-happy-flawless-brightening-foundation/hello-happy-flawless-brightening-foundation-component.png?width=240&amp;height=288&amp;mode=crop&amp;center=0.5,0.5 2x"> <img src="/globalassets/pdps/face/foundation/hello-happy-flawless-brightening-foundation/hello-happy-flawless-brightening-foundation-component.png?width=120&amp;height=144&amp;mode=crop&amp;center=0.5,0.5" alt="Hello Happy Flawless Brightening Foundation Product Component" aria-label="Hello Happy Flawless Brightening Foundation Product Component" loading="lazy"></picture></div></div> <div class="text text--indent-s text--bold center card__title">
+        Hello Happy Flawless Brightening Foundation
+    </div> <!----> <div class="price text text--bold text--pink center"><!----> <!----></div> <div class="center card__button"><a href="/en/product/hello-happy-flawless-brightening-foundation?product=HELLOLQ-FULL" aria-label="SHOP NOW" class="btn btn--lined btn--fullwidth" thumbnail="true">
+    SHOP NOW
+</a></div></div></div></div></div><div class="tns-nav" aria-label="Carousel Pagination"><button type="button" data-nav="0" aria-controls="whats_new" style="" aria-label="Carousel Page 1 (Current Slide)" class="tns-nav-active"></button><button type="button" data-nav="1" tabindex="-1" aria-controls="whats_new" style="" aria-label="Carousel Page 2"></button><button type="button" data-nav="2" tabindex="-1" aria-controls="whats_new" style="" aria-label="Carousel Page 3"></button><button type="button" data-nav="3" tabindex="-1" aria-controls="whats_new" style="display:none" aria-label="Carousel Page 4"></button><button type="button" data-nav="4" tabindex="-1" aria-controls="whats_new" style="display:none" aria-label="Carousel Page 5"></button><button type="button" data-nav="5" tabindex="-1" aria-controls="whats_new" style="display:none" aria-label="Carousel Page 6"></button><button type="button" data-nav="6" tabindex="-1" aria-controls="whats_new" style="display:none" aria-label="Carousel Page 7"></button><button type="button" data-nav="7" tabindex="-1" aria-controls="whats_new" style="display:none" aria-label="Carousel Page 8"></button><button type="button" data-nav="8" tabindex="-1" aria-controls="whats_new" style="display:none" aria-label="Carousel Page 9"></button></div></div></div></div></div></div></div></div></div><div class="scrollbar-track scrollbar-track-x show" style="display: none;"><div class="scrollbar-thumb scrollbar-thumb-x"></div></div><div class="scrollbar-track scrollbar-track-y show" style="display: none;"><div class="scrollbar-thumb scrollbar-thumb-y"></div></div></div> <div class="cart__footer"><div class="totals-row"><span>Estimated total</span> <span>$0.00</span> <div class="totals-row__subtext">
+        (Tax and shipping calculated at checkout)
+    </div></div> <div class="cart__buttons-set"><button disabled="disabled" aria-label="Guest Checkout" class="btn">
+                        Guest Checkout
+                    </button> <button aria-label="Sign in" class="btn btn--lined">
+                        Sign in
+                    </button></div> <!----></div><div class="spinner-overlay"><span class="spinner icon-spinner animate-spin spinner--full"></span><span class="spinner-text">Updating cart</span></div></div></div> <div class="overlay"></div></div></div> <div class="menu__wrapper"><nav aria-label="Main Menu"><div class="menu"><div id="menu_trigger" class="menu__trigger"><i class="icon-menu"></i></div> <nav><div id="menu_content" class="menu__content slide-menu"><ul>
+<ul class="desktop-menu__content">
+                    <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left">
+                    
+
+<a href="/en/all-makeup" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Products">
+    Products
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Products" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab">
+                    <ul class="desktop-menu__list">
+                                    <li class="desktop-menu__subitem">
+            <a href="/en/all-makeup" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="All Makeup" tabindex="0" aria-label="All Makeup">All Makeup</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/en/new-arrivals" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="New Arrivals" tabindex="0" aria-label="New Arrivals">New Arrivals</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/en/bestsellers-makeup" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Bestsellers" tabindex="0" aria-label="Bestsellers">Bestsellers</a>
+            </li>
+
+                    </ul>
+                </div>
+
+                <div class="desktop-menu__section desktop-menu__section--right">
+                                <div class="desktop-menu__column">
+                            <a href="/en/brow-makeup" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Brows" tabindex="0" aria-label="Brows">Brows</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/en/brow-makeup/brow-gel" class="desktop-menu__sublink" target="_self" title="Brow Gel" tabindex="0" aria-label="Brow Gel">Brow Gel</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/brow-makeup/brow-pencil" class="desktop-menu__sublink" target="_self" title="Brow Pencil" tabindex="0" aria-label="Brow Pencil">Brow Pencil</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/brow-makeup/brow-tools--kits" class="desktop-menu__sublink" target="_self" title="Brow Tools &amp; Kits" tabindex="0" aria-label="Brow Tools &amp; Kits">Brow Tools &amp; Kits</a>
+</li>
+                </ul>
+            <a href="/en/eyes" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Eyes" tabindex="0" aria-label="Eyes">Eyes</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/en/eyes/mascara" class="desktop-menu__sublink" target="_self" title="Mascara" tabindex="0" aria-label="Mascara">Mascara</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/eyes/eyeliner" class="desktop-menu__sublink" target="_self" title="Eyeliner" tabindex="0" aria-label="Eyeliner">Eyeliner</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/eyes/eyeshadow" class="desktop-menu__sublink" target="_self" title="Eyeshadow" tabindex="0" aria-label="Eyeshadow">Eyeshadow</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/eyes/false-eyelashes" class="desktop-menu__sublink" target="_self" title="False Eyelashes" tabindex="0" aria-label="False Eyelashes">False Eyelashes</a>
+</li>
+                </ul>
+
+            </div>
+            <div class="desktop-menu__column">
+                            <a href="/en/face" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Face" tabindex="0" aria-label="Face">Face</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/en/face/blush" class="desktop-menu__sublink" target="_self" title="Blush" tabindex="0" aria-label="Blush">Blush</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/face/bronzer" class="desktop-menu__sublink" target="_self" title="Bronzer" tabindex="0" aria-label="Bronzer">Bronzer</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/face/cheek-stain" class="desktop-menu__sublink" target="_self" title="Cheek Stain" tabindex="0" aria-label="Cheek Stain">Cheek Stain</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/face/concealer" class="desktop-menu__sublink" target="_self" title="Concealer" tabindex="0" aria-label="Concealer">Concealer</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/face/face-primer" class="desktop-menu__sublink" target="_self" title="Face Primer" tabindex="0" aria-label="Face Primer">Face Primer</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/face/foundation" class="desktop-menu__sublink" target="_self" title="Foundation" tabindex="0" aria-label="Foundation">Foundation</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/face/highlighter" class="desktop-menu__sublink" target="_self" title="Highlighter" tabindex="0" aria-label="Highlighter">Highlighter</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/face/skin-care" class="desktop-menu__sublink" target="_self" title="Skin Care" tabindex="0" aria-label="Skin Care">Skin Care</a>
+</li>
+                </ul>
+
+            </div>
+            <div class="desktop-menu__column">
+                            <a href="/en/lips" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Lips" tabindex="0" aria-label="Lips">Lips</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/en/lips/lip-stain" class="desktop-menu__sublink" target="_self" title="Lip Stain" tabindex="0" aria-label="Lip Stain">Lip Stain</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/lips/lipstick" class="desktop-menu__sublink" target="_self" title="Lipstick" tabindex="0" aria-label="Lipstick">Lipstick</a>
+</li>
+                </ul>
+            <a href="/en/accessories" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Accessories" tabindex="0" aria-label="Accessories">Accessories</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/en/accessories/tools-brushes" class="desktop-menu__sublink" target="_self" title="Tools &amp; Brushes" tabindex="0" aria-label="Tools &amp; Brushes">Tools &amp; Brushes</a>
+</li>
+                </ul>
+
+            </div>
+            <div class="desktop-menu__column">
+                            <a href="" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Exclusives" tabindex="0" aria-label="Exclusives">Exclusives</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/en/fragrances" class="desktop-menu__sublink" target="_self" title="Fragrances" tabindex="0" aria-label="Fragrances">Fragrances</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/accessories/merchandise" class="desktop-menu__sublink" target="_self" title="Benefit Merch" tabindex="0" aria-label="Benefit Merch">Benefit Merch</a>
+</li>
+                </ul>
+            <a href="/en/value-sets-kits" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Value Sets &amp; Kits" tabindex="0" aria-label="Value Sets &amp; Kits">Value Sets &amp; Kits</a>
+                <ul class="desktop-menu__sublist">
+                </ul>
+            <span class="desktop-menu__link desktop-menu__link--level1" tabindex="0" aria-label="Sale">Sale</span>
+                <ul class="desktop-menu__sublist">
+                </ul>
+
+            </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left">
+                    
+
+
+<a href="/en/brows" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Brows">
+    Brows
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Brows" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab no-border">
+                    <ul class="desktop-menu__list desktop-menu__list--level1">
+                                    <li class="desktop-menu__subitem">
+            <a href="/en/brows" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="All About Brows" tabindex="0" aria-label="All About Brows">All About Brows</a>
+                    <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/en/brow-makeup" class="desktop-menu__sublink" target="_self" title="Brow Products" tabindex="0" aria-label="Brow Products">Brow Products</a>
+</li>
+                    </ul>
+            </li>
+
+                    </ul>
+                </div>
+                <div class="desktop-menu__section desktop-menu__section--right desktop-menu__image-wrapper">
+                            <a href="/en/brows" title="Brow Try On Model on cellphone">
+                                <img src="/globalassets/global-template/header/mega-menu-nav-banners/homepage-nav-banner-bto.gif?width=500" alt="Brow Try On Model on cellphone" class="desktop-menu__image">
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left">
+                    
+
+
+<a href="/en/services" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Services">
+    Services
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Services" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab no-border">
+                    <ul class="desktop-menu__list desktop-menu__list--level1">
+                                    <li class="desktop-menu__subitem">
+            <a href="/en/services" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Services" tabindex="0" aria-label="Services">Services</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/en/find-a-store" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Find a Store" tabindex="0" aria-label="Find a Store">Find a Store</a>
+            </li>
+
+                    </ul>
+                </div>
+                <div class="desktop-menu__section desktop-menu__section--right desktop-menu__image-wrapper">
+                            <a href="/en/services" title="Book online for Services">
+                                <img src="/globalassets/global-template/header/mega-menu-nav-banners/homepage-nav-banner-services.jpg?width=500" alt="Book online for Services" class="desktop-menu__image">
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left">
+                    
+
+
+<a href="/en/offers-more" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Offers &amp; More">
+    Offers &amp; More
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Offers &amp; More" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab no-border">
+                    <ul class="desktop-menu__list desktop-menu__list--level1">
+                                    <li class="desktop-menu__subitem">
+            <a href="/en/value-sets-kits" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Value Sets &amp; Kits" tabindex="0" aria-label="Value Sets &amp; Kits">Value Sets &amp; Kits</a>
+            </li>
+
+                    </ul>
+                </div>
+                <div class="desktop-menu__section desktop-menu__section--right desktop-menu__image-wrapper">
+                            <a href="/en/all-makeup" title="Bestsellers Model with product">
+                                <img src="/globalassets/global-template/header/mega-menu-nav-banners/homepage-nav-banner-bestsellers.jpg?width=500" alt="Bestsellers Model with product" class="desktop-menu__image">
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left">
+                    
+
+
+<a href="https://www.benefitboutiques.com/" class="desktop-menu__link desktop-menu__link--level0 " aria-label="Book a Service">
+    Book a Service
+</a>
+
+
+                </li>
+
+                    <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--right">
+                    
+
+
+<a href="/en/at-home-with-benefit-coloring-pages" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="At Home with Benefit">
+    At Home with Benefit
+</a>
+
+    <button class="desktop-menu__expander" aria-label="At Home with Benefit" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab no-border">
+                    <ul class="desktop-menu__list desktop-menu__list--level1">
+                                    <li class="desktop-menu__subitem">
+            <a href="/en/at-home-with-benefit-coloring-pages" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Coloring Pages" tabindex="0" aria-label="Coloring Pages">Coloring Pages</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/en/at-home-with-benefit-zoom-backgrounds" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Zoom Backgrounds" tabindex="0" aria-label="Zoom Backgrounds">Zoom Backgrounds</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/en/at-home-with-benefit-face-chart" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Face Chart" tabindex="0" aria-label="Face Chart">Face Chart</a>
+            </li>
+
+                    </ul>
+                </div>
+                <div class="desktop-menu__section desktop-menu__section--right desktop-menu__image-wrapper">
+                            <a href="/en/at-home-with-benefit-coloring-pages" title="At Home with Benefit Coloring Pages">
+                                <img src="/globalassets/global-template/header/mega-menu-nav-banners/homepage-nav-banner-at-home-with-benefit.gif?width=500" alt="At Home with Benefit Coloring Pages" class="desktop-menu__image">
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+
+</ul>
+</ul></div></nav> <div class="overlay"></div></div> <div class="desktop-menu">
+<ul class="desktop-menu__content">
+                    <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left" data-index="0">
+                    
+
+<a href="/en/all-makeup" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Products">
+    Products
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Products" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab">
+                    <ul class="desktop-menu__list">
+                                    <li class="desktop-menu__subitem">
+            <a href="/en/all-makeup" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="All Makeup" tabindex="0" aria-label="All Makeup">All Makeup</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/en/new-arrivals" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="New Arrivals" tabindex="0" aria-label="New Arrivals">New Arrivals</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/en/bestsellers-makeup" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Bestsellers" tabindex="0" aria-label="Bestsellers">Bestsellers</a>
+            </li>
+
+                    </ul>
+                </div>
+
+                <div class="desktop-menu__section desktop-menu__section--right">
+                                <div class="desktop-menu__column">
+                            <a href="/en/brow-makeup" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Brows" tabindex="0" aria-label="Brows">Brows</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/en/brow-makeup/brow-gel" class="desktop-menu__sublink" target="_self" title="Brow Gel" tabindex="0" aria-label="Brow Gel">Brow Gel</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/brow-makeup/brow-pencil" class="desktop-menu__sublink" target="_self" title="Brow Pencil" tabindex="0" aria-label="Brow Pencil">Brow Pencil</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/brow-makeup/brow-tools--kits" class="desktop-menu__sublink" target="_self" title="Brow Tools &amp; Kits" tabindex="0" aria-label="Brow Tools &amp; Kits">Brow Tools &amp; Kits</a>
+</li>
+                </ul>
+            <a href="/en/eyes" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Eyes" tabindex="0" aria-label="Eyes">Eyes</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/en/eyes/mascara" class="desktop-menu__sublink" target="_self" title="Mascara" tabindex="0" aria-label="Mascara">Mascara</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/eyes/eyeliner" class="desktop-menu__sublink" target="_self" title="Eyeliner" tabindex="0" aria-label="Eyeliner">Eyeliner</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/eyes/eyeshadow" class="desktop-menu__sublink" target="_self" title="Eyeshadow" tabindex="0" aria-label="Eyeshadow">Eyeshadow</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/eyes/false-eyelashes" class="desktop-menu__sublink" target="_self" title="False Eyelashes" tabindex="0" aria-label="False Eyelashes">False Eyelashes</a>
+</li>
+                </ul>
+
+            </div>
+            <div class="desktop-menu__column">
+                            <a href="/en/face" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Face" tabindex="0" aria-label="Face">Face</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/en/face/blush" class="desktop-menu__sublink" target="_self" title="Blush" tabindex="0" aria-label="Blush">Blush</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/face/bronzer" class="desktop-menu__sublink" target="_self" title="Bronzer" tabindex="0" aria-label="Bronzer">Bronzer</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/face/cheek-stain" class="desktop-menu__sublink" target="_self" title="Cheek Stain" tabindex="0" aria-label="Cheek Stain">Cheek Stain</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/face/concealer" class="desktop-menu__sublink" target="_self" title="Concealer" tabindex="0" aria-label="Concealer">Concealer</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/face/face-primer" class="desktop-menu__sublink" target="_self" title="Face Primer" tabindex="0" aria-label="Face Primer">Face Primer</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/face/foundation" class="desktop-menu__sublink" target="_self" title="Foundation" tabindex="0" aria-label="Foundation">Foundation</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/face/highlighter" class="desktop-menu__sublink" target="_self" title="Highlighter" tabindex="0" aria-label="Highlighter">Highlighter</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/face/skin-care" class="desktop-menu__sublink" target="_self" title="Skin Care" tabindex="0" aria-label="Skin Care">Skin Care</a>
+</li>
+                </ul>
+
+            </div>
+            <div class="desktop-menu__column">
+                            <a href="/en/lips" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Lips" tabindex="0" aria-label="Lips">Lips</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/en/lips/lip-stain" class="desktop-menu__sublink" target="_self" title="Lip Stain" tabindex="0" aria-label="Lip Stain">Lip Stain</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/lips/lipstick" class="desktop-menu__sublink" target="_self" title="Lipstick" tabindex="0" aria-label="Lipstick">Lipstick</a>
+</li>
+                </ul>
+            <a href="/en/accessories" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Accessories" tabindex="0" aria-label="Accessories">Accessories</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/en/accessories/tools-brushes" class="desktop-menu__sublink" target="_self" title="Tools &amp; Brushes" tabindex="0" aria-label="Tools &amp; Brushes">Tools &amp; Brushes</a>
+</li>
+                </ul>
+
+            </div>
+            <div class="desktop-menu__column">
+                            <a href="" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Exclusives" tabindex="0" aria-label="Exclusives">Exclusives</a>
+                <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/en/fragrances" class="desktop-menu__sublink" target="_self" title="Fragrances" tabindex="0" aria-label="Fragrances">Fragrances</a>
+</li>
+                            <li class="desktop-menu__subitem">            <a href="/en/accessories/merchandise" class="desktop-menu__sublink" target="_self" title="Benefit Merch" tabindex="0" aria-label="Benefit Merch">Benefit Merch</a>
+</li>
+                </ul>
+            <a href="/en/value-sets-kits" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Value Sets &amp; Kits" tabindex="0" aria-label="Value Sets &amp; Kits">Value Sets &amp; Kits</a>
+                <ul class="desktop-menu__sublist">
+                </ul>
+            <span class="desktop-menu__link desktop-menu__link--level1" tabindex="0" aria-label="Sale">Sale</span>
+                <ul class="desktop-menu__sublist">
+                </ul>
+
+            </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left" data-index="1">
+                    
+
+
+<a href="/en/brows" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Brows">
+    Brows
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Brows" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab no-border">
+                    <ul class="desktop-menu__list desktop-menu__list--level1">
+                                    <li class="desktop-menu__subitem">
+            <a href="/en/brows" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="All About Brows" tabindex="0" aria-label="All About Brows">All About Brows</a>
+                    <ul class="desktop-menu__sublist">
+                            <li class="desktop-menu__subitem">            <a href="/en/brow-makeup" class="desktop-menu__sublink" target="_self" title="Brow Products" tabindex="0" aria-label="Brow Products">Brow Products</a>
+</li>
+                    </ul>
+            </li>
+
+                    </ul>
+                </div>
+                <div class="desktop-menu__section desktop-menu__section--right desktop-menu__image-wrapper">
+                            <a href="/en/brows" title="Brow Try On Model on cellphone">
+                                <img src="/globalassets/global-template/header/mega-menu-nav-banners/homepage-nav-banner-bto.gif?width=500" alt="Brow Try On Model on cellphone" class="desktop-menu__image">
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left" data-index="2">
+                    
+
+
+<a href="/en/services" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Services">
+    Services
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Services" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab no-border">
+                    <ul class="desktop-menu__list desktop-menu__list--level1">
+                                    <li class="desktop-menu__subitem">
+            <a href="/en/services" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Services" tabindex="0" aria-label="Services">Services</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/en/find-a-store" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Find a Store" tabindex="0" aria-label="Find a Store">Find a Store</a>
+            </li>
+
+                    </ul>
+                </div>
+                <div class="desktop-menu__section desktop-menu__section--right desktop-menu__image-wrapper">
+                            <a href="/en/services" title="Book online for Services">
+                                <img src="/globalassets/global-template/header/mega-menu-nav-banners/homepage-nav-banner-services.jpg?width=500" alt="Book online for Services" class="desktop-menu__image">
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left" data-index="3">
+                    
+
+
+<a href="/en/offers-more" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="Offers &amp; More">
+    Offers &amp; More
+</a>
+
+    <button class="desktop-menu__expander" aria-label="Offers &amp; More" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab no-border">
+                    <ul class="desktop-menu__list desktop-menu__list--level1">
+                                    <li class="desktop-menu__subitem">
+            <a href="/en/value-sets-kits" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Value Sets &amp; Kits" tabindex="0" aria-label="Value Sets &amp; Kits">Value Sets &amp; Kits</a>
+            </li>
+
+                    </ul>
+                </div>
+                <div class="desktop-menu__section desktop-menu__section--right desktop-menu__image-wrapper">
+                            <a href="/en/all-makeup" title="Bestsellers Model with product">
+                                <img src="/globalassets/global-template/header/mega-menu-nav-banners/homepage-nav-banner-bestsellers.jpg?width=500" alt="Bestsellers Model with product" class="desktop-menu__image">
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+                <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--left" data-index="4">
+                    
+
+
+<a href="https://www.benefitboutiques.com/" class="desktop-menu__link desktop-menu__link--level0 " aria-label="Book a Service">
+    Book a Service
+</a>
+
+
+                </li>
+
+                    <li class="desktop-menu__item desktop-menu__item--level0 desktop-menu__item--level0--right" data-index="5">
+                    
+
+
+<a href="/en/at-home-with-benefit-coloring-pages" class="desktop-menu__link desktop-menu__link--level0 desktop-menu__link--level0--megamenu" aria-label="At Home with Benefit">
+    At Home with Benefit
+</a>
+
+    <button class="desktop-menu__expander" aria-label="At Home with Benefit" aria-expanded="false">
+        <i class="icon-arrow-down"></i>
+    </button>
+    <!-- Dropdown Wrapper Start -->
+    <div class="desktop-menu__canvas">
+        <div class="desktop-menu__wrapper">
+            <div class="container desktop-menu__sections">
+                <div class="desktop-menu__section desktop-menu__section--tab no-border">
+                    <ul class="desktop-menu__list desktop-menu__list--level1">
+                                    <li class="desktop-menu__subitem">
+            <a href="/en/at-home-with-benefit-coloring-pages" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Coloring Pages" tabindex="0" aria-label="Coloring Pages">Coloring Pages</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/en/at-home-with-benefit-zoom-backgrounds" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Zoom Backgrounds" tabindex="0" aria-label="Zoom Backgrounds">Zoom Backgrounds</a>
+            </li>
+            <li class="desktop-menu__subitem">
+            <a href="/en/at-home-with-benefit-face-chart" class="desktop-menu__link desktop-menu__link--level1" target="_self" title="Face Chart" tabindex="0" aria-label="Face Chart">Face Chart</a>
+            </li>
+
+                    </ul>
+                </div>
+                <div class="desktop-menu__section desktop-menu__section--right desktop-menu__image-wrapper">
+                            <a href="/en/at-home-with-benefit-coloring-pages" title="At Home with Benefit Coloring Pages">
+                                <img src="/globalassets/global-template/header/mega-menu-nav-banners/homepage-nav-banner-at-home-with-benefit.gif?width=500" alt="At Home with Benefit Coloring Pages" class="desktop-menu__image">
+                            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dropdown Wrapper End -->
+
+                </li>
+
+</ul>
+</div></nav></div></header>
+<!-- Header -->
+    <main id="main-content">
+        
+
+
+
+<!-- Multi block page -->
+<div id="multi_block_page"><div imagecrop="center" class="primaryhero-block__item primaryhero-block__item--right"><div class="primaryhero-block__item-container"><div class="primaryhero-block__wrap"><div class="primaryhero-block__media"><div class="media-block mobile-margin"><div class="media-block__img-wrap"><img alt="Benefit Cosmetics 404 Error Page Oops" data-src="{&quot;mobile&quot;: &quot;&quot;, &quot;desktop&quot;: &quot;/globalassets/landing-pages/404/404-primary.jpg&quot;}" class="media-block__img" src="/globalassets/landing-pages/404/404-primary.jpg?width=1440&amp;height=640&amp;mode=crop&amp;center=0.5,0.5"></div></div></div> <div class="primaryhero-block__details  primaryhero-block__details--h-left primaryhero-block__details--v-center"><div class="primaryhero-block__details__text "><div class="editor-content editor-content--medium primaryhero-block__text"><h3>We looked... but we couldn't find that page.</h3></div></div></div></div></div></div></div>
+<!-- Multi block page -->
+    </main>
+
+
+
+<!-- Footer -->
+<footer id="footer" class="footer"><div id="footer_top" class="footer__top"><div id="footer_logo" class="footer__logo center"><picture><source srcset="/Static/images/main-page/footer-logo-m.png, /Static/images/main-page/footer-logo-m@2x.png 2x" media="(max-width: 991px)"> <source srcset="/Static/images/main-page/footer-logo.png, /Static/images/main-page/footer-logo@2x.png 2x" media="(min-width: 992px)"> <img src="/globalassets/global-template/footer/benefitfooter.png" alt="Laughter is the best cosmetic" loading="lazy"></picture></div> <div><nav id="bottom-nav" aria-label="" class="bottom-nav"><div class="bottom-nav__element"><div class="bottom-nav__title-wrap"><h3><span class="bottom-nav__title">Accessibility</span></h3> <i class="icon icon-arrow-next bottom-nav__arrow"></i></div> <ul class="bottom-nav__list"><li class="bottom-nav__item"><button id="change_contrast" class="bottom-nav__link bottom-nav__btn">Change contrast</button></li> <li class="bottom-nav__item"><button id="change_animations" class="bottom-nav__link bottom-nav__btn">Disable animations</button></li></ul></div> <div class="bottom-nav__element"><div class="bottom-nav__title-wrap"><h3><span class="bottom-nav__title">Products</span></h3> <i class="icon icon-arrow-next bottom-nav__arrow"></i></div> <ul class="bottom-nav__list"><li class="bottom-nav__item"><a href="/en/bestsellers-makeup" target="_self" title="Bestsellers" aria-label="Bestsellers" class="bottom-nav__link">Bestsellers</a></li> <li class="bottom-nav__item"><a href="/en/brow-makeup" target="_self" title="Brows" aria-label="Brows" class="bottom-nav__link">Brows</a></li> <li class="bottom-nav__item"><a href="/en/face" target="_self" title="Face" aria-label="Face" class="bottom-nav__link">Face</a></li> <li class="bottom-nav__item"><a href="/en/face/skin-care" target="_self" title="Skin Care" aria-label="Skin Care" class="bottom-nav__link">Skin Care</a></li> <li class="bottom-nav__item"><a href="/en/value-sets-kits" target="_self" title="Kits" aria-label="Kits" class="bottom-nav__link">Kits</a></li></ul></div> <div class="bottom-nav__element"><div class="bottom-nav__title-wrap"><h3><span class="bottom-nav__title">Help</span></h3> <i class="icon icon-arrow-next bottom-nav__arrow"></i></div> <ul class="bottom-nav__list"><li class="bottom-nav__item"><a href="mailto:benefit@au.lvmh-pc.com" target="_self" title="Contact Us" aria-label="Contact Us" class="bottom-nav__link">Contact Us</a></li></ul></div> <div class="bottom-nav__element"><div class="bottom-nav__title-wrap"><h3><span class="bottom-nav__title">About</span></h3> <i class="icon icon-arrow-next bottom-nav__arrow"></i></div> <ul class="bottom-nav__list"><li class="bottom-nav__item"><a href="/en/about-us" target="_self" title="Meet Benefit" aria-label="Meet Benefit" class="bottom-nav__link">Meet Benefit</a></li> <li class="bottom-nav__item"><a href="/en/careers" target="_self" title="Careers" aria-label="Careers" class="bottom-nav__link">Careers</a></li></ul></div></nav></div> <div id="footer-right" class="footer__right"><!----> <!----> <!----> <div><div id="social-icons" class="social-icons"><div class="text text--white text--uppercase text--bold social-icons__text">KEEP IN TOUCH</div> <ul class="social-icons__list"><li><a href="https://www.facebook.com/benefitcosmetics" title="Facebook" target="_blank" aria-label="Facebook"><i class="icon icon-facebook"></i></a></li> <li><a href="https://www.instagram.com/benefitcosmetics/" title="Instagram" target="_blank" aria-label="Instagram"><i class="icon icon-instagram"></i></a></li> <li><a href="https://twitter.com/benefitbeauty" title="Twitter" target="_blank" aria-label="Twitter"><i class="icon icon-twitter"></i></a></li> <li><a href="https://www.youtube.com/user/benefitcosmetics" title="YouTube" target="_blank" aria-label="YouTube"><i class="icon icon-youtube"></i></a></li> <li><a href="https://www.pinterest.com/benefitbeauty/" title="Pinterest" target="_blank" aria-label="Pinterest"><i class="icon icon-pinterest"></i></a></li></ul></div></div> <div><div><form novalidate="novalidate" class="vf-form-pristine vf-form-valid vf-form-untouched"><div class="vf-field-pristine vf-field-valid vf-field-untouched"><div id="sign-up" class="sign-up"><input id="signup-email" type="email" maxlength="240" name="signup-email" placeholder="Your email" aria-label="Your email" vue-form-validator="" class="text-box text-box--color-pink vf-pristine vf-valid vf-untouched"> <button aria-label="JOIN" class="btn btn--white center btn--sign-up">
+                JOIN
+            </button></div> <div class="sign-up__error-block"></div> <!----></div></form> <div id="footer-text" class="footer__text">Benefit Cosmetics is the processing controller of your data. The information you provide is to send communications about Benefit Cosmetics offers, news and events. Your data will be shared with Benefit Cosmetics if you have expressed your wish to receive Beauty news. For more information about the processing of your personal data and to know your rights, please consult our Privacy Policy.</div></div></div> <!----> <!----> <!----></div></div> <div class="footer__bot"><div class="footer__bot-wrap"><div class="text text--size-s text--white center">
+                ©2020, Benefit Cosmetics LLC
+            </div> <nav aria-label=""><div class="bottom-menu footer__bottom-menu"><ul class="bottom-menu__list"><li><a target="_self" href="/en/privacy-policy" title="Privacy Policy" aria-label="Privacy Policy">Privacy Policy</a></li> <li><a target="_self" href="/en/california-privacy" title="California Privacy" aria-label="California Privacy">California Privacy</a></li> <li><a target="_self" href="/en/california-privacy" title="Do Not Sell My Info" aria-label="Do Not Sell My Info">Do Not Sell My Info</a></li> <li><a target="_self" href="/en/terms-conditions" title="Terms &amp; Conditions" aria-label="Terms &amp; Conditions">Terms &amp; Conditions</a></li> <li><a target="_self" href="/en/ca-supply-chain-act" title="CA Transparency in Supply Chain Act" aria-label="CA Transparency in Supply Chain Act">CA Transparency in Supply Chain Act</a></li> <li><a target="_self" href="/en/community-guidelines" title="Community Guidelines" aria-label="Community Guidelines">Community Guidelines</a></li></ul></div></nav></div></div></footer>
+<!-- Footer -->
+
+
+
+    <script type="application/json" id="config-cart">
+        {
+  "FreeSamples": {
+    "Title": "Pick 2 free samples!",
+    "Items": [
+      "9a0b9c48-c22a-4fc2-a873-08117f298ac2",
+      "8777161e-3ac0-481d-ab65-c253a4381a28",
+      "46376d8f-bd68-4afe-80e7-d4f3a86616a2",
+      "e5b12f9d-ebdc-40a5-ae1a-6aac7f81b118",
+      "cc54eb28-ef54-478f-b5bc-0eaf225c377f"
+    ]
+  },
+  "WhatsNew": {
+    "SectionHeader": "Shop Bestsellers",
+    "Items": [
+      "ff135117-45b5-4e95-9bba-34df477d2441",
+      "6dbbc4d7-820d-40fa-91f3-ab1c6e2b0f4d",
+      "71b9e05b-34e3-4bd1-81fb-9ee8becd09e3",
+      "4304ca8e-0627-43de-9556-b6eaa15f87e8",
+      "af383d92-6c16-4429-bd1f-907ea8503907",
+      "7e63195d-7545-4570-ad76-fadf7d6be476",
+      "11c86e16-533b-4e52-8386-839c7c4b1166",
+      "edec7a02-41df-4d97-86c2-8a99084defa6",
+      "b09ae8e9-f488-4ff9-910c-48f7516c937d"
+    ],
+    "BlockTopMargin": false,
+    "BlockBottomMargin": false
+  },
+  "CheckoutPageUrl": "/en/checkout",
+  "ShowOverlay": true
+}
+    </script>
+
+
+    
+        <script>GLOBAL_PAGE = 'multi-block';</script>
+
+
+        <script defer="" src="https://ui.powerreviews.com/stable/4.0/ui.js"></script>
+
+
+    <script>
+        APP_CONFIG = []
+        GLOBAL_LOCALE = 'en'
+        LANGUAGE_COUNTRY = 'English'
+        IS_RTL = false
+        LOCALIZATION_DATA = JSON.parse('{\r\n  \"SystemResource.FindStorePageTitle\": \"Find a store\",\r\n  \"Free\": \"Free\",\r\n  \"SystemResource.FormLastNameLabel\": \"Last name\",\r\n  \"SystemResource.MyAccountForgotPasswordMessage\": \"Forgot password?\",\r\n  \"SystemResource.OrderConfirmationHelpSectionMessage\": \"Give us a ring @ 1.800.781.2336 or send us an email. We’re here for you!\u003cbr/\u003eVisit our help/FAQ\",\r\n  \"SystemResource.ContactUsMessageLabel\": \"Message\",\r\n  \"SystemResource.CartGiftOptionLabelText\": \"Gift options\",\r\n  \"SystemResource.MyAccountRecentOrdersTotalText\": \"Total\",\r\n  \"SystemResource.ExceptionMessageShippingOptionsRestricted\": \"Sorry, gorgeous! Due to shipping restrictions, we can only ship certain products via ground transportation. Please choose Standard Shipping.\",\r\n  \"Use\": \"Use\",\r\n  \"SystemResource.FindStoreGetDirectionsText\": \"Get directions\",\r\n  \"Type\": \"Type\",\r\n  \"SystemResource.MyAccountSignUpButtonText\": \"Sign up\",\r\n  \"SystemResource.ContactUsTitleLabel\": \"So gorgeous, what can we help you with?\",\r\n  \"SystemResource.CartTaxTotalLabelText\": \"Tax\",\r\n  \"SystemResource.FormLastNameErrorLabel\": \"Last name is required\",\r\n  \"SystemResource.FooterAccessibilityLabelText\": \"Accessibility\",\r\n  \"SystemResource.ProductBTOTryItOnButtonText\": \"TRY IT ON!\",\r\n  \"SystemResource.FooterSocialMediaSectionText\": \"KEEP IN TOUCH\",\r\n  \"SystemResource.HeaderSignInLinkText\": \"Sign in\",\r\n  \"SystemResource.FormCountryLabel\": \"Country/region\",\r\n  \"Category\": \"Category\",\r\n  \"Coverage\": \"Coverage\",\r\n  \"SystemResource.CartPromotionButtonAddedText\": \"Added\",\r\n  \"SystemResource.ProductIngredientsDisclaimerText\": \"PRODUCT INGREDIENT LISTINGS ARE UPDATED PERIODICALLY. BEFORE USING A BENEFIT PRODUCT, PLEASE READ THE INGREDIENT LIST ON THE PACKAGING OF YOUR PRODUCT TO BE SURE THAT THE INGREDIENTS ARE APPROPRIATE FOR YOUR PERSONAL USE.\",\r\n  \"SystemResource.FormCountyLabel\": \"County\",\r\n  \"SystemResource.CartShipTotalLabelText\": \"Shipping\",\r\n  \"SystemResource.MyAccountRecentOrdersStatusText\": \"Status\",\r\n  \"SystemResource.CheckoutButtonText\": \"Checkout\",\r\n  \"SystemResource.BtoAddToBagNotAdded\": \"Not added\",\r\n  \"SystemResource.SearchSortByBestsellersText\": \"Bestsellers\",\r\n  \"Radiant\": \"Radiant\",\r\n  \"SystemResource.FooterChangeContrastLabelText\": \"Change contrast\",\r\n  \"SystemResource.MyAccountRecentOrdersDateText\": \"Date\",\r\n  \"SystemResource.ComesInShadesBeforeNLabel\": \"Comes in\",\r\n  \"SystemResource.ContactUsSubjectOptionIngredientLabel\": \"Products/ingredient questions\",\r\n  \"SystemResource.ContactUsSubjectOptionOnlineOrdersLabel\": \"Online orders\",\r\n  \"SystemResource.ExceptionMessageCartOnlyHasFreeItems\": \"Sorry, gorgeous! You need to add an item to your cart.\",\r\n  \"SystemResource.FindStoreTabListLabel\": \"LIST\",\r\n  \"SystemResource.EmailSignupButtonText\": \"JOIN\",\r\n  \"SystemResource.MyAccountRecentOrdersShipDateText\": \"Ship Date\",\r\n  \"SystemResource.FindStoreTabMapLabel\": \"MAP\",\r\n  \"Lengthening\": \"Lengthening\",\r\n  \"Order\": \"Order\",\r\n  \"SystemResource.ContactUsMessageVerifyErrorLabel\": \"Message is required\",\r\n  \"SystemResource.MyAccountSignInButtonText\": \"Sign in\",\r\n  \"SystemResource.SearchFilterClearAllButtonText\": \"CLEAR ALL\",\r\n  \"SystemResource.ProductIngredientsSectionLabelText\": \"INGREDIENTS\",\r\n  \"SystemResource.CartHasNoItemsMessage\": \"Cart has no items\",\r\n  \"SystemResource.SearchSuggestionsButtonText\": \"VIEW ALL\",\r\n  \"Volumizing\": \"Volumizing\",\r\n  \"SystemResource.ContactUsOrderNumberErrorLabel\": \"Invalid order number\",\r\n  \"Merchandise\": \"Merchandise\",\r\n  \"SystemResource.FormStateErrorLabel\": \"State is required\",\r\n  \"SystemResource.FindStoreDayOfWeekSun\": \"Sun\",\r\n  \"SystemResource.FormCountyErrorLabel\": \"County is required\",\r\n  \"SystemResource.FormAddressLine1ErrorLabel\": \"Address line 1 is required\",\r\n  \"SystemResource.ProductStatusOutOfStockLabelText\": \"OUT OF STOCK\",\r\n  \"SystemResource.ExceptionMessageCartEmpty\": \"No items in your cart\",\r\n  \"SystemResource.OrderConfirmationHelpSectionTitleText\": \"Need help?\",\r\n  \"SystemResource.FilterBtnApply\": \"Apply\",\r\n  \"SystemResource.ExceptionMessageNoInventoryAddToCart\": \"Sorry, gorgeous! There aren\u0027t any more available at this time.\",\r\n  \"SystemResource.CheckoutContinueToBillingButtonText\": \"Continue to billing\",\r\n  \"SystemResource.ExceptionMessagePromotionCodeNotFound\": \"Sorry, gorgeous! That promotion code does not exist. Please check and re-enter the code.\",\r\n  \"SystemResource.CheckoutBillingAddressSectionTitle\": \"Billing address\",\r\n  \"SystemResource.ComesInShadesAfterNLabel\": \"shades\",\r\n  \"SystemResource.CartShippingMethodTitle\": \"Shipping method\",\r\n  \"SystemResource.FormPhoneNumberLabel\": \"Phone number\",\r\n  \"SystemResource.FooterDisableAnimationsLabelText\": \"Disable animations\",\r\n  \"SystemResource.SearchResultsForText\": \"Search results for\",\r\n  \"SystemResource.MyAccountSignedInHeaderLabelText\": \"Signed in\",\r\n  \"SystemResource.CartPromotionFormText\": \"Enter promo code\",\r\n  \"SystemResource.FormPostalCodeErrorLabel\": \"Postal code is required\",\r\n  \"SystemResource.MyAccountForgotPasswordEmailSentMessage\": \"Check your email\",\r\n  \"SystemResource.ContactUsOrderNumberLabel\": \"Order#\",\r\n  \"SystemResource.FormFirstNameErrorLabel\": \"First name is required\",\r\n  \"SystemResource.ExceptionLoginFailed\": \"Sorry, gorgeous! Something went wrong. Please try again later.\",\r\n  \"SystemResource.CheckoutContinueToShippingButtonText\": \"Continue to shipping\",\r\n  \"SystemResource.RequiredFieldsAsteriskNote\": \"*Indicates a required field\",\r\n  \"SystemResource.ContactUsSubjectLabel\": \"Subject\",\r\n  \"SystemResource.MyAccountReturnLinkText\": \"Return to my account\",\r\n  \"SystemResource.MyAccountCancelShipmentMessage\": \"Are you sure you want to cancel this shipment?\",\r\n  \"SystemResource.MyAccountForgotPasswordLinkText\": \"Forgot password?\",\r\n  \"SystemResource.SuccessMessagePromotionCodeValid\": \"Thanks, gorgeous! That promotion has been applied to your order.\",\r\n  \"SystemResource.SearchSuggestionsProductLabelText\": \"PRODUCTS\",\r\n  \"SystemResource.MyAccountCreateButtonText\": \"Create an account\",\r\n  \"SystemResource.SearchSortByHighestPriceText\": \"Highest price\",\r\n  \"SystemResource.HeaderSkipToMainContentLinkText\": \"Skip to main content\",\r\n  \"SystemResource.MyAccountSignUpMessage\": \"Don\u0027t have an account?\",\r\n  \"Size\": \"Size\",\r\n  \"Items\": \"Items\",\r\n  \"SystemResource.SearchSortByLowestPriceText\": \"Lowest price\",\r\n  \"SystemResource.FindStoreDayOfWeekThu\": \"Thu\",\r\n  \"SystemResource.OrderConfirmationCreateAccountSectionTitle\": \"Create an account\",\r\n  \"Mini\": \"Mini\",\r\n  \"SystemResource.CartPromotionButtonAddText\": \"Add\",\r\n  \"SystemResource.MyAccountDoNotCancelShipmentButtonText\": \"No, do not cancel shipment\",\r\n  \"SystemResource.ExceptionEmailsDontMatch\": \"Not so fast...make sure your email addresses match!\",\r\n  \"SystemResource.CartRemoveItemButtonText\": \"Remove\",\r\n  \"SystemResource.FindStoreServicesText\": \"Services\",\r\n  \"SystemResource.FormFirstNameLabel\": \"First name\",\r\n  \"Filters\": \"Filters\",\r\n  \"SystemResource.FooterEnableAnimationsLabelText\": \"Enable animations\",\r\n  \"SystemResource.FormGiftMessageMaxLengthLabel\": \"characters left\",\r\n  \"SystemResource.RequiredFieldsNote\": \"*Fields marked with an asterisk are required.\",\r\n  \"SystemResource.FormEmailAddressLabel\": \"Email address\",\r\n  \"SystemResource.OrderConfirmationShippingMethodLabelText\": \"Shipping method\",\r\n  \"SystemResource.MyAccountSignOutButtonText\": \"Sign out\",\r\n  \"SystemResource.ExceptionMessageGeneralException\": \"Sorry, gorgeous! Something went wrong.\",\r\n  \"SystemResource.DataPrivacyMessage\": \"Benefit Cosmetics is the processing controller of your data. The information you provide hereinabove is used to open your customer account, provide, modify or add your customer account address for delivery and/or billing, and according to your choice, to send communications about Benefit Cosmetics offers, news and events. Your data will be shared with Benefit Cosmetics if you have express your wish to receive Beauty news. For more information about the processing of your personal data and to know your rights, please consult our Privacy Policy.\",\r\n  \"Wax\": \"Wax\",\r\n  \"SystemResource.CartSummaryItemQuantityLabel\": \"My bag\",\r\n  \"SystemResource.FindStoreCalloutHeading\": \"HEY GORGEOUS!\u003cbr /\u003eWHAT ARE YOU LOOKING FOR?\",\r\n  \"SystemResource.FindStoreHoursDisclaimerText\": \"* Store and service hours may vary.\",\r\n  \"SystemResource.NoSearchResults\": \"We found 0 results. Please try another search!\",\r\n  \"SystemResource.CheckoutPaymentDetailPageTitle\": \"Payment details\",\r\n  \"SystemResource.ProductStatusDiscontinuedLabelText\": \"DISCONTINUED\",\r\n  \"SystemResource.FormConfirmPasswordLabel\": \"Confirm password\",\r\n  \"SystemResource.ExceptionMessagePromotionCodeExpired\": \"Sorry, gorgeous! That promotion code has expired.\",\r\n  \"SystemResource.MyAccountPasswordRulesMessage\": \"Passwords must be at least 8 characters in length, and contain at least 1 uppercase letter, 1 lowercase letter, 1 number, and 1 special character.\",\r\n  \"SystemResource.FindStoreBookServiceText\": \"Book a service\",\r\n  \"SystemResource.FindStoreCallStoreText\": \"Call store\",\r\n  \"SystemResource.MyAccountCancelShipmentCancelButtonText\": \"Cancel order\",\r\n  \"SystemResource.FormAddressLine2Label\": \"Address line 2\",\r\n  \"SystemResource.ExceptionPasswordsDontMatch\": \"Not so fast...make sure your passwords match!\",\r\n  \"Page\": \"Page\",\r\n  \"SystemResource.SearchFormText\": \"Search\",\r\n  \"SystemResource.CartPromotionText\": \"\",\r\n  \"SystemResource.OrderConfirmationBillingAddressLabelText\": \"Billing address\",\r\n  \"SystemResource.MyAccountRecentOrdersOrderText\": \"Order\",\r\n  \"SystemResource.CartTotalSubText\": \"(Tax and shipping calculated at checkout)\",\r\n  \"SystemResource.ContactUsSubjectOptionMyAcountLabel\": \"My account\",\r\n  \"SystemResource.ExceptionMessagePromotionCodeInvalid\": \"Sorry, gorgeous! That promotion code did not work with this order. Please make sure your cart value is at the correct limit and/or contains valid items.\",\r\n  \"Set\": \"Set\",\r\n  \"SystemResource.FormCityErrorLabel\": \"City is required\",\r\n  \"SystemResource.FindStoreDayOfWeekMon\": \"Mon\",\r\n  \"SystemResource.FreeSampleAddToCartButtonLabel\": \"Add\",\r\n  \"SystemResource.TotalLabelText\": \"Total\",\r\n  \"SystemResource.ContactUsOrderNumberFormText\": \"Your order number\",\r\n  \"SystemResource.FormAddressLine1Label\": \"Address line 1\",\r\n  \"SystemResource.FormPasswordLabel\": \"Password\",\r\n  \"SystemResource.FindStoreSearchErrorText\": \"Oops! We\u0027re not able to find a store near you. Please try a different location.\",\r\n  \"SystemResource.ContactUsSubjectOptionRetailStoreLabel\": \"Retail store\",\r\n  \"Liquid\": \"Liquid\",\r\n  \"SystemResource.ExceptionMessageCartInventoryAdjusted\": \"Sorry, gorgeous! We\u0027ve adjusted your cart due to product availability.\",\r\n  \"SystemResource.ContactUsMessageFormText\": \"Message\",\r\n  \"SystemResource.CartShippingAddressTitle\": \"Shipping address\",\r\n  \"SystemResource.MyAccountPasswordSectionTitleText\": \"Password\",\r\n  \"SystemResource.ExceptionPasswordValidationFailed\": \"Sorry, gorgeous! Try a stronger password.\",\r\n  \"SystemResource.CartSubTotalLabelText\": \"Subtotal\",\r\n  \"SystemResource.SearchSortByLabelText\": \"SORT BY\",\r\n  \"SystemResource.ProductHowToSectionLabelText\": \"HOW TO\",\r\n  \"SystemResource.ExceptionRegistrationFailed\": \"Sorry, gorgeous! Please try to register your account later.\",\r\n  \"SystemResource.FormVerifyEmailAddressLabel\": \"Verify email address\",\r\n  \"SystemResource.ContactUsSubjectVerifyErrorLabel\": \"Subject is required\",\r\n  \"Price\": \"Price\",\r\n  \"Search\": \"Search\",\r\n  \"Hydrating\": \"Hydrating\",\r\n  \"SystemResource.ExceptionMessageNoInventoryRemovedFromCart\": \"Sorry, gorgeous! One or more of the items in your cart has sold out.\",\r\n  \"Pencil\": \"Pencil\",\r\n  \"SystemResource.CheckoutPaymentMethodSectionNote\": \"US credit or debit cards only, gorgeous!\",\r\n  \"Edit\": \"Edit\",\r\n  \"SystemResource.ProductColorSectionLabelText\": \"Select a shade:\",\r\n  \"SystemResource.MyAccountSendEmailButtonText\": \"Send Email\",\r\n  \"Kit\": \"Kit\",\r\n  \"SystemResource.MyAccountCancelShipmentButtonText\": \"Yes, cancel shipment\",\r\n  \"SystemResource.MessageHelpText\": \"\u003ca class=\\\"link\\\" href=\\\"/en/contact-us\\\"\u003eNeed help?\u003c/a\u003e\",\r\n  \"SystemResource.MyAccountSignInTitle\": \"Hello, gorgeous! Sign in.\",\r\n  \"Gel\": \"Gel\",\r\n  \"SystemResource.ProductThumbnailButtonText\": \"SHOP NOW\",\r\n  \"SystemResource.CartPromotionButtonRemoveText\": \"Remove\",\r\n  \"SystemResource.ProductStatusNewItemLabelText\": \"COMING SOON!\",\r\n  \"SystemResource.MyAccountForgotPasswordEmailSentTitle\": \"Forgot your password?\",\r\n  \"Finish\": \"Finish\",\r\n  \"Curling\": \"Curling\",\r\n  \"SystemResource.FindStoreServiceFilterText\": \"FIND A SERVICE\",\r\n  \"SystemResource.ExceptionPasswordResetFailed\": \"Sorry, gorgeous! Please try to reset your password later.\",\r\n  \"SystemResource.OrderConfirmationContinueShoppingButtonText\": \"Continue shopping\",\r\n  \"SystemResource.SignInButtonText\": \"Sign in\",\r\n  \"SystemResource.OrderConfirmationShippingAddressLabelText\": \"Shipping address\",\r\n  \"SystemResource.FindStoreDayOfWeekTue\": \"Tue\",\r\n  \"Sheer\": \"Sheer\",\r\n  \"SystemResource.OrderConfirmationPaymentIntoLabelText\": \"Payment information\",\r\n  \"SystemResource.PasswordResetFormSaveBtn\": \"Reset password\",\r\n  \"Buildable\": \"Buildable\",\r\n  \"SystemResource.MyAccountPendingShipmentText\": \"Pending shipment\",\r\n  \"SystemResource.CartItemsLabelText\": \"My bag\",\r\n  \"Value Size\": \"Value Size\",\r\n  \"SystemResource.CheckoutGuestButtonText\": \"Guest Checkout\",\r\n  \"SystemResource.EmailSignupFormText\": \"Your email\",\r\n  \"SystemResource.CheckoutContactSectionTitle\": \"Contact information\",\r\n  \"SystemResource.ExceptionMessageFormValidation\": \"Sorry, gorgeous! Something went wrong. Please check your entries.\",\r\n  \"SystemResource.FormPhoneNumberErrorLabel\": \"Phone number is required\",\r\n  \"SystemResource.ContactUsSubjectOptionGeneralFeedbackLabel\": \"General feedback\",\r\n  \"SystemResource.AddToCartButtonText\": \"ADD TO CART\",\r\n  \"Medium\": \"Medium\",\r\n  \"SystemResource.MyAccountSignedInTitle\": \"Hi, gorgeous!\",\r\n  \"SystemResource.CheckoutBillingSameAsShippingText\": \"My billing address is different than my shipping address\",\r\n  \"Qty\": \"Qty\",\r\n  \"Full Size\": \"Full Size\",\r\n  \"SystemResource.BtoAddToBagAdded\": \"Added!\",\r\n  \"SystemResource.FormCityLabel\": \"City\",\r\n  \"SystemResource.ProductDescriptionSectionLabelText\": \"WHY WE LOVE IT\",\r\n  \"SystemResource.HashTagDisclaimerText\": \"By using the hashtags associated with Benefit, you agree that Benefit can use your post and content as a submission under its Terms and Conditions and Community Guidelines.\",\r\n  \"SystemResource.MyAccountNewPasswordMessage\": \"New password\",\r\n  \"Shade\": \"Shade\",\r\n  \"SystemResource.CheckoutPlaceOrderButtonText\": \"Place order\",\r\n  \"SystemResource.FormStateLabel\": \"State\",\r\n  \"SystemResource.MyAccountReturnToLoginLinkText\": \"Return to Login\",\r\n  \"SystemResource.SearchSuggestionsLabelText\": \"TOP SUGGESTIONS\",\r\n  \"SystemResource.EmailSignupThanksText\": \"Thanks, gorgeous!\",\r\n  \"SystemResource.FormPostalCodeLabel\": \"Postal code\",\r\n  \"Full\": \"Full\",\r\n  \"Submit\": \"Submit\",\r\n  \"SystemResource.FormCountryErrorLabel\": \"Country/region is required\",\r\n  \"SystemResource.CheckoutEmailOptInText\": \"Opt-in to receive emails about promotions, new products, and exclusive offers. \\n\\n\\n\",\r\n  \"SystemResource.CheckoutPaymentTitle\": \"Payment\",\r\n  \"Pen\": \"Pen\",\r\n  \"SystemResource.CartGiftWrapTotalLabelText\": \"Gift wrap\",\r\n  \"SystemResource.MyAccountEmailOptinMessage\": \"Yes! I want to receive emails about promotions, new products, special events, and exclusive offers.\",\r\n  \"SystemResource.FindStoreDayOfWeekWed\": \"Wed\",\r\n  \"SystemResource.FormGiftMessageLabel\": \"Gift message\",\r\n  \"SystemResource.EmailOptInText\": \"Email opt-in\",\r\n  \"of\": \"of\",\r\n  \"SystemResource.ContactUsSubjectOptionWebsiteFeedbackLabel\": \"Website feedback\",\r\n  \"SystemResource.FormPostalCodeFormatLabel\": \"Postal code is invalid\",\r\n  \"Ingredients\": \"Ingredients\",\r\n  \"SystemResource.MyAccountRecentOrdersTrackingText\": \"Tracking\",\r\n  \"SystemResource.FindStoreDayOfWeekFri\": \"Fri\",\r\n  \"SystemResource.FormEmailAddressInvalidLabel\": \"Invalid email address\",\r\n  \"SystemResource.FindStoreDayOfWeekSat\": \"Sat\",\r\n  \"Bestseller\": \"Bestseller\",\r\n  \"SystemResource.FindStoreStoreHoursText\": \"Store hours\",\r\n  \"SystemResource.FormEmailAddressVerifyErrorLabel\": \"Email address is required\",\r\n  \"SystemResource.ContactUsSubjectSubmitSuccessLabel\": \"Your message has been sent to Benefit.\",\r\n  \"SystemResource.PasswordResetFormSuccessBtn\": \"OK\",\r\n  \"SystemResource.SearchSortByRelevanceText\": \"Relevance\",\r\n  \"SystemResource.FindStoreCalloutSubtext\": \"\",\r\n  \"SystemResource.ProductSelectShadeLabelText\": \"Select shade\",\r\n  \"Powder\": \"Powder\",\r\n  \"SystemResource.MyAccountResetPasswordLinkText\": \"RESET PASSWORD\",\r\n  \"SystemResource.CartTotalLabelText\": \"Estimated total\",\r\n  \"SystemResource.PasswordResetFormSuccessText\": \"Password reset successfully\",\r\n  \"SystemResource.ExceptionMessagePromotionCodeAlreadyAdded\": \"Sorry, gorgeous! That promotion code has alredy been applied to your order.\",\r\n  \"SystemResource.FindStoreSearchPlaceholderText\": \"Enter your location\",\r\n  \"SystemResource.CartTaxMessageText\": \"(VAT included)\",\r\n  \"SystemResource.CheckoutPaymentMethodSectionTitle\": \"Payment method\",\r\n  \"SystemResource.FreeSampleRemoveFromCartButtonLabel\": \"Added\",\r\n  \"SystemResource.HeaderStoreLocatorLinkText\": \"Find a store\",\r\n  \"SystemResource.ContactUsSubjectFormText\": \"Please select a topic*\",\r\n  \"SystemResource.OrderConfirmationCreateAccountMessageText\": \"Save my information for a faster checkout next time.\",\r\n  \"SystemResource.ExceptionMessageFreeSampleQuantity\": \"Sorry, gorgeous! You can only add two samples.\",\r\n  \"SystemResource.MyAccountRecentOrdersSectionTitleText\": \"Recent orders\",\r\n  \"SystemResource.FilterBtnClear\": \"Clear\",\r\n  \"Matte\": \"Matte\",\r\n  \"SystemResource.MyAccountVewAccountButtonText\": \"View my account\",\r\n  \"SystemResource.MyAccountShipmentCancelledMessage\": \"Your order has been cancelled.\"\r\n}')
+        SITE_CURRENCY = 'USD'
+        SITE_COUNTRY = 'US'
+        SITE_IS_ECOMM = true
+        USER_EMAIL = ''
+        USER_EMAIL_HASHED = ''
+        POWER_REVIEWS_CONFIG = {
+            merchantId: '307823',
+            merchantGroupId: '17677',
+            locale: 'en_US',
+            enableProductInfo: 'True'
+        }
+        GTM_CONTAINER_ID = ''
+    </script>
+    <script src="/Static/dist/app.js?v=1.1.8.22292"></script>
+
+    
+        <input type="hidden" name="__RequestVerificationToken" value="NrsFRF_BoNVJNGklt35-RzHsl_DjJ6IAOVzKhJzwB7l7Doy4leVNm-MlCS0wdlcM0skFl3aHc-ZyrwEk0SBSQg7Ly6n-wodKck6ukiyaWn41:k5ELeXyoNXW4NRkDeycwUEfsAbJzyZZrURW56ekFenvg2ypNedm6eDW6iI9u9mRs_YmgGv9iwn43eaHzPq-cThuVhfAz33eg5muSzDY7ta81">
+
+
+
+</body></html>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603680268520" stop="1603680328800" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603680268530" stop="1603680328796" status="broken">
+      <name>T3Micro</name>
+      <failure>
+        <message></message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603680271469" stop="1603680274763" status="passed">
+          <name>am on url "https://www•t3micro•com/"</name>
+        </step>
+        <step start="1603680274764" stop="1603680276767" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603680276767" stop="1603680277840" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603680277840" stop="1603680284844" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603680284844" stop="1603680289846" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603680289846" stop="1603680292132" status="passed">
+          <name>am on page "customer/account/login"</name>
+        </step>
+        <step start="1603680292132" stop="1603680297133" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603680297133" stop="1603680297355" status="passed">
+          <name>fill field {"id":"email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1603680297355" stop="1603680300358" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603680300358" stop="1603680300561" status="passed">
+          <name>fill field {"id":"pass"},"@Samantha1349"</name>
+        </step>
+        <step start="1603680300561" stop="1603680302565" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603680302565" stop="1603680302652" status="passed">
+          <name>click {"id":"send2"}</name>
+        </step>
+        <step start="1603680302652" stop="1603680310654" status="passed">
+          <name>wait 8</name>
+        </step>
+        <step start="1603680310654" stop="1603680311863" status="passed">
+          <name>am on page "/category/hair-dryers"</name>
+        </step>
+        <step start="1603680311864" stop="1603680313520" status="passed">
+          <name>see "hair"</name>
+        </step>
+        <step start="1603680313520" stop="1603680317524" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603680317524" stop="1603680317611" status="passed">
+          <name>click {"css":"•search-icon-wrapper &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603680317611" stop="1603680327634" status="failed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="3fc4524e730666556be19329756f3c02669cc0ff-attachment.png" type="image/png"/>
+        <attachment title="html" source="992e48a7f5abe8bb3a0342a1accb4c5f87c1d0fc-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="T3Micro"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

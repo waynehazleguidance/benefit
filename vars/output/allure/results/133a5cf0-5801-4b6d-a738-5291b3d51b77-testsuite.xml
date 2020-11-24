@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1604603772670" stop="1604603816615" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1604603772680" stop="1604603816614" status="broken">
+      <name>MURAD</name>
+      <failure>
+        <message>Waited for 30 secs but text 'Wayne' still not found</message>
+        <stack-trace>#0 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/BenefitTests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/BenefitTests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/BenefitTests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1604603775097" stop="1604603778616" status="passed">
+          <name>am on url "https://www•murad•com/"</name>
+        </step>
+        <step start="1604603778617" stop="1604603779923" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1604603779923" stop="1604603780624" status="passed">
+          <name>wait for text "Unbox",30</name>
+        </step>
+        <step start="1604603780625" stop="1604603781045" status="passed">
+          <name>see "Unbox"</name>
+        </step>
+        <step start="1604603781045" stop="1604603781182" status="passed">
+          <name>click {"css":"•sign-in-btn"}</name>
+        </step>
+        <step start="1604603781182" stop="1604603782996" status="passed">
+          <name>wait for text "Email",30</name>
+        </step>
+        <step start="1604603782997" stop="1604603783746" status="passed">
+          <name>wait for text "Sign",30</name>
+        </step>
+        <step start="1604603783746" stop="1604603784847" status="passed">
+          <name>fill field {"id":"login_email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1604603784847" stop="1604603785004" status="passed">
+          <name>fill field {"id":"login_pass"},"@Testing123"</name>
+        </step>
+        <step start="1604603785004" stop="1604603785127" status="passed">
+          <name>click {"css":"#sign-in-submit"}</name>
+        </step>
+        <step start="1604603785127" stop="1604603815292" status="failed">
+          <name>wait for text "Wayne",30</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="fd83099d4da955cd9279e8c5be481394de0dc200-attachment.png" type="image/png"/>
+        <attachment title="html" source="32d00ecd05f61c0d71847ef068223ea7cf784799-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="MURAD"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

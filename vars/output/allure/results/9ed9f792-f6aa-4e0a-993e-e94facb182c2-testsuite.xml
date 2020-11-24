@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603257866310" stop="1603257918076" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603257866321" stop="1603257902818" status="passed">
+      <name>ShopMarieClaire</name>
+      <steps>
+        <step start="1603257868572" stop="1603257870656" status="passed">
+          <name>am on url "https://shop•marieclaire•com/"</name>
+        </step>
+        <step start="1603257870656" stop="1603257870852" status="passed">
+          <name>see "Marie"</name>
+        </step>
+        <step start="1603257870852" stop="1603257872856" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603257872856" stop="1603257872993" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603257872993" stop="1603257873106" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603257873106" stop="1603257874574" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603257874575" stop="1603257874733" status="passed">
+          <name>see "Your search"</name>
+        </step>
+        <step start="1603257874733" stop="1603257874899" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603257874899" stop="1603257875015" status="passed">
+          <name>fill field {"id":"search"},"Magazine"</name>
+        </step>
+        <step start="1603257875016" stop="1603257876961" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603257876961" stop="1603257881961" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603257881961" stop="1603257886961" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603257886962" stop="1603257887560" status="passed">
+          <name>am on page "/"</name>
+        </step>
+        <step start="1603257887560" stop="1603257887802" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603257887802" stop="1603257888192" status="passed">
+          <name>click {"css":"#product-addtocart-button &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603257888192" stop="1603257890482" status="passed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+        <step start="1603257890482" stop="1603257895487" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603257895487" stop="1603257895595" status="passed">
+          <name>click {"css":"a•action:nth-child(5)"}</name>
+        </step>
+        <step start="1603257895595" stop="1603257895926" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1603257895926" stop="1603257900928" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603257900928" stop="1603257902527" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603257902527" stop="1603257902764" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopMarieClaire"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603257902820" stop="1603257918075" status="passed">
+      <name>ShopMensHealth</name>
+      <steps>
+        <step start="1603257904192" stop="1603257907083" status="passed">
+          <name>am on url "https://shop•menshealth•com/"</name>
+        </step>
+        <step start="1603257907083" stop="1603257907210" status="passed">
+          <name>see "Editor"</name>
+        </step>
+        <step start="1603257907210" stop="1603257907333" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603257907333" stop="1603257907477" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603257907478" stop="1603257909721" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603257909721" stop="1603257909787" status="passed">
+          <name>see "Your search"</name>
+        </step>
+        <step start="1603257909788" stop="1603257909860" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603257909860" stop="1603257909964" status="passed">
+          <name>fill field {"id":"search"},"Magazine"</name>
+        </step>
+        <step start="1603257909964" stop="1603257913019" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603257913019" stop="1603257918021" status="passed">
+          <name>wait 5</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopMensHealth"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

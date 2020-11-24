@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1604080586257" stop="1604080656032" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1604080586261" stop="1604080641230" status="failed">
+      <name>BenefitIrelandEnglish</name>
+      <failure>
+        <message>CSS or XPath element with css '.desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(1) &gt; a:nth-child(1)' was not found.</message>
+        <stack-trace>#0 /Users/whazle/Desktop/BenefitTests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(1036): Codeception\Module\WebDriver-&gt;matchFirstOrFail(Object(Facebook\WebDriver\Remote\RemoteWebDriver), Array)
+#1 /Users/whazle/Desktop/BenefitTests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(995): Codeception\Module\WebDriver-&gt;_findClickable(Object(Facebook\WebDriver\Remote\RemoteWebDriver), Array)
+#2 /Users/whazle/Desktop/BenefitTests/src/Actor/Helper/Common.php(55): Codeception\Module\WebDriver-&gt;click(Array, NULL)
+#3 [internal function]: Guidance\Tests\Project\Actor\Helper\Common-&gt;click(Array)
+#4 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#5 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#6 /Users/whazle/Desktop/BenefitTests/src/_generated/ActorActions.php(1112): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Action))
+#7 /Users/whazle/Desktop/BenefitTests/src/Test/Project/DemoCest.php(595): Guidance\Tests\Project\Actor-&gt;click(Array)
+#8 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;BenefitIrelandEnglish(Object(Guidance\Tests\Project\Actor))
+#9 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#10 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'BenefitIrelandE...', Array)
+#11 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('BenefitIrelandE...', Array)
+#12 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#13 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#14 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#15 /Users/whazle/Desktop/BenefitTests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#16 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#17 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#18 /Users/whazle/Desktop/BenefitTests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#19 /Users/whazle/Desktop/BenefitTests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#20 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1604080587946" stop="1604080590521" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ie/"</name>
+        </step>
+        <step start="1604080590522" stop="1604080590795" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1604080590795" stop="1604080590907" status="passed">
+          <name>wait for text "brows",30</name>
+        </step>
+        <step start="1604080590908" stop="1604080591002" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1604080591002" stop="1604080591408" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/find-a-store"</name>
+        </step>
+        <step start="1604080591408" stop="1604080591470" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1604080591470" stop="1604080591545" status="passed">
+          <name>see "store"</name>
+        </step>
+        <step start="1604080591545" stop="1604080593008" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/bestsellers"</name>
+        </step>
+        <step start="1604080593008" stop="1604080593073" status="passed">
+          <name>wait for text "bestsellers",30</name>
+        </step>
+        <step start="1604080593074" stop="1604080593134" status="passed">
+          <name>see "bestsellers"</name>
+        </step>
+        <step start="1604080593134" stop="1604080594885" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/brows"</name>
+        </step>
+        <step start="1604080594885" stop="1604080594956" status="passed">
+          <name>wait for text "brow",30</name>
+        </step>
+        <step start="1604080594956" stop="1604080595019" status="passed">
+          <name>see "brow"</name>
+        </step>
+        <step start="1604080595019" stop="1604080595613" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/services"</name>
+        </step>
+        <step start="1604080595613" stop="1604080595722" status="passed">
+          <name>wait for text "service",30</name>
+        </step>
+        <step start="1604080595722" stop="1604080595816" status="passed">
+          <name>see "service"</name>
+        </step>
+        <step start="1604080595816" stop="1604080596679" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-hk/offers-more"</name>
+        </step>
+        <step start="1604080596679" stop="1604080596737" status="passed">
+          <name>wait for text "services",30</name>
+        </step>
+        <step start="1604080596737" stop="1604080596794" status="passed">
+          <name>see "services"</name>
+        </step>
+        <step start="1604080596794" stop="1604080604627" status="passed">
+          <name>am on url "https://hk•benefitbrows•com/ReserveCounter•aspx"</name>
+        </step>
+        <step start="1604080604627" stop="1604080608632" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1604080608633" stop="1604080608707" status="passed">
+          <name>click {"css":"•mfp-close"}</name>
+        </step>
+        <step start="1604080608707" stop="1604080608819" status="passed">
+          <name>wait for text "KOWLOON",30</name>
+        </step>
+        <step start="1604080608819" stop="1604080608895" status="passed">
+          <name>see "KOWLOON"</name>
+        </step>
+        <step start="1604080608895" stop="1604080640281" status="failed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(1) &gt; a:nth-child(1)"}</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="2656f18d9f91b9cb79080d85603cbab47fe13547-attachment.png" type="image/png"/>
+        <attachment title="html" source="1e7ec6e1d060fa40b509305a6d1cabd239389356-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="BenefitIrelandEnglish"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1604080641236" stop="1604080656026" status="passed">
+      <name>BenefitMalaysiaEnglish</name>
+      <steps>
+        <step start="1604080643048" stop="1604080645614" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-my/"</name>
+        </step>
+        <step start="1604080645614" stop="1604080645692" status="passed">
+          <name>wait for text "brows",30</name>
+        </step>
+        <step start="1604080645693" stop="1604080645749" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1604080645749" stop="1604080646040" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1604080646040" stop="1604080648480" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-my/find-a-store"</name>
+        </step>
+        <step start="1604080648480" stop="1604080648534" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1604080648534" stop="1604080648572" status="passed">
+          <name>see "store"</name>
+        </step>
+        <step start="1604080648572" stop="1604080649353" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-my/bestsellers"</name>
+        </step>
+        <step start="1604080649353" stop="1604080649419" status="passed">
+          <name>wait for text "bestseller",30</name>
+        </step>
+        <step start="1604080649419" stop="1604080649467" status="passed">
+          <name>see "bestseller"</name>
+        </step>
+        <step start="1604080649467" stop="1604080650690" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-my/brows"</name>
+        </step>
+        <step start="1604080650690" stop="1604080650790" status="passed">
+          <name>wait for text "brow",30</name>
+        </step>
+        <step start="1604080650790" stop="1604080650867" status="passed">
+          <name>see "brow"</name>
+        </step>
+        <step start="1604080650867" stop="1604080651300" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-my/services"</name>
+        </step>
+        <step start="1604080651300" stop="1604080651398" status="passed">
+          <name>wait for text "service",30</name>
+        </step>
+        <step start="1604080651398" stop="1604080651452" status="passed">
+          <name>see "service"</name>
+        </step>
+        <step start="1604080651452" stop="1604080652289" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-my/offers-more"</name>
+        </step>
+        <step start="1604080652289" stop="1604080652347" status="passed">
+          <name>wait for text "services",30</name>
+        </step>
+        <step start="1604080652347" stop="1604080652399" status="passed">
+          <name>see "services"</name>
+        </step>
+        <step start="1604080652399" stop="1604080653047" status="passed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(1) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604080653048" stop="1604080653116" status="passed">
+          <name>wait for text "bestsellers",30</name>
+        </step>
+        <step start="1604080653116" stop="1604080653168" status="passed">
+          <name>see "bestsellers"</name>
+        </step>
+        <step start="1604080653168" stop="1604080653864" status="passed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(2) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604080653864" stop="1604080653935" status="passed">
+          <name>wait for text "brow",30</name>
+        </step>
+        <step start="1604080653935" stop="1604080653993" status="passed">
+          <name>see "brow"</name>
+        </step>
+        <step start="1604080653993" stop="1604080654550" status="passed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(3) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604080654550" stop="1604080654632" status="passed">
+          <name>wait for text "service",30</name>
+        </step>
+        <step start="1604080654632" stop="1604080654699" status="passed">
+          <name>see "service"</name>
+        </step>
+        <step start="1604080654699" stop="1604080655174" status="passed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(4) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604080655174" stop="1604080655234" status="passed">
+          <name>wait for text "services",30</name>
+        </step>
+        <step start="1604080655234" stop="1604080655288" status="passed">
+          <name>see "services"</name>
+        </step>
+        <step start="1604080655288" stop="1604080655879" status="passed">
+          <name>click {"css":"a•link:nth-child(2)"}</name>
+        </step>
+        <step start="1604080655880" stop="1604080655930" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1604080655930" stop="1604080655974" status="passed">
+          <name>see "store"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="BenefitMalaysiaEnglish"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

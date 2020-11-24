@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603913800076" stop="1603913863355" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603913800086" stop="1603913863351" status="passed">
+      <name>PopCultcha</name>
+      <steps>
+        <step start="1603913802777" stop="1603913808674" status="passed">
+          <name>am on url "https://www•popcultcha•com•au/"</name>
+        </step>
+        <step start="1603913808675" stop="1603913810679" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603913810679" stop="1603913811140" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603913811140" stop="1603913814143" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603913814145" stop="1603913815255" status="passed">
+          <name>see "shipping"</name>
+        </step>
+        <step start="1603913815255" stop="1603913820257" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603913820257" stop="1603913820359" status="passed">
+          <name>click {"css":"body &gt; div•cc-window•cc-floating•cc-type-default•cc-theme-edgeless•cc-bottom•cc-left•cc-color-override-2042708126 &gt; div &gt; a"}</name>
+        </step>
+        <step start="1603913820359" stop="1603913823361" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603913823362" stop="1603913825768" status="passed">
+          <name>am on page "/statues-and-replicas/statues-and-replicas/shop-all•html"</name>
+        </step>
+        <step start="1603913825768" stop="1603913826828" status="passed">
+          <name>see "shipping"</name>
+        </step>
+        <step start="1603913826828" stop="1603913830828" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603913830828" stop="1603913831202" status="passed">
+          <name>click {"id":"sorter"}</name>
+        </step>
+        <step start="1603913831202" stop="1603913832203" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1603913832203" stop="1603913832924" status="passed">
+          <name>click {"css":"#sorter &gt; option:nth-child(3)"}</name>
+        </step>
+        <step start="1603913832924" stop="1603913837928" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603913837929" stop="1603913843324" status="passed">
+          <name>am on page "/batman-batgirl-adult-costume•html"</name>
+        </step>
+        <step start="1603913843324" stop="1603913843609" status="passed">
+          <name>see "batman"</name>
+        </step>
+        <step start="1603913843609" stop="1603913845611" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603913845611" stop="1603913845742" status="passed">
+          <name>click {"css":"#option-label-tee_size-302-item-13102"}</name>
+        </step>
+        <step start="1603913845742" stop="1603913847745" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603913847745" stop="1603913847833" status="passed">
+          <name>click {"css":"button•qty-button:nth-child(3)"}</name>
+        </step>
+        <step start="1603913847833" stop="1603913848040" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603913848041" stop="1603913848140" status="passed">
+          <name>click {"css":"#product-addtocart-button-clone &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603913848140" stop="1603913853141" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603913853141" stop="1603913858049" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603913858050" stop="1603913863051" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603913863052" stop="1603913863297" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="PopCultcha"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603993015463" stop="1603993056850" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603993015470" stop="1603993056847" status="passed">
+      <name>BenefitPhillipinesEnglish</name>
+      <steps>
+        <step start="1603993017312" stop="1603993026018" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ph/"</name>
+        </step>
+        <step start="1603993026019" stop="1603993026136" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603993026136" stop="1603993028137" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603993028137" stop="1603993028385" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603993028385" stop="1603993030386" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603993030386" stop="1603993032301" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ph/find-a-store"</name>
+        </step>
+        <step start="1603993032302" stop="1603993032357" status="passed">
+          <name>see "store"</name>
+        </step>
+        <step start="1603993032357" stop="1603993036358" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603993036358" stop="1603993037343" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ph/bestsellers"</name>
+        </step>
+        <step start="1603993037343" stop="1603993037405" status="passed">
+          <name>see "bestsellers"</name>
+        </step>
+        <step start="1603993037405" stop="1603993041409" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603993041409" stop="1603993042608" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ph/brows"</name>
+        </step>
+        <step start="1603993042608" stop="1603993042686" status="passed">
+          <name>see "brow"</name>
+        </step>
+        <step start="1603993042686" stop="1603993046687" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603993046688" stop="1603993047569" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ph/services"</name>
+        </step>
+        <step start="1603993047569" stop="1603993047643" status="passed">
+          <name>see "service"</name>
+        </step>
+        <step start="1603993047643" stop="1603993051646" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603993051646" stop="1603993052724" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ph/offers-more"</name>
+        </step>
+        <step start="1603993052724" stop="1603993052790" status="passed">
+          <name>see "services"</name>
+        </step>
+        <step start="1603993052791" stop="1603993056794" status="passed">
+          <name>wait 4</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="BenefitPhillipinesEnglish"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

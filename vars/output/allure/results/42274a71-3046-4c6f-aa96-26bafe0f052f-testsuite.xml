@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603903718026" stop="1603903845469" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603903718058" stop="1603903769054" status="passed">
+      <name>PopCultcha</name>
+      <steps>
+        <step start="1603903721581" stop="1603903734258" status="passed">
+          <name>am on url "https://www•popcultcha•com•au/"</name>
+        </step>
+        <step start="1603903734258" stop="1603903735594" status="passed">
+          <name>see "shipping"</name>
+        </step>
+        <step start="1603903735596" stop="1603903740599" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603903740599" stop="1603903744391" status="passed">
+          <name>click {"css":"body &gt; div•cc-window•cc-floating•cc-type-default•cc-theme-edgeless•cc-bottom•cc-left•cc-color-override-2042708126 &gt; div &gt; a"}</name>
+        </step>
+        <step start="1603903744391" stop="1603903747393" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603903747393" stop="1603903751657" status="passed">
+          <name>am on page "/statues-and-replicas/statues-and-replicas/shop-all•html"</name>
+        </step>
+        <step start="1603903751657" stop="1603903752707" status="passed">
+          <name>see "shipping"</name>
+        </step>
+        <step start="1603903752707" stop="1603903756712" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603903756712" stop="1603903760924" status="passed">
+          <name>am on page "/black-widow-2020-marvel-s-black-widow-prelude-trade-paperback-book•html"</name>
+        </step>
+        <step start="1603903760924" stop="1603903761328" status="passed">
+          <name>see "black"</name>
+        </step>
+        <step start="1603903761328" stop="1603903761539" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603903761539" stop="1603903761640" status="passed">
+          <name>click {"css":"#product-addtocart-button-clone &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603903761640" stop="1603903763776" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603903763777" stop="1603903768777" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603903768777" stop="1603903768992" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="PopCultcha"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603903769056" stop="1603903845449" status="passed">
+      <name>T3MicroGermany</name>
+      <steps>
+        <step start="1603903770776" stop="1603903772848" status="passed">
+          <name>am on url "https://www•t3micro•de/"</name>
+        </step>
+        <step start="1603903772849" stop="1603903774849" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603903774849" stop="1603903775198" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603903775198" stop="1603903782202" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603903782202" stop="1603903782457" status="passed">
+          <name>click {"css":"#btn-cookie-allow &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603903782457" stop="1603903789457" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603903789457" stop="1603903789506" status="passed">
+          <name>click {"css":"html body•cms-home•cms-index-index•page-layout-1column•yotpo-yotpo-is-enabled•_has-modal div•modals-wrapper aside•modal-popup•newsletter-modal•modal-slide•_show div•modal-inner-wrap div#mo•••}</name>
+        </step>
+        <step start="1603903789506" stop="1603903794509" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603903794510" stop="1603903796419" status="passed">
+          <name>am on page "customer/account/login"</name>
+        </step>
+        <step start="1603903796419" stop="1603903801420" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603903801420" stop="1603903801620" status="passed">
+          <name>fill field {"id":"email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1603903801620" stop="1603903804625" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603903804625" stop="1603903804717" status="passed">
+          <name>fill field {"id":"pass"},"@Testing123"</name>
+        </step>
+        <step start="1603903804717" stop="1603903806720" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603903806720" stop="1603903806795" status="passed">
+          <name>click {"id":"send2"}</name>
+        </step>
+        <step start="1603903806795" stop="1603903814798" status="passed">
+          <name>wait 8</name>
+        </step>
+        <step start="1603903814798" stop="1603903815733" status="passed">
+          <name>am on page "de/haartrockner"</name>
+        </step>
+        <step start="1603903815734" stop="1603903815899" status="passed">
+          <name>see "haartrockner"</name>
+        </step>
+        <step start="1603903815899" stop="1603903819902" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603903819902" stop="1603903819970" status="passed">
+          <name>click {"css":"•icon-search"}</name>
+        </step>
+        <step start="1603903819970" stop="1603903822971" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603903822971" stop="1603903823081" status="passed">
+          <name>fill field {"id":"search"},"Haartrockner"</name>
+        </step>
+        <step start="1603903823081" stop="1603903825082" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603903825082" stop="1603903826754" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603903826754" stop="1603903826987" status="passed">
+          <name>see "haartrockner"</name>
+        </step>
+        <step start="1603903826987" stop="1603903827988" status="passed">
+          <name>am on page "de/product-cura-luxe-dryer"</name>
+        </step>
+        <step start="1603903827988" stop="1603903828417" status="passed">
+          <name>see "T3"</name>
+        </step>
+        <step start="1603903828417" stop="1603903831419" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603903831419" stop="1603903831752" status="passed">
+          <name>see "in den"</name>
+        </step>
+        <step start="1603903831752" stop="1603903831825" status="passed">
+          <name>click {"css":"#product-addtocart-button"}</name>
+        </step>
+        <step start="1603903831825" stop="1603903832073" status="passed">
+          <name>wait for text "haben"</name>
+        </step>
+        <step start="1603903832073" stop="1603903837077" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603903837077" stop="1603903840079" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603903840079" stop="1603903845084" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603903845084" stop="1603903845396" status="passed">
+          <name>see "warenkorb"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="T3MicroGermany"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603254411894" stop="1603254471832" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603254411904" stop="1603254463771" status="passed">
+      <name>ShopWomensHeathMag</name>
+      <steps>
+        <step start="1603254413733" stop="1603254416362" status="passed">
+          <name>am on url "https://shop•womenshealthmag•com/"</name>
+        </step>
+        <step start="1603254416362" stop="1603254416661" status="passed">
+          <name>see "Magazine"</name>
+        </step>
+        <step start="1603254416662" stop="1603254421662" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603254421662" stop="1603254421819" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603254421819" stop="1603254421848" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603254421849" stop="1603254421949" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603254421949" stop="1603254423953" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603254423953" stop="1603254425390" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603254425390" stop="1603254425565" status="passed">
+          <name>see "Your search returned no results•"</name>
+        </step>
+        <step start="1603254425565" stop="1603254425742" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603254425742" stop="1603254425756" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603254425756" stop="1603254425869" status="passed">
+          <name>fill field {"id":"search"},"Magazine"</name>
+        </step>
+        <step start="1603254425869" stop="1603254427873" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603254427873" stop="1603254430990" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603254430990" stop="1603254431661" status="passed">
+          <name>am on page "/editors-picks•html"</name>
+        </step>
+        <step start="1603254431661" stop="1603254431868" status="passed">
+          <name>see "Keto"</name>
+        </step>
+        <step start="1603254431868" stop="1603254433870" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603254433870" stop="1603254435256" status="passed">
+          <name>select option {"css":"#authenticationPopup + •toolbar #sorter"},"name"</name>
+        </step>
+        <step start="1603254435256" stop="1603254440257" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603254440257" stop="1603254442131" status="passed">
+          <name>select option {"css":"#authenticationPopup + •toolbar #sorter"},"price"</name>
+        </step>
+        <step start="1603254442131" stop="1603254447132" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603254447132" stop="1603254448009" status="passed">
+          <name>am on page "/keto-for-carb-lovers•html"</name>
+        </step>
+        <step start="1603254448009" stop="1603254448154" status="passed">
+          <name>see "Keto"</name>
+        </step>
+        <step start="1603254448155" stop="1603254448269" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603254448269" stop="1603254448352" status="passed">
+          <name>click {"css":"#product-addtocart-button &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603254448352" stop="1603254451076" status="passed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+        <step start="1603254451076" stop="1603254456081" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603254456081" stop="1603254456148" status="passed">
+          <name>click {"css":"a•action:nth-child(5)"}</name>
+        </step>
+        <step start="1603254456148" stop="1603254456328" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1603254456328" stop="1603254458547" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603254458547" stop="1603254463551" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603254463552" stop="1603254463718" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopWomensHeathMag"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603254463774" stop="1603254471828" status="failed">
+      <name>ShopPrevention</name>
+      <failure>
+        <message>Failed asserting that 0 is equal to 3 or is greater than 3.</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(55): PHPUnit\Framework\Constraint\Constraint-&gt;fail(0, '')
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/Assert.php(2331): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate(0, '')
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/Assert.php(477): PHPUnit\Framework\Assert::assertThat(0, Object(PHPUnit\Framework\Constraint\LogicalOr), '')
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/Asserts.php(58): PHPUnit\Framework\Assert::assertGreaterThanOrEqual(3, 0, '')
+#4 [internal function]: Codeception\Module\AbstractAsserts-&gt;assertGreaterOrEquals(3, 0)
+#5 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#6 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#7 /Users/whazle/Desktop/hearst-m2-tests/src/_generated/ActorActions.php(8265): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Action))
+#8 /Users/whazle/Desktop/hearst-m2-tests/src/Test/Project/DemoCest.php(219): Guidance\Tests\Project\Actor-&gt;assertGreaterOrEquals(3, 0)
+#9 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;ShopPrevention(Object(Guidance\Tests\Project\Actor))
+#10 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#11 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'ShopPrevention', Array)
+#12 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('ShopPrevention', Array)
+#13 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#14 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#15 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#16 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#17 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#18 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#19 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#20 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#21 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603254465512" stop="1603254467871" status="passed">
+          <name>am on url "https://shop•prevention•com/"</name>
+        </step>
+        <step start="1603254467871" stop="1603254467906" status="passed">
+          <name>wait for page load </name>
+        </step>
+        <step start="1603254467906" stop="1603254468056" status="passed">
+          <name>see "Editor"</name>
+        </step>
+        <step start="1603254468056" stop="1603254468253" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603254468253" stop="1603254468264" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603254468264" stop="1603254468427" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603254468427" stop="1603254470565" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603254470566" stop="1603254470761" status="passed">
+          <name>see "Your search returned no results•"</name>
+        </step>
+        <step start="1603254470761" stop="1603254470895" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603254470895" stop="1603254470901" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603254470901" stop="1603254470996" status="passed">
+          <name>fill field {"id":"search"},"Magazine"</name>
+        </step>
+        <step start="1603254470996" stop="1603254471002" status="passed">
+          <name>execute js "return document•querySelectorAll('#product li')•length;"</name>
+        </step>
+        <step start="1603254471002" stop="1603254471016" status="failed">
+          <name>assert greater or equals 3,0</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="183106093a15f02def803693f81b7e73672dbe0c-attachment.png" type="image/png"/>
+        <attachment title="html" source="9f29252582de3d1de026d9e7a9b2b142eff37c5d-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="ShopPrevention"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,39 @@
+{
+    "name": "guidance/tests_base",
+
+    "type": "library",
+
+    "description": "This is tests project with base functional and tests",
+
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+
+    "require": {
+        "codeception/codeception": "^4.0",
+        "codeception/module-webdriver": "^1.0",
+        "codeception/module-filesystem": "^1.0",
+        "codeception/module-asserts": "^1.1",
+        "fzaninotto/faker": "^1.8",
+        "php-di/php-di": "^6.0",
+        "doctrine/annotations": "^1.6",
+        "zendframework/zend-json": "^3.1",
+        "memio/memio": "^2.0",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "symfony/mailer": "^4.3",
+        "symfony/twig-bundle": "^4.3",
+        "symfony/google-mailer": "^4.3",
+        "symfony/filesystem": "^4.4",
+        "allure-framework/allure-php-api": "^1.1",
+        "hoa/console": "^3.17",
+        "phpseclib/phpseclib": "^2.0",
+        "glicer/sync-sftp": "dev-master",
+        "ext-simplexml": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Guidance\\Tests\\Base\\": "src/"
+        }
+    }
+}

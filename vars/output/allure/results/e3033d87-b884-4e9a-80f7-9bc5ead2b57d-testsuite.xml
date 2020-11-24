@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603263214945" stop="1603263234315" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603263214948" stop="1603263234314" status="passed">
+      <name>ShopWomansDay</name>
+      <steps>
+        <step start="1603263216589" stop="1603263218172" status="passed">
+          <name>am on url "https://shop•womansday•com"</name>
+        </step>
+        <step start="1603263218173" stop="1603263218287" status="passed">
+          <name>see "Woman"</name>
+        </step>
+        <step start="1603263218288" stop="1603263223288" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603263223289" stop="1603263223420" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603263223420" stop="1603263223524" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603263223524" stop="1603263225638" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603263225639" stop="1603263225791" status="passed">
+          <name>see "Your search"</name>
+        </step>
+        <step start="1603263225791" stop="1603263225935" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603263225935" stop="1603263226045" status="passed">
+          <name>fill field {"id":"search"},"Magazine"</name>
+        </step>
+        <step start="1603263226045" stop="1603263229256" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603263229256" stop="1603263234260" status="passed">
+          <name>wait 5</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopWomansDay"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

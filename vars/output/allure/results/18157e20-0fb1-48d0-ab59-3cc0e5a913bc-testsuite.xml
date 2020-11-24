@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603261804724" stop="1603261809884" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603261804734" stop="1603261809881" status="broken">
+      <name>ShopEsquire</name>
+      <failure>
+        <message>element not interactable
+  (Session info: chrome=86.0.4240.111)</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603261806608" stop="1603261808416" status="passed">
+          <name>am on url "https://shop•esquire•com/"</name>
+        </step>
+        <step start="1603261808416" stop="1603261808566" status="passed">
+          <name>see "Esquire"</name>
+        </step>
+        <step start="1603261808567" stop="1603261808671" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603261808672" stop="1603261808724" status="failed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="2470622b181b3a1116422bf35b4ce7ee71094c86-attachment.png" type="image/png"/>
+        <attachment title="html" source="2992738a8d17e70b15a0383274318342ec9f868d-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="ShopEsquire"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

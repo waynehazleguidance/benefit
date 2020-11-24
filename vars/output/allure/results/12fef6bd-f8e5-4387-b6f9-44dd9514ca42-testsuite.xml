@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603823949131" stop="1603824034094" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603823949143" stop="1603824034089" status="failed">
+      <name>T3MicroGermany</name>
+      <failure>
+        <message>CSS or XPath element with css '.search-icon-wrapper &gt; span:nth-child(1)' was not found.</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(1036): Codeception\Module\WebDriver-&gt;matchFirstOrFail(Object(Facebook\WebDriver\Remote\RemoteWebDriver), Array)
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(995): Codeception\Module\WebDriver-&gt;_findClickable(Object(Facebook\WebDriver\Remote\RemoteWebDriver), Array)
+#2 /Users/whazle/Desktop/hearst-m2-tests/src/Actor/Helper/Common.php(55): Codeception\Module\WebDriver-&gt;click(Array, NULL)
+#3 [internal function]: Guidance\Tests\Project\Actor\Helper\Common-&gt;click(Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#5 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#6 /Users/whazle/Desktop/hearst-m2-tests/src/_generated/ActorActions.php(1112): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Action))
+#7 /Users/whazle/Desktop/hearst-m2-tests/src/Test/Project/DemoCest.php(500): Guidance\Tests\Project\Actor-&gt;click(Array)
+#8 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;T3MicroGermany(Object(Guidance\Tests\Project\Actor))
+#9 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#10 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'T3MicroGermany', Array)
+#11 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('T3MicroGermany', Array)
+#12 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#13 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#14 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#15 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#16 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#17 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#18 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#19 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#20 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603823950912" stop="1603823952825" status="passed">
+          <name>am on url "https://www•t3micro•de/"</name>
+        </step>
+        <step start="1603823952825" stop="1603823954825" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603823954826" stop="1603823955207" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603823955207" stop="1603823962209" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603823962209" stop="1603823962292" status="passed">
+          <name>click {"css":"#btn-cookie-allow &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603823962293" stop="1603823969295" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603823969295" stop="1603823969378" status="passed">
+          <name>click {"css":"html body•cms-home•cms-index-index•page-layout-1column•yotpo-yotpo-is-enabled•_has-modal div•modals-wrapper aside•modal-popup•newsletter-modal•modal-slide•_show div•modal-inner-wrap div#mo•••}</name>
+        </step>
+        <step start="1603823969378" stop="1603823974382" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603823974382" stop="1603823978245" status="passed">
+          <name>am on page "customer/account/login"</name>
+        </step>
+        <step start="1603823978245" stop="1603823983250" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603823983250" stop="1603823983436" status="passed">
+          <name>fill field {"id":"email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1603823983436" stop="1603823986439" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603823986439" stop="1603823986538" status="passed">
+          <name>fill field {"id":"pass"},"@Testing123"</name>
+        </step>
+        <step start="1603823986538" stop="1603823988538" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603823988538" stop="1603823988648" status="passed">
+          <name>click {"id":"send2"}</name>
+        </step>
+        <step start="1603823988648" stop="1603823996654" status="passed">
+          <name>wait 8</name>
+        </step>
+        <step start="1603823996654" stop="1603823997481" status="passed">
+          <name>am on page "de/haartrockner"</name>
+        </step>
+        <step start="1603823997482" stop="1603823997678" status="passed">
+          <name>see "haartrockner"</name>
+        </step>
+        <step start="1603823997678" stop="1603824001682" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603824001682" stop="1603824032944" status="failed">
+          <name>click {"css":"•search-icon-wrapper &gt; span:nth-child(1)"}</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="7a0779511c41aff2f402a5dfc3577145f05d8d32-attachment.png" type="image/png"/>
+        <attachment title="html" source="2368a569b2a17a92f8d988c45400f020227c1496-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="T3MicroGermany"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

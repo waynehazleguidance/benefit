@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603307678627" stop="1603307958039" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603307678640" stop="1603307708585" status="passed">
+      <name>BenefitUSA</name>
+      <steps>
+        <step start="1603307682520" stop="1603307685899" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-us/"</name>
+        </step>
+        <step start="1603307685900" stop="1603307687176" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603307687176" stop="1603307692180" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603307692180" stop="1603307693581" status="passed">
+          <name>am on page "/brow-makeup"</name>
+        </step>
+        <step start="1603307693581" stop="1603307694441" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603307694442" stop="1603307698443" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603307698444" stop="1603307700766" status="passed">
+          <name>am on page "/product/24-hour-brow-setter-clear-brow-gel?product=24HOUBM66-FULL&amp;sku=BM66"</name>
+        </step>
+        <step start="1603307700766" stop="1603307701799" status="passed">
+          <name>see "Brow"</name>
+        </step>
+        <step start="1603307701799" stop="1603307702191" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603307702191" stop="1603307702461" status="passed">
+          <name>click {"css":"form•product-info__section &gt; button:nth-child(2)"}</name>
+        </step>
+        <step start="1603307702461" stop="1603307703360" status="passed">
+          <name>am on page "/checkout#/"</name>
+        </step>
+        <step start="1603307703360" stop="1603307708364" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603307708364" stop="1603307708529" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="BenefitUSA"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603307708588" stop="1603307753731" status="passed">
+      <name>T3Micro</name>
+      <steps>
+        <step start="1603307711504" stop="1603307716338" status="passed">
+          <name>am on url "https://www•t3micro•com/"</name>
+        </step>
+        <step start="1603307716338" stop="1603307721342" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603307721342" stop="1603307723427" status="passed">
+          <name>am on page "/category/hair-dryers"</name>
+        </step>
+        <step start="1603307723427" stop="1603307726312" status="passed">
+          <name>see "hair"</name>
+        </step>
+        <step start="1603307726312" stop="1603307730316" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603307730316" stop="1603307733147" status="passed">
+          <name>am on page "/product/lucea-id-straightening-and-styling-iron"</name>
+        </step>
+        <step start="1603307733147" stop="1603307738087" status="passed">
+          <name>see "T3"</name>
+        </step>
+        <step start="1603307738087" stop="1603307739575" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603307739575" stop="1603307739870" status="passed">
+          <name>click {"css":"#product-addtocart-button"}</name>
+        </step>
+        <step start="1603307739870" stop="1603307743767" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1603307743767" stop="1603307747199" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603307747199" stop="1603307752200" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603307752200" stop="1603307753675" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="T3Micro"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603307753734" stop="1603307821138" status="failed">
+      <name>ShopCosmopolitan</name>
+      <failure>
+        <message>CSS or XPath element with css '.product-info-main #product-addtocart-button' was not found.</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(1036): Codeception\Module\WebDriver-&gt;matchFirstOrFail(Object(Facebook\WebDriver\Remote\RemoteWebDriver), Array)
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(995): Codeception\Module\WebDriver-&gt;_findClickable(Object(Facebook\WebDriver\Remote\RemoteWebDriver), Array)
+#2 /Users/whazle/Desktop/hearst-m2-tests/src/Actor/Helper/Common.php(55): Codeception\Module\WebDriver-&gt;click(Array, NULL)
+#3 [internal function]: Guidance\Tests\Project\Actor\Helper\Common-&gt;click(Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#5 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#6 /Users/whazle/Desktop/hearst-m2-tests/src/_generated/ActorActions.php(1112): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Action))
+#7 /Users/whazle/Desktop/hearst-m2-tests/src/Test/Project/DemoCest.php(168): Guidance\Tests\Project\Actor-&gt;click(Array)
+#8 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;ShopCosmopolitan(Object(Guidance\Tests\Project\Actor))
+#9 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#10 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'ShopCosmopolita...', Array)
+#11 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('ShopCosmopolita...', Array)
+#12 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#13 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#14 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#15 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#16 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#17 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#18 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#19 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#20 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603307756270" stop="1603307759703" status="passed">
+          <name>am on url "https://shop•cosmopolitan•com/"</name>
+        </step>
+        <step start="1603307759703" stop="1603307759719" status="passed">
+          <name>wait for page load </name>
+        </step>
+        <step start="1603307759720" stop="1603307760049" status="passed">
+          <name>see "Cosmopolitan"</name>
+        </step>
+        <step start="1603307760049" stop="1603307760754" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603307760754" stop="1603307760915" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603307760915" stop="1603307761200" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603307761200" stop="1603307773205" status="passed">
+          <name>wait 12</name>
+        </step>
+        <step start="1603307773205" stop="1603307775134" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603307775135" stop="1603307775503" status="passed">
+          <name>see "Your search returned no results•"</name>
+        </step>
+        <step start="1603307775504" stop="1603307775853" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603307775853" stop="1603307775866" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603307775866" stop="1603307776021" status="passed">
+          <name>fill field {"id":"search"},"Magazine"</name>
+        </step>
+        <step start="1603307776021" stop="1603307779148" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603307779149" stop="1603307780381" status="passed">
+          <name>am on page "/"</name>
+        </step>
+        <step start="1603307780381" stop="1603307787382" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603307787383" stop="1603307818766" status="failed">
+          <name>click {"css":"•product-info-main #product-addtocart-button"}</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="9672189deba0f4dcd7d9cdab56183e22fed4466c-attachment.png" type="image/png"/>
+        <attachment title="html" source="f9f46bbbd387eccb352460ca21a4f409f41d8e34-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="ShopCosmopolitan"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603307821141" stop="1603307879054" status="passed">
+      <name>ShopWomensHeathMag</name>
+      <steps>
+        <step start="1603307825286" stop="1603307828969" status="passed">
+          <name>am on url "https://shop•womenshealthmag•com/"</name>
+        </step>
+        <step start="1603307828969" stop="1603307829279" status="passed">
+          <name>see "Magazine"</name>
+        </step>
+        <step start="1603307829279" stop="1603307834282" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603307834282" stop="1603307834432" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603307834432" stop="1603307834452" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603307834452" stop="1603307834610" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603307834611" stop="1603307836614" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603307836615" stop="1603307838780" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603307838780" stop="1603307838923" status="passed">
+          <name>see "Your search returned no results•"</name>
+        </step>
+        <step start="1603307838924" stop="1603307839048" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603307839048" stop="1603307839081" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603307839081" stop="1603307839264" status="passed">
+          <name>fill field {"id":"search"},"Magazine"</name>
+        </step>
+        <step start="1603307839264" stop="1603307841266" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603307841266" stop="1603307844358" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603307844359" stop="1603307845656" status="passed">
+          <name>am on page "/editors-picks•html"</name>
+        </step>
+        <step start="1603307845657" stop="1603307846113" status="passed">
+          <name>see "Keto"</name>
+        </step>
+        <step start="1603307846113" stop="1603307848116" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603307848117" stop="1603307848981" status="passed">
+          <name>select option {"css":"#authenticationPopup + •toolbar #sorter"},"name"</name>
+        </step>
+        <step start="1603307848981" stop="1603307853986" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603307853986" stop="1603307855419" status="passed">
+          <name>select option {"css":"#authenticationPopup + •toolbar #sorter"},"price"</name>
+        </step>
+        <step start="1603307855419" stop="1603307860423" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603307860424" stop="1603307861417" status="passed">
+          <name>am on page "/keto-for-carb-lovers•html"</name>
+        </step>
+        <step start="1603307861417" stop="1603307862267" status="passed">
+          <name>see "Keto"</name>
+        </step>
+        <step start="1603307862267" stop="1603307862712" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603307862712" stop="1603307862972" status="passed">
+          <name>click {"css":"#product-addtocart-button &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603307862972" stop="1603307865462" status="passed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+        <step start="1603307865462" stop="1603307870466" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603307870467" stop="1603307870703" status="passed">
+          <name>click {"css":"a•action:nth-child(5)"}</name>
+        </step>
+        <step start="1603307870703" stop="1603307871202" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1603307871202" stop="1603307873733" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603307873733" stop="1603307878737" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603307878737" stop="1603307879001" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopWomensHeathMag"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603307879059" stop="1603307919774" status="passed">
+      <name>ShopPrevention</name>
+      <steps>
+        <step start="1603307881855" stop="1603307884689" status="passed">
+          <name>am on url "https://shop•prevention•com/"</name>
+        </step>
+        <step start="1603307884690" stop="1603307884742" status="passed">
+          <name>wait for page load </name>
+        </step>
+        <step start="1603307884742" stop="1603307885181" status="passed">
+          <name>see "Editor"</name>
+        </step>
+        <step start="1603307885181" stop="1603307885888" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603307885888" stop="1603307886067" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603307886067" stop="1603307886367" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603307886368" stop="1603307889431" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603307889431" stop="1603307889938" status="passed">
+          <name>see "Your search returned no results•"</name>
+        </step>
+        <step start="1603307889938" stop="1603307890314" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603307890314" stop="1603307890344" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603307890344" stop="1603307890507" status="passed">
+          <name>fill field {"id":"search"},"Magazine"</name>
+        </step>
+        <step start="1603307890507" stop="1603307893294" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603307893294" stop="1603307893398" status="passed">
+          <name>execute js "return document•querySelectorAll('ol•product-items li')•length;"</name>
+        </step>
+        <step start="1603307893398" stop="1603307893416" status="passed">
+          <name>assert greater or equals 3,30</name>
+        </step>
+        <step start="1603307893416" stop="1603307895330" status="passed">
+          <name>am on page "/shop-all•html"</name>
+        </step>
+        <step start="1603307895330" stop="1603307897335" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603307897335" stop="1603307899091" status="passed">
+          <name>select option {"css":"#authenticationPopup + •toolbar #sorter"},"name"</name>
+        </step>
+        <step start="1603307899092" stop="1603307904097" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603307904097" stop="1603307905675" status="passed">
+          <name>select option {"css":"#authenticationPopup + •toolbar #sorter"},"price"</name>
+        </step>
+        <step start="1603307905675" stop="1603307910679" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603307910679" stop="1603307911833" status="passed">
+          <name>am on page "/keto-for-carb-lovers•html"</name>
+        </step>
+        <step start="1603307911833" stop="1603307912599" status="passed">
+          <name>see "Keto"</name>
+        </step>
+        <step start="1603307912599" stop="1603307913025" status="passed">
+          <name>click {"css":"•product-info-main #product-addtocart-button"}</name>
+        </step>
+        <step start="1603307913025" stop="1603307914972" status="passed">
+          <name>wait for element {"css":"•modal-popup•_show"}</name>
+        </step>
+        <step start="1603307914972" stop="1603307915966" status="passed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+        <step start="1603307915966" stop="1603307916197" status="passed">
+          <name>click {"css":"•cart-overview [data-role="closeBtn"]"}</name>
+        </step>
+        <step start="1603307916197" stop="1603307916222" status="passed">
+          <name>wait for element not visible {"css":"•modal-popup•_show"}</name>
+        </step>
+        <step start="1603307916222" stop="1603307916743" status="passed">
+          <name>wait for text "You added Keto for Carb Lovers: 21-Day Plan for Losing Weight and Eating Foods You'll Love to your shopping cart•"</name>
+        </step>
+        <step start="1603307916743" stop="1603307919159" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603307919159" stop="1603307919705" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopPrevention"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603307919778" stop="1603307958033" status="passed">
+      <name>ShopElle</name>
+      <steps>
+        <step start="1603307922194" stop="1603307924877" status="passed">
+          <name>am on url "https://shop•elle•com"</name>
+        </step>
+        <step start="1603307924877" stop="1603307925863" status="passed">
+          <name>reload page </name>
+        </step>
+        <step start="1603307925864" stop="1603307926716" status="passed">
+          <name>see "Elle"</name>
+        </step>
+        <step start="1603307926716" stop="1603307928720" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603307928720" stop="1603307928875" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603307928875" stop="1603307929078" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603307929078" stop="1603307930967" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603307930967" stop="1603307931357" status="passed">
+          <name>see "Your search"</name>
+        </step>
+        <step start="1603307931357" stop="1603307931682" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603307931682" stop="1603307931926" status="passed">
+          <name>fill field {"id":"search"},"Magazine"</name>
+        </step>
+        <step start="1603307931926" stop="1603307934349" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603307934349" stop="1603307939354" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603307939354" stop="1603307940935" status="passed">
+          <name>am on page "/"</name>
+        </step>
+        <step start="1603307940935" stop="1603307941240" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603307941240" stop="1603307941418" status="passed">
+          <name>click {"css":"#product-addtocart-button &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603307941419" stop="1603307943879" status="passed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+        <step start="1603307943880" stop="1603307948882" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603307948882" stop="1603307949085" status="passed">
+          <name>click {"css":"a•action:nth-child(5)"}</name>
+        </step>
+        <step start="1603307949085" stop="1603307949584" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1603307949584" stop="1603307954587" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603307954587" stop="1603307957434" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603307957434" stop="1603307957980" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopElle"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

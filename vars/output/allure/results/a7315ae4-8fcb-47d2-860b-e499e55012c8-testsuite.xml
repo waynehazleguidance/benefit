@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603262754576" stop="1603262792211" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603262754579" stop="1603262792207" status="passed">
+      <name>ShopHarpersBazaar</name>
+      <steps>
+        <step start="1603262756123" stop="1603262758393" status="passed">
+          <name>am on url "https://store•harpersbazaar•com"</name>
+        </step>
+        <step start="1603262758394" stop="1603262758495" status="passed">
+          <name>see "BAZAAR"</name>
+        </step>
+        <step start="1603262758495" stop="1603262763500" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603262763500" stop="1603262763639" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603262763639" stop="1603262763742" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603262763742" stop="1603262765882" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603262765882" stop="1603262766023" status="passed">
+          <name>see "Your search"</name>
+        </step>
+        <step start="1603262766023" stop="1603262766199" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603262766199" stop="1603262766302" status="passed">
+          <name>fill field {"id":"search"},"Magazine"</name>
+        </step>
+        <step start="1603262766302" stop="1603262770501" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603262770501" stop="1603262775505" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603262775506" stop="1603262776126" status="passed">
+          <name>am on page "/"</name>
+        </step>
+        <step start="1603262776126" stop="1603262776359" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603262776359" stop="1603262776795" status="passed">
+          <name>click {"css":"#product-addtocart-button &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603262776795" stop="1603262779464" status="passed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+        <step start="1603262779465" stop="1603262784466" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603262784466" stop="1603262784528" status="passed">
+          <name>click {"css":"a•action:nth-child(5)"}</name>
+        </step>
+        <step start="1603262784529" stop="1603262784918" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1603262784918" stop="1603262789921" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603262789921" stop="1603262791955" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603262791955" stop="1603262792148" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopHarpersBazaar"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

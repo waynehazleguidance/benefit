@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603914983800" stop="1603915044716" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603914983809" stop="1603915044714" status="broken">
+      <name>PopCultcha</name>
+      <failure>
+        <message>CSS or XPath locator is malformed: 45026</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603914986190" stop="1603914992707" status="passed">
+          <name>am on url "https://www•popcultcha•com•au/"</name>
+        </step>
+        <step start="1603914992708" stop="1603914994710" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603914994711" stop="1603915022576" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603915022576" stop="1603915025577" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603915025583" stop="1603915026605" status="passed">
+          <name>see "shipping"</name>
+        </step>
+        <step start="1603915026605" stop="1603915031606" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603915031606" stop="1603915031716" status="passed">
+          <name>click {"css":"body &gt; div•cc-window•cc-floating•cc-type-default•cc-theme-edgeless•cc-bottom•cc-left•cc-color-override-2042708126 &gt; div &gt; a"}</name>
+        </step>
+        <step start="1603915031716" stop="1603915034716" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603915034716" stop="1603915037182" status="passed">
+          <name>am on page "/statues-and-replicas/statues-and-replicas/shop-all•html"</name>
+        </step>
+        <step start="1603915037182" stop="1603915038272" status="passed">
+          <name>see "shipping"</name>
+        </step>
+        <step start="1603915038272" stop="1603915042276" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603915042276" stop="1603915042740" status="failed">
+          <name>check option "45026"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="c3fbccee10e29eb599f3d73a28f5b53d18ab5b57-attachment.png" type="image/png"/>
+        <attachment title="html" source="49a76a039619ebd2d1b7dff052e388196413e978-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="PopCultcha"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603992362875" stop="1603992420463" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603992362883" stop="1603992420458" status="passed">
+      <name>BenefitAustraliaEnglish</name>
+      <steps>
+        <step start="1603992364700" stop="1603992370870" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-au/"</name>
+        </step>
+        <step start="1603992370870" stop="1603992370956" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603992370957" stop="1603992372957" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603992372957" stop="1603992373195" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603992373195" stop="1603992375199" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603992375199" stop="1603992378601" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-au/find-a-store"</name>
+        </step>
+        <step start="1603992378601" stop="1603992378656" status="passed">
+          <name>see "store"</name>
+        </step>
+        <step start="1603992378656" stop="1603992382657" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603992382657" stop="1603992383770" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-au/bestsellers"</name>
+        </step>
+        <step start="1603992383770" stop="1603992383835" status="passed">
+          <name>see "bestsellers"</name>
+        </step>
+        <step start="1603992383835" stop="1603992387836" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603992387837" stop="1603992391888" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-au/brows"</name>
+        </step>
+        <step start="1603992391888" stop="1603992391971" status="passed">
+          <name>see "brow"</name>
+        </step>
+        <step start="1603992391971" stop="1603992395974" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603992395974" stop="1603992396672" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-au/services"</name>
+        </step>
+        <step start="1603992396672" stop="1603992396774" status="passed">
+          <name>see "doors"</name>
+        </step>
+        <step start="1603992396774" stop="1603992400778" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603992400778" stop="1603992402925" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-au/offers-more"</name>
+        </step>
+        <step start="1603992402925" stop="1603992402997" status="passed">
+          <name>see "book"</name>
+        </step>
+        <step start="1603992402997" stop="1603992406997" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603992406997" stop="1603992416327" status="passed">
+          <name>am on url "https://au•benefitbrows•com/ReserveCounter•aspx"</name>
+        </step>
+        <step start="1603992416327" stop="1603992416401" status="passed">
+          <name>see "date"</name>
+        </step>
+        <step start="1603992416401" stop="1603992420403" status="passed">
+          <name>wait 4</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="BenefitAustraliaEnglish"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

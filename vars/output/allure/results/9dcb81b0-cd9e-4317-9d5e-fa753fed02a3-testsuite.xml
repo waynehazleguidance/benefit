@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603077040999" stop="1603077175156" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603077041009" stop="1603077060847" status="passed">
+      <name>ShopCosmopolitan</name>
+      <steps>
+        <step start="1603077044314" stop="1603077047125" status="passed">
+          <name>am on url "https://shop•cosmopolitan•com/"</name>
+        </step>
+        <step start="1603077047126" stop="1603077047366" status="passed">
+          <name>see "Cosmopolitan"</name>
+        </step>
+        <step start="1603077047366" stop="1603077052369" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603077052369" stop="1603077052497" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603077052497" stop="1603077052610" status="passed">
+          <name>click {"css":"#product-addtocart-button &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603077052610" stop="1603077055418" status="passed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+        <step start="1603077055418" stop="1603077060419" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603077060419" stop="1603077060547" status="passed">
+          <name>click {"css":"a•action:nth-child(5)"}</name>
+        </step>
+        <step start="1603077060547" stop="1603077060746" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopCosmopolitan"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603077060851" stop="1603077093931" status="passed">
+      <name>ShopWomensHeathMag</name>
+      <steps>
+        <step start="1603077062844" stop="1603077066045" status="passed">
+          <name>am on url "https://shop•womenshealthmag•com"</name>
+        </step>
+        <step start="1603077066045" stop="1603077066186" status="passed">
+          <name>see "Magazine"</name>
+        </step>
+        <step start="1603077066186" stop="1603077071189" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603077071189" stop="1603077076499" status="passed">
+          <name>am on page "/editors-picks•html"</name>
+        </step>
+        <step start="1603077076499" stop="1603077076896" status="passed">
+          <name>see "Keto"</name>
+        </step>
+        <step start="1603077076897" stop="1603077080941" status="passed">
+          <name>am on page "/keto-for-carb-lovers•html"</name>
+        </step>
+        <step start="1603077080941" stop="1603077081237" status="passed">
+          <name>see "Keto"</name>
+        </step>
+        <step start="1603077081237" stop="1603077081395" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603077081395" stop="1603077081541" status="passed">
+          <name>click {"css":"#product-addtocart-button &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603077081541" stop="1603077083977" status="passed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+        <step start="1603077083977" stop="1603077088978" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603077088978" stop="1603077089338" status="passed">
+          <name>click {"css":"a•action:nth-child(5)"}</name>
+        </step>
+        <step start="1603077089338" stop="1603077089537" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1603077089537" stop="1603077093669" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603077093670" stop="1603077093876" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopWomensHeathMag"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603077093933" stop="1603077110128" status="failed">
+      <name>ShopPrevention</name>
+      <failure>
+        <message>Failed asserting that  on page /editors-picks.html
+--&gt; My Cart
+Sign in / Sign up
+Explore Our Other Shops
+Free Shipping on orders over $50   *exclusions apply
+Search
+Editors' Picks
+Weight Loss
+Fitness
+Health
+Food &amp; Nutrition
+Sale
+Subscribe
+Filters:
+Price
+                                    
+                        Position                    
+           
+[Content too long to display. See complete response in '/Users/whazle/Desktop/hearst-m2-tests/config/codecept/../../vars/output/' directory]
+--&gt; contains "Mini".</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(55): PHPUnit\Framework\Constraint\Constraint-&gt;fail('My Cart\nSign in...', '')
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/Assert.php(2331): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate('My Cart\nSign in...', '')
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php(1369): PHPUnit\Framework\Assert::assertThat('My Cart\nSign in...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(2996): Codeception\Module-&gt;assertThat('My Cart\nSign in...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(929): Codeception\Module\WebDriver-&gt;assertPageContains('Mini')
+#5 [internal function]: Codeception\Module\WebDriver-&gt;see('Mini')
+#6 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#7 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#8 /Users/whazle/Desktop/hearst-m2-tests/src/_generated/ActorActions.php(633): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Assertion))
+#9 /Users/whazle/Desktop/hearst-m2-tests/src/Test/Project/DemoCest.php(161): Guidance\Tests\Project\Actor-&gt;see('Mini')
+#10 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;ShopPrevention(Object(Guidance\Tests\Project\Actor))
+#11 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#12 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'ShopPrevention', Array)
+#13 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('ShopPrevention', Array)
+#14 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#15 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#16 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#17 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#18 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#19 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#20 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#21 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#22 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603077095357" stop="1603077097773" status="passed">
+          <name>am on url "https://shop•prevention•com/"</name>
+        </step>
+        <step start="1603077097773" stop="1603077097928" status="passed">
+          <name>see "Editor"</name>
+        </step>
+        <step start="1603077097928" stop="1603077103933" status="passed">
+          <name>wait 6</name>
+        </step>
+        <step start="1603077103933" stop="1603077107457" status="passed">
+          <name>am on page "/shop-all•html"</name>
+        </step>
+        <step start="1603077107457" stop="1603077107908" status="failed">
+          <name>see "Mini"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="a0b9ddfd62f8cb8a8d8ee69764d30336ca24d909-attachment.png" type="image/png"/>
+        <attachment title="html" source="601a224a177409b26934d6c7d0285673c7a9f5a9-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="ShopPrevention"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603077110131" stop="1603077144481" status="passed">
+      <name>ShopElle</name>
+      <steps>
+        <step start="1603077113477" stop="1603077117587" status="passed">
+          <name>am on url "https://shop•elle•com"</name>
+        </step>
+        <step start="1603077117587" stop="1603077117665" status="passed">
+          <name>reload page </name>
+        </step>
+        <step start="1603077117665" stop="1603077119865" status="passed">
+          <name>see "Elle"</name>
+        </step>
+        <step start="1603077119865" stop="1603077119958" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603077119958" stop="1603077120060" status="passed">
+          <name>click {"css":"#product-addtocart-button &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603077120060" stop="1603077124100" status="passed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+        <step start="1603077124100" stop="1603077129103" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603077129103" stop="1603077129181" status="passed">
+          <name>click {"css":"a•action:nth-child(5)"}</name>
+        </step>
+        <step start="1603077129181" stop="1603077129339" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1603077129339" stop="1603077134341" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603077134341" stop="1603077144206" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603077144206" stop="1603077144427" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopElle"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603077144483" stop="1603077166747" status="passed">
+      <name>ShopMarieClaire</name>
+      <steps>
+        <step start="1603077145822" stop="1603077148565" status="passed">
+          <name>am on url "https://shop•marieclaire•com/"</name>
+        </step>
+        <step start="1603077148565" stop="1603077148686" status="passed">
+          <name>see "Marie"</name>
+        </step>
+        <step start="1603077148686" stop="1603077148757" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603077148757" stop="1603077149937" status="passed">
+          <name>click {"css":"#product-addtocart-button &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603077149937" stop="1603077153409" status="passed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+        <step start="1603077153410" stop="1603077158413" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603077158413" stop="1603077158503" status="passed">
+          <name>click {"css":"a•action:nth-child(5)"}</name>
+        </step>
+        <step start="1603077158503" stop="1603077158792" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1603077158792" stop="1603077163793" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603077163793" stop="1603077166485" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1603077166485" stop="1603077166693" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopMarieClaire"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603077166749" stop="1603077175154" status="passed">
+      <name>ShopMensHealth</name>
+      <steps>
+        <step start="1603077168030" stop="1603077170488" status="passed">
+          <name>am on url "https://shop•menshealth•com/"</name>
+        </step>
+        <step start="1603077170488" stop="1603077170638" status="passed">
+          <name>see "Editor"</name>
+        </step>
+        <step start="1603077170638" stop="1603077174974" status="passed">
+          <name>am on page "/backslash-fit-smart-mat-option•html"</name>
+        </step>
+        <step start="1603077174974" stop="1603077175099" status="passed">
+          <name>see "Mat"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopMensHealth"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

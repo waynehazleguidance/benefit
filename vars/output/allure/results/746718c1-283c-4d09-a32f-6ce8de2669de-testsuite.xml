@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603992640880" stop="1603992687846" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603992640889" stop="1603992687842" status="passed">
+      <name>BenefitCanadaEnglish</name>
+      <steps>
+        <step start="1603992642904" stop="1603992648156" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ca/"</name>
+        </step>
+        <step start="1603992648156" stop="1603992648244" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603992648245" stop="1603992650245" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603992650245" stop="1603992650514" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603992650514" stop="1603992652519" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603992652519" stop="1603992654460" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ca/find-a-store"</name>
+        </step>
+        <step start="1603992654460" stop="1603992654519" status="passed">
+          <name>see "store"</name>
+        </step>
+        <step start="1603992654519" stop="1603992658522" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603992658522" stop="1603992659552" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ca/bestsellers"</name>
+        </step>
+        <step start="1603992659552" stop="1603992659622" status="passed">
+          <name>see "bestsellers"</name>
+        </step>
+        <step start="1603992659622" stop="1603992663622" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603992663622" stop="1603992664715" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ca/brows"</name>
+        </step>
+        <step start="1603992664715" stop="1603992664791" status="passed">
+          <name>see "brow"</name>
+        </step>
+        <step start="1603992664791" stop="1603992668792" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603992668792" stop="1603992669401" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ca/services"</name>
+        </step>
+        <step start="1603992669401" stop="1603992669527" status="passed">
+          <name>see "doors"</name>
+        </step>
+        <step start="1603992669527" stop="1603992673531" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603992673532" stop="1603992674767" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ca/offers-more"</name>
+        </step>
+        <step start="1603992674767" stop="1603992674825" status="passed">
+          <name>see "book"</name>
+        </step>
+        <step start="1603992674825" stop="1603992678829" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603992678829" stop="1603992683693" status="passed">
+          <name>am on url "https://sephora•benefitbrowbars•com/en"</name>
+        </step>
+        <step start="1603992683693" stop="1603992683789" status="passed">
+          <name>see "wait"</name>
+        </step>
+        <step start="1603992683789" stop="1603992687789" status="passed">
+          <name>wait 4</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="BenefitCanadaEnglish"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

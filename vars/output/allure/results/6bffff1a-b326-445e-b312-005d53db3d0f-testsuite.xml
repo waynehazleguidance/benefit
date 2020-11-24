@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1604613848592" stop="1604613891620" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1604613848603" stop="1604613891615" status="passed">
+      <name>BenefitUSA</name>
+      <steps>
+        <step start="1604613851315" stop="1604613855363" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-us/"</name>
+        </step>
+        <step start="1604613855364" stop="1604613855746" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1604613855746" stop="1604613856372" status="passed">
+          <name>wait for text "brows",30</name>
+        </step>
+        <step start="1604613856372" stop="1604613856750" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1604613856750" stop="1604613857059" status="passed">
+          <name>wait for text "Cookies",30</name>
+        </step>
+        <step start="1604613857060" stop="1604613857426" status="passed">
+          <name>see "Cookies"</name>
+        </step>
+        <step start="1604613857426" stop="1604613857561" status="passed">
+          <name>click {"css":"#onetrust-accept-btn-handler"}</name>
+        </step>
+        <step start="1604613857562" stop="1604613861565" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1604613861565" stop="1604613861839" status="passed">
+          <name>move mouse over {"css":"•icon-arrow-down:nth-child(2)"}</name>
+        </step>
+        <step start="1604613861839" stop="1604613862154" status="passed">
+          <name>wait for text "Sign",30</name>
+        </step>
+        <step start="1604613862154" stop="1604613862419" status="passed">
+          <name>fill field {"id":"login_form_email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1604613862420" stop="1604613862539" status="passed">
+          <name>fill field {"id":"login_form_password"},"@Testing123"</name>
+        </step>
+        <step start="1604613862539" stop="1604613862598" status="passed">
+          <name>click {"css":"button•btn:nth-child(4)"}</name>
+        </step>
+        <step start="1604613862598" stop="1604613866599" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1604613866599" stop="1604613866991" status="passed">
+          <name>am on page "/account"</name>
+        </step>
+        <step start="1604613866992" stop="1604613867123" status="passed">
+          <name>wait for text "profile",30</name>
+        </step>
+        <step start="1604613867123" stop="1604613867212" status="passed">
+          <name>see "profile"</name>
+        </step>
+        <step start="1604613867212" stop="1604613868309" status="passed">
+          <name>am on page "/"</name>
+        </step>
+        <step start="1604613868310" stop="1604613868431" status="passed">
+          <name>fill field {"css":"#search-input"},"Eye"</name>
+        </step>
+        <step start="1604613868431" stop="1604613870433" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1604613870433" stop="1604613871660" status="passed">
+          <name>press key {"css":"#search-input"},""</name>
+        </step>
+        <step start="1604613871661" stop="1604613871885" status="passed">
+          <name>wait for text "Eye",30</name>
+        </step>
+        <step start="1604613871885" stop="1604613872093" status="passed">
+          <name>see "eye"</name>
+        </step>
+        <step start="1604613872093" stop="1604613873125" status="passed">
+          <name>am on page "/brow-makeup"</name>
+        </step>
+        <step start="1604613873125" stop="1604613873530" status="passed">
+          <name>wait for text "brows",30</name>
+        </step>
+        <step start="1604613873531" stop="1604613873708" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1604613873708" stop="1604613873757" status="passed">
+          <name>click {"css":"#ac-0 &gt; button:nth-child(1)"}</name>
+        </step>
+        <step start="1604613873757" stop="1604613874760" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1604613874760" stop="1604613874878" status="passed">
+          <name>click {"css":"#filter-20"}</name>
+        </step>
+        <step start="1604613874878" stop="1604613879883" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1604613879883" stop="1604613881244" status="passed">
+          <name>am on page "/product/24-hour-brow-setter-clear-brow-gel?product=24HOUBM66-FULL&amp;sku=BM66"</name>
+        </step>
+        <step start="1604613881244" stop="1604613881536" status="passed">
+          <name>wait for text "brow",30</name>
+        </step>
+        <step start="1604613881536" stop="1604613882032" status="passed">
+          <name>see "Brow"</name>
+        </step>
+        <step start="1604613882033" stop="1604613882103" status="passed">
+          <name>click {"css":"form•product-info__section &gt; div:nth-child(1) &gt; div:nth-child(1) &gt; button:nth-child(3)"}</name>
+        </step>
+        <step start="1604613882103" stop="1604613882370" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1604613882370" stop="1604613882638" status="passed">
+          <name>click {"css":"form•product-info__section &gt; button:nth-child(2)"}</name>
+        </step>
+        <step start="1604613882638" stop="1604613886640" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1604613886640" stop="1604613887359" status="passed">
+          <name>click {"css":"•cart__buttons-single &gt; button:nth-child(1)"}</name>
+        </step>
+        <step start="1604613887359" stop="1604613887558" status="passed">
+          <name>see "Shipping"</name>
+        </step>
+        <step start="1604613887558" stop="1604613891560" status="passed">
+          <name>wait 4</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="BenefitUSA"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

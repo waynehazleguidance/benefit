@@ -1,0 +1,78 @@
+#!/usr/bin/env php
+<?php
+/**
+ *  @command equivalent:
+ *  php ../vendor/codeception/codeception/codecept run Test/Project -vvv --debug --colors --fail-fast --no-rebuild --html=space.html --config="../config/development.yml
+ */
+
+declare(strict_types=1);
+
+// =====================================================================================================================
+
+$rootPath = dirname(__DIR__) . DIRECTORY_SEPARATOR;
+
+require_once $rootPath . 'vendor/autoload.php';
+
+array_shift($argv);
+
+if (empty($argv)) {
+    print PHP_EOL . 'Usage: ' . PHP_EOL . 'php ' . basename(__FILE__) . ' run Suite/Name' . PHP_EOL;
+    exit(1);
+}
+
+// =====================================================================================================================
+
+try {
+    $bootstrap = new \Guidance\Tests\Base\Bootstrap($rootPath);
+    $bootstrap->initialize();
+
+} catch (\Throwable $e) {
+    exit("Unable to initialize bootstrap. {$e->getMessage()}");
+}
+
+// =====================================================================================================================
+
+$index = strtolower($argv[0]) == 'run' ? 1 : 0;
+
+$suite          = isset($argv[$index]) ? $argv[$index] : '';
+$test           = isTestArgumentPassed($argv, $index) ? $argv[++$index] : null;
+$launchOptions  = array_slice($argv, ++$index);
+$configFilePath = $rootPath . 'config' . DIRECTORY_SEPARATOR . 'codecept' . DIRECTORY_SEPARATOR . 'development.yml';
+
+$di = \Guidance\Tests\Base\RuntimeContainer::getDi();
+
+$launcherFactory = $di->get(Guidance\Tests\Base\Codeception\Launcher\Factory::class);
+
+// =====================================================================================================================
+
+try {
+    $codeceptionLauncher = $launcherFactory->create($configFilePath, $suite, $test, $launchOptions);
+    $codeceptionLauncher->prepareCodeception();
+} catch (\RuntimeException $e) {
+    exit("Runtime Exception. Unable to configure Codeception before launch. {$e->getMessage()}");
+} catch (\LogicException $e) {
+    exit("Logic Exception. Unable to configure Codeception before launch. {$e->getMessage()}");
+} catch (\Throwable $e) {
+    throw $e;
+}
+
+// =====================================================================================================================
+
+try {
+    $codeceptionLauncher->launch();
+} catch (\RuntimeException $e) {
+    exit("Runtime Exception. There is problem occurred during the launch. {$e->getMessage()}");
+} catch (\LogicException $e) {
+    exit("Logic Exception. There is problem occurred during the launch. {$e->getMessage()}");
+} catch (\Throwable $e) {
+    throw $e;
+}
+
+// =====================================================================================================================
+
+function isTestArgumentPassed(array $argv, int $index): bool
+{
+    return (isset($argv[++$index]) && $argv[$index][0] !== '-') ? true : false;
+}
+
+// =====================================================================================================================

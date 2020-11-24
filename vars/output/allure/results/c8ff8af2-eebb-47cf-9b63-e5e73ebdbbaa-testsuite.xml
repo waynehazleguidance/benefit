@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603255389204" stop="1603255404983" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603255389213" stop="1603255404980" status="broken">
+      <name>ShopElle</name>
+      <failure>
+        <message></message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603255391322" stop="1603255393367" status="passed">
+          <name>am on url "https://shop•elle•com"</name>
+        </step>
+        <step start="1603255393367" stop="1603255393448" status="passed">
+          <name>reload page </name>
+        </step>
+        <step start="1603255393449" stop="1603255393747" status="passed">
+          <name>see "Elle"</name>
+        </step>
+        <step start="1603255393747" stop="1603255393854" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603255393854" stop="1603255403914" status="failed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="e6ccba40c2ea461217af6266e491aed52af5605c-attachment.png" type="image/png"/>
+        <attachment title="html" source="04d34c72ceb4d766681f0a0b966dbec1c4a0b22a-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="ShopElle"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

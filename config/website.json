@@ -1,0 +1,94 @@
+{
+  "default": {
+    "country": {
+      "United States": {
+        "code": "US",
+        "faker_locale": "en_US"
+      }
+    }
+  },
+
+  "US": {
+    "timezone": "America/Los_Angeles",
+    "payment_method": {
+      "PayPal": {
+        "login": "bbern@guidance.com",
+        "password": "guidance",
+        "full_name": "Bill Bernhard",
+        "address": {
+          "street": "1 Main St",
+          "city": "San Jose",
+          "state": "California",
+          "zip": "95131"
+        }
+      },
+      "Credit Card": {}
+    },
+    "country": {
+      "United States": {
+        "code": "US",
+        "faker_locale": "en_US",
+        "shipping": [
+          {
+            "title": "Standard Shipping",
+            "cost": 7.95
+          },
+          {
+            "title": "Expedited Shipping",
+            "cost": 14.95
+          }
+        ],
+        "address": [
+          {
+            "street": "1596 Monte Vista St",
+            "city": "Pasadena",
+            "state": "California",
+            "zip": "91106-1340"
+          },
+          {
+            "street": "5279 Clarion Oaks Dr",
+            "city": "Orlando",
+            "state": "Florida",
+            "zip": "32808-1622"
+          },
+          {
+            "street": "3124 N Mountain View Ave",
+            "city": "San Bernardino",
+            "state": "California",
+              "zip": "92405-2526"
+          }
+        ]
+      },
+      "Canada": {
+        "code": "CA",
+        "faker_locale": "en_CA",
+        "shipping": [
+          {
+            "title": "Canada Shipping",
+            "cost": 5.00
+          }
+        ],
+        "address": [
+          {
+            "street": "104 Castle Keep NW",
+            "city": "Edmonton",
+            "state": "Alberta",
+            "zip": "T5X 5K6"
+          },
+          {
+            "street": "30 Chaparral Terr SE",
+            "city": "Calgary",
+            "state": "Alberta",
+            "zip": "T2X 3P5"
+          },
+          {
+            "street": "24 Elterwater Ave",
+            "city": "Nepean",
+            "state": "Ontario",
+            "zip": "K2H 5J2"
+          }
+        ]
+      }
+    }
+  }
+}

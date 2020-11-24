@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1604468121978" stop="1604468175201" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1604468121990" stop="1604468175198" status="broken">
+      <name>BenefitFR</name>
+      <failure>
+        <message>Waited for 30 secs but text 'prod' still not found</message>
+        <stack-trace>#0 /Users/whazle/Desktop/BenefitTests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/BenefitTests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/BenefitTests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/BenefitTests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/BenefitTests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1604468123383" stop="1604468125223" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/fr-fr/"</name>
+        </step>
+        <step start="1604468125223" stop="1604468125542" status="passed">
+          <name>click {"css":"#onetrust-accept-btn-handler"}</name>
+        </step>
+        <step start="1604468125542" stop="1604468129545" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1604468129546" stop="1604468129752" status="passed">
+          <name>move mouse over {"css":"•account-popup__link &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1604468129752" stop="1604468133752" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1604468133753" stop="1604468133938" status="passed">
+          <name>fill field {"id":"login_form_email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1604468133939" stop="1604468134030" status="passed">
+          <name>fill field {"id":"login_form_password"},"@Testing123"</name>
+        </step>
+        <step start="1604468134030" stop="1604468134077" status="passed">
+          <name>click {"css":"button•btn:nth-child(4)"}</name>
+        </step>
+        <step start="1604468134078" stop="1604468138082" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1604468138082" stop="1604468138764" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/fr-fr/account"</name>
+        </step>
+        <step start="1604468138764" stop="1604468138908" status="passed">
+          <name>wait for text "profil",30</name>
+        </step>
+        <step start="1604468138908" stop="1604468139006" status="passed">
+          <name>see "profil"</name>
+        </step>
+        <step start="1604468139006" stop="1604468139850" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/fr-fr/"</name>
+        </step>
+        <step start="1604468139850" stop="1604468139927" status="passed">
+          <name>fill field {"css":"#search-input"},"Eye"</name>
+        </step>
+        <step start="1604468139927" stop="1604468141932" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1604468141932" stop="1604468142691" status="passed">
+          <name>press key {"css":"#search-input"},""</name>
+        </step>
+        <step start="1604468142691" stop="1604468143236" status="passed">
+          <name>wait for text "Eye",30</name>
+        </step>
+        <step start="1604468143236" stop="1604468143376" status="passed">
+          <name>see "Eye"</name>
+        </step>
+        <step start="1604468143376" stop="1604468143859" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/fr-fr/brow-makeup"</name>
+        </step>
+        <step start="1604468143859" stop="1604468174224" status="failed">
+          <name>wait for text "prod",30</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="d71b5dc801ed6d7ac16cabd24d33681ec9884b2e-attachment.png" type="image/png"/>
+        <attachment title="html" source="2274059c7c529cac2e29e56a620e95ddee16aa04-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="BenefitFR"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

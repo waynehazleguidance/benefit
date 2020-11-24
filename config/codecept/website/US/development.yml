@@ -1,0 +1,59 @@
+paths:
+    tests:   ../../../../src
+    output:  ../../../../vars/output
+    data:    ../../../../vars/data
+    support: ../../../../src
+    envs:    .
+
+settings:
+    colors:       true
+    memory_limit: 1024M
+
+extensions:
+    enabled:
+        - Codeception\Extension\RunFailed
+        - Guidance\Tests\Base\Codeception\Extension\Allure\PrepareEnvProperties
+        - Guidance\Tests\Base\Codeception\Extension\Allure\Integration
+
+# add \Codeception\Lib\Actor\Shared\Retry trait to AcceptanceTester to enable retries
+step_decorators:
+    - Codeception\Step\TryTo
+    - Codeception\Step\Retry
+    - Codeception\Step\ConditionalAssertion
+
+suites:
+    Test/Project:
+        actor: Actor
+
+        modules:
+            enabled:
+                - Guidance\Tests\Base\Actor\WebDriver
+                - Guidance\Tests\Base\Actor\Helper\Common
+                - Guidance\Tests\Base\Actor\Helper\Tab
+                - Guidance\Tests\Base\Actor\Helper\Wait
+                - Guidance\Tests\Base\Actor\Helper\LogProvider
+                - Guidance\Tests\Project\Actor\Helper\Common
+
+                - Filesystem
+                - Asserts
+
+            config:
+                Guidance\Tests\Base\Actor\WebDriver:
+                    url:           '%SITE_URL%'
+                    host:          127.0.0.1
+                    port:          4445
+                    browser:       'chrome'
+                    window_size:   maximize
+                    wait:          7
+                    restart:       true
+                    clear_cookies: false
+                    log_js_errors: true
+                    pageload_timeout: 360
+                    capabilities:
+                        javascriptEnabled: true
+                        chromeOptions:
+                            args: [ "--ignore-certificate-errors" ]
+
+                Guidance\Tests\Base\Codeception\Extension\Allure\Integration:
+                    deletePreviousResults: false
+

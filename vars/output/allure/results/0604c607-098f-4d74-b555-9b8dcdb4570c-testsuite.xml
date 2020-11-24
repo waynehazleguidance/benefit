@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603304681130" stop="1603304738587" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603304681142" stop="1603304714581" status="broken">
+      <name>BenefitUSA</name>
+      <failure>
+        <message>Waited for 10 secs but text 'Added to cart!' still not found</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603304684083" stop="1603304687566" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-us/"</name>
+        </step>
+        <step start="1603304687566" stop="1603304687958" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603304687958" stop="1603304692964" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603304692964" stop="1603304694481" status="passed">
+          <name>am on page "/brow-makeup"</name>
+        </step>
+        <step start="1603304694481" stop="1603304694690" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1603304694690" stop="1603304698695" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603304698695" stop="1603304700102" status="passed">
+          <name>am on page "/product/24-hour-brow-setter-clear-brow-gel?product=24HOUBM66-FULL&amp;sku=BM66"</name>
+        </step>
+        <step start="1603304700102" stop="1603304700371" status="passed">
+          <name>see "Brow"</name>
+        </step>
+        <step start="1603304700371" stop="1603304700568" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1603304700568" stop="1603304700862" status="passed">
+          <name>click {"css":"form•product-info__section &gt; button:nth-child(2)"}</name>
+        </step>
+        <step start="1603304700862" stop="1603304711411" status="failed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="a572708c65e6e4809b98a9a0c3ba18f1a80b8518-attachment.png" type="image/png"/>
+        <attachment title="html" source="912f60dedada6c0220e949c67d7df0d2e55ee22b-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="BenefitUSA"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603304714584" stop="1603304738579" status="failed">
+      <name>T3Micro</name>
+      <failure>
+        <message>Failed asserting that  on page /product/cura-luxe-hair-dryer6
+--&gt; Free US Shipping with $50 Purchase
+20% off sitewide | Code FALLFRIENDS20 Shop Now
+T3 Pro Register Product
+Hair DryersFlat IronsCurling IronsStyling ToolsShowerheadsAccessoriesBrushesGift Sets
+My Cart
+This page does not exist
+The link you followed may be broken or the page may have been removed. Try 
+[Content too long to display. See complete response in '/Users/whazle/Desktop/hearst-m2-tests/config/codecept/../../vars/output/' directory]
+--&gt; contains "Add to Cart".</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(55): PHPUnit\Framework\Constraint\Constraint-&gt;fail('Free US Shippin...', '')
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/Assert.php(2331): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate('Free US Shippin...', '')
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php(1369): PHPUnit\Framework\Assert::assertThat('Free US Shippin...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(2996): Codeception\Module-&gt;assertThat('Free US Shippin...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(929): Codeception\Module\WebDriver-&gt;assertPageContains('Add to Cart')
+#5 [internal function]: Codeception\Module\WebDriver-&gt;see('Add to Cart')
+#6 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#7 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#8 /Users/whazle/Desktop/hearst-m2-tests/src/_generated/ActorActions.php(633): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Assertion))
+#9 /Users/whazle/Desktop/hearst-m2-tests/src/Test/Project/DemoCest.php(111): Guidance\Tests\Project\Actor-&gt;see('Add to Cart')
+#10 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;T3Micro(Object(Guidance\Tests\Project\Actor))
+#11 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#12 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'T3Micro', Array)
+#13 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('T3Micro', Array)
+#14 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#15 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#16 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#17 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#18 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#19 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#20 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#21 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#22 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603304717820" stop="1603304721406" status="passed">
+          <name>am on url "https://www•t3micro•com/"</name>
+        </step>
+        <step start="1603304721406" stop="1603304726411" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603304726411" stop="1603304727607" status="passed">
+          <name>am on page "/category/hair-dryers"</name>
+        </step>
+        <step start="1603304727607" stop="1603304729709" status="passed">
+          <name>see "hair"</name>
+        </step>
+        <step start="1603304729709" stop="1603304733713" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603304733713" stop="1603304736111" status="passed">
+          <name>am on page "/product/cura-luxe-hair-dryer6"</name>
+        </step>
+        <step start="1603304736111" stop="1603304737275" status="passed">
+          <name>see "T3"</name>
+        </step>
+        <step start="1603304737275" stop="1603304737404" status="failed">
+          <name>see "Add to Cart"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="e82f1ed63c925e21a4a7bf8b937e874e650ec1aa-attachment.png" type="image/png"/>
+        <attachment title="html" source="8802a8079f134036549e7a28a37e2ed99db587cb-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="T3Micro"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

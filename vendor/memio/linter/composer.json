@@ -1,0 +1,28 @@
+{
+    "name": "memio/linter",
+    "license": "MIT",
+    "type": "library",
+    "description": "Memio's linter, a set of constraint that check models for syntax errors",
+    "keywords": ["generator", "PHP", "code"],
+    "homepage": "http://memio.github.io/memio",
+    "authors": [
+        {
+            "name": "Loïc Faugeron",
+            "email": "faugeron.loic@gmail.com",
+            "homepage": "http://gnugat.github.io",
+            "role": "Developer"
+        }
+    ],
+    "autoload": { "psr-4": {
+        "Memio\\Linter\\": "src/Memio/Linter"
+    }},
+    "require": {
+        "php": "^7.0",
+        "memio/model": "^2.0",
+        "memio/validator": "^2.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.10",
+        "phpspec/phpspec": "^4.3"
+    }
+}

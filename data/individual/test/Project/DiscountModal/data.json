@@ -1,0 +1,43 @@
+{
+  "store": {
+    "root_category_id": 1,
+    "attribute_set_id": 4,
+    "attribute_group_id": 7,
+    "attribute_ids": {
+      "status": {
+        "enable": 1,
+        "disable": 2
+      },
+      "category": {
+        "first": 3,
+        "second": 4
+      },
+      "visibility": {
+        "not_visible_individually": 1,
+        "catalog": 2,
+        "search": 3,
+        "catalog_and_search": 4
+      }
+    },
+    "custom_attributes": {
+      "colour": {
+        "id": 149,
+        "code": "colour",
+        "label": "Colour",
+        "values": {
+          "green": 4,
+          "red": 5
+        }
+      },
+      "size": {
+        "id": 150,
+        "code": "size",
+        "label": "Size",
+        "values": {
+          "medium": 6,
+          "small": 7
+        }
+      }
+    }
+  }
+}

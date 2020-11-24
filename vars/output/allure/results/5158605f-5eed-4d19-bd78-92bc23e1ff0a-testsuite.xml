@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603738493511" stop="1603738519734" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603738493515" stop="1603738519732" status="broken">
+      <name>T3MicroBelgium</name>
+      <failure>
+        <message>element click intercepted: Element &lt;span class="icon-search"&gt;&lt;/span&gt; is not clickable at point (1056, 77). Other element would receive the click: &lt;div class="modals-overlay" style="z-index: 901;"&gt;&lt;/div&gt;
+  (Session info: chrome=86.0.4240.111)</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603738495142" stop="1603738496715" status="passed">
+          <name>am on url "https://www•t3micro•be/en/"</name>
+        </step>
+        <step start="1603738496715" stop="1603738498719" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603738498719" stop="1603738499040" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603738499041" stop="1603738506043" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603738506043" stop="1603738511045" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603738511045" stop="1603738518780" status="failed">
+          <name>click {"css":"•icon-search"}</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="b978ef1f3b6a66b56e281f88111ad8ee85010ffa-attachment.png" type="image/png"/>
+        <attachment title="html" source="a05db92b3bd74409c51e32482a44070935d7ca3d-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="T3MicroBelgium"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

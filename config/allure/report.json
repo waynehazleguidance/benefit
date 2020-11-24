@@ -1,0 +1,31 @@
+{
+  "local": {
+    "path": "/Users/space/PhpstormProjects/local/allure.loc"
+  },
+
+  "remote": {
+    "path": "/home/s/spacebios/guidance-automation.space/public_html",
+    "domain": "guidance-automation.space",
+    "host": "spacebios.beget.tech",
+    "user": "spacebios_allureguidance",
+    "password": "Y*HNI5ve"
+  },
+
+  "email": {
+    "is_enabled": false,
+
+    "transport": {
+      "gmail":{
+        "username": "guidance.auto@gmail.com",
+        "api_password": "ynsferpwudazwuev"
+      }
+    },
+
+    "data": {
+      "subject": "",
+      "recipients": ["maxim.starostin@guidance.com"],
+      "cc": [],
+      "bcc": []
+    }
+  }
+}

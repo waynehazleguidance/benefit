@@ -1,0 +1,16 @@
+{
+  "locale": {
+    "US": {
+      "country": "United States",
+      "faker_locale": "en_US"
+    },
+    "AU": {
+      "country": "Australia",
+      "faker_locale": "en_AU"
+    },
+    "NZ": {
+      "country": "New Zealand",
+      "faker_locale": "en_NZ"
+    }
+  }
+}

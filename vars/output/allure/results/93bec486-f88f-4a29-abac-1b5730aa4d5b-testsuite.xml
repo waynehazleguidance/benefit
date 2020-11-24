@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603241397850" stop="1603241444068" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603241397860" stop="1603241416449" status="passed">
+      <name>ShopCosmopolitan</name>
+      <steps>
+        <step start="1603241399652" stop="1603241403797" status="passed">
+          <name>am on url "https://shop•cosmopolitan•com/"</name>
+        </step>
+        <step start="1603241403798" stop="1603241403831" status="passed">
+          <name>wait for page load </name>
+        </step>
+        <step start="1603241403831" stop="1603241404090" status="passed">
+          <name>see "Cosmopolitan"</name>
+        </step>
+        <step start="1603241404090" stop="1603241404213" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603241404213" stop="1603241404228" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603241404228" stop="1603241404385" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603241404385" stop="1603241405234" status="passed">
+          <name>wait for element visible {"id":"searchsuite-autocomplete"},20</name>
+        </step>
+        <step start="1603241405234" stop="1603241405384" status="passed">
+          <name>see "No Result"</name>
+        </step>
+        <step start="1603241405384" stop="1603241406802" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603241406803" stop="1603241407040" status="passed">
+          <name>see "Your search returned no results•"</name>
+        </step>
+        <step start="1603241407040" stop="1603241407282" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603241407282" stop="1603241407306" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603241407306" stop="1603241407417" status="passed">
+          <name>fill field {"id":"search"},"Magazine"</name>
+        </step>
+        <step start="1603241407417" stop="1603241409336" status="passed">
+          <name>wait for element visible {"id":"searchsuite-autocomplete"},20</name>
+        </step>
+        <step start="1603241409336" stop="1603241409374" status="passed">
+          <name>see element {"css":"#searchsuite-autocomplete •product"}</name>
+        </step>
+        <step start="1603241409374" stop="1603241409381" status="passed">
+          <name>execute js "return document•querySelectorAll('#product li')•length;"</name>
+        </step>
+        <step start="1603241409381" stop="1603241409392" status="passed">
+          <name>assert greater or equals 3,30</name>
+        </step>
+        <step start="1603241409392" stop="1603241412280" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603241412280" stop="1603241412318" status="passed">
+          <name>execute js "return document•querySelectorAll('ol•product-items li')•length;"</name>
+        </step>
+        <step start="1603241412318" stop="1603241412318" status="passed">
+          <name>assert greater or equals 3,30</name>
+        </step>
+        <step start="1603241412319" stop="1603241413515" status="passed">
+          <name>am on page "/"</name>
+        </step>
+        <step start="1603241413516" stop="1603241413673" status="passed">
+          <name>click {"css":"•product-info-main #product-addtocart-button"}</name>
+        </step>
+        <step start="1603241413673" stop="1603241415295" status="passed">
+          <name>wait for element {"css":"•modal-popup•_show"}</name>
+        </step>
+        <step start="1603241415295" stop="1603241415863" status="passed">
+          <name>wait for text "Added to cart!"</name>
+        </step>
+        <step start="1603241415863" stop="1603241415940" status="passed">
+          <name>click {"css":"•cart-overview [data-role="closeBtn"]"}</name>
+        </step>
+        <step start="1603241415940" stop="1603241415952" status="passed">
+          <name>wait for element not visible {"css":"•modal-popup•_show"}</name>
+        </step>
+        <step start="1603241415952" stop="1603241416395" status="passed">
+          <name>wait for text "You added Cosmopolitan Magazine to your shopping cart•"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="ShopCosmopolitan"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1603241416452" stop="1603241444066" status="broken">
+      <name>ShopPrevention</name>
+      <failure>
+        <message>no such element: Unable to locate element: {"method":"css selector","selector":"#searchsuite\2D autocomplete"}
+  (Session info: chrome=86.0.4240.111)</message>
+        <stack-trace>#0 /Users/whazle/Desktop/hearst-m2-tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/hearst-m2-tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/hearst-m2-tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/hearst-m2-tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603241418123" stop="1603241421063" status="passed">
+          <name>am on url "https://shop•prevention•com/"</name>
+        </step>
+        <step start="1603241421063" stop="1603241421073" status="passed">
+          <name>wait for page load </name>
+        </step>
+        <step start="1603241421074" stop="1603241421337" status="passed">
+          <name>see "Editor"</name>
+        </step>
+        <step start="1603241421337" stop="1603241421471" status="passed">
+          <name>click {"css":"•search__btn"}</name>
+        </step>
+        <step start="1603241421471" stop="1603241421498" status="passed">
+          <name>wait for element {"css":"•search__block--active"}</name>
+        </step>
+        <step start="1603241421498" stop="1603241421659" status="passed">
+          <name>fill field {"id":"search"},"XXX"</name>
+        </step>
+        <step start="1603241421659" stop="1603241441850" status="failed">
+          <name>wait for element visible {"id":"searchsuite-autocomplete"},20</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="bfa7e8720fd418807929f2883f05668baf039f24-attachment.png" type="image/png"/>
+        <attachment title="html" source="554dedf57bf35f8ad6364525b32f4f2e79e13122-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="ShopPrevention"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

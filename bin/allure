@@ -1,0 +1,35 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+// =====================================================================================================================
+
+$rootPath = dirname(__DIR__) . DIRECTORY_SEPARATOR;
+require_once $rootPath . 'vendor/autoload.php';
+
+// =====================================================================================================================
+
+$options = getopt('',  ['command_path::', 'email_recipients::']);
+
+try {
+    $bootstrap = new \Guidance\Tests\Base\Bootstrap($rootPath);
+    $bootstrap->initialize();
+
+} catch (\Throwable $e) {
+    exit("Unable to initialize bootstrap. {$e->getMessage()}");
+}
+
+// =====================================================================================================================
+
+$di = \Guidance\Tests\Base\RuntimeContainer::getDi();
+$reportGeneratorFactory = $di->get(Guidance\Tests\Base\Module\Allure\ReportGenerator\Factory::class);
+
+try {
+    $reportGeneratorFactory->create($options)->process();
+
+} catch (\Throwable $e) {
+    exit("An error occurred during report generation. {$e->getMessage()}");
+}
+
+// =====================================================================================================================

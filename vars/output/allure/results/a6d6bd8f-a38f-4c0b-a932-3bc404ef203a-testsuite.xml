@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1604091028851" stop="1604091064573" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1604091028859" stop="1604091064568" status="passed">
+      <name>BenefitCanadaEnglish</name>
+      <steps>
+        <step start="1604091032132" stop="1604091040842" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ca/"</name>
+        </step>
+        <step start="1604091040842" stop="1604091041116" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1604091041117" stop="1604091041271" status="passed">
+          <name>wait for text "brows",30</name>
+        </step>
+        <step start="1604091041272" stop="1604091041490" status="passed">
+          <name>see "brows"</name>
+        </step>
+        <step start="1604091041490" stop="1604091043904" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ca/find-a-store"</name>
+        </step>
+        <step start="1604091043904" stop="1604091043971" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1604091043971" stop="1604091044020" status="passed">
+          <name>see "store"</name>
+        </step>
+        <step start="1604091044021" stop="1604091044731" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ca/bestsellers"</name>
+        </step>
+        <step start="1604091044731" stop="1604091044821" status="passed">
+          <name>wait for text "bestsellers",30</name>
+        </step>
+        <step start="1604091044821" stop="1604091044908" status="passed">
+          <name>see "bestsellers"</name>
+        </step>
+        <step start="1604091044908" stop="1604091046323" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ca/brows"</name>
+        </step>
+        <step start="1604091046323" stop="1604091046419" status="passed">
+          <name>wait for text "brow",30</name>
+        </step>
+        <step start="1604091046419" stop="1604091046510" status="passed">
+          <name>see "brow"</name>
+        </step>
+        <step start="1604091046511" stop="1604091047306" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ca/services"</name>
+        </step>
+        <step start="1604091047307" stop="1604091047480" status="passed">
+          <name>wait for text "doors",30</name>
+        </step>
+        <step start="1604091047480" stop="1604091047629" status="passed">
+          <name>see "doors"</name>
+        </step>
+        <step start="1604091047629" stop="1604091048343" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ca/offers-more"</name>
+        </step>
+        <step start="1604091048344" stop="1604091048448" status="passed">
+          <name>wait for text "book",30</name>
+        </step>
+        <step start="1604091048449" stop="1604091048518" status="passed">
+          <name>see "book"</name>
+        </step>
+        <step start="1604091048518" stop="1604091051466" status="passed">
+          <name>am on url "https://sephora•benefitbrowbars•com/en"</name>
+        </step>
+        <step start="1604091051466" stop="1604091051598" status="passed">
+          <name>wait for text "wait",30</name>
+        </step>
+        <step start="1604091051599" stop="1604091051725" status="passed">
+          <name>see "wait"</name>
+        </step>
+        <step start="1604091051725" stop="1604091055727" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1604091055728" stop="1604091056908" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ca/"</name>
+        </step>
+        <step start="1604091056908" stop="1604091057197" status="passed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(1) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604091057198" stop="1604091057486" status="passed">
+          <name>wait for text "bestsellers",30</name>
+        </step>
+        <step start="1604091057487" stop="1604091057648" status="passed">
+          <name>see "bestsellers"</name>
+        </step>
+        <step start="1604091057648" stop="1604091057884" status="passed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(2) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604091057885" stop="1604091058190" status="passed">
+          <name>wait for text "brow",30</name>
+        </step>
+        <step start="1604091058190" stop="1604091058603" status="passed">
+          <name>see "brow"</name>
+        </step>
+        <step start="1604091058603" stop="1604091059427" status="passed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(3) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604091059427" stop="1604091059558" status="passed">
+          <name>wait for text "service",30</name>
+        </step>
+        <step start="1604091059558" stop="1604091059679" status="passed">
+          <name>see "service"</name>
+        </step>
+        <step start="1604091059679" stop="1604091060656" status="passed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(4) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604091060656" stop="1604091060804" status="passed">
+          <name>wait for text "services",30</name>
+        </step>
+        <step start="1604091060805" stop="1604091060885" status="passed">
+          <name>see "services"</name>
+        </step>
+        <step start="1604091060886" stop="1604091062249" status="passed">
+          <name>click {"css":"•desktop-menu &gt; ul:nth-child(1) &gt; li:nth-child(5) &gt; a:nth-child(1)"}</name>
+        </step>
+        <step start="1604091062249" stop="1604091062395" status="passed">
+          <name>wait for text "wait",30</name>
+        </step>
+        <step start="1604091062396" stop="1604091062523" status="passed">
+          <name>see "wait"</name>
+        </step>
+        <step start="1604091062523" stop="1604091063567" status="passed">
+          <name>am on url "https://www•benefitcosmetics•com/en-ca/"</name>
+        </step>
+        <step start="1604091063567" stop="1604091064359" status="passed">
+          <name>click {"css":"a•link:nth-child(2)"}</name>
+        </step>
+        <step start="1604091064359" stop="1604091064447" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1604091064447" stop="1604091064514" status="passed">
+          <name>see "store"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="BenefitCanadaEnglish"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>
